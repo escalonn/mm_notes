@@ -1,0 +1,16 @@
+barrel(5+): buffed farming tool drops
+forge(6+): buffed sword drops
+forge(7+): buffed axe drops
+guardian tree(6+): nerfed apple drops
+guardian tree(8+): buffed seed bag drops
+toolbox(6+): buffed tool drops
+toolbox(9+): buffed rivet drops
+mine(7+): buffed stone drops
+barn(5+): buffed hay drops
+barn(7): nerfed barrel + guardian tree drops
+portal(7): buffed drops
+
+added new guardian tree data, new barn data
+added missing auto-generated item data (forge)
+
+takeaway: lvl 9 guardian trees are crap (unless you want apples), lvl 7 & lvl 10 barns are crap,
