@@ -1,0 +1,6147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Assets filename="C:\nonwork\mmerge\data-repo\assets.xml" createdAt="2023-01-24T06:14:10">
+  <Asset>
+    <Name>Ad</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4875</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1996</Size>
+  </Asset>
+  <Asset>
+    <Name>Alert</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5608</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>496</Size>
+  </Asset>
+  <Asset>
+    <Name>Arrow_02</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5040</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>504</Size>
+  </Asset>
+  <Asset>
+    <Name>Badge_Complete_Family</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4994</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>780</Size>
+  </Asset>
+  <Asset>
+    <Name>Badge_Event_Questline</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5133</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>940</Size>
+  </Asset>
+  <Asset>
+    <Name>Badge_Event-Task</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4931</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1016</Size>
+  </Asset>
+  <Asset>
+    <Name>Banner_Purple</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5027</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1396</Size>
+  </Asset>
+  <Asset>
+    <Name>Banner_With_Shadow</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5045</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1636</Size>
+  </Asset>
+  <Asset>
+    <Name>Bar_Beige</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5599</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>484</Size>
+  </Asset>
+  <Asset>
+    <Name>Bar_Blue</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5506</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>480</Size>
+  </Asset>
+  <Asset>
+    <Name>Bar_Empty</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5214</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>484</Size>
+  </Asset>
+  <Asset>
+    <Name>Bar_Green</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5233</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>484</Size>
+  </Asset>
+  <Asset>
+    <Name>Bar_Red</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5472</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>480</Size>
+  </Asset>
+  <Asset>
+    <Name>Bar_Yellow</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5611</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>484</Size>
+  </Asset>
+  <Asset>
+    <Name>Battery_Green copy</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5328</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>648</Size>
+  </Asset>
+  <Asset>
+    <Name>Battery_Yellow copy</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4940</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>704</Size>
+  </Asset>
+  <Asset>
+    <Name>Black_Gradient</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5607</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>488</Size>
+  </Asset>
+  <Asset>
+    <Name>blur1</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>23</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\sharedassets0.assets</Source>
+    <Size>660</Size>
+  </Asset>
+  <Asset>
+    <Name>Board_Ornament</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5331</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>624</Size>
+  </Asset>
+  <Asset>
+    <Name>Body_NewArea_512x512 (1)</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5186</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>2320</Size>
+  </Asset>
+  <Asset>
+    <Name>Book</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5613</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>4960</Size>
+  </Asset>
+  <Asset>
+    <Name>Box_Blue_Golden_Outline</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5230</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>640</Size>
+  </Asset>
+  <Asset>
+    <Name>box_check</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4942</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>628</Size>
+  </Asset>
+  <Asset>
+    <Name>box_check_confirmed</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5146</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>636</Size>
+  </Asset>
+  <Asset>
+    <Name>Box_Hexagonal_01</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5363</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>744</Size>
+  </Asset>
+  <Asset>
+    <Name>Box_Hexagonal_02</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5353</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>692</Size>
+  </Asset>
+  <Asset>
+    <Name>Box_Hexagonal_03</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5575</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>640</Size>
+  </Asset>
+  <Asset>
+    <Name>Box_Hexagonal_04</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5006</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>688</Size>
+  </Asset>
+  <Asset>
+    <Name>Box_Hexagonal_Half</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5352</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>608</Size>
+  </Asset>
+  <Asset>
+    <Name>Box_Square_06</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5351</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>536</Size>
+  </Asset>
+  <Asset>
+    <Name>Box_Tilted</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4985</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>656</Size>
+  </Asset>
+  <Asset>
+    <Name>Box_Tilted_02</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5278</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1072</Size>
+  </Asset>
+  <Asset>
+    <Name>Box_Tilted_Sharp</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4908</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>828</Size>
+  </Asset>
+  <Asset>
+    <Name>Box_Tilted_Sharp_Empty</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5248</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>676</Size>
+  </Asset>
+  <Asset>
+    <Name>Box_Toggle</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5093</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>576</Size>
+  </Asset>
+  <Asset>
+    <Name>Bright_Rectangle</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4960</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>500</Size>
+  </Asset>
+  <Asset>
+    <Name>Bright_Star</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5457</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>788</Size>
+  </Asset>
+  <Asset>
+    <Name>Bright_stars_01</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5189</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1424</Size>
+  </Asset>
+  <Asset>
+    <Name>Bright_Stars_02</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5440</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1388</Size>
+  </Asset>
+  <Asset>
+    <Name>Brown_Timer</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5630</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>2492</Size>
+  </Asset>
+  <Asset>
+    <Name>Bubble_01</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5471</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1744</Size>
+  </Asset>
+  <Asset>
+    <Name>Bundle_Light_Rays</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5180</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>3884</Size>
+  </Asset>
+  <Asset>
+    <Name>Button_Blue</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5170</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>756</Size>
+  </Asset>
+  <Asset>
+    <Name>Button_Blue_Square</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5176</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>628</Size>
+  </Asset>
+  <Asset>
+    <Name>Button_Bottom_Bar</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5526</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>592</Size>
+  </Asset>
+  <Asset>
+    <Name>Button_Bottom_Bar_Blue</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5059</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>736</Size>
+  </Asset>
+  <Asset>
+    <Name>Button_Bottom_Bar_Gold</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5105</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>736</Size>
+  </Asset>
+  <Asset>
+    <Name>Button_Bottom_Bar_Green</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5333</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>736</Size>
+  </Asset>
+  <Asset>
+    <Name>Button_Bottom_Bar_Yellow</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4891</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>664</Size>
+  </Asset>
+  <Asset>
+    <Name>Button_Corner</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4932</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>556</Size>
+  </Asset>
+  <Asset>
+    <Name>Button_Green</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4970</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>824</Size>
+  </Asset>
+  <Asset>
+    <Name>Button_Green_No_Shadow</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5160</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>712</Size>
+  </Asset>
+  <Asset>
+    <Name>Button_Green_Square</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5129</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>628</Size>
+  </Asset>
+  <Asset>
+    <Name>Button_IAP_Bundle</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5083</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1024</Size>
+  </Asset>
+  <Asset>
+    <Name>Button_Info_Lateral</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5140</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>568</Size>
+  </Asset>
+  <Asset>
+    <Name>Button_Locked</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5389</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>760</Size>
+  </Asset>
+  <Asset>
+    <Name>Button_Plus_Lateral</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5306</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>568</Size>
+  </Asset>
+  <Asset>
+    <Name>Button_Plus_Lateral_Locked</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5206</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>516</Size>
+  </Asset>
+  <Asset>
+    <Name>Button_Red</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5518</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>756</Size>
+  </Asset>
+  <Asset>
+    <Name>Button_Red_No_Shadow</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4912</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>708</Size>
+  </Asset>
+  <Asset>
+    <Name>Button_Yellow</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5304</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>760</Size>
+  </Asset>
+  <Asset>
+    <Name>Button_Yellow_Locked</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5245</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>796</Size>
+  </Asset>
+  <Asset>
+    <Name>Button_Yellow_Square</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5244</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>632</Size>
+  </Asset>
+  <Asset>
+    <Name>Checkmark</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4876</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>624</Size>
+  </Asset>
+  <Asset>
+    <Name>Chest</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5629</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>712</Size>
+  </Asset>
+  <Asset>
+    <Name>Circle</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5126</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>676</Size>
+  </Asset>
+  <Asset>
+    <Name>circle128</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5108</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>712</Size>
+  </Asset>
+  <Asset>
+    <Name>click_glow_fx</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5069</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>584</Size>
+  </Asset>
+  <Asset>
+    <Name>clipboard-50</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5399</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>872</Size>
+  </Asset>
+  <Asset>
+    <Name>Clock_Pointer</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5050</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>716</Size>
+  </Asset>
+  <Asset>
+    <Name>Close_Button</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5071</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>652</Size>
+  </Asset>
+  <Asset>
+    <Name>close-50</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5274</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1392</Size>
+  </Asset>
+  <Asset>
+    <Name>Cobweb_Badge</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5324</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1160</Size>
+  </Asset>
+  <Asset>
+    <Name>collapse-32</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4927</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>488</Size>
+  </Asset>
+  <Asset>
+    <Name>console-64</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5396</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>772</Size>
+  </Asset>
+  <Asset>
+    <Name>Copy_Button</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5110</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>596</Size>
+  </Asset>
+  <Asset>
+    <Name>Crown</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4872</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>832</Size>
+  </Asset>
+  <Asset>
+    <Name>Day_Number_Plate_Shadow</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5254</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>644</Size>
+  </Asset>
+  <Asset>
+    <Name>Dialogue_Box_Detail_01</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4925</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>596</Size>
+  </Asset>
+  <Asset>
+    <Name>Dialogue_Box_Detail_02</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5047</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>588</Size>
+  </Asset>
+  <Asset>
+    <Name>Dialogue_Box_Detail_03</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5572</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>660</Size>
+  </Asset>
+  <Asset>
+    <Name>Dialogue_Box_Detail_04</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5062</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>672</Size>
+  </Asset>
+  <Asset>
+    <Name>Dialogue_Box_Detail_05</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5397</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>620</Size>
+  </Asset>
+  <Asset>
+    <Name>Dialogue_Box_Frame</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5152</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>2164</Size>
+  </Asset>
+  <Asset>
+    <Name>Diamond_Shape</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5546</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>624</Size>
+  </Asset>
+  <Asset>
+    <Name>Diamond_Title</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5508</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>620</Size>
+  </Asset>
+  <Asset>
+    <Name>down-50</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5023</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>516</Size>
+  </Asset>
+  <Asset>
+    <Name>Emoji_Currency_Star</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5067</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>784</Size>
+  </Asset>
+  <Asset>
+    <Name>Emoji_HC</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5603</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>668</Size>
+  </Asset>
+  <Asset>
+    <Name>Emoji_Timer_Shadow</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5519</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1192</Size>
+  </Asset>
+  <Asset>
+    <Name>Encyclopedia_Badge_01</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5350</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>812</Size>
+  </Asset>
+  <Asset>
+    <Name>Encyclopedia_Badge_v02</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5534</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>764</Size>
+  </Asset>
+  <Asset>
+    <Name>Encyclopedia_v03</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5619</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>568</Size>
+  </Asset>
+  <Asset>
+    <Name>Energy</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4871</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>668</Size>
+  </Asset>
+  <Asset>
+    <Name>Energy_Hard_Currency_Illustration</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4982</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>2580</Size>
+  </Asset>
+  <Asset>
+    <Name>Energy_Potion</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4873</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>688</Size>
+  </Asset>
+  <Asset>
+    <Name>Energy_Rewarded_Video_Illustration</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5090</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1436</Size>
+  </Asset>
+  <Asset>
+    <Name>External_Ring</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5128</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>3536</Size>
+  </Asset>
+  <Asset>
+    <Name>Fancy_Chest</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4870</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>716</Size>
+  </Asset>
+  <Asset>
+    <Name>Filter-50</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5000</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>532</Size>
+  </Asset>
+  <Asset>
+    <Name>Flower</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5631</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>796</Size>
+  </Asset>
+  <Asset>
+    <Name>footer_lodyas</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5199</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>468</Size>
+  </Asset>
+  <Asset>
+    <Name>Frame_Bottom_Gold</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5372</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>488</Size>
+  </Asset>
+  <Asset>
+    <Name>Frame_Bundle_Shop_Gold</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5223</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1464</Size>
+  </Asset>
+  <Asset>
+    <Name>Gems_Bg</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5582</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1844</Size>
+  </Asset>
+  <Asset>
+    <Name>Gems_Bundle</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5096</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>2704</Size>
+  </Asset>
+  <Asset>
+    <Name>Gift_Box_Encyclopedia</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5107</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>880</Size>
+  </Asset>
+  <Asset>
+    <Name>Glow_Body_NewArea_512x512</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5113</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>5104</Size>
+  </Asset>
+  <Asset>
+    <Name>Glow_circle</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5100</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>640</Size>
+  </Asset>
+  <Asset>
+    <Name>Glow_circle_01</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5063</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>624</Size>
+  </Asset>
+  <Asset>
+    <Name>glow_ring</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5360</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1100</Size>
+  </Asset>
+  <Asset>
+    <Name>Glow_Ring_01</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4997</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>792</Size>
+  </Asset>
+  <Asset>
+    <Name>Glow_Ring_Brighter</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5356</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>888</Size>
+  </Asset>
+  <Asset>
+    <Name>Glow_Sparkle_01</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5388</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>736</Size>
+  </Asset>
+  <Asset>
+    <Name>Glow_Sparkle_01_128px</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4907</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>904</Size>
+  </Asset>
+  <Asset>
+    <Name>Glow_Top_NewArea_512x512</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5258</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>8292</Size>
+  </Asset>
+  <Asset>
+    <Name>Gradient_Blue</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5127</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>488</Size>
+  </Asset>
+  <Asset>
+    <Name>Gradient_Bundle_BG_Yellow</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5387</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>500</Size>
+  </Asset>
+  <Asset>
+    <Name>Gradient_DarkBlue</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5469</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>492</Size>
+  </Asset>
+  <Asset>
+    <Name>Gradient_Golden_Horizontal</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5495</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>500</Size>
+  </Asset>
+  <Asset>
+    <Name>Gradient_Gray</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5543</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>488</Size>
+  </Asset>
+  <Asset>
+    <Name>Gradient_Green</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5048</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>488</Size>
+  </Asset>
+  <Asset>
+    <Name>Gradient_Infobox_Blue</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5330</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>496</Size>
+  </Asset>
+  <Asset>
+    <Name>Gradient_Light_Blue_Random_Treasure</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5385</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>508</Size>
+  </Asset>
+  <Asset>
+    <Name>Gradient_LightBlue</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5616</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>492</Size>
+  </Asset>
+  <Asset>
+    <Name>Gradient_LightBlue_Alt</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5251</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>496</Size>
+  </Asset>
+  <Asset>
+    <Name>Gradient_Maps_Yellow</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5614</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>492</Size>
+  </Asset>
+  <Asset>
+    <Name>Gradient_Orange</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5355</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>488</Size>
+  </Asset>
+  <Asset>
+    <Name>Gradient_Orange_BG</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5172</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>704</Size>
+  </Asset>
+  <Asset>
+    <Name>Gradient_Pink</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5435</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>488</Size>
+  </Asset>
+  <Asset>
+    <Name>Gradient_Pinkish</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5070</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>488</Size>
+  </Asset>
+  <Asset>
+    <Name>Gradient_Purple_Red</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4991</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>492</Size>
+  </Asset>
+  <Asset>
+    <Name>Gradient_Purple_Shop_Bundle</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5538</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>500</Size>
+  </Asset>
+  <Asset>
+    <Name>Gradient_Rectangle_Blue</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4910</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>520</Size>
+  </Asset>
+  <Asset>
+    <Name>Gradient_Rectangle_Brown</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5272</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>512</Size>
+  </Asset>
+  <Asset>
+    <Name>Gradient_Rectangle_Gold</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5066</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>520</Size>
+  </Asset>
+  <Asset>
+    <Name>Gradient_Rectangle_Green</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5441</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>512</Size>
+  </Asset>
+  <Asset>
+    <Name>Gradient_Rectangle_Orange</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5481</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>524</Size>
+  </Asset>
+  <Asset>
+    <Name>Gradient_Rectangle_Pink</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5524</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>504</Size>
+  </Asset>
+  <Asset>
+    <Name>Gradient_Reddish</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4880</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>488</Size>
+  </Asset>
+  <Asset>
+    <Name>Gradient_Shadows</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5051</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>488</Size>
+  </Asset>
+  <Asset>
+    <Name>Gradient_Turquoise</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5625</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>492</Size>
+  </Asset>
+  <Asset>
+    <Name>Gradient_YellowOrange_Bundle</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5262</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>500</Size>
+  </Asset>
+  <Asset>
+    <Name>Green_Filled_Circle</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5425</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>660</Size>
+  </Asset>
+  <Asset>
+    <Name>Hard</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4874</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>664</Size>
+  </Asset>
+  <Asset>
+    <Name>Header_Back_Dark_Green</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5030</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>864</Size>
+  </Asset>
+  <Asset>
+    <Name>Header_Badge_Blue</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5061</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>760</Size>
+  </Asset>
+  <Asset>
+    <Name>Header_Badge_Orange</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5530</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>772</Size>
+  </Asset>
+  <Asset>
+    <Name>Header_Badge_Purple</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5294</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>820</Size>
+  </Asset>
+  <Asset>
+    <Name>Header_Books</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5426</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>2556</Size>
+  </Asset>
+  <Asset>
+    <Name>Header_Front_Dark_Green</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5359</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>2128</Size>
+  </Asset>
+  <Asset>
+    <Name>Header_Random_Treasure_Reward</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4884</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>6324</Size>
+  </Asset>
+  <Asset>
+    <Name>heart_monitor-64</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5415</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1664</Size>
+  </Asset>
+  <Asset>
+    <Name>Hexagonal_Ring</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5308</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>2404</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Ad</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4930</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>860</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Arrow_White</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5178</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>628</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Arrow_White_02</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5136</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>608</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Balloon</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5025</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>812</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Board</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5618</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1024</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Calendar</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5002</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>504</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Check</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5378</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>604</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Check_Mini</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5391</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>648</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Chest_Rewards</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5323</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>656</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Coin_Pack_01</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5240</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>2216</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Coin_Pack_02</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4971</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>2528</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Coin_Pack_03</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5337</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1408</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Coin_Pack_04</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5130</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>2296</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Coin_Pack_05</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5076</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>2208</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Coin_Pack_06</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5001</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>2540</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Collectables_04</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5068</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>652</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Energy</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5541</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>840</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Energy_Potion</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5261</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>712</Size>
+  </Asset>
+  <Asset>
+    <Name>icon_game_center</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5058</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>696</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Gear</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4963</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>880</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Gem_Pack_01</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5329</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>2292</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Gem_Pack_02</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5576</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>2460</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Gem_Pack_03</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5291</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1684</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Gem_Pack_04</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5269</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>2336</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Gem_Pack_05</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4918</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>2264</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Gem_Pack_06</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5466</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>2956</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Google_Play_Games</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5452</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>560</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_HC</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5073</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>724</Size>
+  </Asset>
+  <Asset>
+    <Name>icon_high_performance</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5555</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>704</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Interrogation</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5520</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>788</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Inventory</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5151</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>916</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Items_04</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5365</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1824</Size>
+  </Asset>
+  <Asset>
+    <Name>icon_language</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5559</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>736</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Loading_01</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5484</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>820</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Loading_02</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5022</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>820</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Loading_03</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5117</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>820</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Loading_04</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5157</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>820</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Loading_05</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5437</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>43508</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Loading_06</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5421</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>33692</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Loading_07</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5271</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1020</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Loading_08</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4888</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>14416</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Loading_09</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5041</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>820</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Map</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5612</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1056</Size>
+  </Asset>
+  <Asset>
+    <Name>icon_music</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5322</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>940</Size>
+  </Asset>
+  <Asset>
+    <Name>icon_notification</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5418</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1436</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Notification_Black</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5263</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>632</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Padlock</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5049</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>660</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Parchment</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5145</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>632</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Quest_List</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5443</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>724</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_SC</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4913</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>696</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Selected_Item</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5303</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1196</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Shield_Level</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5362</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>772</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Shield_Level_Big</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5342</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>2872</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Shop</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5455</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>928</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Shop_Gold</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4901</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1200</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Shop_Map</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4921</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>656</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Skip</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5550</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>576</Size>
+  </Asset>
+  <Asset>
+    <Name>icon_sounds</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5512</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1268</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Sources_04</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5579</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1400</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Timer</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5309</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>836</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Timer 1</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5150</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>620</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Timer_locked</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5565</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>684</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Utilities_04</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5169</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>892</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_Wifi</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5459</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>792</Size>
+  </Asset>
+  <Asset>
+    <Name>Icon_X_Mini</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5398</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>644</Size>
+  </Asset>
+  <Asset>
+    <Name>ignore-Icon_Cobweb</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5445</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>644</Size>
+  </Asset>
+  <Asset>
+    <Name>Illustration_Flag_Congratulations</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5139</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>668</Size>
+  </Asset>
+  <Asset>
+    <Name>Illustration_Flag_Crown</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5185</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1620</Size>
+  </Asset>
+  <Asset>
+    <Name>Illustration_Flag_Crown_Alpha</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5086</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>840</Size>
+  </Asset>
+  <Asset>
+    <Name>Illustration_Flag_Crown_Alpha_2</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5620</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1068</Size>
+  </Asset>
+  <Asset>
+    <Name>Illustration_Flag_Energy_Small</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5514</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1552</Size>
+  </Asset>
+  <Asset>
+    <Name>Illustration_Refresh_Flag</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4948</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>660</Size>
+  </Asset>
+  <Asset>
+    <Name>Info_Button</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4955</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>608</Size>
+  </Asset>
+  <Asset>
+    <Name>info-64</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5109</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1392</Size>
+  </Asset>
+  <Asset>
+    <Name>Infobox_BG</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5153</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>592</Size>
+  </Asset>
+  <Asset>
+    <Name>Infobox_Frame</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5286</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>824</Size>
+  </Asset>
+  <Asset>
+    <Name>Infobox_Inner_Shadow</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5266</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>568</Size>
+  </Asset>
+  <Asset>
+    <Name>Infobutton</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5574</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>552</Size>
+  </Asset>
+  <Asset>
+    <Name>Inner_Shadow_02</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5270</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>488</Size>
+  </Asset>
+  <Asset>
+    <Name>Inventory_Backpack</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5220</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>2412</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-100000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4917</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>768</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-100001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5060</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>860</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-100002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4929</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>744</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-100003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5202</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>768</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-100004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5018</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>776</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-100005</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4883</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1044</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-100006</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5431</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>936</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-100007</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5203</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>964</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-100008</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5014</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>952</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-100009</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5627</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1400</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-101000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5528</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>720</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-101001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4954</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>884</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-101002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5318</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>768</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-101003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5179</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>948</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-101004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5225</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>836</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-101005</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4979</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>852</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-101006</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5265</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>776</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-101007</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5285</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>716</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-101008</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5215</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>748</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-101009</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5316</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1344</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-101010</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5366</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>832</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-101011</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5279</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>844</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-101012</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4989</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>832</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-101013</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5099</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>792</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-101014</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5079</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1020</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-102000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5551</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>724</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-102001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5589</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>816</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-102002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5327</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>800</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-103000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5420</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>732</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-103001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5219</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1160</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-103002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5477</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1192</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-103003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4898</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>944</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-103004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5386</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>864</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-103005</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5132</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>880</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-104000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4919</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>892</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-104001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4904</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>752</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-104002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5053</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>836</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-104003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5095</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>724</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-104004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5521</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>832</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-105000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4984</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>780</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-105001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4909</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>736</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-105002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5141</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>800</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-105003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5460</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>752</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-105004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5103</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>820</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-105005</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5241</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>768</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-105006</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5622</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>816</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-105007</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5122</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>920</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-105008</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5540</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>892</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-105009</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4923</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1124</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-106000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5159</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>824</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-106001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4900</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>688</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-106002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5516</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>696</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-106003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4922</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>744</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-106004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5188</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>760</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-106005</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4952</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>784</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-106006</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5204</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1028</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-106007</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5119</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>992</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-106008</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5403</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1016</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-107000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5334</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>704</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-107001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5564</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>728</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-107002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5473</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1072</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-107003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5511</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1692</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-107004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5558</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>904</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-107005</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5101</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>996</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-107006</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4998</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>904</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-107007</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5234</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>880</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-107008</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5193</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1208</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-107009</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5292</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>984</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-108000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5587</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>804</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-108001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5533</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>836</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-108002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5232</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>808</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-108003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5433</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>872</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-109000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5299</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>648</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-109001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5026</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>680</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-109002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5424</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>696</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-109003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5008</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>792</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-109004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5567</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>844</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-109005</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5236</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>828</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-110000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5290</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>776</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-110001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5131</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>828</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-110002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5392</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>900</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-110003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4953</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>880</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-110004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5255</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>856</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-110005</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5340</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>840</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-110006</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5252</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>864</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-110007</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5198</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>920</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-110008</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5246</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>816</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-110009</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5195</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1028</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-111000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5507</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>776</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-111001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5028</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>844</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-111002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5097</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>772</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-111003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5275</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1004</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-111004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5609</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>908</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-111005</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5142</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1152</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-111006</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5502</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>764</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-111007</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5364</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>696</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-111008</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5621</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>804</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-111009</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5402</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>748</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-111010</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4885</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>928</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-111011</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4903</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>800</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-111012</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5497</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>844</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-112000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5544</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>828</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-112001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5098</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>756</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-112002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5339</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>932</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-112003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5052</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1120</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-112004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5449</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1088</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-113000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4928</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>896</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-113001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5111</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1016</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-113002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4974</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>844</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-113003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5044</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1020</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-114000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5161</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>720</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-115000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5505</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>796</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-116000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5217</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>872</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-117000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5016</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>2512</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-117001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5401</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>3048</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-117002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4993</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>3160</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-117003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5562</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>2680</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-117004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5439</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>2796</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-117005</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5478</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>2876</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-117006</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4936</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>2656</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-117007</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5118</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>3176</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-117008</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5042</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>3304</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-118000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5480</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>728</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-118001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5432</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>736</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-118002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5592</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>816</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-118003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4892</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>924</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-119000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5344</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>676</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-119001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5465</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>796</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-119002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5410</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>884</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-120000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5529</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>704</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-120001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5296</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>840</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-120002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4882</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>812</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-120003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5065</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>712</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-120004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5450</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>772</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-121000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5523</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>768</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-121001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4911</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>856</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-121002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5509</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>776</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-121003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5547</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>904</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-121004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5267</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>804</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-121005</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5451</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>768</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-121006</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5409</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>800</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-121007</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5038</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>848</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-121008</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5115</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1016</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-121009</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4959</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>972</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-122000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5456</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>724</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-122001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5302</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>712</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-122002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5173</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>916</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-122003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4879</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1288</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-122004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5503</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>892</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-122005</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5598</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>824</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-123000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5438</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>704</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-123001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5500</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>664</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-123002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5429</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1140</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-123003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4962</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>744</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-123004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4890</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>812</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-124000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5037</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>652</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-124001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5492</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>764</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-124002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5165</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>900</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-124003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5361</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>760</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-124004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5489</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>736</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-125000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5005</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>752</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-125001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5367</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>736</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-125002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4949</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>924</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-125003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4967</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>916</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-125004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5395</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>868</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-126000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5628</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>648</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-126001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5167</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>872</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-126002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5283</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>836</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-126003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5155</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>812</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-126004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4973</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>796</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-127000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5499</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>992</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-127001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5375</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>964</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-127002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5604</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1408</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-127003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5485</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1192</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-127004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5077</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1468</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-128000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5358</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>836</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-128001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5556</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>772</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-128002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5012</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>824</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-128003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5532</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>832</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-128004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5315</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>888</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-128005</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5242</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>888</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-128006</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5229</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1000</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-129000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5448</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>748</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-129001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5525</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1048</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-129002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5586</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>656</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-129003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5297</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>996</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-129004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5446</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>712</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-129005</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5411</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>948</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-129006</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4957</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>760</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-129007</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5400</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>808</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-129008</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5390</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>848</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-129009</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5138</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1404</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-130000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5057</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>752</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-130001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5182</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>904</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-130002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5072</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>812</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-130003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5284</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>788</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-130004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5491</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1020</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-130005</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4914</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>816</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-130006</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5624</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>924</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-130007</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5205</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>900</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-130008</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5498</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>868</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-130009</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4897</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>912</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-130010</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5011</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1064</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-131000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5321</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1376</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-131001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4947</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>836</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-131002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5527</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>924</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-131003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4964</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1068</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-131004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5301</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1064</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-131005</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5221</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>2220</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-132000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5201</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1048</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-132001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5017</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>852</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-132002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5486</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>808</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-132003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5542</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>956</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-132004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5552</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>776</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-132005</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5166</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>792</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-132006</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5549</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>860</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-132007</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5260</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>896</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-133000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5583</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>836</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-133001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5422</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>880</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-133002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5332</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>972</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-133003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5545</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>2356</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-133004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5085</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>964</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-133005</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5436</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>872</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-133006</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5135</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1148</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-134000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5453</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>768</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-134001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5325</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>760</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-134002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5427</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>852</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-134003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5368</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>828</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-134004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4996</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>964</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-134005</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5578</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>824</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-134006</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5123</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>928</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-134007</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5522</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>812</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-134008</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5144</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>928</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-134009</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5569</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>800</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-134010</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5154</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1072</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-134011</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5222</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>900</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-134012</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5257</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>988</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-135000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5338</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>628</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-135001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4976</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>932</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-135002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4943</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1076</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-135003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5174</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1752</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-135004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4972</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1636</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-135005</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4935</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>2092</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-135006</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5162</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>2368</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-135007</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5384</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1704</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-135008</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5517</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1624</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-136000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5496</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>776</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-136001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5106</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>784</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-136002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5121</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>968</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-136003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5468</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1056</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-136004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5416</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1988</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-137000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4902</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>684</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-137001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5177</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>904</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-137002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5184</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>860</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-137003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5300</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1052</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-137004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5595</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1172</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-138000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5104</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1048</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-138001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5235</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>760</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-138002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5004</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>952</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-138003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5137</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1076</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-138004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5143</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1156</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-139000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5024</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>888</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-139001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5483</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>916</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-139002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5075</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>840</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-139003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5149</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>896</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-140000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5504</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>780</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-140001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5467</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>876</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-140002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5317</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>800</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-140003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5102</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>752</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-140004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5605</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>772</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-140005</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5581</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>892</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-140006</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5231</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>980</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-140007</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5164</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>816</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-140008</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5380</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1104</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-140009</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5305</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>784</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-140010</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5470</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>840</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-140011</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4941</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1404</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-141000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5610</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>740</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-141001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5383</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>756</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-141002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5237</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>820</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-141003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5510</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>792</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-141004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5035</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>836</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-141005</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5268</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1020</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-142000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5013</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1028</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-142001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5187</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>672</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-142002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5423</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>676</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-142003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5168</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>792</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-142004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5192</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>784</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-142005</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5568</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>836</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-142006</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5282</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>884</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-142007</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5015</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>752</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-143000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5335</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>680</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-143001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5312</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>764</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-143002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5407</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>932</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-143003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4999</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>752</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-143004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4938</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1064</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-144004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5563</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>956</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-144005</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5253</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>900</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-144006</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5566</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1188</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-145000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5125</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1300</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-145001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5573</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>800</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-145002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4937</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>816</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-145003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5289</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>868</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-145004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5560</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1028</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-145005</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4894</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>788</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-145006</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4895</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>800</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-145007</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5408</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>864</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-146000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5585</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>640</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-146001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5134</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>788</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-146002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5228</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>772</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-146003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5381</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>744</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-146004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5615</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>736</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-146005</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5197</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>848</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-147000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5419</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1476</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-961000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5043</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>788</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-961001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5513</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>856</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-961002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5281</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>972</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-961003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5548</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>952</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-961004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5224</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1548</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-962000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5580</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1068</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-962001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4946</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1472</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-962002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5210</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>936</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-962003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5046</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>776</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-962004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5405</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>808</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-962005</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5447</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>836</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-962006</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5374</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>956</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-963000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5588</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1056</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-963001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4933</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>712</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-963002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5114</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1248</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-963003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5346</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1232</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-963004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5080</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1228</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-963005</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4988</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1752</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-963006</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4944</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1252</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-963007</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5537</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1428</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-964000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4981</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>824</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-981000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5295</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>700</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-981001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5208</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>796</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-981002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4881</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>852</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-981003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4961</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>784</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-981004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5314</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>924</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-981005</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4987</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>824</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-985000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5238</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>828</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-985001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5501</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>860</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-990000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5602</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>688</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-990001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5212</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>712</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-990002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4986</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>852</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-990003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5515</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>852</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-991000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4950</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>884</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-992000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5442</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>828</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-993000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4934</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>752</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-993001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4896</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1060</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-993002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5163</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>832</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-994000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5596</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>840</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-994001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4889</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>852</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-995000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5064</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>820</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-995001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5259</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>852</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-996000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5444</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>688</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-996001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5593</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>764</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-996002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5089</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>868</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-996003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5474</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>804</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-996004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4915</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>800</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-996005</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5357</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>912</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-997000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5606</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>732</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-997001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5531</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>708</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-997002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5494</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>820</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-997003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4983</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>768</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-997004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4945</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>808</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-998000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5320</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>808</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-998001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5394</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>736</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-998002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5535</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>816</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-998003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5009</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>816</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-998004</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5311</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>836</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-999000</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5382</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>972</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-999001</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4965</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>980</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-999002</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5020</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>904</Size>
+  </Asset>
+  <Asset>
+    <Name>Item-999003</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5463</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>956</Size>
+  </Asset>
+  <Asset>
+    <Name>Light_Rays-White_Gradient</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5191</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1620</Size>
+  </Asset>
+  <Asset>
+    <Name>lightray1 1</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4966</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>528</Size>
+  </Asset>
+  <Asset>
+    <Name>Lion_Angry</Name>
+    <Container>databases/characterportraits/lion_angry</Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5288</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>8128</Size>
+  </Asset>
+  <Asset>
+    <Name>Lion_Serious</Name>
+    <Container>databases/characterportraits/lion_serious</Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5430</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>8128</Size>
+  </Asset>
+  <Asset>
+    <Name>loading@2x</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5417</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>632</Size>
+  </Asset>
+  <Asset>
+    <Name>Logo@2x</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4969</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>2096</Size>
+  </Asset>
+  <Asset>
+    <Name>Map0ScreenShot</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5373</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>468</Size>
+  </Asset>
+  <Asset>
+    <Name>Max_Badge</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5227</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>548</Size>
+  </Asset>
+  <Asset>
+    <Name>menu-32</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5010</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>608</Size>
+  </Asset>
+  <Asset>
+    <Name>menu-50</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5092</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>608</Size>
+  </Asset>
+  <Asset>
+    <Name>Merchant_Idle</Name>
+    <Container>databases/characterportraits/merchant_idle</Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5074</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>3652</Size>
+  </Asset>
+  <Asset>
+    <Name>MergeEffect</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4968</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1500</Size>
+  </Asset>
+  <Asset>
+    <Name>Navigation_Btton_Gray</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5590</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1148</Size>
+  </Asset>
+  <Asset>
+    <Name>Navigation_Button_Beige</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5171</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1152</Size>
+  </Asset>
+  <Asset>
+    <Name>NumberButton_Fill@2x</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5194</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>768</Size>
+  </Asset>
+  <Asset>
+    <Name>NumberButton_Outline@2x</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5039</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>3056</Size>
+  </Asset>
+  <Asset>
+    <Name>Orange_Rectangle</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5476</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>796</Size>
+  </Asset>
+  <Asset>
+    <Name>Outline_01</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5034</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1076</Size>
+  </Asset>
+  <Asset>
+    <Name>Outline_02</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5003</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>896</Size>
+  </Asset>
+  <Asset>
+    <Name>outline-64</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5209</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1352</Size>
+  </Asset>
+  <Asset>
+    <Name>particles</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5597</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>3984</Size>
+  </Asset>
+  <Asset>
+    <Name>Pattern_Hexagonal_Tile_v01</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5029</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>2248</Size>
+  </Asset>
+  <Asset>
+    <Name>pin-50</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4975</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>528</Size>
+  </Asset>
+  <Asset>
+    <Name>PinDot_Fill@2x</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5347</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>500</Size>
+  </Asset>
+  <Asset>
+    <Name>PinDot_Outline@2x</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5461</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>636</Size>
+  </Asset>
+  <Asset>
+    <Name>pixodust</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>24</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\sharedassets0.assets</Source>
+    <Size>1132</Size>
+  </Asset>
+  <Asset>
+    <Name>Plus_Button</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5250</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>608</Size>
+  </Asset>
+  <Asset>
+    <Name>Popup_Fill</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5371</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>808</Size>
+  </Asset>
+  <Asset>
+    <Name>Popup_Fill_2</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5082</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>928</Size>
+  </Asset>
+  <Asset>
+    <Name>Popup_Framing</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5298</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1140</Size>
+  </Asset>
+  <Asset>
+    <Name>Popup_Framing_Offer</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5247</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>2024</Size>
+  </Asset>
+  <Asset>
+    <Name>Portrait_Astoria_Fear</Name>
+    <Container>databases/characterportraits/portrait_astoria_fear</Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5393</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>3836</Size>
+  </Asset>
+  <Asset>
+    <Name>Portrait_Astoria_Happy</Name>
+    <Container>databases/characterportraits/portrait_astoria_happy</Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5343</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>4056</Size>
+  </Asset>
+  <Asset>
+    <Name>Portrait_Astoria_Idle</Name>
+    <Container>databases/characterportraits/portrait_astoria_idle</Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5243</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>4000</Size>
+  </Asset>
+  <Asset>
+    <Name>Portrait_Astoria_Laugh</Name>
+    <Container>databases/characterportraits/portrait_astoria_laugh</Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4926</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>4380</Size>
+  </Asset>
+  <Asset>
+    <Name>Portrait_Astoria_Mad</Name>
+    <Container>databases/characterportraits/portrait_astoria_mad</Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4899</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>4736</Size>
+  </Asset>
+  <Asset>
+    <Name>Portrait_Astoria_Neutral</Name>
+    <Container>databases/characterportraits/portrait_astoria_neutral</Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4886</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>3996</Size>
+  </Asset>
+  <Asset>
+    <Name>Portrait_Astoria_Psyched</Name>
+    <Container>databases/characterportraits/portrait_astoria_psyched</Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5021</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>4548</Size>
+  </Asset>
+  <Asset>
+    <Name>Portrait_Astoria_Sad</Name>
+    <Container>databases/characterportraits/portrait_astoria_sad</Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4924</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>3756</Size>
+  </Asset>
+  <Asset>
+    <Name>Portrait_Astoria_Suspicious</Name>
+    <Container>databases/characterportraits/portrait_astoria_suspicious</Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5623</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>3988</Size>
+  </Asset>
+  <Asset>
+    <Name>Portrait_Farmer_Idle</Name>
+    <Container>databases/characterportraits/portrait_farmer_idle</Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4995</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>3840</Size>
+  </Asset>
+  <Asset>
+    <Name>Portrait_Farmer_Shadow</Name>
+    <Container>databases/characterportraits/portrait_farmer_shadow</Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5216</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>3844</Size>
+  </Asset>
+  <Asset>
+    <Name>Portrait_Ivan_Happy</Name>
+    <Container>databases/characterportraits/portrait_ivan_happy</Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4958</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>3988</Size>
+  </Asset>
+  <Asset>
+    <Name>Portrait_Ivan_Idle</Name>
+    <Container>databases/characterportraits/portrait_ivan_idle</Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5112</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>4152</Size>
+  </Asset>
+  <Asset>
+    <Name>Portrait_Ivan_Mad</Name>
+    <Container>databases/characterportraits/portrait_ivan_mad</Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5326</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>4212</Size>
+  </Asset>
+  <Asset>
+    <Name>Portrait_Ivan_Neutral</Name>
+    <Container>databases/characterportraits/portrait_ivan_neutral</Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5239</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>4148</Size>
+  </Asset>
+  <Asset>
+    <Name>Portrait_Ivan_Sad</Name>
+    <Container>databases/characterportraits/portrait_ivan_sad</Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4887</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>4108</Size>
+  </Asset>
+  <Asset>
+    <Name>Portrait_Troll_Idle</Name>
+    <Container>databases/characterportraits/portrait_troll_idle</Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5156</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>7588</Size>
+  </Asset>
+  <Asset>
+    <Name>Rays</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5354</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>944</Size>
+  </Asset>
+  <Asset>
+    <Name>Refresh_Icon</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5054</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>844</Size>
+  </Asset>
+  <Asset>
+    <Name>refresh-50</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5307</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>900</Size>
+  </Asset>
+  <Asset>
+    <Name>Ribbon_Blue</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5088</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1376</Size>
+  </Asset>
+  <Asset>
+    <Name>Ribbon_Dark_BLue_Back</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5007</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>824</Size>
+  </Asset>
+  <Asset>
+    <Name>Ribbon_Dark_Blue_Front</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5091</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>2144</Size>
+  </Asset>
+  <Asset>
+    <Name>Ribbon_Gold_Back</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5413</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>636</Size>
+  </Asset>
+  <Asset>
+    <Name>Ribbon_Gold_Front</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5454</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>2060</Size>
+  </Asset>
+  <Asset>
+    <Name>Ribbon_Purple_Back</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5475</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>2288</Size>
+  </Asset>
+  <Asset>
+    <Name>Ribbon_Purple_Front_Export</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5490</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>2168</Size>
+  </Asset>
+  <Asset>
+    <Name>Ribbon_Red_Back</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5570</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>584</Size>
+  </Asset>
+  <Asset>
+    <Name>Ribbon_Red_Front</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5116</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>2132</Size>
+  </Asset>
+  <Asset>
+    <Name>Rings_with_Numbers</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5336</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>4796</Size>
+  </Asset>
+  <Asset>
+    <Name>round_smooth</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4978</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>684</Size>
+  </Asset>
+  <Asset>
+    <Name>Round_Spinner</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5031</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>696</Size>
+  </Asset>
+  <Asset>
+    <Name>RoundedCorner-2px@2x</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5349</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>472</Size>
+  </Asset>
+  <Asset>
+    <Name>RoundedCorner-5px@2x</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5348</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>480</Size>
+  </Asset>
+  <Asset>
+    <Name>Seed</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4869</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>724</Size>
+  </Asset>
+  <Asset>
+    <Name>Shadow_Hexagonal_04</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5207</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>676</Size>
+  </Asset>
+  <Asset>
+    <Name>Shadow_Inner_03</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5561</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>868</Size>
+  </Asset>
+  <Asset>
+    <Name>Shadow_Inner_04</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5601</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1052</Size>
+  </Asset>
+  <Asset>
+    <Name>Shadow_Tilted 1</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5084</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>808</Size>
+  </Asset>
+  <Asset>
+    <Name>shine1</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4990</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>600</Size>
+  </Asset>
+  <Asset>
+    <Name>Soft0</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5633</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>832</Size>
+  </Asset>
+  <Asset>
+    <Name>spider-64</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5482</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>636</Size>
+  </Asset>
+  <Asset>
+    <Name>Spiral_Frame_01</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5458</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>536</Size>
+  </Asset>
+  <Asset>
+    <Name>Spiral_Frame_02</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5033</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>568</Size>
+  </Asset>
+  <Asset>
+    <Name>Spiral_Frame_03</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5032</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>628</Size>
+  </Asset>
+  <Asset>
+    <Name>Spiral_Frame_04</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5557</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>636</Size>
+  </Asset>
+  <Asset>
+    <Name>Spiral_Frame_05</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5147</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>836</Size>
+  </Asset>
+  <Asset>
+    <Name>Spiral_Frame_06</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5428</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>576</Size>
+  </Asset>
+  <Asset>
+    <Name>Spiral_Frame_07</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5464</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>852</Size>
+  </Asset>
+  <Asset>
+    <Name>Spiral_Frame_08</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4939</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>708</Size>
+  </Asset>
+  <Asset>
+    <Name>Spiral_Frame_09</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5148</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>732</Size>
+  </Asset>
+  <Asset>
+    <Name>Spiral_Frame_10</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5276</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>604</Size>
+  </Asset>
+  <Asset>
+    <Name>Spiral_Frame_11</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5087</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>644</Size>
+  </Asset>
+  <Asset>
+    <Name>Spiral_Frame_12</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5404</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>656</Size>
+  </Asset>
+  <Asset>
+    <Name>Spiral_Frame_13</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5081</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>700</Size>
+  </Asset>
+  <Asset>
+    <Name>Spiral_Frame_14</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5591</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>628</Size>
+  </Asset>
+  <Asset>
+    <Name>Spiral_Frame_15</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5600</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>656</Size>
+  </Asset>
+  <Asset>
+    <Name>Spiral_Frame_16</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5310</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>740</Size>
+  </Asset>
+  <Asset>
+    <Name>Spiral_Frame_17</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4920</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>808</Size>
+  </Asset>
+  <Asset>
+    <Name>Spiral_Frame_18</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5313</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>660</Size>
+  </Asset>
+  <Asset>
+    <Name>Spiral_Frame_19</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5213</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>568</Size>
+  </Asset>
+  <Asset>
+    <Name>Splash_Medieval_Merge</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5158</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>476</Size>
+  </Asset>
+  <Asset>
+    <Name>Square_Basic</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5124</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>484</Size>
+  </Asset>
+  <Asset>
+    <Name>Square_Frame_Rounded</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5584</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>776</Size>
+  </Asset>
+  <Asset>
+    <Name>Square_Frame_Rounded_02</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5277</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1576</Size>
+  </Asset>
+  <Asset>
+    <Name>Square_Rounded</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5055</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>612</Size>
+  </Asset>
+  <Asset>
+    <Name>Square_Rounded_03</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5379</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>628</Size>
+  </Asset>
+  <Asset>
+    <Name>Square_rounded_03_Blue_Gradient</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5183</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>640</Size>
+  </Asset>
+  <Asset>
+    <Name>Square_Rounded_03_Brown_Gradient</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4893</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>640</Size>
+  </Asset>
+  <Asset>
+    <Name>Square_Rounded_03_Brown_Gradient_Alt</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4951</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>600</Size>
+  </Asset>
+  <Asset>
+    <Name>Square_rounded_03_Dark_Blue_Gradient</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5626</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>600</Size>
+  </Asset>
+  <Asset>
+    <Name>Square_rounded_03_Orange_Gradient</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4980</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>644</Size>
+  </Asset>
+  <Asset>
+    <Name>Square_rounded_03_Purple_Gradient</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5036</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>644</Size>
+  </Asset>
+  <Asset>
+    <Name>Square_Rounded_04</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5345</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>660</Size>
+  </Asset>
+  <Asset>
+    <Name>Square_Rounded_05</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5369</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>684</Size>
+  </Asset>
+  <Asset>
+    <Name>square_rounded01</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5376</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>736</Size>
+  </Asset>
+  <Asset>
+    <Name>square_rounded02</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5196</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>504</Size>
+  </Asset>
+  <Asset>
+    <Name>square_shadow</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5078</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>580</Size>
+  </Asset>
+  <Asset>
+    <Name>Square_Shadow_Round</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5200</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>676</Size>
+  </Asset>
+  <Asset>
+    <Name>Square_Subtle_Round</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5462</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>492</Size>
+  </Asset>
+  <Asset>
+    <Name>Square_Upper_Rounded</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4977</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>508</Size>
+  </Asset>
+  <Asset>
+    <Name>Star</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5634</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>768</Size>
+  </Asset>
+  <Asset>
+    <Name>star_brigh_fx</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5617</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>688</Size>
+  </Asset>
+  <Asset>
+    <Name>star_fx</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5554</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>596</Size>
+  </Asset>
+  <Asset>
+    <Name>Star_MergeEffect_128x128</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5226</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>828</Size>
+  </Asset>
+  <Asset>
+    <Name>Stars_Circle_01</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5287</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1468</Size>
+  </Asset>
+  <Asset>
+    <Name>stompy_white_128</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5120</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>536</Size>
+  </Asset>
+  <Asset>
+    <Name>Subheader_Brown</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5536</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1760</Size>
+  </Asset>
+  <Asset>
+    <Name>Subheader_Bundle_Blue</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5577</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1420</Size>
+  </Asset>
+  <Asset>
+    <Name>Subheader_Bundle_Purple</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5056</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1408</Size>
+  </Asset>
+  <Asset>
+    <Name>Subheader_Bundle_Red</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5487</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1416</Size>
+  </Asset>
+  <Asset>
+    <Name>Subheader_Green</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5553</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1656</Size>
+  </Asset>
+  <Asset>
+    <Name>Subheader_orange</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5319</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1760</Size>
+  </Asset>
+  <Asset>
+    <Name>Subheader_Pink</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5181</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1760</Size>
+  </Asset>
+  <Asset>
+    <Name>Subheader_Session_Blue</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5493</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1768</Size>
+  </Asset>
+  <Asset>
+    <Name>Subheader_Session_Gold</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5414</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1768</Size>
+  </Asset>
+  <Asset>
+    <Name>Subheader_Session_Light_Pink</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5594</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1772</Size>
+  </Asset>
+  <Asset>
+    <Name>Sylvanus_Idle</Name>
+    <Container>databases/characterportraits/sylvanus_idle</Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5094</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>5680</Size>
+  </Asset>
+  <Asset>
+    <Name>Tag_Best_Value_Blue</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4906</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>708</Size>
+  </Asset>
+  <Asset>
+    <Name>Tag_Best_Value_Purple</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5256</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>744</Size>
+  </Asset>
+  <Asset>
+    <Name>Tag_Best_Value_Red</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5175</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>628</Size>
+  </Asset>
+  <Asset>
+    <Name>Tag_Locked</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5341</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>660</Size>
+  </Asset>
+  <Asset>
+    <Name>Tag_Maximum_Level</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5412</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>628</Size>
+  </Asset>
+  <Asset>
+    <Name>Tag_Offer_Value_Red_Export</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4956</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>744</Size>
+  </Asset>
+  <Asset>
+    <Name>Tilted_Bar_Beige</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5019</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>668</Size>
+  </Asset>
+  <Asset>
+    <Name>Tilted_Bar_Blue</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5190</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>668</Size>
+  </Asset>
+  <Asset>
+    <Name>Tilted_Bar_Green</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4905</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>668</Size>
+  </Asset>
+  <Asset>
+    <Name>Tilted_Bar_Red</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5249</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>668</Size>
+  </Asset>
+  <Asset>
+    <Name>Tilted_Bar_Yellow</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5571</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>672</Size>
+  </Asset>
+  <Asset>
+    <Name>Timer</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5632</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>2456</Size>
+  </Asset>
+  <Asset>
+    <Name>Top_NewArea_512x512</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5293</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>1724</Size>
+  </Asset>
+  <Asset>
+    <Name>trash2-32</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5273</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>460</Size>
+  </Asset>
+  <Asset>
+    <Name>trash2-50</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5377</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>564</Size>
+  </Asset>
+  <Asset>
+    <Name>UI_HandSprite_00</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5539</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>824</Size>
+  </Asset>
+  <Asset>
+    <Name>UI_HandSprite_01</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5434</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>848</Size>
+  </Asset>
+  <Asset>
+    <Name>UI_HandSprite_02</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5479</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>784</Size>
+  </Asset>
+  <Asset>
+    <Name>UI_HandSprite_03</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5280</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>808</Size>
+  </Asset>
+  <Asset>
+    <Name>UI_HandSprite_04</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5211</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>792</Size>
+  </Asset>
+  <Asset>
+    <Name>UICheckMark</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5406</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>488</Size>
+  </Asset>
+  <Asset>
+    <Name>UIElement8px</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5488</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>464</Size>
+  </Asset>
+  <Asset>
+    <Name>UIFoldoutClosed</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5218</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>484</Size>
+  </Asset>
+  <Asset>
+    <Name>UIFoldoutOpened</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5370</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>492</Size>
+  </Asset>
+  <Asset>
+    <Name>UIMask</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4878</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>516</Size>
+  </Asset>
+  <Asset>
+    <Name>UISprite</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4877</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>568</Size>
+  </Asset>
+  <Asset>
+    <Name>Villager_01_Idle</Name>
+    <Container>databases/characterportraits/villager_01_idle</Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4992</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>2836</Size>
+  </Asset>
+  <Asset>
+    <Name>Villager_02_Idle</Name>
+    <Container>databases/characterportraits/villager_02_idle</Container>
+    <Type id="213">Sprite</Type>
+    <PathID>5264</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>2340</Size>
+  </Asset>
+  <Asset>
+    <Name>White1px</Name>
+    <Container></Container>
+    <Type id="213">Sprite</Type>
+    <PathID>4916</PathID>
+    <Source>C:\nonwork\mmerge\unzipped\assets\bin\Data\resources.assets</Source>
+    <Size>424</Size>
+  </Asset>
+</Assets>

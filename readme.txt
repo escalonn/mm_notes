@@ -69,3 +69,7 @@ todo
         https://medieval-merge-game-fanbase.fandom.com/wiki/Royal_Chest
     missing row in generators page
         green box
+    missing pages on wiki
+        mimic box
+    missing images on wiki
+        mimic box
