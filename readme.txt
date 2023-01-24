@@ -34,7 +34,7 @@ get remote config json over the wire
     run py format-response.py
     inspect response.json
 get remote config from disk
-    it's in the /data directory, *firebase*.json
+    it's in the /data/data/.../files directory, *firebase*.json
     copy as raw_response.json in this folder
     run py format-response.py
     inspect response.json

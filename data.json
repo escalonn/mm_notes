@@ -69,7 +69,8 @@
         "tnfd50mcsZfBKDtRLPrzlWUsbhb2",
         "qu4jz60paqeoouCt5qh8j8MPL0w1",
         "XFVjYaZXtKMqev7dsyPADPS1R633",
-        "WSCUc3cNlxg8MreeMN9p3W25VMb2"
+        "WSCUc3cNlxg8MreeMN9p3W25VMb2",
+        "K7pp00PurSfSTHhOrs19AvhKfM83"
       ]
     },
     "encyclopediaSettings": {
@@ -6752,7 +6753,7 @@
     "taskEventSettings": {
       "specialTasksSettings": {
         "generalSettings": {
-          "UID": 33,
+          "UID": 34,
           "minimumQuestsRequirement": 70,
           "autoActivate": true,
           "autoPopup": false,
@@ -7134,7 +7135,7 @@
             "pointsNeeded": 2500,
             "reward": {
               "itemReward": {
-                "itemId": 996003,
+                "itemId": 126000,
                 "amount": 1
               }
             }
@@ -7334,7 +7335,7 @@
             "pointsNeeded": 15500,
             "reward": {
               "itemReward": {
-                "itemId": 107005,
+                "itemId": 121005,
                 "amount": 1
               }
             }
@@ -7343,7 +7344,7 @@
       }
     }
   },
-  "fetch_time_key": 1674005788900,
+  "fetch_time_key": 1674540814804,
   "abt_experiments_key": [
     {
       "experimentId": "_exp_147",
