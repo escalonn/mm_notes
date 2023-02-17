@@ -34,8 +34,8 @@ get remote config json over the wire
     run py format-response.py
     inspect response.json
 get remote config from disk
-    it's in the /data/data/.../files directory, *firebase*.json
-    copy as raw_response.json in this folder
+    it's in the /data/data/com.pixodust.games.free.rpg.medieval.merge.puzzle.empire/files directory, frc*firebase_activate.json
+    copy as raw_data.json in this folder
     run py format-response.py
     inspect response.json
 get dlls
