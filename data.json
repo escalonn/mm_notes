@@ -8,6 +8,2996 @@
       "newFormat": false,
       "showTimer": false
     },
+    "boardItemSettings0": {
+      "items": [
+        {
+          "id": 100003,
+          "name": "Main/item_100003",
+          "level": 4,
+          "mergeable": {
+            "nextItemId": 100004
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 8,
+            "rechargeTimer": 7200,
+            "rechargesStack": 3,
+            "droppableItems": [
+              {
+                "dropId": 101000,
+                "dropRate": 0.97
+              },
+              {
+                "dropId": 102000,
+                "dropRate": 0.03
+              }
+            ]
+          }
+        },
+        {
+          "id": 100004,
+          "name": "Main/item_100004",
+          "level": 5,
+          "mergeable": {
+            "nextItemId": 100005
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 10,
+            "rechargeTimer": 7800,
+            "rechargesStack": 3,
+            "droppableItems": [
+              {
+                "dropId": 101000,
+                "dropRate": 0.88
+              },
+              {
+                "dropId": 102000,
+                "dropRate": 0.04
+              },
+              {
+                "dropId": 101001,
+                "dropRate": 0.05
+              },
+              {
+                "dropId": 101002,
+                "dropRate": 0.03
+              }
+            ]
+          }
+        },
+        {
+          "id": 100005,
+          "name": "Main/item_100005",
+          "level": 6,
+          "mergeable": {
+            "nextItemId": 100006
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 12,
+            "rechargeTimer": 5280,
+            "rechargesStack": 3,
+            "droppableItems": [
+              {
+                "dropId": 101000,
+                "dropRate": 0.79
+              },
+              {
+                "dropId": 102000,
+                "dropRate": 0.05
+              },
+              {
+                "dropId": 101001,
+                "dropRate": 0.1
+              },
+              {
+                "dropId": 101002,
+                "dropRate": 0.06
+              }
+            ]
+          }
+        },
+        {
+          "id": 100006,
+          "name": "Main/item_100006",
+          "level": 7,
+          "mergeable": {
+            "nextItemId": 100007
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 12,
+            "rechargeTimer": 3300,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": 101000,
+                "dropRate": 0.72
+              },
+              {
+                "dropId": 102000,
+                "dropRate": 0.05
+              },
+              {
+                "dropId": 101001,
+                "dropRate": 0.15
+              },
+              {
+                "dropId": 101002,
+                "dropRate": 0.08
+              }
+            ]
+          }
+        },
+        {
+          "id": 100007,
+          "name": "Main/item_100007",
+          "level": 8,
+          "mergeable": {
+            "nextItemId": 100008
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 16,
+            "rechargeTimer": 1800,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": 101000,
+                "dropRate": 0.58
+              },
+              {
+                "dropId": 102000,
+                "dropRate": 0.05
+              },
+              {
+                "dropId": 101001,
+                "dropRate": 0.2
+              },
+              {
+                "dropId": 101002,
+                "dropRate": 0.12
+              },
+              {
+                "dropId": 101003,
+                "dropRate": 0.05
+              }
+            ]
+          }
+        },
+        {
+          "id": 100008,
+          "name": "Main/item_100008",
+          "level": 9,
+          "mergeable": {
+            "nextItemId": 100009
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 16,
+            "rechargeTimer": 1020,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": 101000,
+                "dropRate": 0.42
+              },
+              {
+                "dropId": 102000,
+                "dropRate": 0.05
+              },
+              {
+                "dropId": 101001,
+                "dropRate": 0.26
+              },
+              {
+                "dropId": 101002,
+                "dropRate": 0.17
+              },
+              {
+                "dropId": 101003,
+                "dropRate": 0.1
+              }
+            ]
+          }
+        },
+        {
+          "id": 100009,
+          "name": "Main/item_100009",
+          "level": 10,
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 16,
+            "rechargeTimer": 600,
+            "rechargesStack": 5,
+            "droppableItems": [
+              {
+                "dropId": 101000,
+                "dropRate": 0.29
+              },
+              {
+                "dropId": 102000,
+                "dropRate": 0.05
+              },
+              {
+                "dropId": 101001,
+                "dropRate": 0.27
+              },
+              {
+                "dropId": 101002,
+                "dropRate": 0.21
+              },
+              {
+                "dropId": 101003,
+                "dropRate": 0.13
+              },
+              {
+                "dropId": 101004,
+                "dropRate": 0.05
+              }
+            ]
+          }
+        },
+        {
+          "id": 105004,
+          "name": "Main/item_105004",
+          "level": 5,
+          "mergeable": {
+            "nextItemId": 105005
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 4,
+            "rechargeTimer": 12480,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": 106000,
+                "dropRate": 0.9
+              },
+              {
+                "dropId": 128000,
+                "dropRate": 0.1
+              }
+            ]
+          },
+          "autoSource": {
+            "startEmpty": true,
+            "dropsPerRecharge": 1,
+            "rechargeTimer": 43200,
+            "rechargesStack": 1,
+            "droppableItems": [
+              {
+                "dropId": 145000,
+                "dropRate": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": 105005,
+          "name": "Main/item_105005",
+          "level": 6,
+          "mergeable": {
+            "nextItemId": 105006
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 5,
+            "rechargeTimer": 6240,
+            "rechargesStack": 3,
+            "droppableItems": [
+              {
+                "dropId": 106000,
+                "dropRate": 0.86
+              },
+              {
+                "dropId": 128000,
+                "dropRate": 0.1
+              },
+              {
+                "dropId": 106001,
+                "dropRate": 0.04
+              }
+            ]
+          },
+          "autoSource": {
+            "startEmpty": true,
+            "dropsPerRecharge": 1,
+            "rechargeTimer": 28800,
+            "rechargesStack": 1,
+            "droppableItems": [
+              {
+                "dropId": 145000,
+                "dropRate": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": 105006,
+          "name": "Main/item_105006",
+          "level": 7,
+          "mergeable": {
+            "nextItemId": 105007
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 4,
+            "rechargeTimer": 3120,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": 106000,
+                "dropRate": 0.78
+              },
+              {
+                "dropId": 128000,
+                "dropRate": 0.11
+              },
+              {
+                "dropId": 106001,
+                "dropRate": 0.08
+              },
+              {
+                "dropId": 106002,
+                "dropRate": 0.02
+              },
+              {
+                "dropId": 128001,
+                "dropRate": 0.01
+              }
+            ]
+          },
+          "autoSource": {
+            "startEmpty": true,
+            "dropsPerRecharge": 1,
+            "rechargeTimer": 14400,
+            "rechargesStack": 1,
+            "droppableItems": [
+              {
+                "dropId": 145000,
+                "dropRate": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": 105007,
+          "name": "Main/item_105007",
+          "level": 8,
+          "mergeable": {
+            "nextItemId": 105008
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 5,
+            "rechargeTimer": 1950,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": 106000,
+                "dropRate": 0.73
+              },
+              {
+                "dropId": 128000,
+                "dropRate": 0.09
+              },
+              {
+                "dropId": 106001,
+                "dropRate": 0.1
+              },
+              {
+                "dropId": 106002,
+                "dropRate": 0.05
+              },
+              {
+                "dropId": 128001,
+                "dropRate": 0.02
+              },
+              {
+                "dropId": 128002,
+                "dropRate": 0.01
+              }
+            ]
+          },
+          "autoSource": {
+            "startEmpty": true,
+            "dropsPerRecharge": 1,
+            "rechargeTimer": 7200,
+            "rechargesStack": 1,
+            "droppableItems": [
+              {
+                "dropId": 145000,
+                "dropRate": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": 105008,
+          "name": "Main/item_105008",
+          "level": 9,
+          "mergeable": {
+            "nextItemId": 105009
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 6,
+            "rechargeTimer": 1170,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": 106000,
+                "dropRate": 0.57
+              },
+              {
+                "dropId": 128000,
+                "dropRate": 0.07
+              },
+              {
+                "dropId": 106001,
+                "dropRate": 0.15
+              },
+              {
+                "dropId": 106002,
+                "dropRate": 0.1
+              },
+              {
+                "dropId": 106003,
+                "dropRate": 0.06
+              },
+              {
+                "dropId": 128001,
+                "dropRate": 0.03
+              },
+              {
+                "dropId": 128002,
+                "dropRate": 0.02
+              }
+            ]
+          },
+          "autoSource": {
+            "startEmpty": true,
+            "dropsPerRecharge": 1,
+            "rechargeTimer": 3600,
+            "rechargesStack": 1,
+            "droppableItems": [
+              {
+                "dropId": 145000,
+                "dropRate": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": 105009,
+          "name": "Main/item_105009",
+          "level": 10,
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 7,
+            "rechargeTimer": 675,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": 106000,
+                "dropRate": 0.46
+              },
+              {
+                "dropId": 128000,
+                "dropRate": 0.05
+              },
+              {
+                "dropId": 106001,
+                "dropRate": 0.2
+              },
+              {
+                "dropId": 106002,
+                "dropRate": 0.14
+              },
+              {
+                "dropId": 106003,
+                "dropRate": 0.08
+              },
+              {
+                "dropId": 128001,
+                "dropRate": 0.04
+              },
+              {
+                "dropId": 128002,
+                "dropRate": 0.03
+              }
+            ]
+          },
+          "autoSource": {
+            "startEmpty": true,
+            "dropsPerRecharge": 1,
+            "rechargeTimer": 1800,
+            "rechargesStack": 1,
+            "droppableItems": [
+              {
+                "dropId": 145000,
+                "dropRate": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": 107005,
+          "name": "Main/item_107005",
+          "level": 6,
+          "mergeable": {
+            "nextItemId": 107006
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 2,
+            "rechargeTimer": 8160,
+            "rechargesStack": 5,
+            "droppableItems": [
+              {
+                "dropId": 108000,
+                "dropRate": 1
+              }
+            ]
+          },
+          "autoSource": {
+            "startEmpty": true,
+            "dropsPerRecharge": 1,
+            "rechargeTimer": 172800,
+            "rechargesStack": 1,
+            "droppableItems": [
+              {
+                "dropId": 981000,
+                "dropRate": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": 107006,
+          "name": "Main/item_107006",
+          "level": 7,
+          "mergeable": {
+            "nextItemId": 107007
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 2,
+            "rechargeTimer": 4080,
+            "rechargesStack": 5,
+            "droppableItems": [
+              {
+                "dropId": 108000,
+                "dropRate": 1
+              }
+            ]
+          },
+          "autoSource": {
+            "startEmpty": true,
+            "dropsPerRecharge": 1,
+            "rechargeTimer": 86400,
+            "rechargesStack": 1,
+            "droppableItems": [
+              {
+                "dropId": 981000,
+                "dropRate": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": 107007,
+          "name": "Main/item_107007",
+          "level": 8,
+          "mergeable": {
+            "nextItemId": 107008
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 2,
+            "rechargeTimer": 2040,
+            "rechargesStack": 5,
+            "droppableItems": [
+              {
+                "dropId": 108000,
+                "dropRate": 0.9
+              },
+              {
+                "dropId": 108001,
+                "dropRate": 0.1
+              }
+            ]
+          },
+          "autoSource": {
+            "startEmpty": true,
+            "dropsPerRecharge": 1,
+            "rechargeTimer": 43200,
+            "rechargesStack": 1,
+            "droppableItems": [
+              {
+                "dropId": 981000,
+                "dropRate": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": 107008,
+          "name": "Main/item_107008",
+          "level": 9,
+          "mergeable": {
+            "nextItemId": 107009
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 2,
+            "rechargeTimer": 2040,
+            "rechargesStack": 6,
+            "droppableItems": [
+              {
+                "dropId": 108000,
+                "dropRate": 0.85
+              },
+              {
+                "dropId": 108001,
+                "dropRate": 0.15
+              }
+            ]
+          },
+          "autoSource": {
+            "startEmpty": true,
+            "dropsPerRecharge": 2,
+            "rechargeTimer": 43200,
+            "rechargesStack": 1,
+            "droppableItems": [
+              {
+                "dropId": 981000,
+                "dropRate": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": 107009,
+          "name": "Main/item_107009",
+          "level": 10,
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 2,
+            "rechargeTimer": 1020,
+            "rechargesStack": 7,
+            "droppableItems": [
+              {
+                "dropId": 108000,
+                "dropRate": 0.7
+              },
+              {
+                "dropId": 108001,
+                "dropRate": 0.2
+              },
+              {
+                "dropId": 108002,
+                "dropRate": 0.1
+              }
+            ]
+          },
+          "autoSource": {
+            "startEmpty": true,
+            "dropsPerRecharge": 2,
+            "rechargeTimer": 21600,
+            "rechargesStack": 1,
+            "droppableItems": [
+              {
+                "dropId": 981000,
+                "dropRate": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": 110003,
+          "name": "Main/item_110003",
+          "level": 4,
+          "mergeable": {
+            "nextItemId": 110004
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 8,
+            "rechargeTimer": 6480,
+            "rechargesStack": 2,
+            "droppableItems": [
+              {
+                "dropId": 111000,
+                "dropRate": 0.92
+              },
+              {
+                "dropId": 112000,
+                "dropRate": 0.05
+              },
+              {
+                "dropId": 113000,
+                "dropRate": 0.03
+              }
+            ]
+          }
+        },
+        {
+          "id": 110004,
+          "name": "Main/item_110004",
+          "level": 5,
+          "mergeable": {
+            "nextItemId": 110005
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 10,
+            "rechargeTimer": 6480,
+            "rechargesStack": 2,
+            "droppableItems": [
+              {
+                "dropId": 111000,
+                "dropRate": 0.9
+              },
+              {
+                "dropId": 112000,
+                "dropRate": 0.05
+              },
+              {
+                "dropId": 113000,
+                "dropRate": 0.03
+              },
+              {
+                "dropId": 111001,
+                "dropRate": 0.02
+              }
+            ]
+          }
+        },
+        {
+          "id": 110005,
+          "name": "Main/item_110005",
+          "level": 6,
+          "mergeable": {
+            "nextItemId": 110006
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 12,
+            "rechargeTimer": 4860,
+            "rechargesStack": 2,
+            "droppableItems": [
+              {
+                "dropId": 111000,
+                "dropRate": 0.87
+              },
+              {
+                "dropId": 112000,
+                "dropRate": 0.05
+              },
+              {
+                "dropId": 113000,
+                "dropRate": 0.03
+              },
+              {
+                "dropId": 111001,
+                "dropRate": 0.05
+              }
+            ]
+          }
+        },
+        {
+          "id": 110006,
+          "name": "Main/item_110006",
+          "level": 7,
+          "mergeable": {
+            "nextItemId": 110007
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 6,
+            "rechargeTimer": 1800,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": 111000,
+                "dropRate": 0.83
+              },
+              {
+                "dropId": 112000,
+                "dropRate": 0.05
+              },
+              {
+                "dropId": 113000,
+                "dropRate": 0.03
+              },
+              {
+                "dropId": 111001,
+                "dropRate": 0.09
+              }
+            ]
+          }
+        },
+        {
+          "id": 110007,
+          "name": "Main/item_110007",
+          "level": 8,
+          "mergeable": {
+            "nextItemId": 110008
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 7,
+            "rechargeTimer": 960,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": 111000,
+                "dropRate": 0.74
+              },
+              {
+                "dropId": 112000,
+                "dropRate": 0.05
+              },
+              {
+                "dropId": 113000,
+                "dropRate": 0.03
+              },
+              {
+                "dropId": 111001,
+                "dropRate": 0.12
+              },
+              {
+                "dropId": 111002,
+                "dropRate": 0.06
+              }
+            ]
+          }
+        },
+        {
+          "id": 110008,
+          "name": "Main/item_110008",
+          "level": 9,
+          "mergeable": {
+            "nextItemId": 110009
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 7,
+            "rechargeTimer": 300,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": 111000,
+                "dropRate": 0.64
+              },
+              {
+                "dropId": 112000,
+                "dropRate": 0.04
+              },
+              {
+                "dropId": 113000,
+                "dropRate": 0.03
+              },
+              {
+                "dropId": 111001,
+                "dropRate": 0.18
+              },
+              {
+                "dropId": 111002,
+                "dropRate": 0.1
+              },
+              {
+                "dropId": 112001,
+                "dropRate": 0.01
+              }
+            ]
+          }
+        },
+        {
+          "id": 110009,
+          "name": "Main/item_110009",
+          "level": 10,
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 8,
+            "rechargeTimer": 225,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": 111000,
+                "dropRate": 0.47
+              },
+              {
+                "dropId": 112000,
+                "dropRate": 0.03
+              },
+              {
+                "dropId": 113000,
+                "dropRate": 0.03
+              },
+              {
+                "dropId": 111001,
+                "dropRate": 0.25
+              },
+              {
+                "dropId": 111002,
+                "dropRate": 0.14
+              },
+              {
+                "dropId": 111003,
+                "dropRate": 0.06
+              },
+              {
+                "dropId": 112001,
+                "dropRate": 0.02
+              }
+            ]
+          }
+        },
+        {
+          "id": 121004,
+          "name": "Main/item_121004",
+          "level": 5,
+          "mergeable": {
+            "nextItemId": 121005
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 5,
+            "rechargeTimer": 5400,
+            "rechargesStack": 2,
+            "droppableItems": [
+              {
+                "dropId": 122000,
+                "dropRate": 0.96
+              },
+              {
+                "dropId": 126000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 125000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 123000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 124000,
+                "dropRate": 0.01
+              }
+            ]
+          }
+        },
+        {
+          "id": 121005,
+          "name": "Main/item_121005",
+          "level": 6,
+          "mergeable": {
+            "nextItemId": 121006
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 5,
+            "rechargeTimer": 2700,
+            "rechargesStack": 2,
+            "droppableItems": [
+              {
+                "dropId": 122000,
+                "dropRate": 0.96
+              },
+              {
+                "dropId": 126000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 125000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 123000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 124000,
+                "dropRate": 0.01
+              }
+            ]
+          }
+        },
+        {
+          "id": 121006,
+          "name": "Main/item_121006",
+          "level": 7,
+          "mergeable": {
+            "nextItemId": 121007
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 5,
+            "rechargeTimer": 1320,
+            "rechargesStack": 2,
+            "droppableItems": [
+              {
+                "dropId": 122000,
+                "dropRate": 0.92
+              },
+              {
+                "dropId": 126000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 125000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 123000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 124000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 122001,
+                "dropRate": 0.04
+              }
+            ]
+          }
+        },
+        {
+          "id": 121007,
+          "name": "Main/item_121007",
+          "level": 8,
+          "mergeable": {
+            "nextItemId": 121008
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 5,
+            "rechargeTimer": 690,
+            "rechargesStack": 2,
+            "droppableItems": [
+              {
+                "dropId": 122000,
+                "dropRate": 0.86
+              },
+              {
+                "dropId": 126000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 125000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 123000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 124000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 122001,
+                "dropRate": 0.1
+              }
+            ]
+          }
+        },
+        {
+          "id": 121008,
+          "name": "Main/item_121008",
+          "level": 9,
+          "mergeable": {
+            "nextItemId": 121009
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 5,
+            "rechargeTimer": 330,
+            "rechargesStack": 2,
+            "droppableItems": [
+              {
+                "dropId": 122000,
+                "dropRate": 0.77
+              },
+              {
+                "dropId": 126000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 125000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 123000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 124000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 122001,
+                "dropRate": 0.14
+              },
+              {
+                "dropId": 122002,
+                "dropRate": 0.05
+              }
+            ]
+          }
+        },
+        {
+          "id": 121009,
+          "name": "Main/item_121009",
+          "level": 10,
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 5,
+            "rechargeTimer": 165,
+            "rechargesStack": 2,
+            "droppableItems": [
+              {
+                "dropId": 122000,
+                "dropRate": 0.67
+              },
+              {
+                "dropId": 126000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 125000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 123000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 124000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 122001,
+                "dropRate": 0.18
+              },
+              {
+                "dropId": 122002,
+                "dropRate": 0.11
+              }
+            ]
+          }
+        },
+        {
+          "id": 129003,
+          "name": "Main/item_129003",
+          "level": 4,
+          "mergeable": {
+            "nextItemId": 129004
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 4,
+            "rechargeTimer": 60360,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": 130000,
+                "dropRate": 0.88
+              },
+              {
+                "dropId": 107000,
+                "dropRate": 0.06
+              },
+              {
+                "dropId": 100000,
+                "dropRate": 0.06
+              }
+            ]
+          }
+        },
+        {
+          "id": 129004,
+          "name": "Main/item_129004",
+          "level": 5,
+          "mergeable": {
+            "nextItemId": 129005
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 5,
+            "rechargeTimer": 37560,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": 130000,
+                "dropRate": 0.8
+              },
+              {
+                "dropId": 107000,
+                "dropRate": 0.06
+              },
+              {
+                "dropId": 100000,
+                "dropRate": 0.06
+              },
+              {
+                "dropId": 130001,
+                "dropRate": 0.08
+              }
+            ]
+          }
+        },
+        {
+          "id": 129005,
+          "name": "Main/item_129005",
+          "level": 6,
+          "mergeable": {
+            "nextItemId": 129006
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 6,
+            "rechargeTimer": 22560,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": 130000,
+                "dropRate": 0.73
+              },
+              {
+                "dropId": 107000,
+                "dropRate": 0.06
+              },
+              {
+                "dropId": 100000,
+                "dropRate": 0.08
+              },
+              {
+                "dropId": 130001,
+                "dropRate": 0.08
+              },
+              {
+                "dropId": 130002,
+                "dropRate": 0.05
+              }
+            ]
+          }
+        },
+        {
+          "id": 129006,
+          "name": "Main/item_129006",
+          "level": 7,
+          "mergeable": {
+            "nextItemId": 129007
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 6,
+            "rechargeTimer": 22560,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": 130000,
+                "dropRate": 0.67
+              },
+              {
+                "dropId": 107000,
+                "dropRate": 0.07
+              },
+              {
+                "dropId": 100000,
+                "dropRate": 0.08
+              },
+              {
+                "dropId": 130001,
+                "dropRate": 0.09
+              },
+              {
+                "dropId": 130002,
+                "dropRate": 0.07
+              },
+              {
+                "dropId": 130003,
+                "dropRate": 0.02
+              }
+            ]
+          }
+        },
+        {
+          "id": 129007,
+          "name": "Main/item_129007",
+          "level": 8,
+          "mergeable": {
+            "nextItemId": 129008
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 7,
+            "rechargeTimer": 13140,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": 130000,
+                "dropRate": 0.64
+              },
+              {
+                "dropId": 107000,
+                "dropRate": 0.07
+              },
+              {
+                "dropId": 100000,
+                "dropRate": 0.09
+              },
+              {
+                "dropId": 130001,
+                "dropRate": 0.09
+              },
+              {
+                "dropId": 130002,
+                "dropRate": 0.07
+              },
+              {
+                "dropId": 130003,
+                "dropRate": 0.04
+              }
+            ]
+          }
+        },
+        {
+          "id": 129008,
+          "name": "Main/item_129008",
+          "level": 9,
+          "mergeable": {
+            "nextItemId": 129009
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 7,
+            "rechargeTimer": 6570,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": 130000,
+                "dropRate": 0.59
+              },
+              {
+                "dropId": 107000,
+                "dropRate": 0.08
+              },
+              {
+                "dropId": 100000,
+                "dropRate": 0.1
+              },
+              {
+                "dropId": 130001,
+                "dropRate": 0.1
+              },
+              {
+                "dropId": 130002,
+                "dropRate": 0.08
+              },
+              {
+                "dropId": 130003,
+                "dropRate": 0.05
+              }
+            ]
+          }
+        },
+        {
+          "id": 129009,
+          "name": "Main/item_129009",
+          "level": 10,
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 8,
+            "rechargeTimer": 6570,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": 130000,
+                "dropRate": 0.51
+              },
+              {
+                "dropId": 107000,
+                "dropRate": 0.09
+              },
+              {
+                "dropId": 100000,
+                "dropRate": 0.11
+              },
+              {
+                "dropId": 130001,
+                "dropRate": 0.12
+              },
+              {
+                "dropId": 130002,
+                "dropRate": 0.1
+              },
+              {
+                "dropId": 130003,
+                "dropRate": 0.07
+              }
+            ]
+          }
+        },
+        {
+          "id": 133004,
+          "name": "Main/item_133004",
+          "level": 5,
+          "mergeable": {
+            "nextItemId": 133005
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 2,
+            "rechargeTimer": 3000,
+            "rechargesStack": 5,
+            "droppableItems": [
+              {
+                "dropId": 134000,
+                "dropRate": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": 133005,
+          "name": "Main/item_133005",
+          "level": 6,
+          "mergeable": {
+            "nextItemId": 133006
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 2,
+            "rechargeTimer": 1500,
+            "rechargesStack": 5,
+            "droppableItems": [
+              {
+                "dropId": 134000,
+                "dropRate": 0.96
+              },
+              {
+                "dropId": 134001,
+                "dropRate": 0.04
+              }
+            ]
+          }
+        },
+        {
+          "id": 133006,
+          "name": "Main/item_133006",
+          "level": 7,
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 2,
+            "rechargeTimer": 750,
+            "rechargesStack": 5,
+            "droppableItems": [
+              {
+                "dropId": 134000,
+                "dropRate": 0.84
+              },
+              {
+                "dropId": 134001,
+                "dropRate": 0.1
+              },
+              {
+                "dropId": 134002,
+                "dropRate": 0.04
+              },
+              {
+                "dropId": 134003,
+                "dropRate": 0.02
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "boardItemSettings1000": {
+      "items": [
+        {
+          "id": 100003,
+          "name": "Main/item_100003",
+          "level": 4,
+          "mergeable": {
+            "nextItemId": 100004
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 8,
+            "rechargeTimer": 7200,
+            "rechargesStack": 3,
+            "droppableItems": [
+              {
+                "dropId": 101000,
+                "dropRate": 0.97
+              },
+              {
+                "dropId": 102000,
+                "dropRate": 0.03
+              }
+            ]
+          }
+        },
+        {
+          "id": 100004,
+          "name": "Main/item_100004",
+          "level": 5,
+          "mergeable": {
+            "nextItemId": 100005
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 10,
+            "rechargeTimer": 7800,
+            "rechargesStack": 3,
+            "droppableItems": [
+              {
+                "dropId": 101000,
+                "dropRate": 0.88
+              },
+              {
+                "dropId": 102000,
+                "dropRate": 0.04
+              },
+              {
+                "dropId": 101001,
+                "dropRate": 0.05
+              },
+              {
+                "dropId": 101002,
+                "dropRate": 0.03
+              }
+            ]
+          }
+        },
+        {
+          "id": 100005,
+          "name": "Main/item_100005",
+          "level": 6,
+          "mergeable": {
+            "nextItemId": 100006
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 12,
+            "rechargeTimer": 5280,
+            "rechargesStack": 3,
+            "droppableItems": [
+              {
+                "dropId": 101000,
+                "dropRate": 0.79
+              },
+              {
+                "dropId": 102000,
+                "dropRate": 0.05
+              },
+              {
+                "dropId": 101001,
+                "dropRate": 0.1
+              },
+              {
+                "dropId": 101002,
+                "dropRate": 0.06
+              }
+            ]
+          }
+        },
+        {
+          "id": 100006,
+          "name": "Main/item_100006",
+          "level": 7,
+          "mergeable": {
+            "nextItemId": 100007
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 12,
+            "rechargeTimer": 3300,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": 101000,
+                "dropRate": 0.72
+              },
+              {
+                "dropId": 102000,
+                "dropRate": 0.05
+              },
+              {
+                "dropId": 101001,
+                "dropRate": 0.15
+              },
+              {
+                "dropId": 101002,
+                "dropRate": 0.08
+              }
+            ]
+          }
+        },
+        {
+          "id": 100007,
+          "name": "Main/item_100007",
+          "level": 8,
+          "mergeable": {
+            "nextItemId": 100008
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 16,
+            "rechargeTimer": 1800,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": 101000,
+                "dropRate": 0.58
+              },
+              {
+                "dropId": 102000,
+                "dropRate": 0.05
+              },
+              {
+                "dropId": 101001,
+                "dropRate": 0.2
+              },
+              {
+                "dropId": 101002,
+                "dropRate": 0.12
+              },
+              {
+                "dropId": 101003,
+                "dropRate": 0.05
+              }
+            ]
+          }
+        },
+        {
+          "id": 100008,
+          "name": "Main/item_100008",
+          "level": 9,
+          "mergeable": {
+            "nextItemId": 100009
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 16,
+            "rechargeTimer": 1020,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": 101000,
+                "dropRate": 0.42
+              },
+              {
+                "dropId": 102000,
+                "dropRate": 0.05
+              },
+              {
+                "dropId": 101001,
+                "dropRate": 0.26
+              },
+              {
+                "dropId": 101002,
+                "dropRate": 0.17
+              },
+              {
+                "dropId": 101003,
+                "dropRate": 0.1
+              }
+            ]
+          }
+        },
+        {
+          "id": 100009,
+          "name": "Main/item_100009",
+          "level": 10,
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 16,
+            "rechargeTimer": 600,
+            "rechargesStack": 5,
+            "droppableItems": [
+              {
+                "dropId": 101000,
+                "dropRate": 0.29
+              },
+              {
+                "dropId": 102000,
+                "dropRate": 0.05
+              },
+              {
+                "dropId": 101001,
+                "dropRate": 0.27
+              },
+              {
+                "dropId": 101002,
+                "dropRate": 0.21
+              },
+              {
+                "dropId": 101003,
+                "dropRate": 0.13
+              },
+              {
+                "dropId": 101004,
+                "dropRate": 0.05
+              }
+            ]
+          }
+        },
+        {
+          "id": 105004,
+          "name": "Main/item_105004",
+          "level": 5,
+          "mergeable": {
+            "nextItemId": 105005
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 4,
+            "rechargeTimer": 12480,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": 106000,
+                "dropRate": 0.9
+              },
+              {
+                "dropId": 128000,
+                "dropRate": 0.1
+              }
+            ]
+          },
+          "autoSource": {
+            "startEmpty": true,
+            "dropsPerRecharge": 1,
+            "rechargeTimer": 43200,
+            "rechargesStack": 1,
+            "droppableItems": [
+              {
+                "dropId": 145000,
+                "dropRate": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": 105005,
+          "name": "Main/item_105005",
+          "level": 6,
+          "mergeable": {
+            "nextItemId": 105006
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 5,
+            "rechargeTimer": 6240,
+            "rechargesStack": 3,
+            "droppableItems": [
+              {
+                "dropId": 106000,
+                "dropRate": 0.86
+              },
+              {
+                "dropId": 128000,
+                "dropRate": 0.1
+              },
+              {
+                "dropId": 106001,
+                "dropRate": 0.04
+              }
+            ]
+          },
+          "autoSource": {
+            "startEmpty": true,
+            "dropsPerRecharge": 1,
+            "rechargeTimer": 28800,
+            "rechargesStack": 1,
+            "droppableItems": [
+              {
+                "dropId": 145000,
+                "dropRate": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": 105006,
+          "name": "Main/item_105006",
+          "level": 7,
+          "mergeable": {
+            "nextItemId": 105007
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 4,
+            "rechargeTimer": 3120,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": 106000,
+                "dropRate": 0.78
+              },
+              {
+                "dropId": 128000,
+                "dropRate": 0.11
+              },
+              {
+                "dropId": 106001,
+                "dropRate": 0.08
+              },
+              {
+                "dropId": 106002,
+                "dropRate": 0.02
+              },
+              {
+                "dropId": 128001,
+                "dropRate": 0.01
+              }
+            ]
+          },
+          "autoSource": {
+            "startEmpty": true,
+            "dropsPerRecharge": 1,
+            "rechargeTimer": 14400,
+            "rechargesStack": 1,
+            "droppableItems": [
+              {
+                "dropId": 145000,
+                "dropRate": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": 105007,
+          "name": "Main/item_105007",
+          "level": 8,
+          "mergeable": {
+            "nextItemId": 105008
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 5,
+            "rechargeTimer": 1950,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": 106000,
+                "dropRate": 0.73
+              },
+              {
+                "dropId": 128000,
+                "dropRate": 0.09
+              },
+              {
+                "dropId": 106001,
+                "dropRate": 0.1
+              },
+              {
+                "dropId": 106002,
+                "dropRate": 0.05
+              },
+              {
+                "dropId": 128001,
+                "dropRate": 0.02
+              },
+              {
+                "dropId": 128002,
+                "dropRate": 0.01
+              }
+            ]
+          },
+          "autoSource": {
+            "startEmpty": true,
+            "dropsPerRecharge": 1,
+            "rechargeTimer": 7200,
+            "rechargesStack": 1,
+            "droppableItems": [
+              {
+                "dropId": 145000,
+                "dropRate": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": 105008,
+          "name": "Main/item_105008",
+          "level": 9,
+          "mergeable": {
+            "nextItemId": 105009
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 6,
+            "rechargeTimer": 1170,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": 106000,
+                "dropRate": 0.57
+              },
+              {
+                "dropId": 128000,
+                "dropRate": 0.07
+              },
+              {
+                "dropId": 106001,
+                "dropRate": 0.15
+              },
+              {
+                "dropId": 106002,
+                "dropRate": 0.1
+              },
+              {
+                "dropId": 106003,
+                "dropRate": 0.06
+              },
+              {
+                "dropId": 128001,
+                "dropRate": 0.03
+              },
+              {
+                "dropId": 128002,
+                "dropRate": 0.02
+              }
+            ]
+          },
+          "autoSource": {
+            "startEmpty": true,
+            "dropsPerRecharge": 1,
+            "rechargeTimer": 3600,
+            "rechargesStack": 1,
+            "droppableItems": [
+              {
+                "dropId": 145000,
+                "dropRate": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": 105009,
+          "name": "Main/item_105009",
+          "level": 10,
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 7,
+            "rechargeTimer": 675,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": 106000,
+                "dropRate": 0.46
+              },
+              {
+                "dropId": 128000,
+                "dropRate": 0.05
+              },
+              {
+                "dropId": 106001,
+                "dropRate": 0.2
+              },
+              {
+                "dropId": 106002,
+                "dropRate": 0.14
+              },
+              {
+                "dropId": 106003,
+                "dropRate": 0.08
+              },
+              {
+                "dropId": 128001,
+                "dropRate": 0.04
+              },
+              {
+                "dropId": 128002,
+                "dropRate": 0.03
+              }
+            ]
+          },
+          "autoSource": {
+            "startEmpty": true,
+            "dropsPerRecharge": 1,
+            "rechargeTimer": 1800,
+            "rechargesStack": 1,
+            "droppableItems": [
+              {
+                "dropId": 145000,
+                "dropRate": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": 107005,
+          "name": "Main/item_107005",
+          "level": 6,
+          "mergeable": {
+            "nextItemId": 107006
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 2,
+            "rechargeTimer": 8160,
+            "rechargesStack": 5,
+            "droppableItems": [
+              {
+                "dropId": 108000,
+                "dropRate": 1
+              }
+            ]
+          },
+          "autoSource": {
+            "startEmpty": true,
+            "dropsPerRecharge": 1,
+            "rechargeTimer": 172800,
+            "rechargesStack": 1,
+            "droppableItems": [
+              {
+                "dropId": 981000,
+                "dropRate": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": 107006,
+          "name": "Main/item_107006",
+          "level": 7,
+          "mergeable": {
+            "nextItemId": 107007
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 2,
+            "rechargeTimer": 4080,
+            "rechargesStack": 5,
+            "droppableItems": [
+              {
+                "dropId": 108000,
+                "dropRate": 1
+              }
+            ]
+          },
+          "autoSource": {
+            "startEmpty": true,
+            "dropsPerRecharge": 1,
+            "rechargeTimer": 86400,
+            "rechargesStack": 1,
+            "droppableItems": [
+              {
+                "dropId": 981000,
+                "dropRate": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": 107007,
+          "name": "Main/item_107007",
+          "level": 8,
+          "mergeable": {
+            "nextItemId": 107008
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 2,
+            "rechargeTimer": 2040,
+            "rechargesStack": 5,
+            "droppableItems": [
+              {
+                "dropId": 108000,
+                "dropRate": 0.9
+              },
+              {
+                "dropId": 108001,
+                "dropRate": 0.1
+              }
+            ]
+          },
+          "autoSource": {
+            "startEmpty": true,
+            "dropsPerRecharge": 1,
+            "rechargeTimer": 43200,
+            "rechargesStack": 1,
+            "droppableItems": [
+              {
+                "dropId": 981000,
+                "dropRate": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": 107008,
+          "name": "Main/item_107008",
+          "level": 9,
+          "mergeable": {
+            "nextItemId": 107009
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 2,
+            "rechargeTimer": 2040,
+            "rechargesStack": 6,
+            "droppableItems": [
+              {
+                "dropId": 108000,
+                "dropRate": 0.85
+              },
+              {
+                "dropId": 108001,
+                "dropRate": 0.15
+              }
+            ]
+          },
+          "autoSource": {
+            "startEmpty": true,
+            "dropsPerRecharge": 2,
+            "rechargeTimer": 43200,
+            "rechargesStack": 1,
+            "droppableItems": [
+              {
+                "dropId": 981000,
+                "dropRate": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": 107009,
+          "name": "Main/item_107009",
+          "level": 10,
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 2,
+            "rechargeTimer": 1020,
+            "rechargesStack": 7,
+            "droppableItems": [
+              {
+                "dropId": 108000,
+                "dropRate": 0.7
+              },
+              {
+                "dropId": 108001,
+                "dropRate": 0.2
+              },
+              {
+                "dropId": 108002,
+                "dropRate": 0.1
+              }
+            ]
+          },
+          "autoSource": {
+            "startEmpty": true,
+            "dropsPerRecharge": 2,
+            "rechargeTimer": 21600,
+            "rechargesStack": 1,
+            "droppableItems": [
+              {
+                "dropId": 981000,
+                "dropRate": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": 110003,
+          "name": "Main/item_110003",
+          "level": 4,
+          "mergeable": {
+            "nextItemId": 110004
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 8,
+            "rechargeTimer": 6480,
+            "rechargesStack": 2,
+            "droppableItems": [
+              {
+                "dropId": 111000,
+                "dropRate": 0.92
+              },
+              {
+                "dropId": 112000,
+                "dropRate": 0.05
+              },
+              {
+                "dropId": 113000,
+                "dropRate": 0.03
+              }
+            ]
+          }
+        },
+        {
+          "id": 110004,
+          "name": "Main/item_110004",
+          "level": 5,
+          "mergeable": {
+            "nextItemId": 110005
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 10,
+            "rechargeTimer": 6480,
+            "rechargesStack": 2,
+            "droppableItems": [
+              {
+                "dropId": 111000,
+                "dropRate": 0.9
+              },
+              {
+                "dropId": 112000,
+                "dropRate": 0.05
+              },
+              {
+                "dropId": 113000,
+                "dropRate": 0.03
+              },
+              {
+                "dropId": 111001,
+                "dropRate": 0.02
+              }
+            ]
+          }
+        },
+        {
+          "id": 110005,
+          "name": "Main/item_110005",
+          "level": 6,
+          "mergeable": {
+            "nextItemId": 110006
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 12,
+            "rechargeTimer": 4860,
+            "rechargesStack": 2,
+            "droppableItems": [
+              {
+                "dropId": 111000,
+                "dropRate": 0.87
+              },
+              {
+                "dropId": 112000,
+                "dropRate": 0.05
+              },
+              {
+                "dropId": 113000,
+                "dropRate": 0.03
+              },
+              {
+                "dropId": 111001,
+                "dropRate": 0.05
+              }
+            ]
+          }
+        },
+        {
+          "id": 110006,
+          "name": "Main/item_110006",
+          "level": 7,
+          "mergeable": {
+            "nextItemId": 110007
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 6,
+            "rechargeTimer": 1800,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": 111000,
+                "dropRate": 0.83
+              },
+              {
+                "dropId": 112000,
+                "dropRate": 0.05
+              },
+              {
+                "dropId": 113000,
+                "dropRate": 0.03
+              },
+              {
+                "dropId": 111001,
+                "dropRate": 0.09
+              }
+            ]
+          }
+        },
+        {
+          "id": 110007,
+          "name": "Main/item_110007",
+          "level": 8,
+          "mergeable": {
+            "nextItemId": 110008
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 7,
+            "rechargeTimer": 960,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": 111000,
+                "dropRate": 0.74
+              },
+              {
+                "dropId": 112000,
+                "dropRate": 0.05
+              },
+              {
+                "dropId": 113000,
+                "dropRate": 0.03
+              },
+              {
+                "dropId": 111001,
+                "dropRate": 0.12
+              },
+              {
+                "dropId": 111002,
+                "dropRate": 0.06
+              }
+            ]
+          }
+        },
+        {
+          "id": 110008,
+          "name": "Main/item_110008",
+          "level": 9,
+          "mergeable": {
+            "nextItemId": 110009
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 7,
+            "rechargeTimer": 300,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": 111000,
+                "dropRate": 0.64
+              },
+              {
+                "dropId": 112000,
+                "dropRate": 0.04
+              },
+              {
+                "dropId": 113000,
+                "dropRate": 0.03
+              },
+              {
+                "dropId": 111001,
+                "dropRate": 0.18
+              },
+              {
+                "dropId": 111002,
+                "dropRate": 0.1
+              },
+              {
+                "dropId": 112001,
+                "dropRate": 0.01
+              }
+            ]
+          }
+        },
+        {
+          "id": 110009,
+          "name": "Main/item_110009",
+          "level": 10,
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 8,
+            "rechargeTimer": 225,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": 111000,
+                "dropRate": 0.47
+              },
+              {
+                "dropId": 112000,
+                "dropRate": 0.03
+              },
+              {
+                "dropId": 113000,
+                "dropRate": 0.03
+              },
+              {
+                "dropId": 111001,
+                "dropRate": 0.25
+              },
+              {
+                "dropId": 111002,
+                "dropRate": 0.14
+              },
+              {
+                "dropId": 111003,
+                "dropRate": 0.06
+              },
+              {
+                "dropId": 112001,
+                "dropRate": 0.02
+              }
+            ]
+          }
+        },
+        {
+          "id": 121004,
+          "name": "Main/item_121004",
+          "level": 5,
+          "mergeable": {
+            "nextItemId": 121005
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 5,
+            "rechargeTimer": 5400,
+            "rechargesStack": 2,
+            "droppableItems": [
+              {
+                "dropId": 122000,
+                "dropRate": 0.96
+              },
+              {
+                "dropId": 126000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 125000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 123000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 124000,
+                "dropRate": 0.01
+              }
+            ]
+          }
+        },
+        {
+          "id": 121005,
+          "name": "Main/item_121005",
+          "level": 6,
+          "mergeable": {
+            "nextItemId": 121006
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 5,
+            "rechargeTimer": 2700,
+            "rechargesStack": 2,
+            "droppableItems": [
+              {
+                "dropId": 122000,
+                "dropRate": 0.96
+              },
+              {
+                "dropId": 126000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 125000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 123000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 124000,
+                "dropRate": 0.01
+              }
+            ]
+          }
+        },
+        {
+          "id": 121006,
+          "name": "Main/item_121006",
+          "level": 7,
+          "mergeable": {
+            "nextItemId": 121007
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 5,
+            "rechargeTimer": 1320,
+            "rechargesStack": 2,
+            "droppableItems": [
+              {
+                "dropId": 122000,
+                "dropRate": 0.92
+              },
+              {
+                "dropId": 126000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 125000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 123000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 124000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 122001,
+                "dropRate": 0.04
+              }
+            ]
+          }
+        },
+        {
+          "id": 121007,
+          "name": "Main/item_121007",
+          "level": 8,
+          "mergeable": {
+            "nextItemId": 121008
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 5,
+            "rechargeTimer": 690,
+            "rechargesStack": 2,
+            "droppableItems": [
+              {
+                "dropId": 122000,
+                "dropRate": 0.86
+              },
+              {
+                "dropId": 126000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 125000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 123000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 124000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 122001,
+                "dropRate": 0.1
+              }
+            ]
+          }
+        },
+        {
+          "id": 121008,
+          "name": "Main/item_121008",
+          "level": 9,
+          "mergeable": {
+            "nextItemId": 121009
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 5,
+            "rechargeTimer": 330,
+            "rechargesStack": 2,
+            "droppableItems": [
+              {
+                "dropId": 122000,
+                "dropRate": 0.77
+              },
+              {
+                "dropId": 126000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 125000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 123000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 124000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 122001,
+                "dropRate": 0.14
+              },
+              {
+                "dropId": 122002,
+                "dropRate": 0.05
+              }
+            ]
+          }
+        },
+        {
+          "id": 121009,
+          "name": "Main/item_121009",
+          "level": 10,
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 5,
+            "rechargeTimer": 165,
+            "rechargesStack": 2,
+            "droppableItems": [
+              {
+                "dropId": 122000,
+                "dropRate": 0.67
+              },
+              {
+                "dropId": 126000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 125000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 123000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 124000,
+                "dropRate": 0.01
+              },
+              {
+                "dropId": 122001,
+                "dropRate": 0.18
+              },
+              {
+                "dropId": 122002,
+                "dropRate": 0.11
+              }
+            ]
+          }
+        },
+        {
+          "id": 129003,
+          "name": "Main/item_129003",
+          "level": 4,
+          "mergeable": {
+            "nextItemId": 129004
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 4,
+            "rechargeTimer": 60360,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": 130000,
+                "dropRate": 0.88
+              },
+              {
+                "dropId": 107000,
+                "dropRate": 0.06
+              },
+              {
+                "dropId": 100000,
+                "dropRate": 0.06
+              }
+            ]
+          }
+        },
+        {
+          "id": 129004,
+          "name": "Main/item_129004",
+          "level": 5,
+          "mergeable": {
+            "nextItemId": 129005
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 5,
+            "rechargeTimer": 37560,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": 130000,
+                "dropRate": 0.8
+              },
+              {
+                "dropId": 107000,
+                "dropRate": 0.06
+              },
+              {
+                "dropId": 100000,
+                "dropRate": 0.06
+              },
+              {
+                "dropId": 130001,
+                "dropRate": 0.08
+              }
+            ]
+          }
+        },
+        {
+          "id": 129005,
+          "name": "Main/item_129005",
+          "level": 6,
+          "mergeable": {
+            "nextItemId": 129006
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 6,
+            "rechargeTimer": 22560,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": 130000,
+                "dropRate": 0.73
+              },
+              {
+                "dropId": 107000,
+                "dropRate": 0.06
+              },
+              {
+                "dropId": 100000,
+                "dropRate": 0.08
+              },
+              {
+                "dropId": 130001,
+                "dropRate": 0.08
+              },
+              {
+                "dropId": 130002,
+                "dropRate": 0.05
+              }
+            ]
+          }
+        },
+        {
+          "id": 129006,
+          "name": "Main/item_129006",
+          "level": 7,
+          "mergeable": {
+            "nextItemId": 129007
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 6,
+            "rechargeTimer": 22560,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": 130000,
+                "dropRate": 0.67
+              },
+              {
+                "dropId": 107000,
+                "dropRate": 0.07
+              },
+              {
+                "dropId": 100000,
+                "dropRate": 0.08
+              },
+              {
+                "dropId": 130001,
+                "dropRate": 0.09
+              },
+              {
+                "dropId": 130002,
+                "dropRate": 0.07
+              },
+              {
+                "dropId": 130003,
+                "dropRate": 0.02
+              }
+            ]
+          }
+        },
+        {
+          "id": 129007,
+          "name": "Main/item_129007",
+          "level": 8,
+          "mergeable": {
+            "nextItemId": 129008
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 7,
+            "rechargeTimer": 13140,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": 130000,
+                "dropRate": 0.64
+              },
+              {
+                "dropId": 107000,
+                "dropRate": 0.07
+              },
+              {
+                "dropId": 100000,
+                "dropRate": 0.09
+              },
+              {
+                "dropId": 130001,
+                "dropRate": 0.09
+              },
+              {
+                "dropId": 130002,
+                "dropRate": 0.07
+              },
+              {
+                "dropId": 130003,
+                "dropRate": 0.04
+              }
+            ]
+          }
+        },
+        {
+          "id": 129008,
+          "name": "Main/item_129008",
+          "level": 9,
+          "mergeable": {
+            "nextItemId": 129009
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 7,
+            "rechargeTimer": 6570,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": 130000,
+                "dropRate": 0.59
+              },
+              {
+                "dropId": 107000,
+                "dropRate": 0.08
+              },
+              {
+                "dropId": 100000,
+                "dropRate": 0.1
+              },
+              {
+                "dropId": 130001,
+                "dropRate": 0.1
+              },
+              {
+                "dropId": 130002,
+                "dropRate": 0.08
+              },
+              {
+                "dropId": 130003,
+                "dropRate": 0.05
+              }
+            ]
+          }
+        },
+        {
+          "id": 129009,
+          "name": "Main/item_129009",
+          "level": 10,
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 8,
+            "rechargeTimer": 6570,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": 130000,
+                "dropRate": 0.51
+              },
+              {
+                "dropId": 107000,
+                "dropRate": 0.09
+              },
+              {
+                "dropId": 100000,
+                "dropRate": 0.11
+              },
+              {
+                "dropId": 130001,
+                "dropRate": 0.12
+              },
+              {
+                "dropId": 130002,
+                "dropRate": 0.1
+              },
+              {
+                "dropId": 130003,
+                "dropRate": 0.07
+              }
+            ]
+          }
+        },
+        {
+          "id": 133004,
+          "name": "Main/item_133004",
+          "level": 5,
+          "mergeable": {
+            "nextItemId": 133005
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 2,
+            "rechargeTimer": 3000,
+            "rechargesStack": 5,
+            "droppableItems": [
+              {
+                "dropId": 134000,
+                "dropRate": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": 133005,
+          "name": "Main/item_133005",
+          "level": 6,
+          "mergeable": {
+            "nextItemId": 133006
+          },
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 2,
+            "rechargeTimer": 1500,
+            "rechargesStack": 5,
+            "droppableItems": [
+              {
+                "dropId": 134000,
+                "dropRate": 0.96
+              },
+              {
+                "dropId": 134001,
+                "dropRate": 0.04
+              }
+            ]
+          }
+        },
+        {
+          "id": 133006,
+          "name": "Main/item_133006",
+          "level": 7,
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 2,
+            "rechargeTimer": 750,
+            "rechargesStack": 5,
+            "droppableItems": [
+              {
+                "dropId": 134000,
+                "dropRate": 0.84
+              },
+              {
+                "dropId": 134001,
+                "dropRate": 0.1
+              },
+              {
+                "dropId": 134002,
+                "dropRate": 0.04
+              },
+              {
+                "dropId": 134003,
+                "dropRate": 0.02
+              }
+            ]
+          }
+        }
+      ]
+    },
     "dailySaleSettings": {
       "resetSettings": {
         "resetType": 0
@@ -2730,1501 +5720,7 @@
       "disconnectTime": 7,
       "minVersion": "1.28.0"
     },
-    "itemOverrideSettings": {
-      "items": [
-        {
-          "id": 100003,
-          "name": "Main/item_100003",
-          "level": 4,
-          "mergeable": {
-            "nextItemId": 100004
-          },
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 8,
-            "rechargeTimer": 7200,
-            "rechargesStack": 3,
-            "droppableItems": [
-              {
-                "dropId": 101000,
-                "dropRate": 0.97
-              },
-              {
-                "dropId": 102000,
-                "dropRate": 0.03
-              }
-            ]
-          }
-        },
-        {
-          "id": 100004,
-          "name": "Main/item_100004",
-          "level": 5,
-          "mergeable": {
-            "nextItemId": 100005
-          },
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 10,
-            "rechargeTimer": 7800,
-            "rechargesStack": 3,
-            "droppableItems": [
-              {
-                "dropId": 101000,
-                "dropRate": 0.88
-              },
-              {
-                "dropId": 102000,
-                "dropRate": 0.04
-              },
-              {
-                "dropId": 101001,
-                "dropRate": 0.05
-              },
-              {
-                "dropId": 101002,
-                "dropRate": 0.03
-              }
-            ]
-          }
-        },
-        {
-          "id": 100005,
-          "name": "Main/item_100005",
-          "level": 6,
-          "mergeable": {
-            "nextItemId": 100006
-          },
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 12,
-            "rechargeTimer": 5280,
-            "rechargesStack": 3,
-            "droppableItems": [
-              {
-                "dropId": 101000,
-                "dropRate": 0.79
-              },
-              {
-                "dropId": 102000,
-                "dropRate": 0.05
-              },
-              {
-                "dropId": 101001,
-                "dropRate": 0.1
-              },
-              {
-                "dropId": 101002,
-                "dropRate": 0.06
-              }
-            ]
-          }
-        },
-        {
-          "id": 100006,
-          "name": "Main/item_100006",
-          "level": 7,
-          "mergeable": {
-            "nextItemId": 100007
-          },
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 12,
-            "rechargeTimer": 3300,
-            "rechargesStack": 4,
-            "droppableItems": [
-              {
-                "dropId": 101000,
-                "dropRate": 0.72
-              },
-              {
-                "dropId": 102000,
-                "dropRate": 0.05
-              },
-              {
-                "dropId": 101001,
-                "dropRate": 0.15
-              },
-              {
-                "dropId": 101002,
-                "dropRate": 0.08
-              }
-            ]
-          }
-        },
-        {
-          "id": 100007,
-          "name": "Main/item_100007",
-          "level": 8,
-          "mergeable": {
-            "nextItemId": 100008
-          },
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 16,
-            "rechargeTimer": 1800,
-            "rechargesStack": 4,
-            "droppableItems": [
-              {
-                "dropId": 101000,
-                "dropRate": 0.58
-              },
-              {
-                "dropId": 102000,
-                "dropRate": 0.05
-              },
-              {
-                "dropId": 101001,
-                "dropRate": 0.2
-              },
-              {
-                "dropId": 101002,
-                "dropRate": 0.12
-              },
-              {
-                "dropId": 101003,
-                "dropRate": 0.05
-              }
-            ]
-          }
-        },
-        {
-          "id": 100008,
-          "name": "Main/item_100008",
-          "level": 9,
-          "mergeable": {
-            "nextItemId": 100009
-          },
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 16,
-            "rechargeTimer": 1020,
-            "rechargesStack": 4,
-            "droppableItems": [
-              {
-                "dropId": 101000,
-                "dropRate": 0.42
-              },
-              {
-                "dropId": 102000,
-                "dropRate": 0.05
-              },
-              {
-                "dropId": 101001,
-                "dropRate": 0.26
-              },
-              {
-                "dropId": 101002,
-                "dropRate": 0.17
-              },
-              {
-                "dropId": 101003,
-                "dropRate": 0.1
-              }
-            ]
-          }
-        },
-        {
-          "id": 100009,
-          "name": "Main/item_100009",
-          "level": 10,
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 16,
-            "rechargeTimer": 600,
-            "rechargesStack": 5,
-            "droppableItems": [
-              {
-                "dropId": 101000,
-                "dropRate": 0.29
-              },
-              {
-                "dropId": 102000,
-                "dropRate": 0.05
-              },
-              {
-                "dropId": 101001,
-                "dropRate": 0.27
-              },
-              {
-                "dropId": 101002,
-                "dropRate": 0.21
-              },
-              {
-                "dropId": 101003,
-                "dropRate": 0.13
-              },
-              {
-                "dropId": 101004,
-                "dropRate": 0.05
-              }
-            ]
-          }
-        },
-        {
-          "id": 105004,
-          "name": "Main/item_105004",
-          "level": 5,
-          "mergeable": {
-            "nextItemId": 105005
-          },
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 4,
-            "rechargeTimer": 12480,
-            "rechargesStack": 4,
-            "droppableItems": [
-              {
-                "dropId": 106000,
-                "dropRate": 0.9
-              },
-              {
-                "dropId": 128000,
-                "dropRate": 0.1
-              }
-            ]
-          },
-          "autoSource": {
-            "startEmpty": true,
-            "dropsPerRecharge": 1,
-            "rechargeTimer": 43200,
-            "rechargesStack": 1,
-            "droppableItems": [
-              {
-                "dropId": 145000,
-                "dropRate": 1
-              }
-            ]
-          }
-        },
-        {
-          "id": 105005,
-          "name": "Main/item_105005",
-          "level": 6,
-          "mergeable": {
-            "nextItemId": 105006
-          },
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 5,
-            "rechargeTimer": 6240,
-            "rechargesStack": 3,
-            "droppableItems": [
-              {
-                "dropId": 106000,
-                "dropRate": 0.86
-              },
-              {
-                "dropId": 128000,
-                "dropRate": 0.1
-              },
-              {
-                "dropId": 106001,
-                "dropRate": 0.04
-              }
-            ]
-          },
-          "autoSource": {
-            "startEmpty": true,
-            "dropsPerRecharge": 1,
-            "rechargeTimer": 28800,
-            "rechargesStack": 1,
-            "droppableItems": [
-              {
-                "dropId": 145000,
-                "dropRate": 1
-              }
-            ]
-          }
-        },
-        {
-          "id": 105006,
-          "name": "Main/item_105006",
-          "level": 7,
-          "mergeable": {
-            "nextItemId": 105007
-          },
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 4,
-            "rechargeTimer": 3120,
-            "rechargesStack": 4,
-            "droppableItems": [
-              {
-                "dropId": 106000,
-                "dropRate": 0.78
-              },
-              {
-                "dropId": 128000,
-                "dropRate": 0.11
-              },
-              {
-                "dropId": 106001,
-                "dropRate": 0.08
-              },
-              {
-                "dropId": 106002,
-                "dropRate": 0.02
-              },
-              {
-                "dropId": 128001,
-                "dropRate": 0.01
-              }
-            ]
-          },
-          "autoSource": {
-            "startEmpty": true,
-            "dropsPerRecharge": 1,
-            "rechargeTimer": 14400,
-            "rechargesStack": 1,
-            "droppableItems": [
-              {
-                "dropId": 145000,
-                "dropRate": 1
-              }
-            ]
-          }
-        },
-        {
-          "id": 105007,
-          "name": "Main/item_105007",
-          "level": 8,
-          "mergeable": {
-            "nextItemId": 105008
-          },
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 5,
-            "rechargeTimer": 1950,
-            "rechargesStack": 4,
-            "droppableItems": [
-              {
-                "dropId": 106000,
-                "dropRate": 0.73
-              },
-              {
-                "dropId": 128000,
-                "dropRate": 0.09
-              },
-              {
-                "dropId": 106001,
-                "dropRate": 0.1
-              },
-              {
-                "dropId": 106002,
-                "dropRate": 0.05
-              },
-              {
-                "dropId": 128001,
-                "dropRate": 0.02
-              },
-              {
-                "dropId": 128002,
-                "dropRate": 0.01
-              }
-            ]
-          },
-          "autoSource": {
-            "startEmpty": true,
-            "dropsPerRecharge": 1,
-            "rechargeTimer": 7200,
-            "rechargesStack": 1,
-            "droppableItems": [
-              {
-                "dropId": 145000,
-                "dropRate": 1
-              }
-            ]
-          }
-        },
-        {
-          "id": 105008,
-          "name": "Main/item_105008",
-          "level": 9,
-          "mergeable": {
-            "nextItemId": 105009
-          },
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 6,
-            "rechargeTimer": 1170,
-            "rechargesStack": 4,
-            "droppableItems": [
-              {
-                "dropId": 106000,
-                "dropRate": 0.57
-              },
-              {
-                "dropId": 128000,
-                "dropRate": 0.07
-              },
-              {
-                "dropId": 106001,
-                "dropRate": 0.15
-              },
-              {
-                "dropId": 106002,
-                "dropRate": 0.1
-              },
-              {
-                "dropId": 106003,
-                "dropRate": 0.06
-              },
-              {
-                "dropId": 128001,
-                "dropRate": 0.03
-              },
-              {
-                "dropId": 128002,
-                "dropRate": 0.02
-              }
-            ]
-          },
-          "autoSource": {
-            "startEmpty": true,
-            "dropsPerRecharge": 1,
-            "rechargeTimer": 3600,
-            "rechargesStack": 1,
-            "droppableItems": [
-              {
-                "dropId": 145000,
-                "dropRate": 1
-              }
-            ]
-          }
-        },
-        {
-          "id": 105009,
-          "name": "Main/item_105009",
-          "level": 10,
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 7,
-            "rechargeTimer": 675,
-            "rechargesStack": 4,
-            "droppableItems": [
-              {
-                "dropId": 106000,
-                "dropRate": 0.46
-              },
-              {
-                "dropId": 128000,
-                "dropRate": 0.05
-              },
-              {
-                "dropId": 106001,
-                "dropRate": 0.2
-              },
-              {
-                "dropId": 106002,
-                "dropRate": 0.14
-              },
-              {
-                "dropId": 106003,
-                "dropRate": 0.08
-              },
-              {
-                "dropId": 128001,
-                "dropRate": 0.04
-              },
-              {
-                "dropId": 128002,
-                "dropRate": 0.03
-              }
-            ]
-          },
-          "autoSource": {
-            "startEmpty": true,
-            "dropsPerRecharge": 1,
-            "rechargeTimer": 1800,
-            "rechargesStack": 1,
-            "droppableItems": [
-              {
-                "dropId": 145000,
-                "dropRate": 1
-              }
-            ]
-          }
-        },
-        {
-          "id": 107005,
-          "name": "Main/item_107005",
-          "level": 6,
-          "mergeable": {
-            "nextItemId": 107006
-          },
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 2,
-            "rechargeTimer": 8160,
-            "rechargesStack": 5,
-            "droppableItems": [
-              {
-                "dropId": 108000,
-                "dropRate": 1
-              }
-            ]
-          },
-          "autoSource": {
-            "startEmpty": true,
-            "dropsPerRecharge": 1,
-            "rechargeTimer": 172800,
-            "rechargesStack": 1,
-            "droppableItems": [
-              {
-                "dropId": 981000,
-                "dropRate": 1
-              }
-            ]
-          }
-        },
-        {
-          "id": 107006,
-          "name": "Main/item_107006",
-          "level": 7,
-          "mergeable": {
-            "nextItemId": 107007
-          },
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 2,
-            "rechargeTimer": 4080,
-            "rechargesStack": 5,
-            "droppableItems": [
-              {
-                "dropId": 108000,
-                "dropRate": 1
-              }
-            ]
-          },
-          "autoSource": {
-            "startEmpty": true,
-            "dropsPerRecharge": 1,
-            "rechargeTimer": 86400,
-            "rechargesStack": 1,
-            "droppableItems": [
-              {
-                "dropId": 981000,
-                "dropRate": 1
-              }
-            ]
-          }
-        },
-        {
-          "id": 107007,
-          "name": "Main/item_107007",
-          "level": 8,
-          "mergeable": {
-            "nextItemId": 107008
-          },
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 2,
-            "rechargeTimer": 2040,
-            "rechargesStack": 5,
-            "droppableItems": [
-              {
-                "dropId": 108000,
-                "dropRate": 0.9
-              },
-              {
-                "dropId": 108001,
-                "dropRate": 0.1
-              }
-            ]
-          },
-          "autoSource": {
-            "startEmpty": true,
-            "dropsPerRecharge": 1,
-            "rechargeTimer": 43200,
-            "rechargesStack": 1,
-            "droppableItems": [
-              {
-                "dropId": 981000,
-                "dropRate": 1
-              }
-            ]
-          }
-        },
-        {
-          "id": 107008,
-          "name": "Main/item_107008",
-          "level": 9,
-          "mergeable": {
-            "nextItemId": 107009
-          },
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 2,
-            "rechargeTimer": 2040,
-            "rechargesStack": 6,
-            "droppableItems": [
-              {
-                "dropId": 108000,
-                "dropRate": 0.85
-              },
-              {
-                "dropId": 108001,
-                "dropRate": 0.15
-              }
-            ]
-          },
-          "autoSource": {
-            "startEmpty": true,
-            "dropsPerRecharge": 2,
-            "rechargeTimer": 43200,
-            "rechargesStack": 1,
-            "droppableItems": [
-              {
-                "dropId": 981000,
-                "dropRate": 1
-              }
-            ]
-          }
-        },
-        {
-          "id": 107009,
-          "name": "Main/item_107009",
-          "level": 10,
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 2,
-            "rechargeTimer": 1020,
-            "rechargesStack": 7,
-            "droppableItems": [
-              {
-                "dropId": 108000,
-                "dropRate": 0.7
-              },
-              {
-                "dropId": 108001,
-                "dropRate": 0.2
-              },
-              {
-                "dropId": 108002,
-                "dropRate": 0.1
-              }
-            ]
-          },
-          "autoSource": {
-            "startEmpty": true,
-            "dropsPerRecharge": 2,
-            "rechargeTimer": 21600,
-            "rechargesStack": 1,
-            "droppableItems": [
-              {
-                "dropId": 981000,
-                "dropRate": 1
-              }
-            ]
-          }
-        },
-        {
-          "id": 110003,
-          "name": "Main/item_110003",
-          "level": 4,
-          "mergeable": {
-            "nextItemId": 110004
-          },
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 8,
-            "rechargeTimer": 6480,
-            "rechargesStack": 2,
-            "droppableItems": [
-              {
-                "dropId": 111000,
-                "dropRate": 0.92
-              },
-              {
-                "dropId": 112000,
-                "dropRate": 0.05
-              },
-              {
-                "dropId": 113000,
-                "dropRate": 0.03
-              }
-            ]
-          }
-        },
-        {
-          "id": 110004,
-          "name": "Main/item_110004",
-          "level": 5,
-          "mergeable": {
-            "nextItemId": 110005
-          },
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 10,
-            "rechargeTimer": 6480,
-            "rechargesStack": 2,
-            "droppableItems": [
-              {
-                "dropId": 111000,
-                "dropRate": 0.9
-              },
-              {
-                "dropId": 112000,
-                "dropRate": 0.05
-              },
-              {
-                "dropId": 113000,
-                "dropRate": 0.03
-              },
-              {
-                "dropId": 111001,
-                "dropRate": 0.02
-              }
-            ]
-          }
-        },
-        {
-          "id": 110005,
-          "name": "Main/item_110005",
-          "level": 6,
-          "mergeable": {
-            "nextItemId": 110006
-          },
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 12,
-            "rechargeTimer": 4860,
-            "rechargesStack": 2,
-            "droppableItems": [
-              {
-                "dropId": 111000,
-                "dropRate": 0.87
-              },
-              {
-                "dropId": 112000,
-                "dropRate": 0.05
-              },
-              {
-                "dropId": 113000,
-                "dropRate": 0.03
-              },
-              {
-                "dropId": 111001,
-                "dropRate": 0.05
-              }
-            ]
-          }
-        },
-        {
-          "id": 110006,
-          "name": "Main/item_110006",
-          "level": 7,
-          "mergeable": {
-            "nextItemId": 110007
-          },
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 6,
-            "rechargeTimer": 1800,
-            "rechargesStack": 4,
-            "droppableItems": [
-              {
-                "dropId": 111000,
-                "dropRate": 0.83
-              },
-              {
-                "dropId": 112000,
-                "dropRate": 0.05
-              },
-              {
-                "dropId": 113000,
-                "dropRate": 0.03
-              },
-              {
-                "dropId": 111001,
-                "dropRate": 0.09
-              }
-            ]
-          }
-        },
-        {
-          "id": 110007,
-          "name": "Main/item_110007",
-          "level": 8,
-          "mergeable": {
-            "nextItemId": 110008
-          },
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 7,
-            "rechargeTimer": 960,
-            "rechargesStack": 4,
-            "droppableItems": [
-              {
-                "dropId": 111000,
-                "dropRate": 0.74
-              },
-              {
-                "dropId": 112000,
-                "dropRate": 0.05
-              },
-              {
-                "dropId": 113000,
-                "dropRate": 0.03
-              },
-              {
-                "dropId": 111001,
-                "dropRate": 0.12
-              },
-              {
-                "dropId": 111002,
-                "dropRate": 0.06
-              }
-            ]
-          }
-        },
-        {
-          "id": 110008,
-          "name": "Main/item_110008",
-          "level": 9,
-          "mergeable": {
-            "nextItemId": 110009
-          },
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 7,
-            "rechargeTimer": 300,
-            "rechargesStack": 4,
-            "droppableItems": [
-              {
-                "dropId": 111000,
-                "dropRate": 0.64
-              },
-              {
-                "dropId": 112000,
-                "dropRate": 0.04
-              },
-              {
-                "dropId": 113000,
-                "dropRate": 0.03
-              },
-              {
-                "dropId": 111001,
-                "dropRate": 0.18
-              },
-              {
-                "dropId": 111002,
-                "dropRate": 0.1
-              },
-              {
-                "dropId": 112001,
-                "dropRate": 0.01
-              }
-            ]
-          }
-        },
-        {
-          "id": 110009,
-          "name": "Main/item_110009",
-          "level": 10,
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 8,
-            "rechargeTimer": 225,
-            "rechargesStack": 4,
-            "droppableItems": [
-              {
-                "dropId": 111000,
-                "dropRate": 0.47
-              },
-              {
-                "dropId": 112000,
-                "dropRate": 0.03
-              },
-              {
-                "dropId": 113000,
-                "dropRate": 0.03
-              },
-              {
-                "dropId": 111001,
-                "dropRate": 0.25
-              },
-              {
-                "dropId": 111002,
-                "dropRate": 0.14
-              },
-              {
-                "dropId": 111003,
-                "dropRate": 0.06
-              },
-              {
-                "dropId": 112001,
-                "dropRate": 0.02
-              }
-            ]
-          }
-        },
-        {
-          "id": 121004,
-          "name": "Main/item_121004",
-          "level": 5,
-          "mergeable": {
-            "nextItemId": 121005
-          },
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 5,
-            "rechargeTimer": 5400,
-            "rechargesStack": 2,
-            "droppableItems": [
-              {
-                "dropId": 122000,
-                "dropRate": 0.96
-              },
-              {
-                "dropId": 126000,
-                "dropRate": 0.01
-              },
-              {
-                "dropId": 125000,
-                "dropRate": 0.01
-              },
-              {
-                "dropId": 123000,
-                "dropRate": 0.01
-              },
-              {
-                "dropId": 124000,
-                "dropRate": 0.01
-              }
-            ]
-          }
-        },
-        {
-          "id": 121005,
-          "name": "Main/item_121005",
-          "level": 6,
-          "mergeable": {
-            "nextItemId": 121006
-          },
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 5,
-            "rechargeTimer": 2700,
-            "rechargesStack": 2,
-            "droppableItems": [
-              {
-                "dropId": 122000,
-                "dropRate": 0.96
-              },
-              {
-                "dropId": 126000,
-                "dropRate": 0.01
-              },
-              {
-                "dropId": 125000,
-                "dropRate": 0.01
-              },
-              {
-                "dropId": 123000,
-                "dropRate": 0.01
-              },
-              {
-                "dropId": 124000,
-                "dropRate": 0.01
-              }
-            ]
-          }
-        },
-        {
-          "id": 121006,
-          "name": "Main/item_121006",
-          "level": 7,
-          "mergeable": {
-            "nextItemId": 121007
-          },
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 5,
-            "rechargeTimer": 1320,
-            "rechargesStack": 2,
-            "droppableItems": [
-              {
-                "dropId": 122000,
-                "dropRate": 0.92
-              },
-              {
-                "dropId": 126000,
-                "dropRate": 0.01
-              },
-              {
-                "dropId": 125000,
-                "dropRate": 0.01
-              },
-              {
-                "dropId": 123000,
-                "dropRate": 0.01
-              },
-              {
-                "dropId": 124000,
-                "dropRate": 0.01
-              },
-              {
-                "dropId": 122001,
-                "dropRate": 0.04
-              }
-            ]
-          }
-        },
-        {
-          "id": 121007,
-          "name": "Main/item_121007",
-          "level": 8,
-          "mergeable": {
-            "nextItemId": 121008
-          },
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 5,
-            "rechargeTimer": 690,
-            "rechargesStack": 2,
-            "droppableItems": [
-              {
-                "dropId": 122000,
-                "dropRate": 0.86
-              },
-              {
-                "dropId": 126000,
-                "dropRate": 0.01
-              },
-              {
-                "dropId": 125000,
-                "dropRate": 0.01
-              },
-              {
-                "dropId": 123000,
-                "dropRate": 0.01
-              },
-              {
-                "dropId": 124000,
-                "dropRate": 0.01
-              },
-              {
-                "dropId": 122001,
-                "dropRate": 0.1
-              }
-            ]
-          }
-        },
-        {
-          "id": 121008,
-          "name": "Main/item_121008",
-          "level": 9,
-          "mergeable": {
-            "nextItemId": 121009
-          },
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 5,
-            "rechargeTimer": 330,
-            "rechargesStack": 2,
-            "droppableItems": [
-              {
-                "dropId": 122000,
-                "dropRate": 0.77
-              },
-              {
-                "dropId": 126000,
-                "dropRate": 0.01
-              },
-              {
-                "dropId": 125000,
-                "dropRate": 0.01
-              },
-              {
-                "dropId": 123000,
-                "dropRate": 0.01
-              },
-              {
-                "dropId": 124000,
-                "dropRate": 0.01
-              },
-              {
-                "dropId": 122001,
-                "dropRate": 0.14
-              },
-              {
-                "dropId": 122002,
-                "dropRate": 0.05
-              }
-            ]
-          }
-        },
-        {
-          "id": 121009,
-          "name": "Main/item_121009",
-          "level": 10,
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 5,
-            "rechargeTimer": 165,
-            "rechargesStack": 2,
-            "droppableItems": [
-              {
-                "dropId": 122000,
-                "dropRate": 0.67
-              },
-              {
-                "dropId": 126000,
-                "dropRate": 0.01
-              },
-              {
-                "dropId": 125000,
-                "dropRate": 0.01
-              },
-              {
-                "dropId": 123000,
-                "dropRate": 0.01
-              },
-              {
-                "dropId": 124000,
-                "dropRate": 0.01
-              },
-              {
-                "dropId": 122001,
-                "dropRate": 0.18
-              },
-              {
-                "dropId": 122002,
-                "dropRate": 0.11
-              }
-            ]
-          }
-        },
-        {
-          "id": 129003,
-          "name": "Main/item_129003",
-          "level": 4,
-          "mergeable": {
-            "nextItemId": 129004
-          },
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 4,
-            "rechargeTimer": 60360,
-            "rechargesStack": 4,
-            "droppableItems": [
-              {
-                "dropId": 130000,
-                "dropRate": 0.88
-              },
-              {
-                "dropId": 107000,
-                "dropRate": 0.06
-              },
-              {
-                "dropId": 100000,
-                "dropRate": 0.06
-              }
-            ]
-          }
-        },
-        {
-          "id": 129004,
-          "name": "Main/item_129004",
-          "level": 5,
-          "mergeable": {
-            "nextItemId": 129005
-          },
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 5,
-            "rechargeTimer": 37560,
-            "rechargesStack": 4,
-            "droppableItems": [
-              {
-                "dropId": 130000,
-                "dropRate": 0.8
-              },
-              {
-                "dropId": 107000,
-                "dropRate": 0.06
-              },
-              {
-                "dropId": 100000,
-                "dropRate": 0.06
-              },
-              {
-                "dropId": 130001,
-                "dropRate": 0.08
-              }
-            ]
-          }
-        },
-        {
-          "id": 129005,
-          "name": "Main/item_129005",
-          "level": 6,
-          "mergeable": {
-            "nextItemId": 129006
-          },
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 6,
-            "rechargeTimer": 22560,
-            "rechargesStack": 4,
-            "droppableItems": [
-              {
-                "dropId": 130000,
-                "dropRate": 0.73
-              },
-              {
-                "dropId": 107000,
-                "dropRate": 0.06
-              },
-              {
-                "dropId": 100000,
-                "dropRate": 0.08
-              },
-              {
-                "dropId": 130001,
-                "dropRate": 0.08
-              },
-              {
-                "dropId": 130002,
-                "dropRate": 0.05
-              }
-            ]
-          }
-        },
-        {
-          "id": 129006,
-          "name": "Main/item_129006",
-          "level": 7,
-          "mergeable": {
-            "nextItemId": 129007
-          },
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 6,
-            "rechargeTimer": 22560,
-            "rechargesStack": 4,
-            "droppableItems": [
-              {
-                "dropId": 130000,
-                "dropRate": 0.67
-              },
-              {
-                "dropId": 107000,
-                "dropRate": 0.07
-              },
-              {
-                "dropId": 100000,
-                "dropRate": 0.08
-              },
-              {
-                "dropId": 130001,
-                "dropRate": 0.09
-              },
-              {
-                "dropId": 130002,
-                "dropRate": 0.07
-              },
-              {
-                "dropId": 130003,
-                "dropRate": 0.02
-              }
-            ]
-          }
-        },
-        {
-          "id": 129007,
-          "name": "Main/item_129007",
-          "level": 8,
-          "mergeable": {
-            "nextItemId": 129008
-          },
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 7,
-            "rechargeTimer": 13140,
-            "rechargesStack": 4,
-            "droppableItems": [
-              {
-                "dropId": 130000,
-                "dropRate": 0.64
-              },
-              {
-                "dropId": 107000,
-                "dropRate": 0.07
-              },
-              {
-                "dropId": 100000,
-                "dropRate": 0.09
-              },
-              {
-                "dropId": 130001,
-                "dropRate": 0.09
-              },
-              {
-                "dropId": 130002,
-                "dropRate": 0.07
-              },
-              {
-                "dropId": 130003,
-                "dropRate": 0.04
-              }
-            ]
-          }
-        },
-        {
-          "id": 129008,
-          "name": "Main/item_129008",
-          "level": 9,
-          "mergeable": {
-            "nextItemId": 129009
-          },
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 7,
-            "rechargeTimer": 6570,
-            "rechargesStack": 4,
-            "droppableItems": [
-              {
-                "dropId": 130000,
-                "dropRate": 0.59
-              },
-              {
-                "dropId": 107000,
-                "dropRate": 0.08
-              },
-              {
-                "dropId": 100000,
-                "dropRate": 0.1
-              },
-              {
-                "dropId": 130001,
-                "dropRate": 0.1
-              },
-              {
-                "dropId": 130002,
-                "dropRate": 0.08
-              },
-              {
-                "dropId": 130003,
-                "dropRate": 0.05
-              }
-            ]
-          }
-        },
-        {
-          "id": 129009,
-          "name": "Main/item_129009",
-          "level": 10,
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 8,
-            "rechargeTimer": 6570,
-            "rechargesStack": 4,
-            "droppableItems": [
-              {
-                "dropId": 130000,
-                "dropRate": 0.51
-              },
-              {
-                "dropId": 107000,
-                "dropRate": 0.09
-              },
-              {
-                "dropId": 100000,
-                "dropRate": 0.11
-              },
-              {
-                "dropId": 130001,
-                "dropRate": 0.12
-              },
-              {
-                "dropId": 130002,
-                "dropRate": 0.1
-              },
-              {
-                "dropId": 130003,
-                "dropRate": 0.07
-              }
-            ]
-          }
-        },
-        {
-          "id": 133004,
-          "name": "Main/item_133004",
-          "level": 5,
-          "mergeable": {
-            "nextItemId": 133005
-          },
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 2,
-            "rechargeTimer": 3000,
-            "rechargesStack": 5,
-            "droppableItems": [
-              {
-                "dropId": 134000,
-                "dropRate": 1
-              }
-            ]
-          }
-        },
-        {
-          "id": 133005,
-          "name": "Main/item_133005",
-          "level": 6,
-          "mergeable": {
-            "nextItemId": 133006
-          },
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 2,
-            "rechargeTimer": 1500,
-            "rechargesStack": 5,
-            "droppableItems": [
-              {
-                "dropId": 134000,
-                "dropRate": 0.96
-              },
-              {
-                "dropId": 134001,
-                "dropRate": 0.04
-              }
-            ]
-          }
-        },
-        {
-          "id": 133006,
-          "name": "Main/item_133006",
-          "level": 7,
-          "manualSource": {
-            "spendsEnergy": true,
-            "dropsPerRecharge": 2,
-            "rechargeTimer": 750,
-            "rechargesStack": 5,
-            "droppableItems": [
-              {
-                "dropId": 134000,
-                "dropRate": 0.84
-              },
-              {
-                "dropId": 134001,
-                "dropRate": 0.1
-              },
-              {
-                "dropId": 134002,
-                "dropRate": 0.04
-              },
-              {
-                "dropId": 134003,
-                "dropRate": 0.02
-              }
-            ]
-          }
-        }
-      ]
-    },
+
     "playerAdTiersSettings": {
       "generalSettings": {
         "enable": false,
@@ -6771,12 +8267,7 @@
           "character": "Pavel",
           "pose": "Idle"
         },
-        "rewardPreviewSettings": [
-          6,
-          32,
-          1,
-          34
-        ],
+        "rewardPreviewSettings": [6, 32, 1, 34],
         "taskSettings": [
           {
             "UID": 0,
