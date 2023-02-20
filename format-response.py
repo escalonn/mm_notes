@@ -56,7 +56,7 @@ id_name_patch = {
     ] for i in range(m)
 }
 
-item_id_map = fetch_item_id_map() | id_name_patch
+item_id_map = id_name_patch | fetch_item_id_map()
 int_parser = item_id_int_parser(item_id_map)
 
 with open(in_name, encoding='utf8') as f:
