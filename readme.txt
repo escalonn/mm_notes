@@ -50,6 +50,8 @@ get dlls
 getting assets
     https://medieval-merge-game-fanbase.fandom.com/wiki/How_To:_View_Game_Assets
     the .net 6 version of assetstudio is bugged, use .net framework version
+    get the apk from the /data/app folder
+    open it in assetstudio
     the text assets appear to be in base64 and encrypted
 converting images
     https://medieval-merge-game-fanbase.fandom.com/wiki/How_To:_Format_Images

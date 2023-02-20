@@ -2,6 +2,7 @@ from itertools import islice
 import json
 from urllib.request import urlopen
 import html5lib
+import jsonpath_ng
 
 
 def fetch_item_id_map():
@@ -40,11 +41,30 @@ key_name = 'configs_key'
 # in_name = 'raw_response.json'
 # key_name = 'entries'
 
-item_id_map = fetch_item_id_map()
+id_name_patch = {
+    str(c * 1000 + i): (n, str(i)) for (c, (n, m)) in [
+        (157, ('Special Mine', 10)),
+        (155, ('Bronze Ingot', 4)),
+        (153, ('Bronze Armour', 8)),
+        (158, ('Steel Ingot', 4)),
+        (159, ('Steel Armour', 8)),
+        (156, ('Gold Ingot', 4)),
+        (154, ('Gold Armour', 8)),
+        (160, ("Witch's Cauldron", 1)),
+        (161, ('Fire Potion', 4)),
+        (162, ('Poison', 4))
+    ] for i in range(m)
+}
+
+item_id_map = fetch_item_id_map() | id_name_patch
 int_parser = item_id_int_parser(item_id_map)
 
 with open(in_name, encoding='utf8') as f:
     o = json.load(f, parse_int=int_parser)
+
+# jsonpath_ng.parse('')
+# find all the IDs and stuff
+# also... find rechargeTimer etc and format as nice hms
 
 o[key_name] = {k: decode_json(v, int_parser) for k, v in o[key_name].items()}
 
