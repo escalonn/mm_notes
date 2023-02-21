@@ -53,6 +53,7 @@ getting assets
     get the apk from the /data/app folder
     open it in assetstudio
     the text assets appear to be in base64 and encrypted
+    in case of changed images, `for f in *#*; do mv "$f" "${f%% *}.png"; done`
 converting images
     https://medieval-merge-game-fanbase.fandom.com/wiki/How_To:_Format_Images
     cd C:\nonwork\mmerge\data-repo\exported-assets\Sprite
