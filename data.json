@@ -8033,7 +8033,7 @@
             "rechargesStack": 1,
             "droppableItems": [
               {
-                "dropId": "Bronze Ingot lvl0 [155000]",
+                "dropId": "Bronze Ingot lvl1 [155000]",
                 "dropRate": 1
               }
             ]
@@ -8069,7 +8069,7 @@
             "rechargesStack": 1,
             "droppableItems": [
               {
-                "dropId": "Steel Ingot lvl0 [158000]",
+                "dropId": "Steel Ingot lvl1 [158000]",
                 "dropRate": 1
               }
             ]
@@ -8090,7 +8090,7 @@
             "rechargesStack": 1,
             "droppableItems": [
               {
-                "dropId": "Steel Ingot lvl1 [158001]",
+                "dropId": "Steel Ingot lvl2 [158001]",
                 "dropRate": 1
               }
             ]
@@ -8111,7 +8111,7 @@
             "rechargesStack": 1,
             "droppableItems": [
               {
-                "dropId": "Steel Ingot lvl3 [158003]",
+                "dropId": "Steel Ingot lvl4 [158003]",
                 "dropRate": 1
               }
             ]
@@ -8132,7 +8132,7 @@
             "rechargesStack": 1,
             "droppableItems": [
               {
-                "dropId": "Gold Ingot lvl0 [156000]",
+                "dropId": "Gold Ingot lvl1 [156000]",
                 "dropRate": 1
               }
             ]
@@ -8153,7 +8153,7 @@
             "rechargesStack": 1,
             "droppableItems": [
               {
-                "dropId": "Gold Ingot lvl1 [156001]",
+                "dropId": "Gold Ingot lvl2 [156001]",
                 "dropRate": 1
               }
             ]
@@ -8171,7 +8171,7 @@
             "rechargesStack": 1,
             "droppableItems": [
               {
-                "dropId": "Gold Ingot lvl3 [156003]",
+                "dropId": "Gold Ingot lvl4 [156003]",
                 "dropRate": 1
               }
             ]
@@ -9122,58 +9122,58 @@
           }
         },
         {
-          "id": "Special Mine lvl0 [157000]",
+          "id": "Special Mine lvl1 [157000]",
           "name": "Main/item_157000",
           "level": 1,
           "mergeable": {
-            "nextItemId": "Special Mine lvl1 [157001]"
+            "nextItemId": "Special Mine lvl2 [157001]"
           }
         },
         {
-          "id": "Special Mine lvl1 [157001]",
+          "id": "Special Mine lvl2 [157001]",
           "name": "Main/item_157001",
           "level": 2,
           "mergeable": {
-            "nextItemId": "Special Mine lvl2 [157002]"
+            "nextItemId": "Special Mine lvl3 [157002]"
           }
         },
         {
-          "id": "Special Mine lvl2 [157002]",
+          "id": "Special Mine lvl3 [157002]",
           "name": "Main/item_157002",
           "level": 3,
           "mergeable": {
-            "nextItemId": "Special Mine lvl3 [157003]"
+            "nextItemId": "Special Mine lvl4 [157003]"
           }
         },
         {
-          "id": "Special Mine lvl3 [157003]",
+          "id": "Special Mine lvl4 [157003]",
           "name": "Main/item_157003",
           "level": 4,
           "mergeable": {
-            "nextItemId": "Special Mine lvl4 [157004]"
+            "nextItemId": "Special Mine lvl5 [157004]"
           }
         },
         {
-          "id": "Special Mine lvl4 [157004]",
+          "id": "Special Mine lvl5 [157004]",
           "name": "Main/item_157004",
           "level": 5,
           "mergeable": {
-            "nextItemId": "Special Mine lvl5 [157005]"
+            "nextItemId": "Special Mine lvl6 [157005]"
           },
           "manualSource": {
             "spendsEnergy": true,
             "destroyAfterTaps": 50,
-            "droppedItemOnDestroy": "Special Mine lvl5 [157005]",
+            "droppedItemOnDestroy": "Special Mine lvl6 [157005]",
             "dropsPerRecharge": 6,
             "rechargeTimer": 5400,
             "rechargesStack": 3,
             "droppableItems": [
               {
-                "dropId": "Bronze Ingot lvl0 [155000]",
+                "dropId": "Bronze Ingot lvl1 [155000]",
                 "dropRate": 0.95
               },
               {
-                "dropId": "Bronze Ingot lvl1 [155001]",
+                "dropId": "Bronze Ingot lvl2 [155001]",
                 "dropRate": 0.05
               }
             ]
@@ -9192,26 +9192,26 @@
           }
         },
         {
-          "id": "Special Mine lvl5 [157005]",
+          "id": "Special Mine lvl6 [157005]",
           "name": "Main/item_157005",
           "level": 6,
           "mergeable": {
-            "nextItemId": "Special Mine lvl6 [157006]"
+            "nextItemId": "Special Mine lvl7 [157006]"
           },
           "manualSource": {
             "spendsEnergy": true,
             "destroyAfterTaps": 200,
-            "droppedItemOnDestroy": "Special Mine lvl6 [157006]",
+            "droppedItemOnDestroy": "Special Mine lvl7 [157006]",
             "dropsPerRecharge": 6,
             "rechargeTimer": 2700,
             "rechargesStack": 3,
             "droppableItems": [
               {
-                "dropId": "Bronze Ingot lvl0 [155000]",
+                "dropId": "Bronze Ingot lvl1 [155000]",
                 "dropRate": 0.85
               },
               {
-                "dropId": "Bronze Ingot lvl1 [155001]",
+                "dropId": "Bronze Ingot lvl2 [155001]",
                 "dropRate": 0.15
               }
             ]
@@ -9230,34 +9230,34 @@
           }
         },
         {
-          "id": "Special Mine lvl6 [157006]",
+          "id": "Special Mine lvl7 [157006]",
           "name": "Main/item_157006",
           "level": 7,
           "mergeable": {
-            "nextItemId": "Special Mine lvl7 [157007]"
+            "nextItemId": "Special Mine lvl8 [157007]"
           },
           "manualSource": {
             "spendsEnergy": true,
             "destroyAfterTaps": 800,
-            "droppedItemOnDestroy": "Special Mine lvl7 [157007]",
+            "droppedItemOnDestroy": "Special Mine lvl8 [157007]",
             "dropsPerRecharge": 6,
             "rechargeTimer": 1320,
             "rechargesStack": 3,
             "droppableItems": [
               {
-                "dropId": "Bronze Ingot lvl0 [155000]",
+                "dropId": "Bronze Ingot lvl1 [155000]",
                 "dropRate": 0.5
               },
               {
-                "dropId": "Bronze Ingot lvl1 [155001]",
+                "dropId": "Bronze Ingot lvl2 [155001]",
                 "dropRate": 0.35
               },
               {
-                "dropId": "Steel Ingot lvl0 [158000]",
+                "dropId": "Steel Ingot lvl1 [158000]",
                 "dropRate": 0.1
               },
               {
-                "dropId": "Steel Ingot lvl1 [158001]",
+                "dropId": "Steel Ingot lvl2 [158001]",
                 "dropRate": 0.05
               }
             ]
@@ -9276,38 +9276,38 @@
           }
         },
         {
-          "id": "Special Mine lvl7 [157007]",
+          "id": "Special Mine lvl8 [157007]",
           "name": "Main/item_157007",
           "level": 8,
           "mergeable": {
-            "nextItemId": "Special Mine lvl8 [157008]"
+            "nextItemId": "Special Mine lvl9 [157008]"
           },
           "manualSource": {
             "spendsEnergy": true,
             "destroyAfterTaps": 2700,
-            "droppedItemOnDestroy": "Special Mine lvl8 [157008]",
+            "droppedItemOnDestroy": "Special Mine lvl9 [157008]",
             "dropsPerRecharge": 6,
             "rechargeTimer": 690,
             "rechargesStack": 3,
             "droppableItems": [
               {
-                "dropId": "Bronze Ingot lvl0 [155000]",
+                "dropId": "Bronze Ingot lvl1 [155000]",
                 "dropRate": 0.3
               },
               {
-                "dropId": "Bronze Ingot lvl1 [155001]",
+                "dropId": "Bronze Ingot lvl2 [155001]",
                 "dropRate": 0.25
               },
               {
-                "dropId": "Steel Ingot lvl0 [158000]",
+                "dropId": "Steel Ingot lvl1 [158000]",
                 "dropRate": 0.25
               },
               {
-                "dropId": "Steel Ingot lvl1 [158001]",
+                "dropId": "Steel Ingot lvl2 [158001]",
                 "dropRate": 0.15
               },
               {
-                "dropId": "Gold Ingot lvl0 [156000]",
+                "dropId": "Gold Ingot lvl1 [156000]",
                 "dropRate": 0.05
               }
             ]
@@ -9326,42 +9326,42 @@
           }
         },
         {
-          "id": "Special Mine lvl8 [157008]",
+          "id": "Special Mine lvl9 [157008]",
           "name": "Main/item_157008",
           "level": 9,
           "mergeable": {
-            "nextItemId": "Special Mine lvl9 [157009]"
+            "nextItemId": "Special Mine lvl10 [157009]"
           },
           "manualSource": {
             "spendsEnergy": true,
             "destroyAfterTaps": 4500,
-            "droppedItemOnDestroy": "Special Mine lvl9 [157009]",
+            "droppedItemOnDestroy": "Special Mine lvl10 [157009]",
             "dropsPerRecharge": 6,
             "rechargeTimer": 330,
             "rechargesStack": 3,
             "droppableItems": [
               {
-                "dropId": "Bronze Ingot lvl0 [155000]",
+                "dropId": "Bronze Ingot lvl1 [155000]",
                 "dropRate": 0.05
               },
               {
-                "dropId": "Bronze Ingot lvl1 [155001]",
+                "dropId": "Bronze Ingot lvl2 [155001]",
                 "dropRate": 0.2
               },
               {
-                "dropId": "Steel Ingot lvl0 [158000]",
+                "dropId": "Steel Ingot lvl1 [158000]",
                 "dropRate": 0.35
               },
               {
-                "dropId": "Steel Ingot lvl1 [158001]",
+                "dropId": "Steel Ingot lvl2 [158001]",
                 "dropRate": 0.2
               },
               {
-                "dropId": "Gold Ingot lvl0 [156000]",
+                "dropId": "Gold Ingot lvl1 [156000]",
                 "dropRate": 0.15
               },
               {
-                "dropId": "Gold Ingot lvl1 [156001]",
+                "dropId": "Gold Ingot lvl2 [156001]",
                 "dropRate": 0.05
               }
             ]
@@ -9380,7 +9380,7 @@
           }
         },
         {
-          "id": "Special Mine lvl9 [157009]",
+          "id": "Special Mine lvl10 [157009]",
           "name": "Main/item_157009",
           "level": 10,
           "manualSource": {
@@ -9390,27 +9390,27 @@
             "rechargesStack": 3,
             "droppableItems": [
               {
-                "dropId": "Bronze Ingot lvl0 [155000]",
+                "dropId": "Bronze Ingot lvl1 [155000]",
                 "dropRate": 0.05
               },
               {
-                "dropId": "Bronze Ingot lvl1 [155001]",
+                "dropId": "Bronze Ingot lvl2 [155001]",
                 "dropRate": 0.1
               },
               {
-                "dropId": "Steel Ingot lvl0 [158000]",
+                "dropId": "Steel Ingot lvl1 [158000]",
                 "dropRate": 0.26
               },
               {
-                "dropId": "Steel Ingot lvl1 [158001]",
+                "dropId": "Steel Ingot lvl2 [158001]",
                 "dropRate": 0.26
               },
               {
-                "dropId": "Gold Ingot lvl0 [156000]",
+                "dropId": "Gold Ingot lvl1 [156000]",
                 "dropRate": 0.21
               },
               {
-                "dropId": "Gold Ingot lvl1 [156001]",
+                "dropId": "Gold Ingot lvl2 [156001]",
                 "dropRate": 0.11
               },
               {
@@ -10457,7 +10457,7 @@
             "rechargesStack": 1,
             "droppableItems": [
               {
-                "dropId": "Fire Potion lvl0 [161000]",
+                "dropId": "Fire Potion lvl1 [161000]",
                 "dropRate": 1
               }
             ]
@@ -10598,11 +10598,11 @@
           "level": 5
         },
         {
-          "id": "Bronze Armour lvl0 [153000]",
+          "id": "Bronze Armour lvl1 [153000]",
           "name": "Main/item_153000",
           "level": 1,
           "mergeable": {
-            "nextItemId": "Bronze Armour lvl1 [153001]"
+            "nextItemId": "Bronze Armour lvl2 [153001]"
           },
           "purchasable": {
             "costType": 0,
@@ -10621,64 +10621,64 @@
           }
         },
         {
-          "id": "Bronze Armour lvl1 [153001]",
+          "id": "Bronze Armour lvl2 [153001]",
           "name": "Main/item_153001",
           "level": 2,
           "mergeable": {
-            "nextItemId": "Bronze Armour lvl2 [153002]"
+            "nextItemId": "Bronze Armour lvl3 [153002]"
           }
         },
         {
-          "id": "Bronze Armour lvl2 [153002]",
+          "id": "Bronze Armour lvl3 [153002]",
           "name": "Main/item_153002",
           "level": 3,
           "mergeable": {
-            "nextItemId": "Bronze Armour lvl3 [153003]"
+            "nextItemId": "Bronze Armour lvl4 [153003]"
           }
         },
         {
-          "id": "Bronze Armour lvl3 [153003]",
+          "id": "Bronze Armour lvl4 [153003]",
           "name": "Main/item_153003",
           "level": 4,
           "mergeable": {
-            "nextItemId": "Bronze Armour lvl4 [153004]"
+            "nextItemId": "Bronze Armour lvl5 [153004]"
           }
         },
         {
-          "id": "Bronze Armour lvl4 [153004]",
+          "id": "Bronze Armour lvl5 [153004]",
           "name": "Main/item_153004",
           "level": 5,
           "mergeable": {
-            "nextItemId": "Bronze Armour lvl5 [153005]"
+            "nextItemId": "Bronze Armour lvl6 [153005]"
           }
         },
         {
-          "id": "Bronze Armour lvl5 [153005]",
+          "id": "Bronze Armour lvl6 [153005]",
           "name": "Main/item_153005",
           "level": 6,
           "mergeable": {
-            "nextItemId": "Bronze Armour lvl6 [153006]"
+            "nextItemId": "Bronze Armour lvl7 [153006]"
           }
         },
         {
-          "id": "Bronze Armour lvl6 [153006]",
+          "id": "Bronze Armour lvl7 [153006]",
           "name": "Main/item_153006",
           "level": 7,
           "mergeable": {
-            "nextItemId": "Bronze Armour lvl7 [153007]"
+            "nextItemId": "Bronze Armour lvl8 [153007]"
           }
         },
         {
-          "id": "Bronze Armour lvl7 [153007]",
+          "id": "Bronze Armour lvl8 [153007]",
           "name": "Main/item_153007",
           "level": 8
         },
         {
-          "id": "Gold Armour lvl0 [154000]",
+          "id": "Gold Armour lvl1 [154000]",
           "name": "Main/item_154000",
           "level": 1,
           "mergeable": {
-            "nextItemId": "Gold Armour lvl1 [154001]"
+            "nextItemId": "Gold Armour lvl2 [154001]"
           },
           "purchasable": {
             "costType": 0,
@@ -10697,84 +10697,84 @@
           }
         },
         {
-          "id": "Gold Armour lvl1 [154001]",
+          "id": "Gold Armour lvl2 [154001]",
           "name": "Main/item_154001",
           "level": 2,
           "mergeable": {
-            "nextItemId": "Gold Armour lvl2 [154002]"
+            "nextItemId": "Gold Armour lvl3 [154002]"
           }
         },
         {
-          "id": "Gold Armour lvl2 [154002]",
+          "id": "Gold Armour lvl3 [154002]",
           "name": "Main/item_154002",
           "level": 3,
           "mergeable": {
-            "nextItemId": "Gold Armour lvl3 [154003]"
+            "nextItemId": "Gold Armour lvl4 [154003]"
           }
         },
         {
-          "id": "Gold Armour lvl3 [154003]",
+          "id": "Gold Armour lvl4 [154003]",
           "name": "Main/item_154003",
           "level": 4,
           "mergeable": {
-            "nextItemId": "Gold Armour lvl4 [154004]"
+            "nextItemId": "Gold Armour lvl5 [154004]"
           }
         },
         {
-          "id": "Gold Armour lvl4 [154004]",
+          "id": "Gold Armour lvl5 [154004]",
           "name": "Main/item_154004",
           "level": 5,
           "mergeable": {
-            "nextItemId": "Gold Armour lvl5 [154005]"
+            "nextItemId": "Gold Armour lvl6 [154005]"
           }
         },
         {
-          "id": "Gold Armour lvl5 [154005]",
+          "id": "Gold Armour lvl6 [154005]",
           "name": "Main/item_154005",
           "level": 6,
           "mergeable": {
-            "nextItemId": "Gold Armour lvl6 [154006]"
+            "nextItemId": "Gold Armour lvl7 [154006]"
           }
         },
         {
-          "id": "Gold Armour lvl6 [154006]",
+          "id": "Gold Armour lvl7 [154006]",
           "name": "Main/item_154006",
           "level": 7,
           "mergeable": {
-            "nextItemId": "Gold Armour lvl7 [154007]"
+            "nextItemId": "Gold Armour lvl8 [154007]"
           }
         },
         {
-          "id": "Gold Armour lvl7 [154007]",
+          "id": "Gold Armour lvl8 [154007]",
           "name": "Main/item_154007",
           "level": 8
         },
         {
-          "id": "Bronze Ingot lvl0 [155000]",
+          "id": "Bronze Ingot lvl1 [155000]",
           "name": "Main/item_155000",
           "level": 1,
           "mergeable": {
-            "nextItemId": "Bronze Ingot lvl1 [155001]"
+            "nextItemId": "Bronze Ingot lvl2 [155001]"
           }
         },
         {
-          "id": "Bronze Ingot lvl1 [155001]",
+          "id": "Bronze Ingot lvl2 [155001]",
           "name": "Main/item_155001",
           "level": 2,
           "mergeable": {
-            "nextItemId": "Bronze Ingot lvl2 [155002]"
+            "nextItemId": "Bronze Ingot lvl3 [155002]"
           }
         },
         {
-          "id": "Bronze Ingot lvl2 [155002]",
+          "id": "Bronze Ingot lvl3 [155002]",
           "name": "Main/item_155002",
           "level": 3,
           "mergeable": {
-            "nextItemId": "Bronze Ingot lvl3 [155003]"
+            "nextItemId": "Bronze Ingot lvl4 [155003]"
           }
         },
         {
-          "id": "Bronze Ingot lvl3 [155003]",
+          "id": "Bronze Ingot lvl4 [155003]",
           "name": "Main/item_155003",
           "level": 4,
           "manualSource": {
@@ -10785,38 +10785,38 @@
             "rechargesStack": 1,
             "droppableItems": [
               {
-                "dropId": "Bronze Armour lvl0 [153000]",
+                "dropId": "Bronze Armour lvl1 [153000]",
                 "dropRate": 1
               }
             ]
           }
         },
         {
-          "id": "Gold Ingot lvl0 [156000]",
+          "id": "Gold Ingot lvl1 [156000]",
           "name": "Main/item_156000",
           "level": 1,
           "mergeable": {
-            "nextItemId": "Gold Ingot lvl1 [156001]"
+            "nextItemId": "Gold Ingot lvl2 [156001]"
           }
         },
         {
-          "id": "Gold Ingot lvl1 [156001]",
+          "id": "Gold Ingot lvl2 [156001]",
           "name": "Main/item_156001",
           "level": 2,
           "mergeable": {
-            "nextItemId": "Gold Ingot lvl2 [156002]"
+            "nextItemId": "Gold Ingot lvl3 [156002]"
           }
         },
         {
-          "id": "Gold Ingot lvl2 [156002]",
+          "id": "Gold Ingot lvl3 [156002]",
           "name": "Main/item_156002",
           "level": 3,
           "mergeable": {
-            "nextItemId": "Gold Ingot lvl3 [156003]"
+            "nextItemId": "Gold Ingot lvl4 [156003]"
           }
         },
         {
-          "id": "Gold Ingot lvl3 [156003]",
+          "id": "Gold Ingot lvl4 [156003]",
           "name": "Main/item_156003",
           "level": 4,
           "manualSource": {
@@ -10827,38 +10827,38 @@
             "rechargesStack": 1,
             "droppableItems": [
               {
-                "dropId": "Gold Armour lvl0 [154000]",
+                "dropId": "Gold Armour lvl1 [154000]",
                 "dropRate": 1
               }
             ]
           }
         },
         {
-          "id": "Steel Ingot lvl0 [158000]",
+          "id": "Steel Ingot lvl1 [158000]",
           "name": "Main/item_158000",
           "level": 1,
           "mergeable": {
-            "nextItemId": "Steel Ingot lvl1 [158001]"
+            "nextItemId": "Steel Ingot lvl2 [158001]"
           }
         },
         {
-          "id": "Steel Ingot lvl1 [158001]",
+          "id": "Steel Ingot lvl2 [158001]",
           "name": "Main/item_158001",
           "level": 2,
           "mergeable": {
-            "nextItemId": "Steel Ingot lvl2 [158002]"
+            "nextItemId": "Steel Ingot lvl3 [158002]"
           }
         },
         {
-          "id": "Steel Ingot lvl2 [158002]",
+          "id": "Steel Ingot lvl3 [158002]",
           "name": "Main/item_158002",
           "level": 3,
           "mergeable": {
-            "nextItemId": "Steel Ingot lvl3 [158003]"
+            "nextItemId": "Steel Ingot lvl4 [158003]"
           }
         },
         {
-          "id": "Steel Ingot lvl3 [158003]",
+          "id": "Steel Ingot lvl4 [158003]",
           "name": "Main/item_158003",
           "level": 4,
           "manualSource": {
@@ -10869,18 +10869,18 @@
             "rechargesStack": 1,
             "droppableItems": [
               {
-                "dropId": "Steel Armour lvl0 [159000]",
+                "dropId": "Steel Armour lvl1 [159000]",
                 "dropRate": 1
               }
             ]
           }
         },
         {
-          "id": "Steel Armour lvl0 [159000]",
+          "id": "Steel Armour lvl1 [159000]",
           "name": "Main/item_159000",
           "level": 1,
           "mergeable": {
-            "nextItemId": "Steel Armour lvl1 [159001]"
+            "nextItemId": "Steel Armour lvl2 [159001]"
           },
           "purchasable": {
             "costType": 0,
@@ -10899,60 +10899,60 @@
           }
         },
         {
-          "id": "Steel Armour lvl1 [159001]",
+          "id": "Steel Armour lvl2 [159001]",
           "name": "Main/item_159001",
           "level": 2,
           "mergeable": {
-            "nextItemId": "Steel Armour lvl2 [159002]"
+            "nextItemId": "Steel Armour lvl3 [159002]"
           }
         },
         {
-          "id": "Steel Armour lvl2 [159002]",
+          "id": "Steel Armour lvl3 [159002]",
           "name": "Main/item_159002",
           "level": 3,
           "mergeable": {
-            "nextItemId": "Steel Armour lvl3 [159003]"
+            "nextItemId": "Steel Armour lvl4 [159003]"
           }
         },
         {
-          "id": "Steel Armour lvl3 [159003]",
+          "id": "Steel Armour lvl4 [159003]",
           "name": "Main/item_159003",
           "level": 4,
           "mergeable": {
-            "nextItemId": "Steel Armour lvl4 [159004]"
+            "nextItemId": "Steel Armour lvl5 [159004]"
           }
         },
         {
-          "id": "Steel Armour lvl4 [159004]",
+          "id": "Steel Armour lvl5 [159004]",
           "name": "Main/item_159004",
           "level": 5,
           "mergeable": {
-            "nextItemId": "Steel Armour lvl5 [159005]"
+            "nextItemId": "Steel Armour lvl6 [159005]"
           }
         },
         {
-          "id": "Steel Armour lvl5 [159005]",
+          "id": "Steel Armour lvl6 [159005]",
           "name": "Main/item_159005",
           "level": 6,
           "mergeable": {
-            "nextItemId": "Steel Armour lvl6 [159006]"
+            "nextItemId": "Steel Armour lvl7 [159006]"
           }
         },
         {
-          "id": "Steel Armour lvl6 [159006]",
+          "id": "Steel Armour lvl7 [159006]",
           "name": "Main/item_159006",
           "level": 7,
           "mergeable": {
-            "nextItemId": "Steel Armour lvl7 [159007]"
+            "nextItemId": "Steel Armour lvl8 [159007]"
           }
         },
         {
-          "id": "Steel Armour lvl7 [159007]",
+          "id": "Steel Armour lvl8 [159007]",
           "name": "Main/item_159007",
           "level": 8
         },
         {
-          "id": "Witch's Cauldron lvl0 [160000]",
+          "id": "Witch's Cauldron lvl1 [160000]",
           "name": "Main/item_160000",
           "level": 1,
           "manualSource": {
@@ -10962,30 +10962,30 @@
             "rechargesStack": 2,
             "droppableItems": [
               {
-                "dropId": "Fire Potion lvl0 [161000]",
+                "dropId": "Fire Potion lvl1 [161000]",
                 "dropRate": 0.4
               },
               {
-                "dropId": "Fire Potion lvl1 [161001]",
+                "dropId": "Fire Potion lvl2 [161001]",
                 "dropRate": 0.1
               },
               {
-                "dropId": "Poison lvl0 [162000]",
+                "dropId": "Poison lvl1 [162000]",
                 "dropRate": 0.4
               },
               {
-                "dropId": "Poison lvl1 [162001]",
+                "dropId": "Poison lvl2 [162001]",
                 "dropRate": 0.1
               }
             ]
           }
         },
         {
-          "id": "Fire Potion lvl0 [161000]",
+          "id": "Fire Potion lvl1 [161000]",
           "name": "Main/item_161000",
           "level": 1,
           "mergeable": {
-            "nextItemId": "Fire Potion lvl1 [161001]"
+            "nextItemId": "Fire Potion lvl2 [161001]"
           },
           "purchasable": {
             "costType": 0,
@@ -11004,32 +11004,32 @@
           }
         },
         {
-          "id": "Fire Potion lvl1 [161001]",
+          "id": "Fire Potion lvl2 [161001]",
           "name": "Main/item_161001",
           "level": 2,
           "mergeable": {
-            "nextItemId": "Fire Potion lvl2 [161002]"
+            "nextItemId": "Fire Potion lvl3 [161002]"
           }
         },
         {
-          "id": "Fire Potion lvl2 [161002]",
+          "id": "Fire Potion lvl3 [161002]",
           "name": "Main/item_161002",
           "level": 3,
           "mergeable": {
-            "nextItemId": "Fire Potion lvl3 [161003]"
+            "nextItemId": "Fire Potion lvl4 [161003]"
           }
         },
         {
-          "id": "Fire Potion lvl3 [161003]",
+          "id": "Fire Potion lvl4 [161003]",
           "name": "Main/item_161003",
           "level": 4
         },
         {
-          "id": "Poison lvl0 [162000]",
+          "id": "Poison lvl1 [162000]",
           "name": "Main/item_162000",
           "level": 1,
           "mergeable": {
-            "nextItemId": "Poison lvl1 [162001]"
+            "nextItemId": "Poison lvl2 [162001]"
           },
           "purchasable": {
             "costType": 0,
@@ -11048,23 +11048,23 @@
           }
         },
         {
-          "id": "Poison lvl1 [162001]",
+          "id": "Poison lvl2 [162001]",
           "name": "Main/item_162001",
           "level": 2,
           "mergeable": {
-            "nextItemId": "Poison lvl2 [162002]"
+            "nextItemId": "Poison lvl3 [162002]"
           }
         },
         {
-          "id": "Poison lvl2 [162002]",
+          "id": "Poison lvl3 [162002]",
           "name": "Main/item_162002",
           "level": 3,
           "mergeable": {
-            "nextItemId": "Poison lvl3 [162003]"
+            "nextItemId": "Poison lvl4 [162003]"
           }
         },
         {
-          "id": "Poison lvl3 [162003]",
+          "id": "Poison lvl4 [162003]",
           "name": "Main/item_162003",
           "level": 4
         },
@@ -11323,7 +11323,7 @@
             "rechargesStack": 1,
             "droppableItems": [
               {
-                "dropId": "Special Mine lvl0 [157000]",
+                "dropId": "Special Mine lvl1 [157000]",
                 "dropRate": 1
               }
             ]
@@ -11416,7 +11416,7 @@
             "rechargesStack": 1,
             "droppableItems": [
               {
-                "dropId": "Fire Potion lvl0 [161000]",
+                "dropId": "Fire Potion lvl1 [161000]",
                 "dropRate": 1
               }
             ]
@@ -11434,7 +11434,7 @@
             "rechargesStack": 1,
             "droppableItems": [
               {
-                "dropId": "Poison lvl0 [162000]",
+                "dropId": "Poison lvl1 [162000]",
                 "dropRate": 1
               }
             ]
@@ -11452,7 +11452,7 @@
             "rechargesStack": 1,
             "droppableItems": [
               {
-                "dropId": "Bronze Armour lvl0 [153000]",
+                "dropId": "Bronze Armour lvl1 [153000]",
                 "dropRate": 1
               }
             ]
@@ -11470,7 +11470,7 @@
             "rechargesStack": 1,
             "droppableItems": [
               {
-                "dropId": "Steel Ingot lvl0 [158000]",
+                "dropId": "Steel Ingot lvl1 [158000]",
                 "dropRate": 1
               }
             ]
@@ -11488,7 +11488,7 @@
             "rechargesStack": 1,
             "droppableItems": [
               {
-                "dropId": "Gold Ingot lvl0 [156000]",
+                "dropId": "Gold Ingot lvl1 [156000]",
                 "dropRate": 1
               }
             ]
@@ -12070,7 +12070,7 @@
                 "dropRate": 0.12
               },
               {
-                "dropId": "Special Mine lvl0 [157000]",
+                "dropId": "Special Mine lvl1 [157000]",
                 "dropRate": 0.12
               },
               {
@@ -12078,11 +12078,11 @@
                 "dropRate": 0.12
               },
               {
-                "dropId": "Poison lvl0 [162000]",
+                "dropId": "Poison lvl1 [162000]",
                 "dropRate": 0.12
               },
               {
-                "dropId": "Fire Potion lvl0 [161000]",
+                "dropId": "Fire Potion lvl1 [161000]",
                 "dropRate": 0.08
               },
               {
@@ -12115,7 +12115,7 @@
                 "dropRate": 0.12
               },
               {
-                "dropId": "Special Mine lvl0 [157000]",
+                "dropId": "Special Mine lvl1 [157000]",
                 "dropRate": 0.12
               },
               {
@@ -15167,7 +15167,7 @@
         },
         {
           "entryPos": 4,
-          "id": "Special Mine lvl0 [157000]",
+          "id": "Special Mine lvl1 [157000]",
           "isLocked": true,
           "isHidden": false,
           "hiddenItemId": -1,
@@ -15215,7 +15215,7 @@
         },
         {
           "entryPos": 10,
-          "id": "Special Mine lvl1 [157001]",
+          "id": "Special Mine lvl2 [157001]",
           "isLocked": true,
           "isHidden": true,
           "hiddenItemId": "Crate lvl1 [999003]",
@@ -15231,7 +15231,7 @@
         },
         {
           "entryPos": 12,
-          "id": "Poison lvl2 [162002]",
+          "id": "Poison lvl3 [162002]",
           "isLocked": true,
           "isHidden": true,
           "hiddenItemId": "Crate lvl1 [999001]",
@@ -15343,7 +15343,7 @@
         },
         {
           "entryPos": 26,
-          "id": "Bronze Ingot lvl2 [155002]",
+          "id": "Bronze Ingot lvl3 [155002]",
           "isLocked": true,
           "isHidden": true,
           "hiddenItemId": "Crate lvl1 [999002]",
@@ -15391,7 +15391,7 @@
         },
         {
           "entryPos": 32,
-          "id": "Special Mine lvl8 [157008]",
+          "id": "Special Mine lvl9 [157008]",
           "isLocked": true,
           "isHidden": false,
           "hiddenItemId": -1,
@@ -15399,7 +15399,7 @@
         },
         {
           "entryPos": 33,
-          "id": "Gold Ingot lvl2 [156002]",
+          "id": "Gold Ingot lvl3 [156002]",
           "isLocked": true,
           "isHidden": true,
           "hiddenItemId": "Crate lvl1 [999001]",
@@ -15407,7 +15407,7 @@
         },
         {
           "entryPos": 34,
-          "id": "Special Mine lvl3 [157003]",
+          "id": "Special Mine lvl4 [157003]",
           "isLocked": true,
           "isHidden": true,
           "hiddenItemId": "Crate lvl1 [999000]",
@@ -15495,7 +15495,7 @@
         },
         {
           "entryPos": 45,
-          "id": "Fire Potion lvl1 [161001]",
+          "id": "Fire Potion lvl2 [161001]",
           "isLocked": true,
           "isHidden": true,
           "hiddenItemId": "Crate lvl1 [999002]",
@@ -15527,7 +15527,7 @@
         },
         {
           "entryPos": 49,
-          "id": "Bronze Armour lvl0 [153000]",
+          "id": "Bronze Armour lvl1 [153000]",
           "isLocked": true,
           "isHidden": true,
           "hiddenItemId": "Crate lvl1 [999003]",
@@ -18093,7 +18093,7 @@
           ],
           "objectives": [
             {
-              "itemId": "Bronze Ingot lvl3 [155003]",
+              "itemId": "Bronze Ingot lvl4 [155003]",
               "amount": 1
             },
             {
@@ -18417,7 +18417,7 @@
           ],
           "objectives": [
             {
-              "itemId": "Bronze Armour lvl0 [153000]",
+              "itemId": "Bronze Armour lvl1 [153000]",
               "amount": 1
             },
             {
@@ -18433,7 +18433,7 @@
             },
             {
               "itemReward": {
-                "itemId": "Witch's Cauldron lvl0 [160000]",
+                "itemId": "Witch's Cauldron lvl1 [160000]",
                 "amount": 1
               }
             }
@@ -18454,7 +18454,7 @@
               "amount": 1
             },
             {
-              "itemId": "Poison lvl3 [162003]",
+              "itemId": "Poison lvl4 [162003]",
               "amount": 1
             }
           ],
@@ -18481,7 +18481,7 @@
               "amount": 1
             },
             {
-              "itemId": "Fire Potion lvl3 [161003]",
+              "itemId": "Fire Potion lvl4 [161003]",
               "amount": 1
             }
           ],
@@ -18533,7 +18533,7 @@
           ],
           "objectives": [
             {
-              "itemId": "Fire Potion lvl3 [161003]",
+              "itemId": "Fire Potion lvl4 [161003]",
               "amount": 1
             }
           ],
@@ -18560,11 +18560,11 @@
           ],
           "objectives": [
             {
-              "itemId": "Fire Potion lvl3 [161003]",
+              "itemId": "Fire Potion lvl4 [161003]",
               "amount": 2
             },
             {
-              "itemId": "Poison lvl3 [162003]",
+              "itemId": "Poison lvl4 [162003]",
               "amount": 2
             }
           ],
@@ -18587,7 +18587,7 @@
           ],
           "objectives": [
             {
-              "itemId": "Bronze Armour lvl0 [153000]",
+              "itemId": "Bronze Armour lvl1 [153000]",
               "amount": 1
             },
             {
@@ -18614,7 +18614,7 @@
           ],
           "objectives": [
             {
-              "itemId": "Bronze Armour lvl2 [153002]",
+              "itemId": "Bronze Armour lvl3 [153002]",
               "amount": 1
             },
             {
@@ -18641,7 +18641,7 @@
           ],
           "objectives": [
             {
-              "itemId": "Bronze Armour lvl1 [153001]",
+              "itemId": "Bronze Armour lvl2 [153001]",
               "amount": 1
             },
             {
@@ -18672,7 +18672,7 @@
           ],
           "objectives": [
             {
-              "itemId": "Bronze Armour lvl4 [153004]",
+              "itemId": "Bronze Armour lvl5 [153004]",
               "amount": 1
             },
             {
@@ -18703,7 +18703,7 @@
               "amount": 1
             },
             {
-              "itemId": "Fire Potion lvl3 [161003]",
+              "itemId": "Fire Potion lvl4 [161003]",
               "amount": 2
             }
           ],
@@ -18880,7 +18880,7 @@
           ],
           "objectives": [
             {
-              "itemId": "Bronze Armour lvl7 [153007]",
+              "itemId": "Bronze Armour lvl8 [153007]",
               "amount": 1
             }
           ],
@@ -19292,7 +19292,7 @@
               "amount": 1
             },
             {
-              "itemId": "Poison lvl3 [162003]",
+              "itemId": "Poison lvl4 [162003]",
               "amount": 1
             }
           ],
@@ -19319,7 +19319,7 @@
               "amount": 1
             },
             {
-              "itemId": "Fire Potion lvl3 [161003]",
+              "itemId": "Fire Potion lvl4 [161003]",
               "amount": 3
             }
           ],
@@ -19369,7 +19369,7 @@
           ],
           "objectives": [
             {
-              "itemId": "Fire Potion lvl3 [161003]",
+              "itemId": "Fire Potion lvl4 [161003]",
               "amount": 1
             }
           ],
@@ -19392,11 +19392,11 @@
           ],
           "objectives": [
             {
-              "itemId": "Fire Potion lvl3 [161003]",
+              "itemId": "Fire Potion lvl4 [161003]",
               "amount": 2
             },
             {
-              "itemId": "Poison lvl3 [162003]",
+              "itemId": "Poison lvl4 [162003]",
               "amount": 2
             }
           ],
@@ -19425,7 +19425,7 @@
           ],
           "objectives": [
             {
-              "itemId": "Bronze Armour lvl1 [153001]",
+              "itemId": "Bronze Armour lvl2 [153001]",
               "amount": 1
             },
             {
@@ -19456,7 +19456,7 @@
               "amount": 1
             },
             {
-              "itemId": "Bronze Armour lvl2 [153002]",
+              "itemId": "Bronze Armour lvl3 [153002]",
               "amount": 1
             }
           ],
@@ -19483,7 +19483,7 @@
               "amount": 1
             },
             {
-              "itemId": "Bronze Armour lvl3 [153003]",
+              "itemId": "Bronze Armour lvl4 [153003]",
               "amount": 1
             }
           ],
@@ -19510,7 +19510,7 @@
               "amount": 1
             },
             {
-              "itemId": "Steel Armour lvl0 [159000]",
+              "itemId": "Steel Armour lvl1 [159000]",
               "amount": 1
             }
           ],
@@ -19541,7 +19541,7 @@
               "amount": 1
             },
             {
-              "itemId": "Steel Armour lvl0 [159000]",
+              "itemId": "Steel Armour lvl1 [159000]",
               "amount": 1
             }
           ],
@@ -19564,7 +19564,7 @@
           ],
           "objectives": [
             {
-              "itemId": "Poison lvl3 [162003]",
+              "itemId": "Poison lvl4 [162003]",
               "amount": 1
             }
           ],
@@ -19735,7 +19735,7 @@
           ],
           "objectives": [
             {
-              "itemId": "Steel Armour lvl7 [159007]",
+              "itemId": "Steel Armour lvl8 [159007]",
               "amount": 1
             }
           ],
@@ -19941,7 +19941,7 @@
           ],
           "objectives": [
             {
-              "itemId": "Fire Potion lvl3 [161003]",
+              "itemId": "Fire Potion lvl4 [161003]",
               "amount": 2
             }
           ],
@@ -19964,7 +19964,7 @@
           ],
           "objectives": [
             {
-              "itemId": "Fire Potion lvl3 [161003]",
+              "itemId": "Fire Potion lvl4 [161003]",
               "amount": 1
             },
             {
@@ -20018,7 +20018,7 @@
           ],
           "objectives": [
             {
-              "itemId": "Poison lvl3 [162003]",
+              "itemId": "Poison lvl4 [162003]",
               "amount": 2
             }
           ],
@@ -20045,7 +20045,7 @@
               "amount": 1
             },
             {
-              "itemId": "Steel Armour lvl1 [159001]",
+              "itemId": "Steel Armour lvl2 [159001]",
               "amount": 1
             }
           ],
@@ -20072,7 +20072,7 @@
               "amount": 1
             },
             {
-              "itemId": "Steel Armour lvl2 [159002]",
+              "itemId": "Steel Armour lvl3 [159002]",
               "amount": 1
             }
           ],
@@ -20099,7 +20099,7 @@
               "amount": 1
             },
             {
-              "itemId": "Steel Armour lvl1 [159001]",
+              "itemId": "Steel Armour lvl2 [159001]",
               "amount": 1
             }
           ],
@@ -20126,7 +20126,7 @@
               "amount": 1
             },
             {
-              "itemId": "Steel Armour lvl0 [159000]",
+              "itemId": "Steel Armour lvl1 [159000]",
               "amount": 1
             }
           ],
@@ -20159,7 +20159,7 @@
               "amount": 1
             },
             {
-              "itemId": "Steel Armour lvl3 [159003]",
+              "itemId": "Steel Armour lvl4 [159003]",
               "amount": 1
             }
           ],
@@ -20190,7 +20190,7 @@
               "amount": 1
             },
             {
-              "itemId": "Steel Armour lvl4 [159004]",
+              "itemId": "Steel Armour lvl5 [159004]",
               "amount": 1
             }
           ],
@@ -20390,7 +20390,7 @@
           ],
           "objectives": [
             {
-              "itemId": "Gold Armour lvl6 [154006]",
+              "itemId": "Gold Armour lvl7 [154006]",
               "amount": 1
             }
           ],
@@ -20525,7 +20525,7 @@
               "amount": 1
             },
             {
-              "itemId": "Poison lvl3 [162003]",
+              "itemId": "Poison lvl4 [162003]",
               "amount": 2
             }
           ],
@@ -20552,7 +20552,7 @@
               "amount": 1
             },
             {
-              "itemId": "Fire Potion lvl3 [161003]",
+              "itemId": "Fire Potion lvl4 [161003]",
               "amount": 1
             }
           ],
@@ -20608,7 +20608,7 @@
           ],
           "objectives": [
             {
-              "itemId": "Fire Potion lvl3 [161003]",
+              "itemId": "Fire Potion lvl4 [161003]",
               "amount": 1
             },
             {
@@ -20639,11 +20639,11 @@
           ],
           "objectives": [
             {
-              "itemId": "Fire Potion lvl3 [161003]",
+              "itemId": "Fire Potion lvl4 [161003]",
               "amount": 2
             },
             {
-              "itemId": "Poison lvl3 [162003]",
+              "itemId": "Poison lvl4 [162003]",
               "amount": 3
             }
           ],
@@ -20670,7 +20670,7 @@
               "amount": 1
             },
             {
-              "itemId": "Gold Armour lvl0 [154000]",
+              "itemId": "Gold Armour lvl1 [154000]",
               "amount": 1
             }
           ],
@@ -20697,7 +20697,7 @@
               "amount": 1
             },
             {
-              "itemId": "Gold Armour lvl1 [154001]",
+              "itemId": "Gold Armour lvl2 [154001]",
               "amount": 1
             }
           ],
@@ -20724,7 +20724,7 @@
               "amount": 1
             },
             {
-              "itemId": "Gold Armour lvl2 [154002]",
+              "itemId": "Gold Armour lvl3 [154002]",
               "amount": 1
             }
           ],
@@ -20757,7 +20757,7 @@
               "amount": 2
             },
             {
-              "itemId": "Gold Armour lvl3 [154003]",
+              "itemId": "Gold Armour lvl4 [154003]",
               "amount": 1
             }
           ],
@@ -20788,7 +20788,7 @@
               "amount": 2
             },
             {
-              "itemId": "Gold Armour lvl7 [154007]",
+              "itemId": "Gold Armour lvl8 [154007]",
               "amount": 1
             }
           ],

@@ -77,3 +77,7 @@ todo
         mimic box
     missing images on wiki
         mimic box
+franklin gothic
+garamond
+century schoolbook
+gill sans mt

@@ -42,7 +42,7 @@ key_name = 'configs_key'
 # key_name = 'entries'
 
 id_name_patch = {
-    str(c * 1000 + i): (n, str(i)) for (c, (n, m)) in [
+    str(c * 1000 + i): (n, str(i + 1)) for (c, (n, m)) in [
         (157, ('Special Mine', 10)),
         (155, ('Bronze Ingot', 4)),
         (153, ('Bronze Armour', 8)),
