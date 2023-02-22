@@ -16128,13 +16128,13 @@
     },
     "playerIAPTiersSettings": {
       "generalSettings": {
-        "enable": false,
+        "enable": true,
         "initialTier": 1
       },
       "buyerSettings": {
         "dropAfterBuy": true,
         "tierRiseAfterBuy": 1,
-        "buyerDropTimeMultiplier": 0.5
+        "buyerDropTimeMultiplier": 0.25
       },
       "tiers": [
         {
@@ -16143,11 +16143,11 @@
         },
         {
           "tier": 2,
-          "minAppTime": 10800
+          "minAppTime": "Guardian Seed Bag lvl1 [108000]"
         },
         {
           "tier": 3,
-          "minAppTime": 21600
+          "minAppTime": "Poison Bottle lvl1 [162000]"
         }
       ]
     },
@@ -22367,7 +22367,7 @@
       }
     }
   },
-  "fetch_time_key": 1676613891661,
+  "fetch_time_key": 1676984460268,
   "abt_experiments_key": [
     {
       "experimentId": "_exp_153",
@@ -22386,9 +22386,17 @@
     },
     {
       "experimentId": "_exp_149",
-      "variantId": "0",
+      "variantId": "1",
       "triggerEvent": "tutorial_complete",
       "experimentStartTime": "2023-02-02T20:18:49.560Z",
+      "triggerTimeoutMillis": "15552000000",
+      "timeToLiveMillis": "15552000000"
+    },
+    {
+      "experimentId": "_exp_167",
+      "variantId": "0",
+      "triggerEvent": "event_task_claimed",
+      "experimentStartTime": "2023-02-17T13:05:28.142Z",
       "triggerTimeoutMillis": "15552000000",
       "timeToLiveMillis": "15552000000"
     }
