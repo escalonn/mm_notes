@@ -1109,7 +1109,7 @@
             "rechargesStack": 1,
             "droppableItems": [
               {
-                "dropId": "Bronze Ingot lvl1 [155000]",
+                "dropId": "Copper Ingot lvl1 [155000]",
                 "dropRate": 1
               }
             ]
@@ -2198,58 +2198,58 @@
           }
         },
         {
-          "id": "Special Mine lvl1 [157000]",
+          "id": "Ancient Mine lvl1 [157000]",
           "name": "Main/item_157000",
           "level": 1,
           "mergeable": {
-            "nextItemId": "Special Mine lvl2 [157001]"
+            "nextItemId": "Ancient Mine lvl2 [157001]"
           }
         },
         {
-          "id": "Special Mine lvl2 [157001]",
+          "id": "Ancient Mine lvl2 [157001]",
           "name": "Main/item_157001",
           "level": 2,
           "mergeable": {
-            "nextItemId": "Special Mine lvl3 [157002]"
+            "nextItemId": "Ancient Mine lvl3 [157002]"
           }
         },
         {
-          "id": "Special Mine lvl3 [157002]",
+          "id": "Ancient Mine lvl3 [157002]",
           "name": "Main/item_157002",
           "level": 3,
           "mergeable": {
-            "nextItemId": "Special Mine lvl4 [157003]"
+            "nextItemId": "Ancient Mine lvl4 [157003]"
           }
         },
         {
-          "id": "Special Mine lvl4 [157003]",
+          "id": "Ancient Mine lvl4 [157003]",
           "name": "Main/item_157003",
           "level": 4,
           "mergeable": {
-            "nextItemId": "Special Mine lvl5 [157004]"
+            "nextItemId": "Ancient Mine lvl5 [157004]"
           }
         },
         {
-          "id": "Special Mine lvl5 [157004]",
+          "id": "Ancient Mine lvl5 [157004]",
           "name": "Main/item_157004",
           "level": 5,
           "mergeable": {
-            "nextItemId": "Special Mine lvl6 [157005]"
+            "nextItemId": "Ancient Mine lvl6 [157005]"
           },
           "manualSource": {
             "spendsEnergy": true,
             "destroyAfterTaps": 50,
-            "droppedItemOnDestroy": "Special Mine lvl6 [157005]",
+            "droppedItemOnDestroy": "Ancient Mine lvl6 [157005]",
             "dropsPerRecharge": 6,
             "rechargeTimer": 5400,
             "rechargesStack": 3,
             "droppableItems": [
               {
-                "dropId": "Bronze Ingot lvl1 [155000]",
+                "dropId": "Copper Ingot lvl1 [155000]",
                 "dropRate": 0.95
               },
               {
-                "dropId": "Bronze Ingot lvl2 [155001]",
+                "dropId": "Copper Ingot lvl2 [155001]",
                 "dropRate": 0.05
               }
             ]
@@ -2268,26 +2268,26 @@
           }
         },
         {
-          "id": "Special Mine lvl6 [157005]",
+          "id": "Ancient Mine lvl6 [157005]",
           "name": "Main/item_157005",
           "level": 6,
           "mergeable": {
-            "nextItemId": "Special Mine lvl7 [157006]"
+            "nextItemId": "Ancient Mine lvl7 [157006]"
           },
           "manualSource": {
             "spendsEnergy": true,
             "destroyAfterTaps": 200,
-            "droppedItemOnDestroy": "Special Mine lvl7 [157006]",
+            "droppedItemOnDestroy": "Ancient Mine lvl7 [157006]",
             "dropsPerRecharge": 6,
             "rechargeTimer": 2700,
             "rechargesStack": 3,
             "droppableItems": [
               {
-                "dropId": "Bronze Ingot lvl1 [155000]",
+                "dropId": "Copper Ingot lvl1 [155000]",
                 "dropRate": 0.85
               },
               {
-                "dropId": "Bronze Ingot lvl2 [155001]",
+                "dropId": "Copper Ingot lvl2 [155001]",
                 "dropRate": 0.15
               }
             ]
@@ -2306,26 +2306,26 @@
           }
         },
         {
-          "id": "Special Mine lvl7 [157006]",
+          "id": "Ancient Mine lvl7 [157006]",
           "name": "Main/item_157006",
           "level": 7,
           "mergeable": {
-            "nextItemId": "Special Mine lvl8 [157007]"
+            "nextItemId": "Ancient Mine lvl8 [157007]"
           },
           "manualSource": {
             "spendsEnergy": true,
             "destroyAfterTaps": 800,
-            "droppedItemOnDestroy": "Special Mine lvl8 [157007]",
+            "droppedItemOnDestroy": "Ancient Mine lvl8 [157007]",
             "dropsPerRecharge": 6,
             "rechargeTimer": 1320,
             "rechargesStack": 3,
             "droppableItems": [
               {
-                "dropId": "Bronze Ingot lvl1 [155000]",
+                "dropId": "Copper Ingot lvl1 [155000]",
                 "dropRate": 0.5
               },
               {
-                "dropId": "Bronze Ingot lvl2 [155001]",
+                "dropId": "Copper Ingot lvl2 [155001]",
                 "dropRate": 0.35
               },
               {
@@ -2352,26 +2352,26 @@
           }
         },
         {
-          "id": "Special Mine lvl8 [157007]",
+          "id": "Ancient Mine lvl8 [157007]",
           "name": "Main/item_157007",
           "level": 8,
           "mergeable": {
-            "nextItemId": "Special Mine lvl9 [157008]"
+            "nextItemId": "Ancient Mine lvl9 [157008]"
           },
           "manualSource": {
             "spendsEnergy": true,
             "destroyAfterTaps": 2700,
-            "droppedItemOnDestroy": "Special Mine lvl9 [157008]",
+            "droppedItemOnDestroy": "Ancient Mine lvl9 [157008]",
             "dropsPerRecharge": 6,
             "rechargeTimer": 690,
             "rechargesStack": 3,
             "droppableItems": [
               {
-                "dropId": "Bronze Ingot lvl1 [155000]",
+                "dropId": "Copper Ingot lvl1 [155000]",
                 "dropRate": 0.3
               },
               {
-                "dropId": "Bronze Ingot lvl2 [155001]",
+                "dropId": "Copper Ingot lvl2 [155001]",
                 "dropRate": 0.25
               },
               {
@@ -2402,26 +2402,26 @@
           }
         },
         {
-          "id": "Special Mine lvl9 [157008]",
+          "id": "Ancient Mine lvl9 [157008]",
           "name": "Main/item_157008",
           "level": 9,
           "mergeable": {
-            "nextItemId": "Special Mine lvl10 [157009]"
+            "nextItemId": "Ancient Mine lvl10 [157009]"
           },
           "manualSource": {
             "spendsEnergy": true,
             "destroyAfterTaps": 4500,
-            "droppedItemOnDestroy": "Special Mine lvl10 [157009]",
+            "droppedItemOnDestroy": "Ancient Mine lvl10 [157009]",
             "dropsPerRecharge": 6,
             "rechargeTimer": 330,
             "rechargesStack": 3,
             "droppableItems": [
               {
-                "dropId": "Bronze Ingot lvl1 [155000]",
+                "dropId": "Copper Ingot lvl1 [155000]",
                 "dropRate": 0.05
               },
               {
-                "dropId": "Bronze Ingot lvl2 [155001]",
+                "dropId": "Copper Ingot lvl2 [155001]",
                 "dropRate": 0.2
               },
               {
@@ -2456,7 +2456,7 @@
           }
         },
         {
-          "id": "Special Mine lvl10 [157009]",
+          "id": "Ancient Mine lvl10 [157009]",
           "name": "Main/item_157009",
           "level": 10,
           "manualSource": {
@@ -2466,11 +2466,11 @@
             "rechargesStack": 3,
             "droppableItems": [
               {
-                "dropId": "Bronze Ingot lvl1 [155000]",
+                "dropId": "Copper Ingot lvl1 [155000]",
                 "dropRate": 0.05
               },
               {
-                "dropId": "Bronze Ingot lvl2 [155001]",
+                "dropId": "Copper Ingot lvl2 [155001]",
                 "dropRate": 0.1
               },
               {
@@ -3674,11 +3674,11 @@
           "level": 5
         },
         {
-          "id": "Bronze Armour lvl1 [153000]",
+          "id": "Copper Armour lvl1 [153000]",
           "name": "Main/item_153000",
           "level": 1,
           "mergeable": {
-            "nextItemId": "Bronze Armour lvl2 [153001]"
+            "nextItemId": "Copper Armour lvl2 [153001]"
           },
           "purchasable": {
             "costType": 0,
@@ -3697,55 +3697,55 @@
           }
         },
         {
-          "id": "Bronze Armour lvl2 [153001]",
+          "id": "Copper Armour lvl2 [153001]",
           "name": "Main/item_153001",
           "level": 2,
           "mergeable": {
-            "nextItemId": "Bronze Armour lvl3 [153002]"
+            "nextItemId": "Copper Armour lvl3 [153002]"
           }
         },
         {
-          "id": "Bronze Armour lvl3 [153002]",
+          "id": "Copper Armour lvl3 [153002]",
           "name": "Main/item_153002",
           "level": 3,
           "mergeable": {
-            "nextItemId": "Bronze Armour lvl4 [153003]"
+            "nextItemId": "Copper Armour lvl4 [153003]"
           }
         },
         {
-          "id": "Bronze Armour lvl4 [153003]",
+          "id": "Copper Armour lvl4 [153003]",
           "name": "Main/item_153003",
           "level": 4,
           "mergeable": {
-            "nextItemId": "Bronze Armour lvl5 [153004]"
+            "nextItemId": "Copper Armour lvl5 [153004]"
           }
         },
         {
-          "id": "Bronze Armour lvl5 [153004]",
+          "id": "Copper Armour lvl5 [153004]",
           "name": "Main/item_153004",
           "level": 5,
           "mergeable": {
-            "nextItemId": "Bronze Armour lvl6 [153005]"
+            "nextItemId": "Copper Armour lvl6 [153005]"
           }
         },
         {
-          "id": "Bronze Armour lvl6 [153005]",
+          "id": "Copper Armour lvl6 [153005]",
           "name": "Main/item_153005",
           "level": 6,
           "mergeable": {
-            "nextItemId": "Bronze Armour lvl7 [153006]"
+            "nextItemId": "Copper Armour lvl7 [153006]"
           }
         },
         {
-          "id": "Bronze Armour lvl7 [153006]",
+          "id": "Copper Armour lvl7 [153006]",
           "name": "Main/item_153006",
           "level": 7,
           "mergeable": {
-            "nextItemId": "Bronze Armour lvl8 [153007]"
+            "nextItemId": "Copper Armour lvl8 [153007]"
           }
         },
         {
-          "id": "Bronze Armour lvl8 [153007]",
+          "id": "Copper Armour lvl8 [153007]",
           "name": "Main/item_153007",
           "level": 8
         },
@@ -3826,31 +3826,31 @@
           "level": 8
         },
         {
-          "id": "Bronze Ingot lvl1 [155000]",
+          "id": "Copper Ingot lvl1 [155000]",
           "name": "Main/item_155000",
           "level": 1,
           "mergeable": {
-            "nextItemId": "Bronze Ingot lvl2 [155001]"
+            "nextItemId": "Copper Ingot lvl2 [155001]"
           }
         },
         {
-          "id": "Bronze Ingot lvl2 [155001]",
+          "id": "Copper Ingot lvl2 [155001]",
           "name": "Main/item_155001",
           "level": 2,
           "mergeable": {
-            "nextItemId": "Bronze Ingot lvl3 [155002]"
+            "nextItemId": "Copper Ingot lvl3 [155002]"
           }
         },
         {
-          "id": "Bronze Ingot lvl3 [155002]",
+          "id": "Copper Ingot lvl3 [155002]",
           "name": "Main/item_155002",
           "level": 3,
           "mergeable": {
-            "nextItemId": "Bronze Ingot lvl4 [155003]"
+            "nextItemId": "Copper Ingot lvl4 [155003]"
           }
         },
         {
-          "id": "Bronze Ingot lvl4 [155003]",
+          "id": "Copper Ingot lvl4 [155003]",
           "name": "Main/item_155003",
           "level": 4,
           "manualSource": {
@@ -3861,7 +3861,7 @@
             "rechargesStack": 1,
             "droppableItems": [
               {
-                "dropId": "Bronze Armour lvl1 [153000]",
+                "dropId": "Copper Armour lvl1 [153000]",
                 "dropRate": 1
               }
             ]
@@ -4028,7 +4028,7 @@
           "level": 8
         },
         {
-          "id": "Witch's Cauldron lvl1 [160000]",
+          "id": "Alchemist Cauldron lvl1 [160000]",
           "name": "Main/item_160000",
           "level": 1,
           "manualSource": {
@@ -4046,11 +4046,11 @@
                 "dropRate": 0.1
               },
               {
-                "dropId": "Poison lvl1 [162000]",
+                "dropId": "Poison Bottle lvl1 [162000]",
                 "dropRate": 0.4
               },
               {
-                "dropId": "Poison lvl2 [162001]",
+                "dropId": "Poison Bottle lvl2 [162001]",
                 "dropRate": 0.1
               }
             ]
@@ -4101,11 +4101,11 @@
           "level": 4
         },
         {
-          "id": "Poison lvl1 [162000]",
+          "id": "Poison Bottle lvl1 [162000]",
           "name": "Main/item_162000",
           "level": 1,
           "mergeable": {
-            "nextItemId": "Poison lvl2 [162001]"
+            "nextItemId": "Poison Bottle lvl2 [162001]"
           },
           "purchasable": {
             "costType": 0,
@@ -4124,23 +4124,23 @@
           }
         },
         {
-          "id": "Poison lvl2 [162001]",
+          "id": "Poison Bottle lvl2 [162001]",
           "name": "Main/item_162001",
           "level": 2,
           "mergeable": {
-            "nextItemId": "Poison lvl3 [162002]"
+            "nextItemId": "Poison Bottle lvl3 [162002]"
           }
         },
         {
-          "id": "Poison lvl3 [162002]",
+          "id": "Poison Bottle lvl3 [162002]",
           "name": "Main/item_162002",
           "level": 3,
           "mergeable": {
-            "nextItemId": "Poison lvl4 [162003]"
+            "nextItemId": "Poison Bottle lvl4 [162003]"
           }
         },
         {
-          "id": "Poison lvl4 [162003]",
+          "id": "Poison Bottle lvl4 [162003]",
           "name": "Main/item_162003",
           "level": 4
         },
@@ -4399,7 +4399,7 @@
             "rechargesStack": 1,
             "droppableItems": [
               {
-                "dropId": "Special Mine lvl1 [157000]",
+                "dropId": "Ancient Mine lvl1 [157000]",
                 "dropRate": 1
               }
             ]
@@ -4510,7 +4510,7 @@
             "rechargesStack": 1,
             "droppableItems": [
               {
-                "dropId": "Poison lvl1 [162000]",
+                "dropId": "Poison Bottle lvl1 [162000]",
                 "dropRate": 1
               }
             ]
@@ -4528,7 +4528,7 @@
             "rechargesStack": 1,
             "droppableItems": [
               {
-                "dropId": "Bronze Armour lvl1 [153000]",
+                "dropId": "Copper Armour lvl1 [153000]",
                 "dropRate": 1
               }
             ]
@@ -5146,7 +5146,7 @@
                 "dropRate": 0.12
               },
               {
-                "dropId": "Special Mine lvl1 [157000]",
+                "dropId": "Ancient Mine lvl1 [157000]",
                 "dropRate": 0.12
               },
               {
@@ -5154,7 +5154,7 @@
                 "dropRate": 0.12
               },
               {
-                "dropId": "Poison lvl1 [162000]",
+                "dropId": "Poison Bottle lvl1 [162000]",
                 "dropRate": 0.12
               },
               {
@@ -5191,7 +5191,7 @@
                 "dropRate": 0.12
               },
               {
-                "dropId": "Special Mine lvl1 [157000]",
+                "dropId": "Ancient Mine lvl1 [157000]",
                 "dropRate": 0.12
               },
               {
@@ -8189,7 +8189,7 @@
         },
         {
           "entryPos": 4,
-          "id": "Special Mine lvl1 [157000]",
+          "id": "Ancient Mine lvl1 [157000]",
           "isLocked": true,
           "isHidden": false,
           "hiddenItemId": -1,
@@ -8237,7 +8237,7 @@
         },
         {
           "entryPos": 10,
-          "id": "Special Mine lvl2 [157001]",
+          "id": "Ancient Mine lvl2 [157001]",
           "isLocked": true,
           "isHidden": true,
           "hiddenItemId": "Crate lvl1 [999003]",
@@ -8253,7 +8253,7 @@
         },
         {
           "entryPos": 12,
-          "id": "Poison lvl3 [162002]",
+          "id": "Poison Bottle lvl3 [162002]",
           "isLocked": true,
           "isHidden": true,
           "hiddenItemId": "Crate lvl1 [999001]",
@@ -8365,7 +8365,7 @@
         },
         {
           "entryPos": 26,
-          "id": "Bronze Ingot lvl3 [155002]",
+          "id": "Copper Ingot lvl3 [155002]",
           "isLocked": true,
           "isHidden": true,
           "hiddenItemId": "Crate lvl1 [999002]",
@@ -8413,7 +8413,7 @@
         },
         {
           "entryPos": 32,
-          "id": "Special Mine lvl9 [157008]",
+          "id": "Ancient Mine lvl9 [157008]",
           "isLocked": true,
           "isHidden": false,
           "hiddenItemId": -1,
@@ -8429,7 +8429,7 @@
         },
         {
           "entryPos": 34,
-          "id": "Special Mine lvl4 [157003]",
+          "id": "Ancient Mine lvl4 [157003]",
           "isLocked": true,
           "isHidden": true,
           "hiddenItemId": "Crate lvl1 [999000]",
@@ -8549,7 +8549,7 @@
         },
         {
           "entryPos": 49,
-          "id": "Bronze Armour lvl1 [153000]",
+          "id": "Copper Armour lvl1 [153000]",
           "isLocked": true,
           "isHidden": true,
           "hiddenItemId": "Crate lvl1 [999003]",
@@ -10983,7 +10983,7 @@
           ],
           "objectives": [
             {
-              "itemId": "Bronze Ingot lvl4 [155003]",
+              "itemId": "Copper Ingot lvl4 [155003]",
               "amount": 1
             },
             {
@@ -11307,7 +11307,7 @@
           ],
           "objectives": [
             {
-              "itemId": "Bronze Armour lvl1 [153000]",
+              "itemId": "Copper Armour lvl1 [153000]",
               "amount": 1
             },
             {
@@ -11323,7 +11323,7 @@
             },
             {
               "itemReward": {
-                "itemId": "Witch's Cauldron lvl1 [160000]",
+                "itemId": "Alchemist Cauldron lvl1 [160000]",
                 "amount": 1
               }
             }
@@ -11344,7 +11344,7 @@
               "amount": 1
             },
             {
-              "itemId": "Poison lvl4 [162003]",
+              "itemId": "Poison Bottle lvl4 [162003]",
               "amount": 1
             }
           ],
@@ -11454,7 +11454,7 @@
               "amount": 2
             },
             {
-              "itemId": "Poison lvl4 [162003]",
+              "itemId": "Poison Bottle lvl4 [162003]",
               "amount": 2
             }
           ],
@@ -11477,7 +11477,7 @@
           ],
           "objectives": [
             {
-              "itemId": "Bronze Armour lvl1 [153000]",
+              "itemId": "Copper Armour lvl1 [153000]",
               "amount": 1
             },
             {
@@ -11504,7 +11504,7 @@
           ],
           "objectives": [
             {
-              "itemId": "Bronze Armour lvl3 [153002]",
+              "itemId": "Copper Armour lvl3 [153002]",
               "amount": 1
             },
             {
@@ -11531,7 +11531,7 @@
           ],
           "objectives": [
             {
-              "itemId": "Bronze Armour lvl2 [153001]",
+              "itemId": "Copper Armour lvl2 [153001]",
               "amount": 1
             },
             {
@@ -11562,7 +11562,7 @@
           ],
           "objectives": [
             {
-              "itemId": "Bronze Armour lvl5 [153004]",
+              "itemId": "Copper Armour lvl5 [153004]",
               "amount": 1
             },
             {
@@ -11770,7 +11770,7 @@
           ],
           "objectives": [
             {
-              "itemId": "Bronze Armour lvl8 [153007]",
+              "itemId": "Copper Armour lvl8 [153007]",
               "amount": 1
             }
           ],
@@ -12182,7 +12182,7 @@
               "amount": 1
             },
             {
-              "itemId": "Poison lvl4 [162003]",
+              "itemId": "Poison Bottle lvl4 [162003]",
               "amount": 1
             }
           ],
@@ -12286,7 +12286,7 @@
               "amount": 2
             },
             {
-              "itemId": "Poison lvl4 [162003]",
+              "itemId": "Poison Bottle lvl4 [162003]",
               "amount": 2
             }
           ],
@@ -12315,7 +12315,7 @@
           ],
           "objectives": [
             {
-              "itemId": "Bronze Armour lvl2 [153001]",
+              "itemId": "Copper Armour lvl2 [153001]",
               "amount": 1
             },
             {
@@ -12346,7 +12346,7 @@
               "amount": 1
             },
             {
-              "itemId": "Bronze Armour lvl3 [153002]",
+              "itemId": "Copper Armour lvl3 [153002]",
               "amount": 1
             }
           ],
@@ -12373,7 +12373,7 @@
               "amount": 1
             },
             {
-              "itemId": "Bronze Armour lvl4 [153003]",
+              "itemId": "Copper Armour lvl4 [153003]",
               "amount": 1
             }
           ],
@@ -12454,7 +12454,7 @@
           ],
           "objectives": [
             {
-              "itemId": "Poison lvl4 [162003]",
+              "itemId": "Poison Bottle lvl4 [162003]",
               "amount": 1
             }
           ],
@@ -12908,7 +12908,7 @@
           ],
           "objectives": [
             {
-              "itemId": "Poison lvl4 [162003]",
+              "itemId": "Poison Bottle lvl4 [162003]",
               "amount": 2
             }
           ],
@@ -13415,7 +13415,7 @@
               "amount": 1
             },
             {
-              "itemId": "Poison lvl4 [162003]",
+              "itemId": "Poison Bottle lvl4 [162003]",
               "amount": 2
             }
           ],
@@ -13533,7 +13533,7 @@
               "amount": 2
             },
             {
-              "itemId": "Poison lvl4 [162003]",
+              "itemId": "Poison Bottle lvl4 [162003]",
               "amount": 3
             }
           ],
