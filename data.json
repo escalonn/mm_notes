@@ -8069,7 +8069,7 @@
             "rechargesStack": 1,
             "droppableItems": [
               {
-                "dropId": "Steel Ingot lvl1 [158000]",
+                "dropId": "Silver Ingot lvl1 [158000]",
                 "dropRate": 1
               }
             ]
@@ -8090,7 +8090,7 @@
             "rechargesStack": 1,
             "droppableItems": [
               {
-                "dropId": "Steel Ingot lvl2 [158001]",
+                "dropId": "Silver Ingot lvl2 [158001]",
                 "dropRate": 1
               }
             ]
@@ -8111,7 +8111,7 @@
             "rechargesStack": 1,
             "droppableItems": [
               {
-                "dropId": "Steel Ingot lvl4 [158003]",
+                "dropId": "Silver Ingot lvl4 [158003]",
                 "dropRate": 1
               }
             ]
@@ -9253,11 +9253,11 @@
                 "dropRate": 0.35
               },
               {
-                "dropId": "Steel Ingot lvl1 [158000]",
+                "dropId": "Silver Ingot lvl1 [158000]",
                 "dropRate": 0.1
               },
               {
-                "dropId": "Steel Ingot lvl2 [158001]",
+                "dropId": "Silver Ingot lvl2 [158001]",
                 "dropRate": 0.05
               }
             ]
@@ -9299,11 +9299,11 @@
                 "dropRate": 0.25
               },
               {
-                "dropId": "Steel Ingot lvl1 [158000]",
+                "dropId": "Silver Ingot lvl1 [158000]",
                 "dropRate": 0.25
               },
               {
-                "dropId": "Steel Ingot lvl2 [158001]",
+                "dropId": "Silver Ingot lvl2 [158001]",
                 "dropRate": 0.15
               },
               {
@@ -9349,11 +9349,11 @@
                 "dropRate": 0.2
               },
               {
-                "dropId": "Steel Ingot lvl1 [158000]",
+                "dropId": "Silver Ingot lvl1 [158000]",
                 "dropRate": 0.35
               },
               {
-                "dropId": "Steel Ingot lvl2 [158001]",
+                "dropId": "Silver Ingot lvl2 [158001]",
                 "dropRate": 0.2
               },
               {
@@ -9398,11 +9398,11 @@
                 "dropRate": 0.1
               },
               {
-                "dropId": "Steel Ingot lvl1 [158000]",
+                "dropId": "Silver Ingot lvl1 [158000]",
                 "dropRate": 0.26
               },
               {
-                "dropId": "Steel Ingot lvl2 [158001]",
+                "dropId": "Silver Ingot lvl2 [158001]",
                 "dropRate": 0.26
               },
               {
@@ -10834,31 +10834,31 @@
           }
         },
         {
-          "id": "Steel Ingot lvl1 [158000]",
+          "id": "Silver Ingot lvl1 [158000]",
           "name": "Main/item_158000",
           "level": 1,
           "mergeable": {
-            "nextItemId": "Steel Ingot lvl2 [158001]"
+            "nextItemId": "Silver Ingot lvl2 [158001]"
           }
         },
         {
-          "id": "Steel Ingot lvl2 [158001]",
+          "id": "Silver Ingot lvl2 [158001]",
           "name": "Main/item_158001",
           "level": 2,
           "mergeable": {
-            "nextItemId": "Steel Ingot lvl3 [158002]"
+            "nextItemId": "Silver Ingot lvl3 [158002]"
           }
         },
         {
-          "id": "Steel Ingot lvl3 [158002]",
+          "id": "Silver Ingot lvl3 [158002]",
           "name": "Main/item_158002",
           "level": 3,
           "mergeable": {
-            "nextItemId": "Steel Ingot lvl4 [158003]"
+            "nextItemId": "Silver Ingot lvl4 [158003]"
           }
         },
         {
-          "id": "Steel Ingot lvl4 [158003]",
+          "id": "Silver Ingot lvl4 [158003]",
           "name": "Main/item_158003",
           "level": 4,
           "manualSource": {
@@ -10869,18 +10869,18 @@
             "rechargesStack": 1,
             "droppableItems": [
               {
-                "dropId": "Steel Armour lvl1 [159000]",
+                "dropId": "Silver Armour lvl1 [159000]",
                 "dropRate": 1
               }
             ]
           }
         },
         {
-          "id": "Steel Armour lvl1 [159000]",
+          "id": "Silver Armour lvl1 [159000]",
           "name": "Main/item_159000",
           "level": 1,
           "mergeable": {
-            "nextItemId": "Steel Armour lvl2 [159001]"
+            "nextItemId": "Silver Armour lvl2 [159001]"
           },
           "purchasable": {
             "costType": 0,
@@ -10899,55 +10899,55 @@
           }
         },
         {
-          "id": "Steel Armour lvl2 [159001]",
+          "id": "Silver Armour lvl2 [159001]",
           "name": "Main/item_159001",
           "level": 2,
           "mergeable": {
-            "nextItemId": "Steel Armour lvl3 [159002]"
+            "nextItemId": "Silver Armour lvl3 [159002]"
           }
         },
         {
-          "id": "Steel Armour lvl3 [159002]",
+          "id": "Silver Armour lvl3 [159002]",
           "name": "Main/item_159002",
           "level": 3,
           "mergeable": {
-            "nextItemId": "Steel Armour lvl4 [159003]"
+            "nextItemId": "Silver Armour lvl4 [159003]"
           }
         },
         {
-          "id": "Steel Armour lvl4 [159003]",
+          "id": "Silver Armour lvl4 [159003]",
           "name": "Main/item_159003",
           "level": 4,
           "mergeable": {
-            "nextItemId": "Steel Armour lvl5 [159004]"
+            "nextItemId": "Silver Armour lvl5 [159004]"
           }
         },
         {
-          "id": "Steel Armour lvl5 [159004]",
+          "id": "Silver Armour lvl5 [159004]",
           "name": "Main/item_159004",
           "level": 5,
           "mergeable": {
-            "nextItemId": "Steel Armour lvl6 [159005]"
+            "nextItemId": "Silver Armour lvl6 [159005]"
           }
         },
         {
-          "id": "Steel Armour lvl6 [159005]",
+          "id": "Silver Armour lvl6 [159005]",
           "name": "Main/item_159005",
           "level": 6,
           "mergeable": {
-            "nextItemId": "Steel Armour lvl7 [159006]"
+            "nextItemId": "Silver Armour lvl7 [159006]"
           }
         },
         {
-          "id": "Steel Armour lvl7 [159006]",
+          "id": "Silver Armour lvl7 [159006]",
           "name": "Main/item_159006",
           "level": 7,
           "mergeable": {
-            "nextItemId": "Steel Armour lvl8 [159007]"
+            "nextItemId": "Silver Armour lvl8 [159007]"
           }
         },
         {
-          "id": "Steel Armour lvl8 [159007]",
+          "id": "Silver Armour lvl8 [159007]",
           "name": "Main/item_159007",
           "level": 8
         },
@@ -11470,7 +11470,7 @@
             "rechargesStack": 1,
             "droppableItems": [
               {
-                "dropId": "Steel Ingot lvl1 [158000]",
+                "dropId": "Silver Ingot lvl1 [158000]",
                 "dropRate": 1
               }
             ]
@@ -19510,7 +19510,7 @@
               "amount": 1
             },
             {
-              "itemId": "Steel Armour lvl1 [159000]",
+              "itemId": "Silver Armour lvl1 [159000]",
               "amount": 1
             }
           ],
@@ -19541,7 +19541,7 @@
               "amount": 1
             },
             {
-              "itemId": "Steel Armour lvl1 [159000]",
+              "itemId": "Silver Armour lvl1 [159000]",
               "amount": 1
             }
           ],
@@ -19735,7 +19735,7 @@
           ],
           "objectives": [
             {
-              "itemId": "Steel Armour lvl8 [159007]",
+              "itemId": "Silver Armour lvl8 [159007]",
               "amount": 1
             }
           ],
@@ -20045,7 +20045,7 @@
               "amount": 1
             },
             {
-              "itemId": "Steel Armour lvl2 [159001]",
+              "itemId": "Silver Armour lvl2 [159001]",
               "amount": 1
             }
           ],
@@ -20072,7 +20072,7 @@
               "amount": 1
             },
             {
-              "itemId": "Steel Armour lvl3 [159002]",
+              "itemId": "Silver Armour lvl3 [159002]",
               "amount": 1
             }
           ],
@@ -20099,7 +20099,7 @@
               "amount": 1
             },
             {
-              "itemId": "Steel Armour lvl2 [159001]",
+              "itemId": "Silver Armour lvl2 [159001]",
               "amount": 1
             }
           ],
@@ -20126,7 +20126,7 @@
               "amount": 1
             },
             {
-              "itemId": "Steel Armour lvl1 [159000]",
+              "itemId": "Silver Armour lvl1 [159000]",
               "amount": 1
             }
           ],
@@ -20159,7 +20159,7 @@
               "amount": 1
             },
             {
-              "itemId": "Steel Armour lvl4 [159003]",
+              "itemId": "Silver Armour lvl4 [159003]",
               "amount": 1
             }
           ],
@@ -20190,7 +20190,7 @@
               "amount": 1
             },
             {
-              "itemId": "Steel Armour lvl5 [159004]",
+              "itemId": "Silver Armour lvl5 [159004]",
               "amount": 1
             }
           ],
