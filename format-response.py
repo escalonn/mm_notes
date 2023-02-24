@@ -1,3 +1,4 @@
+import csv
 from itertools import islice
 import json
 from urllib.request import urlopen
@@ -46,8 +47,8 @@ id_name_patch = {
         (157, ('Ancient Mine', 10)),
         (155, ('Copper Ingot', 4)),
         (153, ('Copper Armour', 8)),
-        (158, ('Silver Ingot', 4)),
-        (159, ('Silver Armour', 8)),
+        (158, ('Steel Ingot', 4)),
+        (159, ('Steel Armour', 8)),
         (156, ('Gold Ingot', 4)),
         (154, ('Gold Armour', 8)),
         (160, ("Alchemist Cauldron", 1)),
@@ -57,17 +58,60 @@ id_name_patch = {
 }
 
 item_id_map = id_name_patch | fetch_item_id_map()
+
+categories = {int(k) // 1000: v[0]
+              for k, v in reversed(item_id_map.items())}
+with open('categories.csv', 'w', newline='') as f:
+    writer = csv.writer(f)
+    writer.writerow(['Category', 'Name'])
+    for k, v in sorted(categories.items()):
+        writer.writerow([k, v])
+
 int_parser = item_id_int_parser(item_id_map)
 
 with open(in_name, encoding='utf8') as f:
-    o = json.load(f, parse_int=int_parser)
+    data = json.load(f, parse_int=int_parser)
 
 # jsonpath_ng.parse('')
 # find all the IDs and stuff
 # also... find rechargeTimer etc and format as nice hms
 
-o[key_name] = {k: decode_json(v, int_parser) for k, v in o[key_name].items()}
+data[key_name] = {k: decode_json(v, int_parser) for k, v in data[key_name].items()}
 
 out_name = in_name[4:]
 with open(out_name, 'w') as f:
-    json.dump(o, f, indent=2)
+    json.dump(data, f, indent=2)
+
+fields = ['Category', 'Level', 'Source', 'Drops', 'Charge', 'Stack']
+gens = []
+for item in data[key_name]['boardItemSettings1000']['items']:
+    item_id = item['id']
+    if isinstance(item_id, str):
+        item_id = int(item_id.split('[')[-1][:-1])
+    if 'manualSource' in item:
+        gen = {}
+        gen['Category'] = item_id // 1000
+        gen['Level'] = item['level']
+        assert item['level'] - 1 == item_id % 1000
+        gen['Source'] = 'manual'
+        source = item['manualSource']
+        gen['Drops'] = source['dropsPerRecharge']
+        gen['Charge'] = source['rechargeTimer']
+        gen['Stack'] = source['rechargesStack']
+        gens.append(gen)
+    if 'autoSource' in item:
+        gen = {}
+        gen['Category'] = item_id // 1000
+        gen['Level'] = item['level']
+        assert item['level'] - 1 == item_id % 1000
+        gen['Source'] = 'auto'
+        source = item['autoSource']
+        gen['Drops'] = source['dropsPerRecharge']
+        gen['Charge'] = source['rechargeTimer']
+        gen['Stack'] = source['rechargesStack']
+        gens.append(gen)
+with open('event_generators.csv', 'w', newline='') as f:
+    writer = csv.DictWriter(f, fields, extrasaction='ignore')
+    writer.writeheader()
+    for r in gens:
+        writer.writerow(r)
