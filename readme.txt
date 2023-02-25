@@ -35,7 +35,11 @@ get remote config json over the wire
     inspect response.json
 get remote config from disk
     it's in the /data/data/com.pixodust.games.free.rpg.medieval.merge.puzzle.empire/files directory, frc*firebase_activate.json
-    `cp /c/ProgramData/BlueStacks_nxt/Engine/UserData/SharedFolder/frc* raw_data.json`
+    bluestacks
+        `cp /c/ProgramData/BlueStacks_nxt/Engine/UserData/SharedFolder/frc* raw_bs_data.json`
+    phone
+        `adb backup -noapk com.pixodust.games.free.rpg.medieval.merge.puzzle.empire`
+        `dd if=backup.ab bs=24 skip=1 | openssl zlib -d | tar -xO --wildcards '*activate.json' > raw_data.json && rm backup.ab`
     copy as raw_data.json in this folder
     run py format-response.py
     inspect response.json

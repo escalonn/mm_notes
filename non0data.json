@@ -780,12 +780,12 @@
             "price": [
               {
                 "currencyType": 0,
-                "currencyAmount": 380,
+                "currencyAmount": 450,
                 "mapId": 0
               },
               {
                 "currencyType": 1,
-                "currencyAmount": 45,
+                "currencyAmount": 60,
                 "mapId": 0
               }
             ]
@@ -1265,12 +1265,12 @@
             "price": [
               {
                 "currencyType": 0,
-                "currencyAmount": 250,
+                "currencyAmount": 350,
                 "mapId": 0
               },
               {
                 "currencyType": 1,
-                "currencyAmount": 30,
+                "currencyAmount": 50,
                 "mapId": 0
               }
             ]
@@ -1288,12 +1288,12 @@
             "price": [
               {
                 "currencyType": 0,
-                "currencyAmount": 400,
+                "currencyAmount": 600,
                 "mapId": 0
               },
               {
                 "currencyType": 1,
-                "currencyAmount": 45,
+                "currencyAmount": 80,
                 "mapId": 0
               }
             ]
@@ -2240,7 +2240,7 @@
             "spendsEnergy": true,
             "destroyAfterTaps": 50,
             "droppedItemOnDestroy": "Ancient Mine lvl6 [157005]",
-            "dropsPerRecharge": 6,
+            "dropsPerRecharge": 11,
             "rechargeTimer": 5400,
             "rechargesStack": 3,
             "droppableItems": [
@@ -2278,7 +2278,7 @@
             "spendsEnergy": true,
             "destroyAfterTaps": 200,
             "droppedItemOnDestroy": "Ancient Mine lvl7 [157006]",
-            "dropsPerRecharge": 6,
+            "dropsPerRecharge": 11,
             "rechargeTimer": 2700,
             "rechargesStack": 3,
             "droppableItems": [
@@ -2316,7 +2316,7 @@
             "spendsEnergy": true,
             "destroyAfterTaps": 800,
             "droppedItemOnDestroy": "Ancient Mine lvl8 [157007]",
-            "dropsPerRecharge": 6,
+            "dropsPerRecharge": 11,
             "rechargeTimer": 1320,
             "rechargesStack": 3,
             "droppableItems": [
@@ -2362,7 +2362,7 @@
             "spendsEnergy": true,
             "destroyAfterTaps": 2700,
             "droppedItemOnDestroy": "Ancient Mine lvl9 [157008]",
-            "dropsPerRecharge": 6,
+            "dropsPerRecharge": 11,
             "rechargeTimer": 690,
             "rechargesStack": 3,
             "droppableItems": [
@@ -2412,7 +2412,7 @@
             "spendsEnergy": true,
             "destroyAfterTaps": 4500,
             "droppedItemOnDestroy": "Ancient Mine lvl10 [157009]",
-            "dropsPerRecharge": 6,
+            "dropsPerRecharge": 11,
             "rechargeTimer": 330,
             "rechargesStack": 3,
             "droppableItems": [
@@ -2461,7 +2461,7 @@
           "level": 10,
           "manualSource": {
             "spendsEnergy": true,
-            "dropsPerRecharge": 6,
+            "dropsPerRecharge": 11,
             "rechargeTimer": 165,
             "rechargesStack": 3,
             "droppableItems": [
@@ -2598,12 +2598,12 @@
             "price": [
               {
                 "currencyType": 0,
-                "currencyAmount": 300,
+                "currencyAmount": 1600,
                 "mapId": 0
               },
               {
                 "currencyType": 1,
-                "currencyAmount": 40,
+                "currencyAmount": 200,
                 "mapId": 0
               }
             ]
@@ -2621,12 +2621,12 @@
             "price": [
               {
                 "currencyType": 0,
-                "currencyAmount": 450,
+                "currencyAmount": 3000,
                 "mapId": 0
               },
               {
                 "currencyType": 1,
-                "currencyAmount": 70,
+                "currencyAmount": 300,
                 "mapId": 0
               }
             ]
@@ -5389,7 +5389,8 @@
             }
           }
         }
-      ]
+      ],
+      "NOEX_collectible type": "energy"
     },
     "dailySaleSettings": {
       "resetSettings": {
@@ -8815,6 +8816,51 @@
             "id": "Barang Baru:\n- Misi Baru! Sebuah kapal bajak laut akan datang!\n- Hay level 2 hingga 4 sekarang juga menghasilkan telur!\n- Tempa sekarang menghasilkan lebih banyak potongan baju besi!\n- Bunga sekarang menghasilkan peri lebih cepat!\n\nPerbaikan Glitch:\n- Pengocokan item di papan.",
             "nl": "Nieuwe dingen:\n- Nieuwe Quests! Er komt een piratenschip aan!\n- Hooi level 2 tot 4 genereert nu ook eieren!\n- Smederij genereert nu meer harnassen!\n- De bloem genereert nu sneller fee\u00ebn!\n\nGlitch Fixes:\n- Het schudden van voorwerpen op het bord."
           }
+        },
+        {
+          "uid": 3,
+          "expirationTime": 259200,
+          "deleteOnOpen": false,
+          "rewards": [
+            {
+              "currencyReward": {
+                "currencyType": 1,
+                "currencyAmount": 50
+              }
+            }
+          ],
+          "title": {
+            "en-US": "Daily Quests Not Working",
+            "pt-BR": "Quests Di\u00e1rias N\u00e3o Funcionando",
+            "fr-FR": "Les qu\u00eates quotidiennes ne fonctionnent pas",
+            "it-IT": "Le missioni giornaliere non funzionano",
+            "es-MX": "Las misiones diarias no funcionan",
+            "de-DE": "T\u00e4gliche Quests funktionieren nicht",
+            "ru": "\u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u0437\u0430\u0434\u0430\u043d\u0438\u044f \u043d\u0435 \u0440\u0430\u0431\u043e\u0442\u0430\u044e\u0442",
+            "ja": "\u30c7\u30a4\u30ea\u30fc\u30af\u30a8\u30b9\u30c8\u304c\u6a5f\u80fd\u3057\u306a\u3044",
+            "ko": "\uc77c\uc77c \ud018\uc2a4\ud2b8\uac00 \uc791\ub3d9\ud558\uc9c0 \uc54a\uc74c",
+            "pl": "Nie dzia\u0142aj\u0105 codzienne zadania",
+            "ms": "Pencarian Harian Tidak Berfungsi",
+            "tr": "G\u00fcnl\u00fck G\u00f6revler \u00c7al\u0131\u015fm\u0131yor",
+            "id": "Misi Harian Tidak Berfungsi",
+            "nl": "Dagelijkse zoektochten werken niet"
+          },
+          "body": {
+            "en-US": "We are aware daily quests are currently not working for a small number of players. That will be fixed in the next version.\n\nWe are also aware of some minor bugs related to the newly released event. We're working on it.\n\nWe appreciate your feedback and currently working to improve our events both technically and gameplay-wise!",
+            "pt-BR": "Estamos cientes de que quests di\u00e1rias n\u00e3o est\u00e3o funcionando para uma pequena quantidade de players. Isso ser\u00e1 consertado na pr\u00f3xima vers\u00e3o.\n\nTamb\u00e9m estamos cientes de alguns bugs menores relacionados ao novo evento. Estamos trabalhando nisso.\n\nN\u00f3s agradecemos pelo seu retorno e estamos trabalhando para melhorar nossos eventos tecnicamente e em jogabilidade!",
+            "fr-FR": "Nous sommes conscients que les qu\u00eates quotidiennes ne fonctionnent pas actuellement pour certains joueurs. Cela sera corrig\u00e9 dans la prochaine version.\n\nNous sommes \u00e9galement conscients de certains bugs li\u00e9s \u00e0 l'\u00e9v\u00e9nement r\u00e9cemment publi\u00e9. Nous y travaillons.\n\nNous appr\u00e9cions vos commentaires et travaillons actuellement \u00e0 l'am\u00e9lioration de nos \u00e9v\u00e9nements, tant sur le plan technique que sur celui de la jouabilit\u00e9 !",
+            "it-IT": "Siamo consapevoli che le missioni giornaliere non funzionano per alcuni giocatori. Questo problema sar\u00e0 risolto nella prossima versione.\n\nSiamo anche a conoscenza di alcuni bug relativi all'evento appena rilasciato. Ci stiamo lavorando.\n\nApprezziamo il vostro feedback e stiamo lavorando per migliorare i nostri eventi sia dal punto di vista tecnico che del gameplay!",
+            "es-MX": "Sabemos que las misiones diarias no funcionan para algunos jugadores. Esto se solucionar\u00e1 en la pr\u00f3xima versi\u00f3n.\n\nTambi\u00e9n somos conscientes de algunos errores relacionados con el evento reci\u00e9n lanzado. Estamos trabajando en ello.\n\nAgradecemos vuestros comentarios y estamos trabajando para mejorar nuestros eventos tanto desde el punto de vista t\u00e9cnico como de la jugabilidad.",
+            "de-DE": "Wir wissen, dass die t\u00e4glichen Quests bei einigen Spielern derzeit nicht funktionieren. Dies wird in der n\u00e4chsten Version behoben werden.\n\nWir sind uns auch bewusst, dass es einige Fehler im Zusammenhang mit dem neu ver\u00f6ffentlichten Ereignis gibt. Wir arbeiten daran.\n\nWir freuen uns \u00fcber euer Feedback und arbeiten derzeit daran, unsere Events sowohl technisch als auch vom Gameplay her zu verbessern!",
+            "ru": "\u041c\u044b \u0437\u043d\u0430\u0435\u043c, \u0447\u0442\u043e \u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u043a\u0432\u0435\u0441\u0442\u044b \u0432 \u043d\u0430\u0441\u0442\u043e\u044f\u0449\u0435\u0435 \u0432\u0440\u0435\u043c\u044f \u043d\u0435 \u0440\u0430\u0431\u043e\u0442\u0430\u044e\u0442 \u0434\u043b\u044f \u043d\u0435\u043a\u043e\u0442\u043e\u0440\u044b\u0445 \u0438\u0433\u0440\u043e\u043a\u043e\u0432. \u042d\u0442\u043e \u0431\u0443\u0434\u0435\u0442 \u0438\u0441\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e \u0432 \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438.\n\n\u041c\u044b \u0442\u0430\u043a\u0436\u0435 \u0437\u043d\u0430\u0435\u043c \u043e \u043d\u0435\u043a\u043e\u0442\u043e\u0440\u044b\u0445 \u043e\u0448\u0438\u0431\u043a\u0430\u0445, \u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0445 \u0441 \u043d\u0435\u0434\u0430\u0432\u043d\u043e \u0432\u044b\u0448\u0435\u0434\u0448\u0438\u043c \u0441\u043e\u0431\u044b\u0442\u0438\u0435\u043c. \u041c\u044b \u0440\u0430\u0431\u043e\u0442\u0430\u0435\u043c \u043d\u0430\u0434 \u044d\u0442\u0438\u043c.\n\n\u041c\u044b \u0446\u0435\u043d\u0438\u043c \u0432\u0430\u0448\u0438 \u043e\u0442\u0437\u044b\u0432\u044b \u0438 \u0432 \u043d\u0430\u0441\u0442\u043e\u044f\u0449\u0435\u0435 \u0432\u0440\u0435\u043c\u044f \u0440\u0430\u0431\u043e\u0442\u0430\u0435\u043c \u043d\u0430\u0434 \u0443\u043b\u0443\u0447\u0448\u0435\u043d\u0438\u0435\u043c \u043d\u0430\u0448\u0438\u0445 \u0441\u043e\u0431\u044b\u0442\u0438\u0439 \u043a\u0430\u043a \u0432 \u0442\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u043e\u043c, \u0442\u0430\u043a \u0438 \u0432 \u0438\u0433\u0440\u043e\u0432\u043e\u043c \u043f\u043b\u0430\u043d\u0435!",
+            "ja": "\u73fe\u5728\u3001\u4e00\u90e8\u306e\u30d7\u30ec\u30a4\u30e4\u30fc\u3067\u30c7\u30a4\u30ea\u30fc\u30af\u30a8\u30b9\u30c8\u304c\u6a5f\u80fd\u3057\u3066\u3044\u306a\u3044\u3053\u3068\u3092\u8a8d\u8b58\u3057\u3066\u3044\u307e\u3059\u3002\u3053\u308c\u306f\u6b21\u306e\u30d0\u30fc\u30b8\u30e7\u30f3\u3067\u4fee\u6b63\u3055\u308c\u308b\u4e88\u5b9a\u3067\u3059\u3002\n\n\u307e\u305f\u3001\u65b0\u3057\u304f\u30ea\u30ea\u30fc\u30b9\u3055\u308c\u305f\u30a4\u30d9\u30f3\u30c8\u306b\u95a2\u3059\u308b\u30d0\u30b0\u3082\u78ba\u8a8d\u3057\u3066\u3044\u307e\u3059\u3002\u73fe\u5728\u5bfe\u5fdc\u4e2d\u3067\u3059\u3002\n\n\u7686\u69d8\u306e\u3054\u610f\u898b\u306b\u611f\u8b1d\u3057\u3001\u6280\u8853\u7684\u3001\u30b2\u30fc\u30e0\u7684\u306b\u30a4\u30d9\u30f3\u30c8\u3092\u6539\u5584\u3059\u308b\u3088\u3046\u52aa\u3081\u307e\u3059\u3002",
+            "ko": "\ud604\uc7ac \uc77c\ubd80 \ud50c\ub808\uc774\uc5b4\uc5d0\uac8c \uc77c\uc77c \ud018\uc2a4\ud2b8\uac00 \uc791\ub3d9\ud558\uc9c0 \uc54a\ub294 \uac83\uc744 \uc54c\uace0 \uc788\uc2b5\ub2c8\ub2e4. \uc774 \ubb38\uc81c\ub294 \ub2e4\uc74c \ubc84\uc804\uc5d0\uc11c \uc218\uc815\ub420 \uc608\uc815\uc785\ub2c8\ub2e4.\n\n\ub610\ud55c \uc0c8\ub85c \ucd9c\uc2dc\ub41c \uc774\ubca4\ud2b8\uc640 \uad00\ub828\ub41c \uba87 \uac00\uc9c0 \ubc84\uadf8\ub3c4 \ud655\uc778\ud588\uc2b5\ub2c8\ub2e4. \ud604\uc7ac \uc218\uc815 \uc911\uc785\ub2c8\ub2e4.\n\n\uc5ec\ub7ec\ubd84\uc758 \ud53c\ub4dc\ubc31\uc5d0 \uac10\uc0ac\ub4dc\ub9ac\uba70, \ud604\uc7ac \uae30\uc220\uc801\uc73c\ub85c\ub098 \uac8c\uc784\ud50c\ub808\uc774 \uce21\uba74\uc5d0\uc11c \uc774\ubca4\ud2b8\ub97c \uac1c\uc120\ud558\uae30 \uc704\ud574 \ub178\ub825\ud558\uace0 \uc788\uc2b5\ub2c8\ub2e4!",
+            "pl": "Jeste\u015bmy \u015bwiadomi, \u017ce codzienne zadania nie dzia\u0142aj\u0105 obecnie dla niekt\u00f3rych graczy. Zostanie to naprawione w nast\u0119pnej wersji.\n\nJeste\u015bmy r\u00f3wnie\u017c \u015bwiadomi pewnych b\u0142\u0119d\u00f3w zwi\u0105zanych z nowo wydanym wydarzeniem. Pracujemy nad tym.\n\nDoceniamy Wasze opinie i obecnie pracujemy nad ulepszeniem naszych wydarze\u0144 zar\u00f3wno pod wzgl\u0119dem technicznym jak i rozgrywki!",
+            "ms": "Kami sedar pencarian harian tidak berfungsi pada masa ini untuk sesetengah pemain. Itu akan diperbaiki dalam versi seterusnya.\n\nKami juga mengetahui beberapa pepijat yang berkaitan dengan acara yang baru dikeluarkan. Kami sedang mengusahakannya.\n\nKami menghargai maklum balas anda dan sedang berusaha untuk menambah baik acara kami dari segi teknikal dan permainan!",
+            "tr": "G\u00fcnl\u00fck g\u00f6revlerin \u015fu anda baz\u0131 oyuncular i\u00e7in \u00e7al\u0131\u015fmad\u0131\u011f\u0131n\u0131n fark\u0131nday\u0131z. Bu durum bir sonraki s\u00fcr\u00fcmde d\u00fczeltilecektir.\n\nAyr\u0131ca yeni yay\u0131nlanan etkinlikle ilgili baz\u0131 hatalar\u0131n da fark\u0131nday\u0131z. \u00dczerinde \u00e7al\u0131\u015f\u0131yoruz.\n\nGeri bildirimleriniz i\u00e7in te\u015fekk\u00fcr ederiz ve \u015fu anda etkinliklerimizi hem teknik hem de oynan\u0131\u015f a\u00e7\u0131s\u0131ndan geli\u015ftirmek i\u00e7in \u00e7al\u0131\u015f\u0131yoruz!",
+            "id": "Kami menyadari bahwa quest harian saat ini tidak berfungsi untuk beberapa pemain. Hal itu akan diperbaiki di versi berikutnya.\n\nKami juga menyadari adanya beberapa bug yang terkait dengan event yang baru saja dirilis. Kami sedang memperbaikinya.\n\nKami menghargai umpan balik Anda dan saat ini sedang bekerja untuk meningkatkan event kami baik secara teknis maupun gameplay!",
+            "nl": "We weten dat de dagelijkse opdrachten momenteel niet werken voor sommige spelers. Dat zal in de volgende versie worden opgelost.\n\nWe zijn ons ook bewust van enkele bugs met betrekking tot het nieuw vrijgegeven evenement. We werken eraan.\n\nWe waarderen jullie feedback en werken momenteel aan het verbeteren van onze evenementen, zowel technisch als qua gameplay!"
+          }
         }
       ]
     },
@@ -9150,13 +9196,13 @@
     },
     "playerIAPTiersSettings": {
       "generalSettings": {
-        "enable": false,
+        "enable": true,
         "initialTier": 1
       },
       "buyerSettings": {
         "dropAfterBuy": true,
         "tierRiseAfterBuy": 1,
-        "buyerDropTimeMultiplier": 0.5
+        "buyerDropTimeMultiplier": 0.25
       },
       "tiers": [
         {
@@ -9165,11 +9211,11 @@
         },
         {
           "tier": 2,
-          "minAppTime": 10800
+          "minAppTime": "Guardian Seed Bag lvl1 [108000]"
         },
         {
           "tier": 3,
-          "minAppTime": 21600
+          "minAppTime": "Poison Bottle lvl1 [162000]"
         }
       ]
     },
@@ -11504,7 +11550,7 @@
           ],
           "objectives": [
             {
-              "itemId": "Copper Armour lvl3 [153002]",
+              "itemId": "Copper Armour lvl2 [153001]",
               "amount": 1
             },
             {
@@ -11531,7 +11577,7 @@
           ],
           "objectives": [
             {
-              "itemId": "Copper Armour lvl2 [153001]",
+              "itemId": "Copper Armour lvl1 [153000]",
               "amount": 1
             },
             {
@@ -11562,7 +11608,7 @@
           ],
           "objectives": [
             {
-              "itemId": "Copper Armour lvl5 [153004]",
+              "itemId": "Copper Armour lvl4 [153003]",
               "amount": 1
             },
             {
@@ -11955,7 +12001,7 @@
           ],
           "objectives": [
             {
-              "itemId": "Farming Tools lvl12 [101011]",
+              "itemId": "Farming Tools lvl11 [101010]",
               "amount": 1
             }
           ],
@@ -12210,7 +12256,7 @@
             },
             {
               "itemId": "Fire Potion lvl4 [161003]",
-              "amount": 3
+              "amount": 2
             }
           ],
           "rewards": [
@@ -12283,7 +12329,7 @@
           "objectives": [
             {
               "itemId": "Fire Potion lvl4 [161003]",
-              "amount": 2
+              "amount": 1
             },
             {
               "itemId": "Poison Bottle lvl4 [162003]",
@@ -12373,7 +12419,7 @@
               "amount": 1
             },
             {
-              "itemId": "Copper Armour lvl4 [153003]",
+              "itemId": "Copper Armour lvl3 [153002]",
               "amount": 1
             }
           ],
@@ -12832,7 +12878,7 @@
           "objectives": [
             {
               "itemId": "Fire Potion lvl4 [161003]",
-              "amount": 2
+              "amount": 1
             }
           ],
           "rewards": [
@@ -12909,7 +12955,7 @@
           "objectives": [
             {
               "itemId": "Poison Bottle lvl4 [162003]",
-              "amount": 2
+              "amount": 1
             }
           ],
           "rewards": [
@@ -12935,7 +12981,7 @@
               "amount": 1
             },
             {
-              "itemId": "Steel Armour lvl2 [159001]",
+              "itemId": "Steel Armour lvl1 [159000]",
               "amount": 1
             }
           ],
@@ -12962,7 +13008,7 @@
               "amount": 1
             },
             {
-              "itemId": "Steel Armour lvl3 [159002]",
+              "itemId": "Steel Armour lvl2 [159001]",
               "amount": 1
             }
           ],
@@ -13049,7 +13095,7 @@
               "amount": 1
             },
             {
-              "itemId": "Steel Armour lvl4 [159003]",
+              "itemId": "Steel Armour lvl3 [159002]",
               "amount": 1
             }
           ],
@@ -13080,7 +13126,7 @@
               "amount": 1
             },
             {
-              "itemId": "Steel Armour lvl5 [159004]",
+              "itemId": "Steel Armour lvl4 [159003]",
               "amount": 1
             }
           ],
@@ -13178,7 +13224,7 @@
           ],
           "objectives": [
             {
-              "itemId": "Tools lvl11 [111010]",
+              "itemId": "Tools lvl9 [111008]",
               "amount": 1
             }
           ],
@@ -13228,7 +13274,7 @@
           ],
           "objectives": [
             {
-              "itemId": "Cloth lvl6 [132005]",
+              "itemId": "Cloth lvl5 [132004]",
               "amount": 1
             }
           ],
@@ -13251,7 +13297,7 @@
           ],
           "objectives": [
             {
-              "itemId": "Cloth lvl8 [132007]",
+              "itemId": "Cloth lvl7 [132006]",
               "amount": 1
             }
           ],
@@ -13326,7 +13372,7 @@
           ],
           "objectives": [
             {
-              "itemId": "Cloth lvl4 [132003]",
+              "itemId": "Cloth lvl3 [132002]",
               "amount": 1
             },
             {
@@ -13416,7 +13462,7 @@
             },
             {
               "itemId": "Poison Bottle lvl4 [162003]",
-              "amount": 2
+              "amount": 1
             }
           ],
           "rewards": [
@@ -13530,11 +13576,11 @@
           "objectives": [
             {
               "itemId": "Fire Potion lvl4 [161003]",
-              "amount": 2
+              "amount": 1
             },
             {
               "itemId": "Poison Bottle lvl4 [162003]",
-              "amount": 3
+              "amount": 2
             }
           ],
           "rewards": [
@@ -13587,7 +13633,7 @@
               "amount": 1
             },
             {
-              "itemId": "Gold Armour lvl2 [154001]",
+              "itemId": "Gold Armour lvl1 [154000]",
               "amount": 1
             }
           ],
@@ -13614,7 +13660,7 @@
               "amount": 1
             },
             {
-              "itemId": "Gold Armour lvl3 [154002]",
+              "itemId": "Gold Armour lvl2 [154001]",
               "amount": 1
             }
           ],
@@ -13647,7 +13693,7 @@
               "amount": 2
             },
             {
-              "itemId": "Gold Armour lvl4 [154003]",
+              "itemId": "Gold Armour lvl3 [154002]",
               "amount": 1
             }
           ],
@@ -13961,7 +14007,16 @@
       ]
     },
     "shopSettings1000": {
-      "shopSections": [4, 8, 3, 2, 6, 7, 1, 5],
+      "shopSections": [
+        4,
+        8,
+        3,
+        2,
+        6,
+        7,
+        1,
+        5
+      ],
       "permanentBundles": [
         {
           "id": 1,
@@ -14453,7 +14508,12 @@
           "character": "Pavel",
           "pose": "Idle"
         },
-        "rewardPreviewSettings": [6, 32, 1, 34],
+        "rewardPreviewSettings": [
+          6,
+          32,
+          1,
+          34
+        ],
         "taskSettings": [
           {
             "UID": 0,
@@ -15021,11 +15081,11 @@
       }
     }
   },
-  "fetch_time_key": 1676613891661,
+  "fetch_time_key": 1677262448114,
   "abt_experiments_key": [
     {
       "experimentId": "_exp_153",
-      "variantId": "1",
+      "variantId": "0",
       "triggerEvent": "quest_completed_146",
       "experimentStartTime": "2023-01-24T14:14:13.503Z",
       "triggerTimeoutMillis": "15552000000",
@@ -15040,9 +15100,17 @@
     },
     {
       "experimentId": "_exp_149",
-      "variantId": "0",
+      "variantId": "1",
       "triggerEvent": "tutorial_complete",
       "experimentStartTime": "2023-02-02T20:18:49.560Z",
+      "triggerTimeoutMillis": "15552000000",
+      "timeToLiveMillis": "15552000000"
+    },
+    {
+      "experimentId": "_exp_167",
+      "variantId": "1",
+      "triggerEvent": "event_task_claimed",
+      "experimentStartTime": "2023-02-17T13:05:28.142Z",
       "triggerTimeoutMillis": "15552000000",
       "timeToLiveMillis": "15552000000"
     }
