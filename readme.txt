@@ -67,6 +67,7 @@ todo
     pull https://medieval-merge-game-fanbase.fandom.com/wiki/Game_Asset_Item_Ids
         have format-response (rename it) replace IDs, maybe 100000 -> barrel000 or barrel1
     complete the datamine from the apk
+    see if theres anything interesting in the sdcard/files/il2cpp .dats
     missing strings
         https://medieval-merge-game-fanbase.fandom.com/wiki/Tools
         https://medieval-merge-game-fanbase.fandom.com/wiki/Crystal_Dice

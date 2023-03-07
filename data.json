@@ -9284,7 +9284,7 @@
           },
           "manualSource": {
             "spendsEnergy": true,
-            "destroyAfterTaps": 2700,
+            "destroyAfterTaps": 1500,
             "droppedItemOnDestroy": "Ancient Mine lvl9 [157008]",
             "dropsPerRecharge": 11,
             "rechargeTimer": 690,
@@ -9334,7 +9334,7 @@
           },
           "manualSource": {
             "spendsEnergy": true,
-            "destroyAfterTaps": 4500,
+            "destroyAfterTaps": 2000,
             "droppedItemOnDestroy": "Ancient Mine lvl10 [157009]",
             "dropsPerRecharge": 11,
             "rechargeTimer": 330,
@@ -15017,7 +15017,7 @@
       ]
     },
     "energySettings1000": {
-      "maxEnergy": 100,
+      "maxEnergy": 120,
       "maxRechargeTimer": 120,
       "recoveryHCCost": 5,
       "costMultiplier": 2,
@@ -15032,7 +15032,7 @@
           "tier": 1,
           "recoveryCostType": 2,
           "recoveryAdAmount": 15,
-          "adLimit": 2,
+          "adLimit": 4,
           "adResetSettings": {
             "resetType": 1,
             "timer": 14400
@@ -15042,7 +15042,7 @@
           "tier": 2,
           "recoveryCostType": 2,
           "recoveryAdAmount": 15,
-          "adLimit": 2,
+          "adLimit": 4,
           "adResetSettings": {
             "resetType": 1,
             "timer": 14400
@@ -15052,7 +15052,7 @@
           "tier": 3,
           "recoveryCostType": 2,
           "recoveryAdAmount": 15,
-          "adLimit": 2,
+          "adLimit": 4,
           "adResetSettings": {
             "resetType": 1,
             "timer": 14400
@@ -15062,7 +15062,7 @@
           "tier": 4,
           "recoveryCostType": 2,
           "recoveryAdAmount": 15,
-          "adLimit": 2,
+          "adLimit": 4,
           "adResetSettings": {
             "resetType": 1,
             "timer": 14400
@@ -16146,6 +16146,5834 @@
           }
         ]
       }
+    },
+    "narrativeSettings0": {
+      "cutsceneSettings": [
+        {
+          "id": "Barrel lvl1 [100000]",
+          "auto": false,
+          "uid": 1,
+          "speechSettings": [
+            {
+              "order": 0,
+              "speechTerm": "Main/cutscene_intro_1_1",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 1,
+              "speechTerm": "Main/cutscene_intro_1_2",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Mad",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 2,
+              "speechTerm": "Main/cutscene_intro_1_3",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Mad",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 3,
+              "speechTerm": "Main/cutscene_intro_1_4",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Psyched",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Barrel lvl2 [100001]",
+          "auto": false,
+          "uid": 2,
+          "speechSettings": [
+            {
+              "order": 0,
+              "speechTerm": "Main/cutscene_intro_1_5",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Happy",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Happy",
+                  "position": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Barrel lvl3 [100002]",
+          "auto": false,
+          "uid": 3,
+          "speechSettings": [
+            {
+              "order": 0,
+              "speechTerm": "Main/cutscene_farm_vine_1_1",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Mad",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 1,
+              "speechTerm": "Main/cutscene_farm_vine_1_2",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Mad",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 2,
+              "speechTerm": "Main/cutscene_farm_vine_1_3",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 3,
+              "speechTerm": "Main/cutscene_farm_vine_1_4",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 4,
+              "speechTerm": "Main/cutscene_farm_vine_1_5",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Barrel lvl4 [100003]",
+          "auto": false,
+          "uid": 4,
+          "speechSettings": [
+            {
+              "order": 0,
+              "speechTerm": "Main/cutscene_farm_vine_1_6",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Psyched",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Barrel lvl5 [100004]",
+          "auto": false,
+          "uid": 5,
+          "speechSettings": [
+            {
+              "order": 0,
+              "speechTerm": "Main/cutscene_farm_gate_1_1",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 1,
+              "speechTerm": "Main/cutscene_farm_gate_1_2",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Fear",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 2,
+              "speechTerm": "Main/cutscene_farm_gate_1_3",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Fear",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 3,
+              "speechTerm": "Main/cutscene_farm_gate_1_4",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Sad",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Barrel lvl6 [100005]",
+          "auto": false,
+          "uid": 6,
+          "speechSettings": [
+            {
+              "order": 0,
+              "speechTerm": "Main/cutscene_farm_gate_1_5",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Sad",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 1,
+              "speechTerm": "Main/cutscene_farm_gate_1_6",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Sad",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 2,
+              "speechTerm": "Main/cutscene_farm_gate_1_7",
+              "alias": "Main/alias_unknown",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Fear",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 3
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Shadow",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 3,
+              "speechTerm": "Main/cutscene_farm_gate_1_8",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Fear",
+                  "position": 1
+                },
+                {
+                  "character": null
+                },
+                {
+                  "character": "null",
+                  "position": 3
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 4,
+              "speechTerm": "Main/cutscene_farm_gate_1_9",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Psyched",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Farming Tools lvl1 [101000]",
+          "auto": false,
+          "uid": 7,
+          "speechSettings": [
+            {
+              "order": 0,
+              "speechTerm": "Main/cutscene_farm_rescue_1_1",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Fear",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 2
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 1,
+              "speechTerm": "Main/cutscene_farm_rescue_1_2",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Fear",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 2
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 2,
+              "speechTerm": "Main/cutscene_farm_rescue_1_3",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Happy",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Happy",
+                  "position": 2
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 3,
+              "speechTerm": "Main/cutscene_farm_rescue_1_4",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 2
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 4,
+              "speechTerm": "Main/cutscene_farm_rescue_1_5",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Sad",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Sad",
+                  "position": 2
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 5,
+              "speechTerm": "Main/cutscene_farm_rescue_1_6",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Sad",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Sad",
+                  "position": 2
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 6,
+              "speechTerm": "Main/cutscene_farm_rescue_1_7",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Mad",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 2
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 7,
+              "speechTerm": "Main/cutscene_farm_rescue_1_8",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Mad",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Mad",
+                  "position": 2
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 8,
+              "speechTerm": "Main/cutscene_farm_rescue_1_9",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Mad",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Mad",
+                  "position": 2,
+                  "highlighted": true
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Farming Tools lvl2 [101001]",
+          "auto": true,
+          "uid": 8,
+          "speechSettings": [
+            {
+              "order": 0,
+              "speechTerm": "Main/cutscene_farm_skeleton_1_1",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Fear",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 2
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 1,
+              "speechTerm": "Main/cutscene_farm_skeleton_1_2",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Fear",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 2
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 2,
+              "speechTerm": "Main/cutscene_farm_skeleton_1_3",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Psyched",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 2
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 3,
+              "speechTerm": "Main/cutscene_farm_skeleton_1_4",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Psyched",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 2,
+                  "highlighted": true
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 4,
+              "speechTerm": "Main/cutscene_farm_skeleton_1_5",
+              "characters": [
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Farming Tools lvl3 [101002]",
+          "auto": true,
+          "uid": 9,
+          "speechSettings": [
+            {
+              "order": 0,
+              "speechTerm": "Main/cutscene_farm_after_skeleton_1_1",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Happy",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Happy",
+                  "position": 2
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 1,
+              "speechTerm": "Main/cutscene_farm_after_skeleton_1_2",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Happy",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Happy",
+                  "position": 2
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 2,
+              "speechTerm": "Main/cutscene_farm_after_skeleton_1_3",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Mad",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 2
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 3,
+              "speechTerm": "Main/cutscene_farm_after_skeleton_1_4",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Sad",
+                  "position": 2,
+                  "highlighted": true
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 4,
+              "speechTerm": "Main/cutscene_farm_after_skeleton_1_5",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 2
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 5,
+              "speechTerm": "Main/cutscene_farm_after_skeleton_1_6",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 2
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 6,
+              "speechTerm": "Main/cutscene_farm_after_skeleton_1_7",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 2
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 7,
+              "speechTerm": "Main/cutscene_farm_after_skeleton_1_8",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 2
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 8,
+              "speechTerm": "Main/cutscene_farm_after_skeleton_1_9",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 2
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 9,
+              "speechTerm": "Main/cutscene_farm_after_skeleton_1_10",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Happy",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Happy",
+                  "position": 2
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 10,
+              "speechTerm": "Main/cutscene_farm_after_skeleton_1_11",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Happy",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Happy",
+                  "position": 2,
+                  "highlighted": true
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 11,
+              "speechTerm": "Main/cutscene_farm_after_skeleton_1_12",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Happy",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Happy",
+                  "position": 2
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 12,
+              "speechTerm": "Main/cutscene_farm_after_skeleton_1_13",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Happy",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Happy",
+                  "position": 2
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 13,
+              "speechTerm": "Main/cutscene_farm_after_skeleton_1_14",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Psyched",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Happy",
+                  "position": 2
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Farming Tools lvl4 [101003]",
+          "auto": true,
+          "uid": 10,
+          "speechSettings": [
+            {
+              "order": 0,
+              "speechTerm": "Main/cutscene_farm_barn_left_1_1",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Mad",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 1,
+              "speechTerm": "Main/cutscene_farm_barn_left_1_2",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 2,
+              "speechTerm": "Main/cutscene_farm_barn_left_1_3",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 3,
+              "speechTerm": "Main/cutscene_farm_barn_left_1_4",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 4,
+              "speechTerm": "Main/cutscene_farm_barn_left_1_5",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 5,
+              "speechTerm": "Main/cutscene_farm_barn_left_1_6",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 6,
+              "speechTerm": "Main/cutscene_farm_barn_left_1_7",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Laugh",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 7,
+              "speechTerm": "Main/cutscene_farm_barn_left_1_8",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 8,
+              "speechTerm": "Main/cutscene_farm_barn_left_1_9",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 9,
+              "speechTerm": "Main/cutscene_farm_barn_left_1_10",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Fear",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Mad",
+                  "position": 2
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 10,
+              "speechTerm": "Main/cutscene_farm_barn_left_1_11",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Fear",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Mad",
+                  "position": 2
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Farming Tools lvl5 [101004]",
+          "auto": true,
+          "uid": 11,
+          "speechSettings": [
+            {
+              "order": 0,
+              "speechTerm": "Main/cutscene_farm_time_1_1",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 1,
+              "speechTerm": "Main/cutscene_farm_time_1_2",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Happy",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 2,
+              "speechTerm": "Main/cutscene_farm_time_1_3",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 3,
+              "speechTerm": "Main/cutscene_farm_time_1_4",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 4,
+              "speechTerm": "Main/cutscene_farm_time_1_5",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Sad",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 5,
+              "speechTerm": "Main/cutscene_farm_time_1_6",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Sad",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Sad",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 6,
+              "speechTerm": "Main/cutscene_farm_time_1_7",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Sad",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 7,
+              "speechTerm": "Main/cutscene_farm_time_1_8",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Sad",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 8,
+              "speechTerm": "Main/cutscene_farm_time_1_9",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Farming Tools lvl6 [101005]",
+          "auto": true,
+          "uid": 12,
+          "speechSettings": [
+            {
+              "order": 0,
+              "speechTerm": "Main/cutscene_farm_first_flower_1_1",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Happy",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 1,
+              "speechTerm": "Main/cutscene_farm_first_flower_1_2",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Happy",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Happy",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 2,
+              "speechTerm": "Main/cutscene_farm_first_flower_1_3",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Sad",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 3,
+              "speechTerm": "Main/cutscene_farm_first_flower_1_4",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Sad",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Sad",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 4,
+              "speechTerm": "Main/cutscene_farm_first_flower_1_5",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Sad",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 5,
+              "speechTerm": "Main/cutscene_farm_first_flower_1_6",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 6,
+              "speechTerm": "Main/cutscene_farm_first_flower_1_7",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Farming Tools lvl7 [101006]",
+          "auto": false,
+          "uid": 13,
+          "speechSettings": [
+            {
+              "order": 0,
+              "speechTerm": "Main/cutscene_farm_day_end_1_1",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 1,
+              "speechTerm": "Main/cutscene_farm_day_end_1_2",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Mad",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 2,
+              "speechTerm": "Main/cutscene_farm_day_end_1_3",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Mad",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 3,
+              "sequential": false,
+              "speechTerm": "Main/cutscene_farm_day_end_1_4",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 4,
+              "speechTerm": "Main/new_cutscene_barn_9_8",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Happy",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 5,
+              "speechTerm": "Main/new_cutscene_barn_9_9",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Happy",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Happy",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 6,
+              "speechTerm": "Main/new_cutscene_barn_9_10",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Happy",
+                  "position": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Wood lvl1 [104000]",
+          "auto": true,
+          "uid": 15,
+          "speechSettings": [
+            {
+              "order": 0,
+              "speechTerm": "Main/new_cutscene_mill_1_1",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 1
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 1,
+              "speechTerm": "Main/new_cutscene_mill_1_2",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Happy",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 2,
+              "speechTerm": "Main/new_cutscene_mill_1_3",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 1
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 3,
+              "speechTerm": "Main/new_cutscene_mill_1_4",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Happy",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 4,
+              "speechTerm": "Main/new_cutscene_mill_1_5",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Mad",
+                  "position": 2,
+                  "highlighted": true
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 5,
+              "speechTerm": "Main/new_cutscene_mill_1_6",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Mad",
+                  "position": 2
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 6,
+              "speechTerm": "Main/new_cutscene_mill_1_7",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Laugh",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Mad",
+                  "position": 2,
+                  "highlighted": true
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 7,
+              "speechTerm": "Main/new_cutscene_mill_1_8",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Laugh",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Mad",
+                  "position": 2
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Forge lvl1 [105000]",
+          "auto": true,
+          "uid": 16,
+          "speechSettings": [
+            {
+              "order": 0,
+              "speechTerm": "Main/new_cutscene_well_1_1",
+              "characters": [
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 1
+                },
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 2
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 1,
+              "speechTerm": "Main/new_cutscene_well_1_2",
+              "characters": [
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 1
+                },
+                {
+                  "character": "MC",
+                  "portrait": "Happy",
+                  "position": 2,
+                  "highlighted": true
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 2,
+              "speechTerm": "Main/new_cutscene_well_1_3",
+              "characters": [
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 1
+                },
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 2,
+                  "highlighted": true
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 3,
+              "speechTerm": "Main/new_cutscene_well_1_4",
+              "characters": [
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "MC",
+                  "portrait": "Happy",
+                  "position": 2
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 4,
+              "speechTerm": "Main/new_cutscene_well_1_5",
+              "characters": [
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "MC",
+                  "portrait": "Happy",
+                  "position": 2
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 5,
+              "speechTerm": "Main/new_cutscene_well_1_6",
+              "characters": [
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 2,
+                  "highlighted": true
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 6,
+              "speechTerm": "Main/new_cutscene_well_1_7",
+              "characters": [
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 2
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Sword lvl1 [106000]",
+          "auto": true,
+          "uid": 32,
+          "speechSettings": [
+            {
+              "order": 0,
+              "speechTerm": "Main/new_cutscene_sheep_meadow_1_1",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1,
+                  "highlighted": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Sword lvl2 [106001]",
+          "auto": true,
+          "uid": 33,
+          "speechSettings": [
+            {
+              "order": 0,
+              "speechTerm": "Main/new_cutscene_sheep_meadow_2_1",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 1
+                },
+                {
+                  "character": "VillagerMom",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 1,
+              "speechTerm": "Main/new_cutscene_sheep_meadow_2_2",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "VillagerMom",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 2,
+              "speechTerm": "Main/new_cutscene_sheep_meadow_2_3",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "VillagerMom",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 3,
+              "speechTerm": "Main/new_cutscene_sheep_meadow_2_4",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Fear",
+                  "position": 1
+                },
+                {
+                  "character": "VillagerMom",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 4,
+              "speechTerm": "Main/new_cutscene_sheep_meadow_2_5",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Fear",
+                  "position": 1
+                },
+                {
+                  "character": "VillagerMom",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 5,
+              "speechTerm": "Main/new_cutscene_sheep_meadow_2_6",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "VillagerMom",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Sword lvl3 [106002]",
+          "auto": false,
+          "uid": 34,
+          "speechSettings": [
+            {
+              "order": 0,
+              "sequential": false,
+              "speechTerm": "Main/new_cutscene_sheep_meadow_3_1",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 1,
+              "speechTerm": "Main/new_cutscene_sheep_meadow_3_2",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Fear",
+                  "position": 1,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 2,
+              "speechTerm": "Main/new_cutscene_sheep_meadow_3_3",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Fear",
+                  "position": 1
+                },
+                {
+                  "character": "VillagerMom",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 3,
+              "sequential": false,
+              "speechTerm": "Main/new_cutscene_sheep_meadow_3_4",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Fear",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": null
+                },
+                {
+                  "character": "null",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 4,
+              "speechTerm": "Main/new_cutscene_sheep_meadow_3_5",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Mad",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Sad",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 5,
+              "speechTerm": "Main/new_cutscene_sheep_meadow_3_6",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Mad",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 6,
+              "speechTerm": "Main/new_cutscene_sheep_meadow_3_7",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Mad",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Sad",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 7,
+              "speechTerm": "Main/new_cutscene_sheep_meadow_3_8",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 8,
+              "speechTerm": "Main/new_cutscene_sheep_meadow_3_9",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 9,
+              "speechTerm": "Main/new_cutscene_sheep_meadow_3_10",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Mad",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 10,
+              "speechTerm": "Main/new_cutscene_sheep_meadow_3_11",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Sad",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Sword lvl4 [106003]",
+          "auto": false,
+          "uid": 35,
+          "speechSettings": [
+            {
+              "order": 0,
+              "speechTerm": "Main/new_cutscene_sheep_meadow_4_1",
+              "characters": [
+                {
+                  "character": "Ivan",
+                  "portrait": "Happy",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 1,
+              "speechTerm": "Main/new_cutscene_sheep_meadow_4_2",
+              "characters": [
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 1
+                },
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 2,
+              "sequential": false,
+              "speechTerm": "Main/new_cutscene_sheep_meadow_4_3",
+              "characters": [
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": null
+                },
+                {
+                  "character": "null",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 3,
+              "speechTerm": "Main/cutscene_night_area_1_1",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 4,
+              "speechTerm": "Main/cutscene_night_area_1_2",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Psyched",
+                  "position": 1,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 5,
+              "speechTerm": "Main/cutscene_night_area_1_3",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Mad",
+                  "position": 1,
+                  "highlighted": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Guardian Flower lvl1 [109000]",
+          "auto": true,
+          "uid": 49,
+          "speechSettings": [
+            {
+              "order": 0,
+              "speechTerm": "Main/cutscene_fountain_1_1",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Happy",
+                  "position": 1,
+                  "highlighted": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Guardian Flower lvl2 [109001]",
+          "auto": true,
+          "uid": 50,
+          "speechSettings": [
+            {
+              "order": 0,
+              "speechTerm": "Main/cutscene_fountain_2_1",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Happy",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 1,
+              "speechTerm": "Main/cutscene_fountain_2_2",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Happy",
+                  "position": 1
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 2,
+              "speechTerm": "Main/cutscene_fountain_2_3",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 3,
+              "speechTerm": "Main/cutscene_fountain_2_4",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 1
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 4,
+              "speechTerm": "Main/cutscene_fountain_2_5",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 5,
+              "speechTerm": "Main/cutscene_fountain_2_6",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 6,
+              "speechTerm": "Main/cutscene_fountain_2_7",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 7,
+              "speechTerm": "Main/cutscene_fountain_2_8",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Laugh",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Guardian Tree lvl1 [107000]",
+          "auto": true,
+          "uid": 37,
+          "speechSettings": [
+            {
+              "order": 0,
+              "speechTerm": "Main/cutscene_night_area_2_1",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 1,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 1,
+              "speechTerm": "Main/cutscene_night_area_2_2",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Happy",
+                  "position": 1,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 2,
+              "speechTerm": "Main/cutscene_night_area_2_3",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Psyched",
+                  "position": 1,
+                  "highlighted": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Guardian Tree lvl2 [107001]",
+          "auto": false,
+          "uid": 38,
+          "speechSettings": [
+            {
+              "order": 0,
+              "speechTerm": "Main/cutscene_night_area_3_1",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 1,
+              "sequential": false,
+              "speechTerm": "Main/cutscene_night_area_3_2",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Fear",
+                  "position": 1,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 2,
+              "speechTerm": "Main/cutscene_night_area_3_3",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 3,
+              "sequential": false,
+              "speechTerm": "Main/cutscene_night_area_3_4",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Mad",
+                  "position": 1,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 4,
+              "sequential": false,
+              "speechTerm": "Main/cutscene_night_area_3_5",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Mad",
+                  "position": 1,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 5,
+              "sequential": false,
+              "speechTerm": "Main/cutscene_night_area_3_6",
+              "alias": "Main/alias_unknown",
+              "characters": [
+                {
+                  "character": "Lion",
+                  "portrait": "Mad",
+                  "position": 1,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 6,
+              "sequential": false,
+              "speechTerm": "Main/cutscene_night_area_3_7",
+              "alias": "Main/alias_fairy",
+              "characters": [
+                {
+                  "character": "Ivan",
+                  "portrait": "Sad",
+                  "position": 1,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 7,
+              "sequential": false,
+              "speechTerm": "Main/cutscene_night_area_3_8",
+              "alias": "Main/alias_unknown",
+              "characters": [
+                {
+                  "character": "Lion",
+                  "portrait": "Mad",
+                  "position": 1,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 8,
+              "speechTerm": "Main/cutscene_night_area_3_9",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Mad",
+                  "position": 1,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 9,
+              "sequential": false,
+              "speechTerm": "Main/cutscene_night_area_3_10",
+              "alias": "Main/alias_fairy",
+              "characters": [
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 1,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 10,
+              "speechTerm": "Main/cutscene_day_3_start_1",
+              "alias": "Main/alias_lion",
+              "characters": [
+                {
+                  "character": "Ivan",
+                  "portrait": "Sad",
+                  "position": 1
+                },
+                {
+                  "character": "Lion",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 11,
+              "speechTerm": "Main/cutscene_day_3_start_2",
+              "alias": "Main/alias_lion",
+              "characters": [
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Lion",
+                  "portrait": "Mad",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 12,
+              "speechTerm": "Main/cutscene_day_3_start_3",
+              "alias": "Main/alias_fairy",
+              "characters": [
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Lion",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 13,
+              "speechTerm": "Main/cutscene_day_3_start_4",
+              "characters": [
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Lion",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 14,
+              "speechTerm": "Main/cutscene_day_3_start_5",
+              "characters": [
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Lion",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 15,
+              "speechTerm": "Main/cutscene_day_3_start_6",
+              "alias": "Main/alias_fairy",
+              "characters": [
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Lion",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 16,
+              "speechTerm": "Main/cutscene_day_3_start_7",
+              "characters": [
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Lion",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Toolbox lvl1 [110000]",
+          "auto": true,
+          "uid": 17,
+          "speechSettings": [
+            {
+              "order": 0,
+              "speechTerm": "Main/cutscene_bridge_1_1",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 2
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 1,
+              "speechTerm": "Main/cutscene_bridge_1_2",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 2
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 2,
+              "speechTerm": "Main/cutscene_bridge_1_3",
+              "alias": "Main/alias_fairy",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": null
+                },
+                {
+                  "character": "null",
+                  "position": 2
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 3,
+              "speechTerm": "Main/cutscene_bridge_1_4",
+              "alias": "Main/alias_fairy",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Sad",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 4,
+              "speechTerm": "Main/cutscene_bridge_1_5",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Sad",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 5,
+              "speechTerm": "Main/cutscene_bridge_1_6",
+              "alias": "Main/alias_fairy",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Sad",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 6,
+              "speechTerm": "Main/cutscene_bridge_1_7",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Sad",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 7,
+              "speechTerm": "Main/cutscene_bridge_1_8",
+              "alias": "Main/alias_fairy",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Sad",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Toolbox lvl2 [110001]",
+          "auto": true,
+          "uid": 51,
+          "speechSettings": [
+            {
+              "order": 0,
+              "speechTerm": "Main/cutscene_bridge_2_1",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Mad",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 1,
+              "speechTerm": "Main/cutscene_bridge_2_2",
+              "alias": "Main/alias_fairy",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Mad",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 2,
+              "speechTerm": "Main/cutscene_bridge_2_3",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Mad",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 3,
+              "speechTerm": "Main/cutscene_bridge_2_4",
+              "alias": "Main/alias_fairy",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Mad",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Mad",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 4,
+              "speechTerm": "Main/cutscene_bridge_2_5",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Mad",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 5,
+              "speechTerm": "Main/cutscene_bridge_2_6",
+              "alias": "Main/alias_fairy",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 6,
+              "speechTerm": "Main/cutscene_bridge_2_7",
+              "alias": "Main/alias_fairy",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Sad",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Mad",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 7,
+              "speechTerm": "Main/cutscene_bridge_2_8",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Mad",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Mad",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 8,
+              "speechTerm": "Main/cutscene_bridge_2_9",
+              "alias": "Main/alias_fairy",
+              "characters": [
+                {
+                  "character": null
+                },
+                {
+                  "character": "null",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Sad",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Toolbox lvl3 [110002]",
+          "auto": true,
+          "uid": 52,
+          "speechSettings": [
+            {
+              "order": 0,
+              "speechTerm": "Main/cutscene_bridge_3_1",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 2
+                },
+                {
+                  "character": "Troll",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 1,
+              "speechTerm": "Main/cutscene_bridge_3_2",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 2
+                },
+                {
+                  "character": "Troll",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 2,
+              "speechTerm": "Main/cutscene_bridge_3_3",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 2
+                },
+                {
+                  "character": "Troll",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 3,
+              "speechTerm": "Main/cutscene_bridge_3_4",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 2
+                },
+                {
+                  "character": "Troll",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 4,
+              "speechTerm": "Main/cutscene_bridge_3_5",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 2
+                },
+                {
+                  "character": "Troll",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 5,
+              "speechTerm": "Main/cutscene_bridge_3_6",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 2
+                },
+                {
+                  "character": "Troll",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 6,
+              "speechTerm": "Main/cutscene_bridge_3_7",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 2
+                },
+                {
+                  "character": "Troll",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 7,
+              "speechTerm": "Main/cutscene_bridge_3_8",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Mad",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 2
+                },
+                {
+                  "character": "Troll",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 8,
+              "speechTerm": "Main/cutscene_bridge_3_9",
+              "alias": "Main/alias_fairy",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Mad",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 2,
+                  "highlighted": true
+                },
+                {
+                  "character": "Troll",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 9,
+              "speechTerm": "Main/cutscene_bridge_3_10",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Psyched",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 2
+                },
+                {
+                  "character": "Troll",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Toolbox lvl4 [110003]",
+          "auto": true,
+          "uid": 53,
+          "speechSettings": [
+            {
+              "order": 0,
+              "speechTerm": "Main/cutscene_bridge_4_1",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Psyched",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Happy",
+                  "position": 2
+                },
+                {
+                  "character": "Troll",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 1,
+              "speechTerm": "Main/cutscene_bridge_4_2",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Psyched",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 2
+                },
+                {
+                  "character": "Troll",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 2,
+              "speechTerm": "Main/cutscene_bridge_4_3",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Psyched",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 2
+                },
+                {
+                  "character": "Troll",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 3,
+              "speechTerm": "Main/cutscene_bridge_4_4",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 2
+                },
+                {
+                  "character": "Troll",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 4,
+              "speechTerm": "Main/cutscene_bridge_4_5",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 2
+                },
+                {
+                  "character": "Troll",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 5,
+              "speechTerm": "Main/cutscene_bridge_4_6",
+              "alias": "Main/alias_fairy",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 1
+                },
+                {
+                  "character": null
+                },
+                {
+                  "character": null,
+                  "position": 2
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Happy",
+                  "position": 3,
+                  "highlighted": true
+                },
+                {
+                  "character": "null",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 6,
+              "speechTerm": "Main/cutscene_bridge_4_7",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 3
+                }
+              ]
+            },
+            {
+              "order": 7,
+              "speechTerm": "Main/cutscene_bridge_4_8",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 3
+                },
+                {
+                  "character": "Troll",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Blue Box lvl1 [116000]",
+          "auto": true,
+          "uid": 54,
+          "speechSettings": [
+            {
+              "order": 0,
+              "speechTerm": "Main/cutscene_pumpkin_patch_1_1",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 1,
+              "speechTerm": "Main/cutscene_pumpkin_patch_1_2",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 2,
+              "speechTerm": "Main/cutscene_pumpkin_patch_1_3",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                }
+              ]
+            },
+            {
+              "order": 3,
+              "speechTerm": "Main/cutscene_pumpkin_patch_1_4",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 4,
+              "speechTerm": "Main/cutscene_pumpkin_patch_1_5",
+              "characters": [
+                {
+                  "character": "VillagerKid",
+                  "portrait": "Idle",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "VillagerMom",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 5,
+              "speechTerm": "Main/cutscene_pumpkin_patch_1_6",
+              "characters": [
+                {
+                  "character": "VillagerKid",
+                  "portrait": "Idle",
+                  "position": 1
+                },
+                {
+                  "character": "VillagerMom",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 6,
+              "speechTerm": "Main/cutscene_pumpkin_patch_1_7",
+              "characters": [
+                {
+                  "character": "VillagerKid",
+                  "portrait": "Idle",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "VillagerMom",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 7,
+              "speechTerm": "Main/cutscene_pumpkin_patch_1_8",
+              "characters": [
+                {
+                  "character": "VillagerKid",
+                  "portrait": "Idle",
+                  "position": 1
+                },
+                {
+                  "character": "VillagerMom",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 8,
+              "speechTerm": "Main/cutscene_pumpkin_patch_1_9",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Sad",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": null
+                },
+                {
+                  "character": "null",
+                  "position": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 116001,
+          "auto": true,
+          "uid": 55,
+          "speechSettings": [
+            {
+              "order": 0,
+              "speechTerm": "Main/cutscene_pumpkin_patch_2_1",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Sad",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 1,
+              "speechTerm": "Main/cutscene_pumpkin_patch_2_2",
+              "alias": "Main/alias_fairy",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Sad",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 2,
+              "speechTerm": "Main/cutscene_pumpkin_patch_2_3",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 3,
+              "speechTerm": "Main/cutscene_pumpkin_patch_2_4",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Sad",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Sad",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 4,
+              "speechTerm": "Main/cutscene_pumpkin_patch_2_5",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 5,
+              "speechTerm": "Main/cutscene_pumpkin_patch_2_6",
+              "alias": "Main/alias_fairy",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 6,
+              "speechTerm": "Main/cutscene_pumpkin_patch_2_7",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Mad",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 7,
+              "speechTerm": "Main/cutscene_pumpkin_patch_2_8",
+              "alias": "Main/alias_fairy",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Mad",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Happy",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 8,
+              "speechTerm": "Main/cutscene_pumpkin_patch_2_9",
+              "alias": "Main/alias_fairy",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 9,
+              "speechTerm": "Main/cutscene_pumpkin_patch_2_10",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 10,
+              "speechTerm": "Main/cutscene_pumpkin_patch_2_11",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 11,
+              "speechTerm": "Main/cutscene_pumpkin_patch_2_12",
+              "alias": "Main/alias_fairy",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 116002,
+          "auto": true,
+          "uid": 56,
+          "speechSettings": [
+            {
+              "order": 0,
+              "speechTerm": "Main/cutscene_pumpkin_patch_3_1",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 1
+                },
+                {
+                  "character": "Lion",
+                  "portrait": "Mad",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 1,
+              "speechTerm": "Main/cutscene_pumpkin_patch_3_2",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Fear",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Lion",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 2,
+              "speechTerm": "Main/cutscene_pumpkin_patch_3_3",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Fear",
+                  "position": 1
+                },
+                {
+                  "character": "Lion",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 3,
+              "speechTerm": "Main/cutscene_pumpkin_patch_3_4",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Lion",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 4,
+              "speechTerm": "Main/cutscene_pumpkin_patch_3_5",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Fear",
+                  "position": 1
+                },
+                {
+                  "character": "Lion",
+                  "portrait": "Mad",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 5,
+              "speechTerm": "Main/cutscene_pumpkin_patch_3_6",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Lion",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 6,
+              "speechTerm": "Main/cutscene_pumpkin_patch_3_7",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Sad",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Lion",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 7,
+              "speechTerm": "Main/cutscene_pumpkin_patch_3_8",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Sad",
+                  "position": 1
+                },
+                {
+                  "character": "Lion",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 8,
+              "speechTerm": "Main/cutscene_pumpkin_patch_3_9",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Sad",
+                  "position": 1
+                },
+                {
+                  "character": null
+                },
+                {
+                  "character": "null",
+                  "position": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Hourglass lvl1 [117000]",
+          "auto": true,
+          "uid": 57,
+          "speechSettings": [
+            {
+              "order": 0,
+              "speechTerm": "Main/cutscene_wheat_field_1_1",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 2
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 1,
+              "speechTerm": "Main/cutscene_wheat_field_1_2",
+              "alias": "Main/alias_fairy",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 2,
+                  "highlighted": true
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 2,
+              "speechTerm": "Main/cutscene_wheat_field_1_3",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Happy",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 2
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Hourglass lvl2 [117001]",
+          "auto": true,
+          "uid": 58,
+          "speechSettings": [
+            {
+              "order": 0,
+              "speechTerm": "Main/cutscene_wheat_field_2_1",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Happy",
+                  "position": 1,
+                  "highlighted": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Hourglass lvl3 [117002]",
+          "auto": true,
+          "uid": 59,
+          "speechSettings": [
+            {
+              "order": 0,
+              "speechTerm": "Main/cutscene_wheat_field_3_1",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 1,
+              "speechTerm": "Main/cutscene_wheat_field_3_2",
+              "alias": "Main/alias_fairy",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 2,
+              "speechTerm": "Main/cutscene_wheat_field_3_3",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 3,
+              "speechTerm": "Main/cutscene_wheat_field_3_4",
+              "alias": "Main/alias_fairy",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 4,
+              "speechTerm": "Main/cutscene_wheat_field_3_5",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 5,
+              "speechTerm": "Main/cutscene_wheat_field_3_6",
+              "alias": "Main/alias_fairy",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Hourglass lvl4 [117003]",
+          "auto": true,
+          "uid": 60,
+          "speechSettings": [
+            {
+              "order": 0,
+              "speechTerm": "Main/cutscene_wheat_field_4_1",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 1,
+              "speechTerm": "Main/cutscene_wheat_field_4_2",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 2,
+              "speechTerm": "Main/cutscene_wheat_field_4_3",
+              "alias": "Main/alias_fairy",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 3,
+              "speechTerm": "Main/cutscene_wheat_field_4_4",
+              "alias": "Main/alias_fairy",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Hourglass lvl5 [117004]",
+          "auto": true,
+          "uid": 61,
+          "speechSettings": [
+            {
+              "order": 0,
+              "speechTerm": "Main/cutscene_wheat_field_5_1",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 2
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 1,
+              "speechTerm": "Main/cutscene_wheat_field_5_2",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Happy",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 2
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 2,
+              "speechTerm": "Main/cutscene_wheat_field_5_3",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 2
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 3,
+              "speechTerm": "Main/cutscene_wheat_field_5_4",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Happy",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 2
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 4,
+              "speechTerm": "Main/cutscene_wheat_field_5_5",
+              "alias": "Main/alias_fairy",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Happy",
+                  "position": 2,
+                  "highlighted": true
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 5,
+              "speechTerm": "Main/cutscene_wheat_field_5_6",
+              "alias": "Main/alias_fairy",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 2,
+                  "highlighted": true
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 6,
+              "speechTerm": "Main/cutscene_wheat_field_5_7",
+              "alias": "Main/alias_fairy",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Fear",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 2,
+                  "highlighted": true
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 7,
+              "speechTerm": "Main/cutscene_wheat_field_5_8",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Fear",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 2
+                },
+                {
+                  "character": "Farmer",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Empty Seed Bag lvl1 [118000]",
+          "auto": false,
+          "uid": 62,
+          "speechSettings": [
+            {
+              "order": 0,
+              "speechTerm": "Main/cutscene_day_3_end_1",
+              "alias": "Main/alias_fairy",
+              "characters": [
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Lion",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 1,
+              "speechTerm": "Main/cutscene_day_3_end_2",
+              "characters": [
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Lion",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 2,
+              "speechTerm": "Main/cutscene_day_3_end_3",
+              "characters": [
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Lion",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 3,
+              "speechTerm": "Main/cutscene_day_3_end_4",
+              "characters": [
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Lion",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 4,
+              "speechTerm": "Main/cutscene_day_3_end_5",
+              "characters": [
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Lion",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "XP Medal lvl1 [998000]",
+          "auto": true,
+          "uid": 28,
+          "speechSettings": [
+            {
+              "order": 0,
+              "speechTerm": "Main/cutscene_merchant_1_1",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Idle",
+                  "position": 2
+                },
+                {
+                  "character": "Pavel",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 1,
+              "speechTerm": "Main/cutscene_merchant_1_2",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 2
+                },
+                {
+                  "character": "Pavel",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 2,
+              "speechTerm": "Main/cutscene_merchant_1_3",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 2
+                },
+                {
+                  "character": "Pavel",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 3,
+              "speechTerm": "Main/cutscene_merchant_1_4",
+              "alias": "Main/alias_fairy",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 2,
+                  "highlighted": true
+                },
+                {
+                  "character": "Pavel",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 4,
+              "speechTerm": "Main/cutscene_merchant_1_5",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 2
+                },
+                {
+                  "character": "Pavel",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 5,
+              "speechTerm": "Main/cutscene_merchant_1_6",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 2
+                },
+                {
+                  "character": "Pavel",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 6,
+              "speechTerm": "Main/cutscene_merchant_1_7",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 2
+                },
+                {
+                  "character": "Pavel",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 7,
+              "speechTerm": "Main/cutscene_merchant_1_8",
+              "alias": "Main/alias_fairy",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Sad",
+                  "position": 2,
+                  "highlighted": true
+                },
+                {
+                  "character": "Pavel",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 8,
+              "speechTerm": "Main/cutscene_merchant_1_9",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Sad",
+                  "position": 2
+                },
+                {
+                  "character": "Pavel",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 9,
+              "speechTerm": "Main/cutscene_merchant_1_10",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 2
+                },
+                {
+                  "character": "Pavel",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 10,
+              "speechTerm": "Main/cutscene_merchant_1_11",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 2
+                },
+                {
+                  "character": "Pavel",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "XP Medal lvl2 [998001]",
+          "auto": true,
+          "uid": 29,
+          "speechSettings": [
+            {
+              "order": 0,
+              "speechTerm": "Main/cutscene_merchant_2_1",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 1
+                },
+                {
+                  "character": "Pavel",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 1,
+              "speechTerm": "Main/cutscene_merchant_2_2",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Happy",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Pavel",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 2,
+              "speechTerm": "Main/cutscene_merchant_2_3",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 1
+                },
+                {
+                  "character": "Pavel",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 3,
+              "speechTerm": "Main/cutscene_merchant_2_4",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Pavel",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 4,
+              "speechTerm": "Main/cutscene_merchant_2_5",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Pavel",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 5,
+              "speechTerm": "Main/cutscene_merchant_2_6",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Fear",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Pavel",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "XP Medal lvl3 [998002]",
+          "auto": true,
+          "uid": 30,
+          "speechSettings": [
+            {
+              "order": 0,
+              "speechTerm": "Main/cutscene_merchant_3_1",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 1
+                },
+                {
+                  "character": "Pavel",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 1,
+              "speechTerm": "Main/cutscene_merchant_3_2",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Happy",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Pavel",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 2,
+              "speechTerm": "Main/cutscene_merchant_3_3",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 1
+                },
+                {
+                  "character": "Pavel",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 3,
+              "speechTerm": "Main/cutscene_merchant_3_4",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Happy",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Pavel",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 4,
+              "speechTerm": "Main/cutscene_merchant_3_5",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Mad",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Pavel",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 5,
+              "speechTerm": "Main/cutscene_merchant_3_6",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Happy",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Pavel",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 6,
+              "speechTerm": "Main/cutscene_merchant_3_7",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 1
+                },
+                {
+                  "character": "Pavel",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "XP Medal lvl4 [998003]",
+          "auto": true,
+          "uid": 31,
+          "speechSettings": [
+            {
+              "order": 0,
+              "speechTerm": "Main/cutscene_merchant_4_1",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Happy",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Pavel",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 1,
+              "speechTerm": "Main/cutscene_merchant_4_2",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 1
+                },
+                {
+                  "character": "Pavel",
+                  "portrait": "Idle",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 2,
+              "speechTerm": "Main/cutscene_merchant_4_3",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 1
+                },
+                {
+                  "character": "Pavel",
+                  "portrait": "Idle",
+                  "position": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Crate lvl1 [999000]",
+          "auto": true,
+          "uid": 999,
+          "speechSettings": [
+            {
+              "order": 0,
+              "speechTerm": "Main/cutscene_royal_questline_1_1",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 1,
+              "speechTerm": "Main/cutscene_royal_questline_1_2",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 2,
+              "speechTerm": "Main/cutscene_royal_questline_1_3",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Sad",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 3,
+              "speechTerm": "Main/cutscene_royal_questline_1_4",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Idle",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 4,
+              "speechTerm": "Main/cutscene_royal_questline_1_5",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 5,
+              "speechTerm": "Main/cutscene_royal_questline_1_6",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Sad",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 6,
+              "speechTerm": "Main/cutscene_royal_questline_1_7",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Fear",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 7,
+              "speechTerm": "Main/cutscene_royal_questline_1_8",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Fear",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 8,
+              "speechTerm": "Main/cutscene_royal_questline_1_9",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 9,
+              "speechTerm": "Main/cutscene_royal_questline_1_10",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 10,
+              "speechTerm": "Main/cutscene_royal_questline_1_11",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 11,
+              "speechTerm": "Main/cutscene_royal_questline_1_12",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Happy",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 12,
+              "speechTerm": "Main/cutscene_royal_questline_1_13",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Mad",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 13,
+              "speechTerm": "Main/cutscene_royal_questline_1_14",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Sad",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 14,
+              "speechTerm": "Main/cutscene_royal_questline_1_15",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Fear",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Sad",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 15,
+              "speechTerm": "Main/cutscene_royal_questline_1_16",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Fear",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Sad",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 16,
+              "speechTerm": "Main/cutscene_royal_questline_1_17",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 17,
+              "speechTerm": "Main/cutscene_royal_questline_1_18",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 18,
+              "speechTerm": "Main/cutscene_royal_questline_1_19",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 19,
+              "speechTerm": "Main/cutscene_royal_questline_1_20",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Mad",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 20,
+              "speechTerm": "Main/cutscene_royal_questline_1_21",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Mad",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 21,
+              "speechTerm": "Main/cutscene_royal_questline_1_22",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 22,
+              "speechTerm": "Main/cutscene_royal_questline_1_23",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 23,
+              "speechTerm": "Main/cutscene_royal_questline_1_24",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 24,
+              "speechTerm": "Main/cutscene_royal_questline_1_25",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Sad",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 25,
+              "speechTerm": "Main/cutscene_royal_questline_1_26",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Fear",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Sad",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 26,
+              "speechTerm": "Main/cutscene_royal_questline_1_27",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Sad",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 27,
+              "speechTerm": "Main/cutscene_royal_questline_1_28",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 28,
+              "speechTerm": "Main/cutscene_royal_questline_1_29",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 29,
+              "speechTerm": "Main/cutscene_royal_questline_1_30",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 30,
+              "speechTerm": "Main/cutscene_royal_questline_1_31",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 31,
+              "speechTerm": "Main/cutscene_royal_questline_1_32",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 32,
+              "speechTerm": "Main/cutscene_royal_questline_1_33",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 33,
+              "speechTerm": "Main/cutscene_royal_questline_1_34",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Neutral",
+                  "position": 1
+                },
+                {
+                  "character": "Ivan",
+                  "portrait": "Neutral",
+                  "position": 4,
+                  "highlighted": true
+                }
+              ]
+            },
+            {
+              "order": 34,
+              "speechTerm": "Main/cutscene_royal_questline_1_35",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Suspicious",
+                  "position": 1,
+                  "highlighted": true
+                },
+                {
+                  "character": null
+                },
+                {
+                  "character": "null",
+                  "position": 4
+                }
+              ]
+            },
+            {
+              "order": 35,
+              "speechTerm": "Main/cutscene_royal_questline_1_36",
+              "characters": [
+                {
+                  "character": "MC",
+                  "portrait": "Happy",
+                  "position": 1,
+                  "highlighted": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     "playerAdTiersSettings": {
       "generalSettings": {
@@ -17647,6 +23475,138 @@
           }
         ]
       }
+    },
+    "questOverrideSettings0": {
+      "quests": [
+        {
+          "id": "Farming Tools lvl3 [101002]",
+          "uid": 6,
+          "requirements": [
+            {
+              "requirementId": 1,
+              "requirementValue": 146
+            }
+          ],
+          "objectives": [
+            {
+              "itemId": "Farming Tools lvl4 [101003]",
+              "amount": 1
+            }
+          ],
+          "rewards": [
+            {
+              "itemReward": {
+                "itemId": "XP Medal lvl1 [998000]",
+                "amount": 1
+              }
+            },
+            {
+              "itemReward": {
+                "itemId": "Coins lvl2 [996001]",
+                "amount": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": "Farming Tools lvl8 [101007]",
+          "uid": 149,
+          "requirements": [
+            {
+              "requirementId": 1,
+              "requirementValue": "8"
+            }
+          ],
+          "objectives": [
+            {
+              "itemId": "Farming Tools lvl6 [101005]",
+              "amount": 1
+            }
+          ],
+          "rewards": [
+            {
+              "itemReward": {
+                "itemId": "XP Medal lvl3 [998002]",
+                "amount": 1
+              }
+            },
+            {
+              "itemReward": {
+                "itemId": "Coins lvl2 [996001]",
+                "amount": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": 101025,
+          "uid": 155,
+          "requirements": [
+            {
+              "requirementId": 1,
+              "requirementValue": 223
+            }
+          ],
+          "objectives": [
+            {
+              "itemId": "Farming Tools lvl4 [101003]",
+              "amount": 1
+            },
+            {
+              "itemId": "Farming Tools lvl3 [101002]",
+              "amount": 1
+            }
+          ],
+          "rewards": [
+            {
+              "itemReward": {
+                "itemId": "XP Medal lvl1 [998000]",
+                "amount": 1
+              }
+            },
+            {
+              "itemReward": {
+                "itemId": "Coins lvl2 [996001]",
+                "amount": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": 101026,
+          "uid": 206,
+          "requirements": [
+            {
+              "requirementId": 1,
+              "requirementValue": 155
+            },
+            {
+              "requirementId": 1,
+              "requirementValue": 196
+            }
+          ],
+          "objectives": [
+            {
+              "itemId": "Farming Tools lvl5 [101004]",
+              "amount": 1
+            }
+          ],
+          "rewards": [
+            {
+              "itemReward": {
+                "itemId": "XP Medal lvl2 [998001]",
+                "amount": 1
+              }
+            },
+            {
+              "itemReward": {
+                "itemId": "Coins lvl2 [996001]",
+                "amount": 1
+              }
+            }
+          ]
+        }
+      ]
     },
     "questSettings1000": {
       "quests": [
@@ -21690,7 +27650,7 @@
     "taskEventSettings": {
       "specialTasksSettings": {
         "generalSettings": {
-          "UID": 38,
+          "UID": 39,
           "minimumQuestsRequirement": 70,
           "autoActivate": true,
           "autoPopup": false,
@@ -22072,7 +28032,7 @@
             "pointsNeeded": 2500,
             "reward": {
               "itemReward": {
-                "itemId": "Coins lvl4 [996003]",
+                "itemId": "Topaz lvl1 [126000]",
                 "amount": 1
               }
             }
@@ -22272,7 +28232,7 @@
             "pointsNeeded": 15500,
             "reward": {
               "itemReward": {
-                "itemId": "Guardian Tree lvl6 [107005]",
+                "itemId": "Mine lvl6 [121005]",
                 "amount": 1
               }
             }
@@ -22281,16 +28241,8 @@
       }
     }
   },
-  "fetch_time_key": 1677262448114,
+  "fetch_time_key": 1677782377329,
   "abt_experiments_key": [
-    {
-      "experimentId": "_exp_153",
-      "variantId": "0",
-      "triggerEvent": "quest_completed_146",
-      "experimentStartTime": "2023-01-24T14:14:13.503Z",
-      "triggerTimeoutMillis": "15552000000",
-      "timeToLiveMillis": "15552000000"
-    },
     {
       "experimentId": "_exp_157",
       "variantId": "1",
@@ -22311,6 +28263,14 @@
       "variantId": "1",
       "triggerEvent": "event_task_claimed",
       "experimentStartTime": "2023-02-17T13:05:28.142Z",
+      "triggerTimeoutMillis": "15552000000",
+      "timeToLiveMillis": "15552000000"
+    },
+    {
+      "experimentId": "_exp_163",
+      "variantId": "0",
+      "triggerEvent": "tutorial_complete",
+      "experimentStartTime": "2023-02-27T18:20:22.543Z",
       "triggerTimeoutMillis": "15552000000",
       "timeToLiveMillis": "15552000000"
     }
