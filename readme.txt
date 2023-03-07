@@ -63,6 +63,9 @@ converting images
     https://medieval-merge-game-fanbase.fandom.com/wiki/How_To:_Format_Images
     cd C:\nonwork\mmerge\data-repo\exported-assets\Sprite
     FOR %i IN (*.png) DO magick "%i" -background #F3E0AD -gravity center -extent 220x220 "converted\%i"
+adb shell
+    `watch stat -c %y /sdcard/Android/data/com.pixodust.games.free.rpg.medieval.merge.puzzle.empire/files/GameSaves/Cloud/CloudSave.json`
+    `adb pull /sdcard/Android/data/com.pixodust.games.free.rpg.medieval.merge.puzzle.empire/files/GameSaves/Cloud/CloudSave.json`
 todo
     pull https://medieval-merge-game-fanbase.fandom.com/wiki/Game_Asset_Item_Ids
         have format-response (rename it) replace IDs, maybe 100000 -> barrel000 or barrel1
