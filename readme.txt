@@ -64,8 +64,15 @@ converting images
     cd C:\nonwork\mmerge\data-repo\exported-assets\Sprite
     FOR %i IN (*.png) DO magick "%i" -background #F3E0AD -gravity center -extent 220x220 "converted\%i"
 adb shell
-    `watch stat -c %y /sdcard/Android/data/com.pixodust.games.free.rpg.medieval.merge.puzzle.empire/files/GameSaves/Cloud/CloudSave.json`
-    `adb pull //sdcard/Android/data/com.pixodust.games.free.rpg.medieval.merge.puzzle.empire/files/GameSaves/Cloud/CloudSave.json`
+    `watch stat -c %y sdcard/Android/data/*medieval.merge*/files/GameSaves/Cloud/CloudSave.json`
+    `adb shell 'stat -c %y sdcard/Android/data/*medieval.merge*/files/GameSaves/Cloud/CloudSave.json'`
+    `adb pull sdcard/Android/data/com.pixodust.games.free.rpg.medieval.merge.puzzle.empire/files/GameSaves/Cloud/CloudSave.json && npx -y prettier --end-of-line auto --write CloudSave.json`
+    `adb shell pm clear com.pixodust.games.free.rpg.medieval.merge.puzzle.empire`
+        ^ might require root?
+cloud saves
+    are triggered on the first action taken after the last cloud save is 5 min old.
+    actions include: app startup, moving an item on the board
+    actions do not include: selecting different items on the board, switching between map and board
 todo
     pull https://medieval-merge-game-fanbase.fandom.com/wiki/Game_Asset_Item_Ids
         have format-response (rename it) replace IDs, maybe 100000 -> barrel000 or barrel1

@@ -1,0 +1,274 @@
+// adb -e pull sdcard/Android/data/com.pixodust.games.free.rpg.medieval.merge.puzzle.empire/files/GameSaves/Cloud/CloudSave.json
+//   && jq '[.model.boardContextsData.mainBoard.boardData.entries[][].item | select(.id == 994000 or .id == 994001)]' CloudSave.json
+[
+  {
+    // no tapping at all
+    "before": [
+      {
+        "id": 994000,
+        "manualSource": {
+          "currentItemCharges": 10,
+          "lastEvaluationTime": "2023-03-07T02:20:56.5484496"
+        },
+        "autoSource": {
+          "currentItemCharges": -1
+        },
+        "lockedItemData": {
+          "hiddenItemId": -1
+        },
+        "currentChestState": 2,
+        "openRequestTime": "2023-03-07T02:20:57.5219497",
+        "chestForcedDrops": {}
+      },
+      {
+        "id": 994000,
+        "manualSource": {
+          "currentItemCharges": 10,
+          "lastEvaluationTime": "2023-03-07T19:01:21.2318703"
+        },
+        "autoSource": {
+          "currentItemCharges": -1
+        },
+        "lockedItemData": {
+          "hiddenItemId": -1
+        },
+        "currentChestState": 2,
+        "openRequestTime": "2023-03-07T19:01:22.2885665",
+        "chestForcedDrops": {}
+      }
+    ],
+    // result has full 22
+    "after": {
+      "id": 994001,
+      "manualSource": {
+        "currentItemCharges": 22,
+        "lastEvaluationTime": "2023-03-07T20:27:00.5487433"
+      },
+      "autoSource": {
+        "currentItemCharges": -1
+      },
+      "lockedItemData": {
+        "hiddenItemId": -1
+      },
+      "currentChestState": 2,
+      "chestForcedDrops": {}
+    }
+  },
+  {
+    // 1 tap on first chest
+    "before": [
+      {
+        "id": 994000,
+        "manualSource": {
+          "currentItemCharges": 9,
+          "lastEvaluationTime": "2023-03-07T02:20:56.5484496",
+          "itemsGenerated": 1
+        },
+        "autoSource": {
+          "currentItemCharges": -1
+        },
+        "lockedItemData": {
+          "hiddenItemId": -1
+        },
+        "currentChestState": 2,
+        "openRequestTime": "2023-03-07T02:20:57.5219497",
+        "chestForcedDrops": {}
+      },
+      {
+        "id": 994000,
+        "manualSource": {
+          "currentItemCharges": 10,
+          "lastEvaluationTime": "2023-03-07T19:01:21.2318703"
+        },
+        "autoSource": {
+          "currentItemCharges": -1
+        },
+        "lockedItemData": {
+          "hiddenItemId": -1
+        },
+        "currentChestState": 2,
+        "openRequestTime": "2023-03-07T19:01:22.2885665",
+        "chestForcedDrops": {}
+      }
+    ],
+    // result missing 2 drops
+    "after": {
+      "id": 994001,
+      "manualSource": {
+        "currentItemCharges": 20,
+        "lastEvaluationTime": "2023-03-07T20:45:17.2390869"
+      },
+      "autoSource": {
+        "currentItemCharges": -1
+      },
+      "lockedItemData": {
+        "hiddenItemId": -1
+      },
+      "currentChestState": 2,
+      "chestForcedDrops": {}
+    }
+  },
+  {
+    // 3 taps on first chest
+    "before": [
+      {
+        "id": 994000,
+        "manualSource": {
+          "currentItemCharges": 7,
+          "lastEvaluationTime": "2023-03-07T02:20:56.5484496",
+          "itemsGenerated": 3
+        },
+        "autoSource": {
+          "currentItemCharges": -1
+        },
+        "lockedItemData": {
+          "hiddenItemId": -1
+        },
+        "currentChestState": 2,
+        "openRequestTime": "2023-03-07T02:20:57.5219497",
+        "chestForcedDrops": {}
+      },
+      {
+        "id": 994000,
+        "manualSource": {
+          "currentItemCharges": 10,
+          "lastEvaluationTime": "2023-03-07T19:01:21.2318703"
+        },
+        "autoSource": {
+          "currentItemCharges": -1
+        },
+        "lockedItemData": {
+          "hiddenItemId": -1
+        },
+        "currentChestState": 2,
+        "openRequestTime": "2023-03-07T19:01:22.2885665",
+        "chestForcedDrops": {}
+      }
+    ],
+    // result missing 4 drops
+    "after": {
+      "id": 994001,
+      "manualSource": {
+        "currentItemCharges": 18,
+        "lastEvaluationTime": "2023-03-07T20:57:57.5624512"
+      },
+      "autoSource": {
+        "currentItemCharges": -1
+      },
+      "lockedItemData": {
+        "hiddenItemId": -1
+      },
+      "currentChestState": 2,
+      "chestForcedDrops": {}
+    }
+  },
+  {
+    // 7 taps on first chest
+    "before": [
+      {
+        "id": 994000,
+        "manualSource": {
+          "currentItemCharges": 3,
+          "lastEvaluationTime": "2023-03-07T02:20:56.5484496",
+          "itemsGenerated": 7
+        },
+        "autoSource": {
+          "currentItemCharges": -1
+        },
+        "lockedItemData": {
+          "hiddenItemId": -1
+        },
+        "currentChestState": 2,
+        "openRequestTime": "2023-03-07T02:20:57.5219497",
+        "chestForcedDrops": {}
+      },
+      {
+        "id": 994000,
+        "manualSource": {
+          "currentItemCharges": 10,
+          "lastEvaluationTime": "2023-03-07T19:01:21.2318703"
+        },
+        "autoSource": {
+          "currentItemCharges": -1
+        },
+        "lockedItemData": {
+          "hiddenItemId": -1
+        },
+        "currentChestState": 2,
+        "openRequestTime": "2023-03-07T19:01:22.2885665",
+        "chestForcedDrops": {}
+      }
+    ],
+    // result missing 8 drops
+    "after": {
+      "id": 994001,
+      "manualSource": {
+        "currentItemCharges": 14,
+        "lastEvaluationTime": "2023-03-07T21:11:40.8006156"
+      },
+      "autoSource": {
+        "currentItemCharges": -1
+      },
+      "lockedItemData": {
+        "hiddenItemId": -1
+      },
+      "currentChestState": 2,
+      "chestForcedDrops": {}
+    }
+  },
+  {
+    // 7 taps on first chest, 3 taps on second chest
+    "before": [
+      {
+        "id": 994000,
+        "manualSource": {
+          "currentItemCharges": 3,
+          "lastEvaluationTime": "2023-03-07T02:20:56.5484496",
+          "itemsGenerated": 7
+        },
+        "autoSource": {
+          "currentItemCharges": -1
+        },
+        "lockedItemData": {
+          "hiddenItemId": -1
+        },
+        "currentChestState": 2,
+        "openRequestTime": "2023-03-07T02:20:57.5219497",
+        "chestForcedDrops": {}
+      },
+      {
+        "id": 994000,
+        "manualSource": {
+          "currentItemCharges": 7,
+          "lastEvaluationTime": "2023-03-07T19:01:21.2318703",
+          "itemsGenerated": 3
+        },
+        "autoSource": {
+          "currentItemCharges": -1
+        },
+        "lockedItemData": {
+          "hiddenItemId": -1
+        },
+        "currentChestState": 2,
+        "openRequestTime": "2023-03-07T19:01:22.2885665",
+        "chestForcedDrops": {}
+      }
+    ],
+    // result missing 11 drops
+    "after": {
+      "id": 994001,
+      "manualSource": {
+        "currentItemCharges": 11,
+        "lastEvaluationTime": "2023-03-07T21:26:24.5382863"
+      },
+      "autoSource": {
+        "currentItemCharges": -1
+      },
+      "lockedItemData": {
+        "hiddenItemId": -1
+      },
+      "currentChestState": 2,
+      "chestForcedDrops": {}
+    }
+  }
+]
