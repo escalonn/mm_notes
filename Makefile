@@ -1,3 +1,6 @@
+data.json:
+	py format-response.py
+
 pull-d-cloud: check-d-cloud
 	adb -d pull sdcard/Android/data/com.pixodust.games.free.rpg.medieval.merge.puzzle.empire/files/GameSaves/Cloud/CloudSave.json
 	npx -y prettier --end-of-line auto --write CloudSave.json
