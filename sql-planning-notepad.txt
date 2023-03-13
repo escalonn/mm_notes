@@ -1,0 +1,35 @@
+
+toolbox drops 0.1/s, 50% tool1, 20% tool2.
+effective rate 90%.
+tool4 needs 8 tool1s.
+8 / 90% = 8.888 drops (energy) needed
+
+tool1 * 4 = tool3
+tool2 * 2 = tool3
+
+8 / 50% = 16
+4 / 20% = 20
+
+1 / (50% / 8 + 20% / 4) = 8.888
+
+---
+
+if 2 tool1s need 1 energy to turn to 1 tool2
+aka 8 tool1s need 4 energy to turn to 1 tool4
+
+
+1 / (50% / 8 + 20% / 4) + 8.888 * 50% * energy / n =
+(1 + 50% * energy / n) / (50% / 8 + 20% / 4) = 11.111
+half of the drops need to spend an extra 1/2 energy each
+
+1 / sum(rate * m / n)
+
+---
+should equal 88.888 s
+
+tool1 d/s =
+
+1 / (0.1 * 50% / 8 + 0.1 * 20% / 4)
+  = 1/.1/(50% / 8 + 20% / 4)
+
+  1 / sum(drops_per_s * m / n)

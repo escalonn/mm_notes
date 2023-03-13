@@ -58,6 +58,7 @@ id_name_patch = {
 }
 
 item_id_map = id_name_patch | fetch_item_id_map()
+# item_id_map = {} # disable name replacing
 
 categories = {int(k) // 1000: v[0]
               for k, v in reversed(item_id_map.items())}

@@ -93,7 +93,16 @@ todo
         mimic box
     missing images on wiki
         mimic box
-franklin gothic
-garamond
-century schoolbook
-gill sans mt
+fonts
+    franklin gothic
+    garamond
+    century schoolbook
+    gill sans mt
+ad algorithms
+    after ad finishes
+    look at board
+    look at shop
+    mark time
+    spend >=2m total (doesnt have to be sequential) looking at shop and >=3m45s total
+    receive ad
+    watching a charge ad resets the 2m timer, not the 4m timer.
