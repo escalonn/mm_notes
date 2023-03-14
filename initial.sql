@@ -85,6 +85,19 @@ CREATE TABLE
 
 CREATE INDEX item_equiv_b ON item_equiv (b);
 
+CREATE VIEW
+  item_equiv_v AS
+SELECT
+  item_a.descr AS a,
+  n,
+  energy,
+  item_b.descr AS b,
+  m
+FROM
+  item_equiv
+  LEFT JOIN item AS item_a ON a = item_a.id
+  LEFT JOIN item AS item_b ON b = item_b.id;
+
 -- should this table think about "2 tree lvl6s" as a source, or another table
 -- it shouldn't, b/c just as valid to think about 1 lvl6 and 1 lvl5.
 CREATE TABLE
@@ -118,8 +131,8 @@ SELECT
   source_item
 FROM
   recipe
-  JOIN item AS result ON item = result.id
-  JOIN item AS source ON source_item = source.id;
+  LEFT JOIN item AS result ON item = result.id
+  LEFT JOIN item AS source ON source_item = source.id;
 
 .mode csv
 .import --csv categories.csv categories_csv
@@ -263,6 +276,8 @@ WHERE
 --     but not that armour = iron/steel (indirection).
 --     tells it that fountains = lvl1 staffs, but not lvl5.
 --     (that second one's maybe ok though?)
+-- issue: it doesn't know that for cauldron making energy3, energy1s help,
+--     nor that cauldrons can make energy4s or 5s
 -- finite generators:
 INSERT INTO
   item_equiv (a, energy, b, m)

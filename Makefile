@@ -8,6 +8,10 @@ pull-d-cloud: check-d-cloud
 cloud-check-needle:
 	jq '.model.boardContextsData.mainBoard.boardData.entries[][].item | select(.id == 131005) | .autoSource' CloudSave.json
 
+cloud-check-fountain:
+	@echo "(lvl8: 3 charges of 36, total 108)"
+	jq '.model.boardContextsData.mainBoard.boardData.entries[][].item | select(.id | tostring | .[:3] == "135") | {id, manualSource}' CloudSave.json
+
 e-clear-data:
 	adb -e shell pm clear com.pixodust.games.free.rpg.medieval.merge.puzzle.empire
 
