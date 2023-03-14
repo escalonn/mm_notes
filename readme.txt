@@ -106,3 +106,6 @@ ad algorithms
     spend >=2m total (doesnt have to be sequential) looking at shop and >=3m45s total
     receive ad
     watching a charge ad resets the 2m timer, not the 4m timer.
+explore new board/event
+    `sqlite3 -box event_items.db "select * from item_equiv_v where m > 1"`
+    `sqlite3 -box event_items.db "select * from recipe_times_v"`

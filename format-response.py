@@ -83,36 +83,36 @@ out_name = in_name[4:]
 with open(out_name, 'w') as f:
     json.dump(data, f, indent=2)
 
-fields = ['Category', 'Level', 'Source', 'Drops', 'Charge', 'Stack']
-gens = []
-for item in data[key_name]['boardItemSettings1000']['items']:
-    item_id = item['id']
-    if isinstance(item_id, str):
-        item_id = int(item_id.split('[')[-1][:-1])
-    if 'manualSource' in item:
-        gen = {}
-        gen['Category'] = item_id // 1000
-        gen['Level'] = item['level']
-        assert item['level'] - 1 == item_id % 1000
-        gen['Source'] = 'manual'
-        source = item['manualSource']
-        gen['Drops'] = source['dropsPerRecharge']
-        gen['Charge'] = source['rechargeTimer']
-        gen['Stack'] = source['rechargesStack']
-        gens.append(gen)
-    if 'autoSource' in item:
-        gen = {}
-        gen['Category'] = item_id // 1000
-        gen['Level'] = item['level']
-        assert item['level'] - 1 == item_id % 1000
-        gen['Source'] = 'auto'
-        source = item['autoSource']
-        gen['Drops'] = source['dropsPerRecharge']
-        gen['Charge'] = source['rechargeTimer']
-        gen['Stack'] = source['rechargesStack']
-        gens.append(gen)
-with open('event_generators.csv', 'w', newline='') as f:
-    writer = csv.DictWriter(f, fields, extrasaction='ignore')
-    writer.writeheader()
-    for r in gens:
-        writer.writerow(r)
+# fields = ['Category', 'Level', 'Source', 'Drops', 'Charge', 'Stack']
+# gens = []
+# for item in data[key_name]['boardItemSettings1000']['items']:
+#     item_id = item['id']
+#     if isinstance(item_id, str):
+#         item_id = int(item_id.split('[')[-1][:-1])
+#     if 'manualSource' in item:
+#         gen = {}
+#         gen['Category'] = item_id // 1000
+#         gen['Level'] = item['level']
+#         assert item['level'] - 1 == item_id % 1000
+#         gen['Source'] = 'manual'
+#         source = item['manualSource']
+#         gen['Drops'] = source['dropsPerRecharge']
+#         gen['Charge'] = source['rechargeTimer']
+#         gen['Stack'] = source['rechargesStack']
+#         gens.append(gen)
+#     if 'autoSource' in item:
+#         gen = {}
+#         gen['Category'] = item_id // 1000
+#         gen['Level'] = item['level']
+#         assert item['level'] - 1 == item_id % 1000
+#         gen['Source'] = 'auto'
+#         source = item['autoSource']
+#         gen['Drops'] = source['dropsPerRecharge']
+#         gen['Charge'] = source['rechargeTimer']
+#         gen['Stack'] = source['rechargesStack']
+#         gens.append(gen)
+# with open('event_generators.csv', 'w', newline='') as f:
+#     writer = csv.DictWriter(f, fields, extrasaction='ignore')
+#     writer.writeheader()
+#     for r in gens:
+#         writer.writerow(r)

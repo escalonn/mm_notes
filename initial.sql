@@ -16,6 +16,7 @@ CREATE TABLE
   );
 
 CREATE INDEX item_merge_result ON item (merge_result);
+
 CREATE INDEX item_descr ON item (descr);
 
 CREATE TABLE
@@ -251,6 +252,8 @@ SELECT
 FROM
   source_json,
   json_each(source_json.json, '$.droppableItems')
+WHERE
+  value ->> '$.dropId' IS NOT NULL -- to handle event Stone lvl6 dropping nothing
 GROUP BY
   item,
   kind,
@@ -318,7 +321,9 @@ GROUP BY
   kind;
 
 DROP TABLE categories_csv;
+
 DROP TABLE items_json;
+
 DROP TABLE source_json;
 
 -- possible improvements
@@ -327,7 +332,6 @@ DROP TABLE source_json;
 -- maybe some way to model using 4 ads/4 hrs for charges
 --    (equiv to drops_per_s increasing by charge_drops / 3600)
 --    maybe recipe gets an extra column for this
-
 -- maybe add logic to not show s if >1h or m if >1d
 CREATE VIEW
   recipe_times_v AS
