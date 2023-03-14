@@ -1,3 +1,4 @@
+-- sqlite
 CREATE TABLE
   category (id INTEGER PRIMARY KEY NOT NULL, title TEXT);
 
@@ -10,22 +11,23 @@ CREATE TABLE
     id INTEGER NOT NULL UNIQUE AS (category * 1000 + lvl - 1) STORED,
     title TEXT NULL,
     merge_result INTEGER NULL REFERENCES item (id),
-    descr TEXT AS (title || ' lvl' || CAST(lvl AS INTEGER)),
+    descr TEXT AS (title || ' lvl' || lvl),
     PRIMARY KEY (category, lvl)
   );
 
 CREATE INDEX item_merge_result ON item (merge_result);
+CREATE INDEX item_descr ON item (descr);
 
 CREATE TABLE
   source (
     item INTEGER NOT NULL REFERENCES item (id),
     kind TEXT NOT NULL,
     charge_drops INTEGER NOT NULL,
-    charge_time_s INTEGER NOT NULL,
+    charge_time_s INTEGER NOT NULL DEFAULT 0,
     charge_stack INTEGER NOT NULL,
     drop_stack INTEGER NOT NULL AS (charge_drops * charge_stack),
     stack_time_s INTEGER NOT NULL AS (charge_time_s * charge_stack),
-    drops_per_s REAL NOT NULL AS (charge_drops / charge_time_s),
+    drops_per_s REAL NULL AS (CAST(charge_drops AS REAL) / charge_time_s),
     total_drops INTEGER NULL,
     successor INTEGER NULL REFERENCES item (id),
     spend_energy INTEGER NOT NULL DEFAULT 0,
@@ -67,8 +69,8 @@ FROM
   JOIN item ON drop_item = id;
 
 -- a * n - energy = b * m
--- we also put into here "armour lvl7 = 44 iron ingot via 44 energy"
--- i think every item need to be in here as itself too
+-- we also need to put into here "armour lvl7 = 44 iron ingot via 44 energy"
+-- every item needs to be in here as itself too
 -- also, this doesnt model time delays on equivalence (tinderbox, hay)
 CREATE TABLE
   item_equiv (
@@ -77,7 +79,7 @@ CREATE TABLE
     energy INTEGER NOT NULL DEFAULT 0,
     b INTEGER NOT NULL REFERENCES item (id),
     m INTEGER NOT NULL DEFAULT 1,
-    ratio REAL NOT NULL AS m / n,
+    ratio REAL NOT NULL AS (CAST(m AS REAL) / n),
     PRIMARY KEY (a, b)
   );
 
@@ -93,7 +95,7 @@ CREATE TABLE
     avg_charge_s REAL NOT NULL,
     avg_energy REAL NOT NULL DEFAULT 0,
     avg_energy_s REAL NOT NULL AS (avg_energy * 120),
-    energy_usage REAL NOT NULL AS (avg_energy_s / avg_charge_s),
+    energy_usage REAL NULL AS (avg_energy_s / avg_charge_s),
     overall_time_s REAL NOT NULL AS (max(avg_charge_s, avg_energy_s)) STORED,
     PRIMARY KEY (item, source_item, source_kind),
     FOREIGN KEY (source_item, source_kind) REFERENCES source (item, kind)
@@ -104,8 +106,8 @@ CREATE INDEX recipe_item ON recipe (item);
 CREATE VIEW
   recipe_v AS
 SELECT
-  result.descr,
-  source.descr,
+  result.descr AS result,
+  source.descr AS source,
   source_kind,
   avg_charge_s,
   avg_energy,
@@ -113,19 +115,141 @@ SELECT
   energy_usage,
   overall_time_s,
   item,
-  source
+  source_item
 FROM
   recipe
-  JOIN item AS result ON item = id
+  JOIN item AS result ON item = result.id
   JOIN item AS source ON source_item = source.id;
 
--- TODO fill item_equiv - with attn to both infinite and finite generators
--- i think it needs row for "lvl5 tool = 8 * lvl2 tool"
+.mode csv
+.import --csv categories.csv categories_csv
+
+INSERT INTO
+  category (id, title)
+SELECT
+  Category,
+  Name
+FROM
+  categories_csv;
+
+CREATE TABLE
+  items_json (
+    id INTEGER PRIMARY KEY NOT NULL,
+    level INTEGER NOT NULL,
+    mergeable INTEGER NULL,
+    manual_source_json TEXT NULL,
+    auto_source_json TEXT NULL
+  );
+
+INSERT INTO
+  items_json (
+    id,
+    level,
+    mergeable,
+    manual_source_json,
+    auto_source_json
+  )
+SELECT
+  value ->> '$.id',
+  value ->> '$.level',
+  value ->> '$.mergeable.nextItemId',
+  value ->> '$.manualSource',
+  value ->> '$.autoSource'
+FROM
+  json_each(
+    readfile('raw_data.json') ->> '$.configs_key.boardItemSettings0',
+    '$.items'
+  );
+
+INSERT INTO
+  item (category, lvl, title, merge_result)
+SELECT
+  items_json.id / 1000,
+  items_json.id % 1000 + 1,
+  CASE coalesce(title, '')
+    WHEN '' THEN items_json.id / 1000
+    ELSE title
+  END,
+  mergeable
+FROM
+  items_json
+  LEFT JOIN category ON items_json.id / 1000 = category.id;
+
+CREATE TABLE
+  source_json (
+    item INTEGER NOT NULL,
+    kind TEXT NOT NULL,
+    json TEXT NOT NULL,
+    PRIMARY KEY (item, kind)
+  );
+
+INSERT INTO
+  source_json
+SELECT
+  id,
+  'manual' AS kind,
+  manual_source_json AS source_json
+FROM
+  items_json
+WHERE
+  manual_source_json IS NOT NULL
+UNION ALL
+SELECT
+  id,
+  'auto' AS kind,
+  auto_source_json AS source_json
+FROM
+  items_json
+WHERE
+  auto_source_json IS NOT NULL;
+
+INSERT INTO
+  source (
+    item,
+    kind,
+    charge_drops,
+    charge_time_s,
+    charge_stack,
+    total_drops,
+    successor,
+    spend_energy,
+    start_empty
+  )
+SELECT
+  item,
+  kind,
+  json ->> '$.dropsPerRecharge',
+  json ->> '$.rechargeTimer',
+  json ->> '$.rechargesStack',
+  json ->> '$.destroyAfterTaps',
+  json ->> '$.droppedItemOnDestroy',
+  coalesce(json ->> '$.spendsEnergy', 0),
+  coalesce(json ->> '$.startEmpty', 0)
+FROM
+  source_json;
+
+INSERT INTO
+  source_drop (item, kind, drop_item, rate)
+SELECT
+  item,
+  kind,
+  value ->> '$.dropId',
+  sum(value ->> '$.dropRate')
+FROM
+  source_json,
+  json_each(source_json.json, '$.droppableItems')
+GROUP BY
+  item,
+  kind,
+  value ->> '$.dropId';
+
+-- has rows for "lvl5 tool = 8 * lvl2 tool"
+-- merges:
 INSERT INTO
   item_equiv (a, n, b)
 SELECT
   item_a.id,
-  pow (2, item_b.lvl - item_a.lvl),
+  pow(2, item_b.lvl - item_a.lvl),
   item_b.id
 FROM
   item AS item_a
@@ -133,10 +257,13 @@ FROM
 WHERE
   item_a.lvl <= item_b.lvl;
 
+-- missing crystals shards/dice transitions
+-- missing armour = steel, fountains = lvl5 staffs, seed bags = lvl6 shieldmaiden
 -- issue: this tells it that armour = metal scraps
--- but not that armour = iron/steel (indirection).
--- tells it that fountains = lvl1 staffs, but not lvl5.
--- (that second one's maybe ok though?)
+--     but not that armour = iron/steel (indirection).
+--     tells it that fountains = lvl1 staffs, but not lvl5.
+--     (that second one's maybe ok though?)
+-- finite generators:
 INSERT INTO
   item_equiv (a, energy, b, m)
 SELECT
@@ -164,7 +291,7 @@ SELECT
   id,
   item,
   kind,
-  1 / sum(drops_per_s * ratio),
+  coalesce(1 / sum(drops_per_s * ratio), 0),
   spend_energy * (1 + sum(rate * ratio * energy)) / sum(rate * ratio)
 FROM
   item
@@ -175,9 +302,71 @@ GROUP BY
   item,
   kind;
 
+DROP TABLE categories_csv;
+DROP TABLE items_json;
+DROP TABLE source_json;
+
 -- possible improvements
 -- relative value of purchaseable item costs
 -- model "1 lvl8 and 2 lvl7s" source sets
 -- maybe some way to model using 4 ads/4 hrs for charges
 --    (equiv to drops_per_s increasing by charge_drops / 3600)
 --    maybe recipe gets an extra column for this
+
+-- maybe add logic to not show s if >1h or m if >1d
+CREATE VIEW
+  recipe_times_v AS
+SELECT
+  result,
+  source,
+  iif(
+    avg_charge_s,
+    iif(
+      CAST(avg_charge_s / 86400 AS INTEGER),
+      CAST(avg_charge_s / 86400 AS INTEGER) || 'd ',
+      ''
+    ) || iif(
+      CAST(avg_charge_s / 3600 % 24 AS INTEGER),
+      CAST(avg_charge_s / 3600 % 24 AS INTEGER) || 'h ',
+      ''
+    ) || iif(
+      CAST(avg_charge_s / 60 % 60 AS INTEGER),
+      CAST(avg_charge_s / 60 % 60 AS INTEGER) || 'm ',
+      ''
+    ) || iif(
+      CAST(round(avg_charge_s % 60) AS INTEGER),
+      CAST(round(avg_charge_s % 60) AS INTEGER) || 's',
+      ''
+    ),
+    '0s'
+  ) AS charge,
+  CAST(round(avg_energy) AS INTEGER) AS energy,
+  CAST(round(100 * energy_usage) AS INTEGER) || '%' AS energy_usage,
+  iif(
+    overall_time_s,
+    iif(
+      CAST(overall_time_s / 86400 AS INTEGER),
+      CAST(overall_time_s / 86400 AS INTEGER) || 'd ',
+      ''
+    ) || iif(
+      CAST(overall_time_s / 3600 % 24 AS INTEGER),
+      CAST(overall_time_s / 3600 % 24 AS INTEGER) || 'h ',
+      ''
+    ) || iif(
+      CAST(overall_time_s / 60 % 60 AS INTEGER),
+      CAST(overall_time_s / 60 % 60 AS INTEGER) || 'm ',
+      ''
+    ) || iif(
+      CAST(round(overall_time_s % 60) AS INTEGER),
+      CAST(round(overall_time_s % 60) AS INTEGER) || 's',
+      ''
+    ),
+    '0s'
+  ) AS overall_time
+FROM
+  recipe_v;
+
+-- CAST(avg_charge_s / 86400 AS INTEGER) AS charge_d,
+-- CAST(avg_charge_s / 3600 % 24 AS INTEGER) AS charge_h,
+-- CAST(avg_charge_s / 60 % 60 AS INTEGER) AS charge_m,
+-- round(avg_charge_s % 60, 2) AS charge_s,

@@ -16,3 +16,9 @@ check-d-cloud:
 
 check-e-cloud:
 	adb -e shell 'stat -c %y sdcard/Android/data/*medieval.merge*/files/GameSaves/Cloud/CloudSave.json'
+
+items.db:
+	rm items.db
+	sqlite3 items.db < initial.sql
+
+.PHONY: items.db
