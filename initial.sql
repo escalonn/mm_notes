@@ -141,15 +141,26 @@ FROM
 INSERT INTO
   category (id, title)
 SELECT
-  Category,
-  Name
+  "Category",
+  "Name"
 FROM
   categories_csv;
 
 CREATE TABLE
+  configs_json (k TEXT PRIMARY KEY NOT NULL, v TEXT NOT NULL);
+
+INSERT INTO
+  configs_json (k, v)
+SELECT
+  key,
+  value ->> '$'
+FROM
+  json_each(readfile ('raw_data.json') -> '$.configs_key');
+
+CREATE TABLE
   items_json (
     id INTEGER PRIMARY KEY NOT NULL,
-    level INTEGER NOT NULL,
+    lvl INTEGER NOT NULL,
     mergeable INTEGER NULL,
     manual_source_json TEXT NULL,
     auto_source_json TEXT NULL
@@ -158,7 +169,7 @@ CREATE TABLE
 INSERT INTO
   items_json (
     id,
-    level,
+    lvl,
     mergeable,
     manual_source_json,
     auto_source_json
@@ -171,7 +182,14 @@ SELECT
   value ->> '$.autoSource'
 FROM
   json_each(
-    readfile('raw_data.json') ->> '$.configs_key.boardItemSettings0',
+    (
+      SELECT
+        v
+      FROM
+        configs_json
+      WHERE
+        k = 'boardItemSettings0'
+    ),
     '$.items'
   );
 
@@ -232,32 +250,32 @@ INSERT INTO
 SELECT
   item,
   kind,
-  json ->> '$.dropsPerRecharge',
-  json ->> '$.rechargeTimer',
-  json ->> '$.rechargesStack',
-  json ->> '$.destroyAfterTaps',
-  json ->> '$.droppedItemOnDestroy',
-  coalesce(json ->> '$.spendsEnergy', 0),
-  coalesce(json ->> '$.startEmpty', 0)
+  "json" ->> '$.dropsPerRecharge',
+  "json" ->> '$.rechargeTimer',
+  "json" ->> '$.rechargesStack',
+  "json" ->> '$.destroyAfterTaps',
+  "json" ->> '$.droppedItemOnDestroy',
+  coalesce("json" ->> '$.spendsEnergy', 0),
+  coalesce("json" ->> '$.startEmpty', 0)
 FROM
   source_json;
 
 INSERT INTO
   source_drop (item, kind, drop_item, rate)
 SELECT
-  item,
-  kind,
-  value ->> '$.dropId',
-  sum(value ->> '$.dropRate')
+  source_json.item,
+  source_json.kind,
+  json_each.value ->> '$.dropId',
+  sum(json_each.value ->> '$.dropRate')
 FROM
   source_json,
   json_each(source_json.json, '$.droppableItems')
 WHERE
-  value ->> '$.dropId' IS NOT NULL -- to handle event Stone lvl6 dropping nothing
+  json_each.value ->> '$.dropId' IS NOT NULL -- to handle event Stone lvl6 dropping nothing
 GROUP BY
-  item,
-  kind,
-  value ->> '$.dropId';
+  source_json.item,
+  source_json.kind,
+  json_each.value ->> '$.dropId';
 
 -- has rows for "lvl5 tool = 8 * lvl2 tool"
 -- merges:
@@ -321,6 +339,8 @@ GROUP BY
   kind;
 
 DROP TABLE categories_csv;
+
+DROP TABLE configs_json;
 
 DROP TABLE items_json;
 
@@ -389,3 +409,36 @@ FROM
 -- CAST(avg_charge_s / 3600 % 24 AS INTEGER) AS charge_h,
 -- CAST(avg_charge_s / 60 % 60 AS INTEGER) AS charge_m,
 -- round(avg_charge_s % 60, 2) AS charge_s,
+--
+CREATE TABLE
+  source_set (
+    title TEXT,
+    item INTEGER NOT NULL REFERENCES source (item),
+    n INTEGER NOT NULL DEFAULT 1,
+    PRIMARY KEY (title, item)
+  );
+
+CREATE VIEW
+  source_set_v AS
+SELECT
+  source_set.title,
+  item.descr AS item,
+  source_set.n
+FROM
+  source_set
+  JOIN item ON source_set.item = item.id;
+
+INSERT INTO
+  source_set (title, item)
+SELECT
+  '1 max all infinite',
+  item.id
+FROM
+  item
+  JOIN source ON item.id = source.item
+WHERE
+  source.total_drops IS NULL
+GROUP BY
+  item.category
+HAVING
+  max(item.lvl);

@@ -106,6 +106,16 @@ ad algorithms
     spend >=2m total (doesnt have to be sequential) looking at shop and >=3m45s total
     receive ad
     watching a charge ad resets the 2m timer, not the 4m timer.
+explore config with jq
+    `jq '.configs_key | .[] |= fromjson' raw_data.json`
+    (all quest gift box ad rewards:)
+        `jq '.configs_key | .[] |= fromjson | [.randomTreasureSettings0.giftRewardSettings[].giftBox] as $gifts | .boardItemSettings0.items[] | select(.id | inside($gifts[])) | .manualSource | {destroyAfterTaps, dropId: .droppableItems[0].dropId}' raw_data.json`
+    (all items on all boards indiscriminately)
+        `jq '.configs_key | .[] |= fromjson | [to_entries[] | select(.key | startswith("boardItemSettings")).value.items] | add' raw_data.json`
 explore new board/event
     `sqlite3 -box event_items.db "select * from item_equiv_v where m > 1"`
     `sqlite3 -box event_items.db "select * from recipe_times_v"`
+"test suite" on config json
+    empty if all items' level = id % 1000 + 1
+        `jq '.configs_key | .[] |= fromjson | [to_entries[] | select(.key | startswith("boardItemSettings")).value.items] | add[] | select(.level != .id % 1000 + 1)' raw_data.json`
+    todo: empty if, for all pairs of items with adjacent ids, the larger-id one is always the merge result of the other
