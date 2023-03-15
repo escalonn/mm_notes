@@ -1,4 +1,7 @@
 -- sqlite
+.mode csv
+.import --csv categories.csv categories_csv
+
 CREATE TABLE
   category (id INTEGER PRIMARY KEY NOT NULL, title TEXT);
 
@@ -134,9 +137,6 @@ FROM
   recipe
   LEFT JOIN item AS result ON item = result.id
   LEFT JOIN item AS source ON source_item = source.id;
-
-.mode csv
-.import --csv categories.csv categories_csv
 
 INSERT INTO
   category (id, title)
@@ -338,21 +338,6 @@ GROUP BY
   item,
   kind;
 
-DROP TABLE categories_csv;
-
-DROP TABLE configs_json;
-
-DROP TABLE items_json;
-
-DROP TABLE source_json;
-
--- possible improvements
--- relative value of purchaseable item costs
--- model "1 lvl8 and 2 lvl7s" source sets
--- maybe some way to model using 4 ads/4 hrs for charges
---    (equiv to drops_per_s increasing by charge_drops / 3600)
---    maybe recipe gets an extra column for this
--- maybe add logic to not show s if >1h or m if >1d
 CREATE VIEW
   recipe_times_v AS
 SELECT
@@ -442,3 +427,50 @@ GROUP BY
   item.category
 HAVING
   max(item.lvl);
+
+CREATE TABLE
+  gift_box (
+    quest_category INTEGER NOT NULL REFERENCES category (id),
+    item INTEGER NOT NULL REFERENCES item (id),
+    drop_item INTEGER NOT NULL REFERENCES item (id),
+    total_drops INTEGER NOT NULL,
+    PRIMARY KEY (quest_category, item)
+  );
+
+INSERT INTO
+  gift_box (quest_category, item, drop_item, total_drops)
+WITH
+  gift (category, item) AS (
+    SELECT
+      json_each.value ->> '$.itemFamily',
+      json_each.value ->> '$.giftBox'
+    FROM
+      configs_json,
+      json_each(configs_json.v, '$.giftRewardSettings')
+    WHERE
+      configs_json.k = 'randomTreasureSettings0'
+  )
+SELECT
+  gift.category,
+  item,
+  source_drop_v.drop_item,
+  source_drop_v.total_drops
+FROM
+  gift
+  JOIN source_drop_v USING (item);
+
+-- DROP TABLE categories_csv;
+-- DROP TABLE configs_json;
+-- DROP TABLE items_json;
+-- DROP TABLE source_json;
+--
+-- possible improvements:
+-- relative value of purchaseable item costs
+-- charge or energy value of gift boxes (in progress, gift_box table)
+-- model "1 lvl8 and 2 lvl7s" source sets (in progress, source_set table)
+-- maybe some way to model using 4 ads/4 hrs for charges
+--    (equiv to drops_per_s increasing by charge_drops / 3600)
+--    maybe recipe gets an extra column for this
+-- maybe add logic to not show s if >1h or m if >1d
+-- filter out gift boxes from recipe_v etc (use gift_box table?)
+-- could use sexy recursive CTE on item_equiv to find indirect relationships....

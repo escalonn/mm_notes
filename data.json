@@ -4610,11 +4610,11 @@
           }
         },
         {
-          "id": 144000,
+          "id": "Unstable lvl1 [144000]",
           "name": "Main/item_144000",
           "level": 1,
           "mergeable": {
-            "nextItemId": 144001
+            "nextItemId": "Unstable lvl2 [144001]"
           },
           "manualSource": {
             "destroyAfterTaps": 1,
@@ -4631,11 +4631,11 @@
           }
         },
         {
-          "id": 144001,
+          "id": "Unstable lvl2 [144001]",
           "name": "Main/item_144001",
           "level": 2,
           "mergeable": {
-            "nextItemId": 144002
+            "nextItemId": "Unstable lvl3 [144002]"
           },
           "manualSource": {
             "destroyAfterTaps": 1,
@@ -4652,11 +4652,11 @@
           }
         },
         {
-          "id": 144002,
+          "id": "Unstable lvl3 [144002]",
           "name": "Main/item_144002",
           "level": 3,
           "mergeable": {
-            "nextItemId": 144003
+            "nextItemId": "Unstable lvl4 [144003]"
           },
           "manualSource": {
             "destroyAfterTaps": 1,
@@ -4673,11 +4673,11 @@
           }
         },
         {
-          "id": 144003,
+          "id": "Unstable lvl4 [144003]",
           "name": "Main/item_144003",
           "level": 4,
           "mergeable": {
-            "nextItemId": "Unstable lvl1 [144004]"
+            "nextItemId": "Unstable lvl5 [144004]"
           },
           "manualSource": {
             "destroyAfterTaps": 1,
@@ -4694,11 +4694,11 @@
           }
         },
         {
-          "id": "Unstable lvl1 [144004]",
+          "id": "Unstable lvl5 [144004]",
           "name": "Main/item_144004",
           "level": 5,
           "mergeable": {
-            "nextItemId": "Unstable lvl2 [144005]"
+            "nextItemId": "Unstable lvl6 [144005]"
           },
           "manualSource": {
             "destroyAfterTaps": 16,
@@ -4715,11 +4715,11 @@
           }
         },
         {
-          "id": "Unstable lvl2 [144005]",
+          "id": "Unstable lvl6 [144005]",
           "name": "Main/item_144005",
           "level": 6,
           "mergeable": {
-            "nextItemId": "Unstable lvl3 [144006]"
+            "nextItemId": "Unstable lvl7 [144006]"
           },
           "manualSource": {
             "destroyAfterTaps": 16,
@@ -4736,7 +4736,7 @@
           }
         },
         {
-          "id": "Unstable lvl3 [144006]",
+          "id": "Unstable lvl7 [144006]",
           "name": "Main/item_144006",
           "level": 7,
           "manualSource": {
@@ -4823,7 +4823,7 @@
             "rechargesStack": 1,
             "droppableItems": [
               {
-                "dropId": 148000,
+                "dropId": "Metal Scraps lvl1 [148000]",
                 "dropRate": 1
               }
             ]
@@ -4845,7 +4845,7 @@
             "rechargesStack": 1,
             "droppableItems": [
               {
-                "dropId": 149000,
+                "dropId": "Metal Scraps lvl1 [149000]",
                 "dropRate": 1
               }
             ]
@@ -4864,7 +4864,7 @@
             "rechargesStack": 1,
             "droppableItems": [
               {
-                "dropId": 150000,
+                "dropId": "Metal Scraps lvl1 [150000]",
                 "dropRate": 1
               }
             ]
@@ -4934,7 +4934,7 @@
           }
         },
         {
-          "id": 148000,
+          "id": "Metal Scraps lvl1 [148000]",
           "name": "Main/item_148000",
           "level": 1,
           "manualSource": {
@@ -4952,7 +4952,7 @@
           }
         },
         {
-          "id": 149000,
+          "id": "Metal Scraps lvl1 [149000]",
           "name": "Main/item_149000",
           "level": 1,
           "manualSource": {
@@ -4970,7 +4970,7 @@
           }
         },
         {
-          "id": 150000,
+          "id": "Metal Scraps lvl1 [150000]",
           "name": "Main/item_150000",
           "level": 1,
           "manualSource": {
@@ -4988,7 +4988,7 @@
           }
         },
         {
-          "id": 151000,
+          "id": "Gift Box lvl1 [151000]",
           "name": "Main/item_151000",
           "level": 1,
           "manualSource": {
@@ -5006,7 +5006,7 @@
           }
         },
         {
-          "id": 152000,
+          "id": "Gift Box lvl1 [152000]",
           "name": "Main/item_152000",
           "level": 1,
           "manualSource": {
@@ -5246,39 +5246,39 @@
           }
         },
         {
-          "id": " lvl [961000]",
+          "id": " lvl1 [961000]",
           "name": "Main/item_961000",
           "level": 1,
           "mergeable": {
-            "nextItemId": " lvl [961001]"
+            "nextItemId": " lvl2 [961001]"
           }
         },
         {
-          "id": " lvl [961001]",
+          "id": " lvl2 [961001]",
           "name": "Main/item_961001",
           "level": 2,
           "mergeable": {
-            "nextItemId": " lvl [961002]"
+            "nextItemId": " lvl3 [961002]"
           }
         },
         {
-          "id": " lvl [961002]",
+          "id": " lvl3 [961002]",
           "name": "Main/item_961002",
           "level": 3,
           "mergeable": {
-            "nextItemId": " lvl [961003]"
+            "nextItemId": " lvl4 [961003]"
           }
         },
         {
-          "id": " lvl [961003]",
+          "id": " lvl4 [961003]",
           "name": "Main/item_961003",
           "level": 4,
           "mergeable": {
-            "nextItemId": " lvl [961004]"
+            "nextItemId": " lvl5 [961004]"
           }
         },
         {
-          "id": " lvl [961004]",
+          "id": " lvl5 [961004]",
           "name": "Main/item_961004",
           "level": 5
         },
@@ -27244,17 +27244,17 @@
         },
         {
           "itemFamily": 142,
-          "giftBox": 151000,
+          "giftBox": "Gift Box lvl1 [151000]",
           "costType": 2
         },
         {
           "itemFamily": 145,
-          "giftBox": 152000,
+          "giftBox": "Gift Box lvl1 [152000]",
           "costType": 2
         },
         {
           "itemFamily": 146,
-          "giftBox": 152000,
+          "giftBox": "Gift Box lvl1 [152000]",
           "costType": 2
         }
       ],

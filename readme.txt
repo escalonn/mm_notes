@@ -91,8 +91,11 @@ todo
         green box
     missing pages on wiki
         mimic box
-    missing images on wiki
-        mimic box
+    reformat generators page
+        it's silly that tinderbox is in one area but fairy fountain is in another, they work the same
+        probably organize as: (1a) manual infinite, (1b) manual finite, (2) automatic.
+    maybe redo game ID page to have categories and max level instead of a row for every item?
+
 fonts
     franklin gothic
     garamond
