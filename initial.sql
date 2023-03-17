@@ -1,5 +1,3 @@
--- sqlite
-.mode csv
 .import --csv categories.csv categories_csv
 
 CREATE TABLE
@@ -75,7 +73,7 @@ FROM
 -- a * n - energy = b * m
 -- we also need to put into here "armour lvl7 = 44 iron ingot via 44 energy"
 -- every item needs to be in here as itself too
--- also, this doesnt model time delays on equivalence (tinderbox, hay)
+-- also, this doesn't model time delays on equivalence (tinderbox, hay)
 CREATE TABLE
   item_equiv (
     a INTEGER NOT NULL REFERENCES item (id),
@@ -314,7 +312,7 @@ WHERE
 
 -- maybe should have table for the slices of each recipe...
 -- or maybe rather a table representing the effective rates like 120%...
---    but i think that couldnt generalize to complex recipes like steel
+--    but i think that couldn't generalize to complex recipes like steel
 INSERT INTO
   recipe (
     item,
@@ -474,3 +472,5 @@ FROM
 -- maybe add logic to not show s if >1h or m if >1d
 -- filter out gift boxes from recipe_v etc (use gift_box table?)
 -- could use sexy recursive CTE on item_equiv to find indirect relationships....
+-- some table should know that armour lvl5 = XX amount of steel in the long run (via armour lvl9)
+--    maybe a separate table for just finite-generator stuff? idk maybe not
