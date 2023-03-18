@@ -77,18 +77,29 @@ with open(in_name, encoding='utf8') as f:
 # find all the IDs and stuff
 # also... find rechargeTimer etc and format as nice hms
 
-data[key_name] = {k: decode_json(v, int_parser) for k, v in data[key_name].items()}
+data[key_name] = {k: decode_json(v, int_parser)
+                  for k, v in data[key_name].items()}
 
 out_name = in_name.replace('raw_', '')
 with open(out_name, 'w') as f:
     json.dump(data, f, indent=2)
 
-with open('event_graph.dot', 'w') as f:
+min_reward = 50
+with open('event_graph.gv', 'w', encoding='utf8') as f:
     print('strict digraph {', file=f)
+    print('\tnode [shape=box, fontname="Charter"]', file=f)
+    print('\tedge [arrowhead=vee]', file=f)
     for quest in data[key_name]['questSettings1001']['quests']:
-        label = '<BR/>'.join(f'{x["amount"]} {x["itemId"][:-9]}'
-                           for x in quest['objectives'])
-        print(f'\t{quest["uid"]} [label=<{label}>]', file=f)
+        objective_rows = ''.join(f'<TR><TD>{x["amount"]} × {x["itemId"][:-9]}</TD></TR>'
+                                 for x in quest['objectives'])
+        reward_rows = ''.join(f'<TR><TD>{x["itemReward"]["amount"]} × {x["itemReward"]["itemId"][:-9]}</TD></TR>'
+                              for x in quest['rewards'] if 'itemReward' in x)
+        if reward_rows:
+            reward_rows = '<HR/>' + reward_rows
+        label = f'<TABLE BORDER="0">{objective_rows}{reward_rows}</TABLE>'
+        width = sum(r['mapEventReward']['amount']
+                    for r in quest['rewards'] if 'mapEventReward' in r) / min_reward if 'rewards' in quest else 0
+        print(f'\t{quest["uid"]} [penwidth={width}, label=<{label}>]', file=f)
         if 'requirements' in quest:
             for r in quest['requirements']:
                 print(f'\t{r["requirementValue"]} -> {quest["uid"]}', file=f)

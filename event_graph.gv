@@ -1,0 +1,430 @@
+strict digraph {
+	node [shape=box, fontname="Charter"]
+	edge [arrowhead=vee]
+	2185 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl3</TD></TR><HR/><TR><TD>1 × Gloves lvl1</TD></TR></TABLE>>]
+	2186 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl4</TD></TR></TABLE>>]
+	2185 -> 2186
+	2187 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Gloves lvl3</TD></TR></TABLE>>]
+	2186 -> 2187
+	2188 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl3</TD></TR></TABLE>>]
+	2186 -> 2188
+	2189 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl3</TD></TR><HR/><TR><TD>1 × Tree lvl6</TD></TR></TABLE>>]
+	2186 -> 2189
+	2190 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Wood lvl4</TD></TR><HR/><TR><TD>1 × Guardian Tree lvl1</TD></TR></TABLE>>]
+	2189 -> 2190
+	2191 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl2</TD></TR><HR/><TR><TD>1 × Copper Ingot lvl1</TD></TR></TABLE>>]
+	2190 -> 2191
+	2192 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl2</TD></TR></TABLE>>]
+	2191 -> 2192
+	2193 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl4</TD></TR></TABLE>>]
+	2192 -> 2193
+	2194 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl3</TD></TR><TR><TD>1 × Wood lvl3</TD></TR><HR/><TR><TD>1 × Rivets lvl1</TD></TR></TABLE>>]
+	2190 -> 2194
+	2193 -> 2194
+	2195 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl4</TD></TR></TABLE>>]
+	2194 -> 2195
+	2191 -> 2195
+	2196 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Wood lvl4</TD></TR><HR/><TR><TD>1 × Rope lvl1</TD></TR></TABLE>>]
+	2195 -> 2196
+	2190 -> 2196
+	2197 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl7</TD></TR></TABLE>>]
+	2196 -> 2197
+	2198 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl4</TD></TR><TR><TD>1 × Wood lvl3</TD></TR></TABLE>>]
+	2197 -> 2198
+	2199 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Wood lvl5</TD></TR></TABLE>>]
+	2198 -> 2199
+	2196 -> 2199
+	2200 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl3</TD></TR></TABLE>>]
+	2190 -> 2200
+	2201 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Rope lvl4</TD></TR></TABLE>>]
+	2198 -> 2201
+	2202 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl5</TD></TR><HR/><TR><TD>1 × Forge lvl1</TD></TR></TABLE>>]
+	2201 -> 2202
+	2203 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>2 × Farming Tools lvl3</TD></TR><TR><TD>1 × Farming Tools lvl4</TD></TR></TABLE>>]
+	2201 -> 2203
+	2204 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Wind Scepter lvl5</TD></TR><TR><TD>3 × Wood lvl5</TD></TR></TABLE>>]
+	2202 -> 2204
+	2205 [penwidth=2.0, label=<<TABLE BORDER="0"><TR><TD>1 × Rivets lvl5</TD></TR></TABLE>>]
+	2203 -> 2205
+	2206 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Wood lvl5</TD></TR><TR><TD>1 × Rope lvl4</TD></TR></TABLE>>]
+	2201 -> 2206
+	2207 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl5</TD></TR><TR><TD>1 × Tools lvl4</TD></TR></TABLE>>]
+	2198 -> 2207
+	2205 -> 2207
+	2208 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Sword lvl5</TD></TR><HR/><TR><TD>1 × Mine lvl5</TD></TR></TABLE>>]
+	2207 -> 2208
+	2209 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Battle Axe lvl5</TD></TR></TABLE>>]
+	2208 -> 2209
+	2210 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl8</TD></TR><TR><TD>1 × Sword lvl5</TD></TR></TABLE>>]
+	2208 -> 2210
+	2211 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl7</TD></TR><TR><TD>2 × Wood lvl5</TD></TR></TABLE>>]
+	2210 -> 2211
+	2212 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Sword lvl4</TD></TR></TABLE>>]
+	2211 -> 2212
+	2213 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Bow lvl2</TD></TR></TABLE>>]
+	2212 -> 2213
+	2214 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl7</TD></TR><TR><TD>1 × Sword lvl3</TD></TR></TABLE>>]
+	2213 -> 2214
+	2215 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Stone lvl4</TD></TR></TABLE>>]
+	2213 -> 2215
+	2216 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Battle Axe lvl5</TD></TR></TABLE>>]
+	2212 -> 2216
+	2213 -> 2216
+	2217 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Stone lvl4</TD></TR></TABLE>>]
+	2215 -> 2217
+	2218 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Stone lvl4</TD></TR><TR><TD>1 × Tools lvl2</TD></TR></TABLE>>]
+	2217 -> 2218
+	2219 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Bow lvl3</TD></TR></TABLE>>]
+	2218 -> 2219
+	2220 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Sword lvl6</TD></TR></TABLE>>]
+	2219 -> 2220
+	2221 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>2 × Gloves lvl3</TD></TR></TABLE>>]
+	2220 -> 2221
+	2222 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Stone lvl4</TD></TR></TABLE>>]
+	2218 -> 2222
+	2220 -> 2222
+	2223 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl5</TD></TR></TABLE>>]
+	2222 -> 2223
+	2224 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl3</TD></TR></TABLE>>]
+	2219 -> 2224
+	2225 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Battle Axe lvl4</TD></TR></TABLE>>]
+	2224 -> 2225
+	2226 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Wind Scepter lvl5</TD></TR></TABLE>>]
+	2225 -> 2226
+	2212 -> 2226
+	2227 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Stone lvl6</TD></TR></TABLE>>]
+	2226 -> 2227
+	2228 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Bow lvl4</TD></TR><TR><TD>1 × Copper Armour lvl3</TD></TR></TABLE>>]
+	2227 -> 2228
+	2229 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl7</TD></TR><TR><TD>1 × Fire Rod lvl5</TD></TR></TABLE>>]
+	2228 -> 2229
+	2230 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Holy Staff lvl5</TD></TR></TABLE>>]
+	2229 -> 2230
+	2231 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Sword lvl6</TD></TR><TR><TD>1 × Copper Armour lvl4</TD></TR></TABLE>>]
+	2229 -> 2231
+	2226 -> 2231
+	2232 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Stone lvl6</TD></TR></TABLE>>]
+	2231 -> 2232
+	2233 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Wood lvl5</TD></TR></TABLE>>]
+	2232 -> 2233
+	2234 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Bow lvl5</TD></TR><TR><TD>1 × Poison Bottle lvl4</TD></TR></TABLE>>]
+	2233 -> 2234
+	2231 -> 2234
+	2235 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>2 × Wood lvl5</TD></TR><TR><TD>1 × Tools lvl4</TD></TR></TABLE>>]
+	2233 -> 2235
+	2236 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Rope lvl4</TD></TR></TABLE>>]
+	2233 -> 2236
+	2237 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Battle Axe lvl6</TD></TR><TR><TD>1 × Copper Armour lvl5</TD></TR></TABLE>>]
+	2235 -> 2237
+	2234 -> 2237
+	2238 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Fire Potion lvl4</TD></TR><TR><TD>1 × Fire Rod lvl5</TD></TR></TABLE>>]
+	2237 -> 2238
+	2239 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Stone lvl6</TD></TR></TABLE>>]
+	2238 -> 2239
+	2240 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Holy Staff lvl5</TD></TR></TABLE>>]
+	2239 -> 2240
+	2241 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Stone lvl6</TD></TR><TR><TD>1 × Wind Scepter lvl5</TD></TR></TABLE>>]
+	2239 -> 2241
+	2237 -> 2241
+	2242 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl5</TD></TR></TABLE>>]
+	2241 -> 2242
+	2243 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl3</TD></TR><TR><TD>1 × Tools lvl2</TD></TR></TABLE>>]
+	2242 -> 2243
+	2244 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Wood lvl5</TD></TR><TR><TD>1 × Farming Tools lvl5</TD></TR></TABLE>>]
+	2243 -> 2244
+	2245 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl6</TD></TR></TABLE>>]
+	2244 -> 2245
+	2246 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>2 × Rivets lvl5</TD></TR></TABLE>>]
+	2245 -> 2246
+	2247 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Rope lvl4</TD></TR></TABLE>>]
+	2245 -> 2247
+	2248 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Stone lvl4</TD></TR></TABLE>>]
+	2245 -> 2248
+	2249 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Stone lvl6</TD></TR><TR><TD>1 × Tools lvl7</TD></TR></TABLE>>]
+	2248 -> 2249
+	2250 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl2</TD></TR></TABLE>>]
+	2249 -> 2250
+	2251 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl3</TD></TR><TR><TD>1 × Farming Tools lvl4</TD></TR></TABLE>>]
+	2250 -> 2251
+	2252 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Wood lvl5</TD></TR></TABLE>>]
+	2251 -> 2252
+	2253 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl5</TD></TR></TABLE>>]
+	2252 -> 2253
+	2254 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Fire Potion lvl4</TD></TR></TABLE>>]
+	2253 -> 2254
+	2241 -> 2254
+	2255 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Sword lvl5</TD></TR><TR><TD>1 × Gloves lvl3</TD></TR></TABLE>>]
+	2253 -> 2255
+	2256 [penwidth=2.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl8</TD></TR></TABLE>>]
+	2253 -> 2256
+	2257 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Stone lvl6</TD></TR></TABLE>>]
+	2254 -> 2257
+	2258 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl5</TD></TR><TR><TD>1 × Copper Armour lvl3</TD></TR></TABLE>>]
+	2257 -> 2258
+	2259 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl9</TD></TR></TABLE>>]
+	2258 -> 2259
+	2260 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>2 × Wood lvl5</TD></TR></TABLE>>]
+	2259 -> 2260
+	2261 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl5</TD></TR></TABLE>>]
+	2260 -> 2261
+	2262 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Wood lvl5</TD></TR></TABLE>>]
+	2261 -> 2262
+	2263 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl5</TD></TR></TABLE>>]
+	2262 -> 2263
+	2264 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl4</TD></TR></TABLE>>]
+	2263 -> 2264
+	2254 -> 2264
+	2265 [penwidth=2.0, label=<<TABLE BORDER="0"><TR><TD>3 × Rope lvl4</TD></TR></TABLE>>]
+	2262 -> 2265
+	2266 [penwidth=2.0, label=<<TABLE BORDER="0"><TR><TD>1 × Gloves lvl3</TD></TR><TR><TD>2 × Wind Scepter lvl5</TD></TR></TABLE>>]
+	2264 -> 2266
+	2267 [penwidth=2.0, label=<<TABLE BORDER="0"><TR><TD>1 × Gloves lvl3</TD></TR><TR><TD>2 × Rivets lvl5</TD></TR></TABLE>>]
+	2267 -> 2267
+	2268 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Sword lvl8</TD></TR><TR><TD>1 × Copper Armour lvl7</TD></TR></TABLE>>]
+	2264 -> 2268
+	2269 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Battle Axe lvl7</TD></TR><TR><TD>1 × Copper Armour lvl7</TD></TR></TABLE>>]
+	2268 -> 2269
+	2270 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl7</TD></TR><TR><TD>1 × Fire Rod lvl5</TD></TR></TABLE>>]
+	2269 -> 2270
+	2271 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl7</TD></TR><TR><TD>1 × Wind Scepter lvl5</TD></TR></TABLE>>]
+	2269 -> 2271
+	2272 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Wood lvl5</TD></TR></TABLE>>]
+	2271 -> 2272
+	2273 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Wood lvl5</TD></TR><TR><TD>1 × Rivets lvl5</TD></TR></TABLE>>]
+	2272 -> 2273
+	2274 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>2 × Poison Bottle lvl4</TD></TR></TABLE>>]
+	2271 -> 2274
+	2275 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Fire Potion lvl4</TD></TR></TABLE>>]
+	2271 -> 2275
+	2276 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Sword lvl6</TD></TR></TABLE>>]
+	2274 -> 2276
+	2277 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>2 × Poison Bottle lvl4</TD></TR><TR><TD>1 × Gloves lvl3</TD></TR></TABLE>>]
+	2276 -> 2277
+	2278 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Wind Scepter lvl5</TD></TR></TABLE>>]
+	2277 -> 2278
+	2279 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>2 × Fire Rod lvl5</TD></TR></TABLE>>]
+	2277 -> 2279
+	2280 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl6</TD></TR></TABLE>>]
+	2277 -> 2280
+	2281 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl5</TD></TR></TABLE>>]
+	2280 -> 2281
+	2282 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>2 × Wood lvl5</TD></TR></TABLE>>]
+	2281 -> 2282
+	2283 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl6</TD></TR></TABLE>>]
+	2282 -> 2283
+	2284 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Wood lvl5</TD></TR></TABLE>>]
+	2283 -> 2284
+	2264 -> 2284
+	2285 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Rope lvl4</TD></TR></TABLE>>]
+	2282 -> 2285
+	2286 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>3 × Rivets lvl5</TD></TR></TABLE>>]
+	2285 -> 2286
+	2287 [penwidth=4.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl10</TD></TR><TR><TD>1 × Gloves lvl3</TD></TR></TABLE>>]
+	2285 -> 2287
+	2288 [penwidth=4.0, label=<<TABLE BORDER="0"><TR><TD>2 × Rope lvl4</TD></TR><TR><TD>1 × Farming Tools lvl14</TD></TR></TABLE>>]
+	2285 -> 2288
+	2289 [penwidth=4.0, label=<<TABLE BORDER="0"><TR><TD>3 × Rivets lvl5</TD></TR><TR><TD>1 × Tools lvl8</TD></TR></TABLE>>]
+	2286 -> 2289
+	2290 [penwidth=4.0, label=<<TABLE BORDER="0"><TR><TD>2 × Holy Staff lvl5</TD></TR><TR><TD>1 × Farming Tools lvl12</TD></TR></TABLE>>]
+	2287 -> 2290
+	2291 [penwidth=4.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl6</TD></TR></TABLE>>]
+	2283 -> 2291
+	2292 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>2 × Wind Scepter lvl5</TD></TR></TABLE>>]
+	2291 -> 2292
+	2293 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl8</TD></TR></TABLE>>]
+	2291 -> 2293
+	2294 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl6</TD></TR><TR><TD>1 × Tools lvl3</TD></TR></TABLE>>]
+	2292 -> 2294
+	2295 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Holy Staff lvl5</TD></TR></TABLE>>]
+	2293 -> 2295
+	2284 -> 2295
+	2296 [penwidth=4.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl7</TD></TR></TABLE>>]
+	2295 -> 2296
+	2297 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl8</TD></TR></TABLE>>]
+	2296 -> 2297
+	2298 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Battle Axe lvl5</TD></TR><TR><TD>1 × Fire Rod lvl5</TD></TR></TABLE>>]
+	2295 -> 2298
+	2299 [penwidth=2.0, label=<<TABLE BORDER="0"><TR><TD>3 × Poison Bottle lvl4</TD></TR><TR><TD>1 × Fire Potion lvl4</TD></TR></TABLE>>]
+	2298 -> 2299
+	2300 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Sword lvl7</TD></TR></TABLE>>]
+	2298 -> 2300
+	2301 [penwidth=4.0, label=<<TABLE BORDER="0"><TR><TD>1 × Holy Staff lvl5</TD></TR><TR><TD>1 × Tools lvl13</TD></TR></TABLE>>]
+	2300 -> 2301
+	2302 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Fire Potion lvl4</TD></TR></TABLE>>]
+	2300 -> 2302
+	2303 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>3 × Poison Bottle lvl4</TD></TR></TABLE>>]
+	2302 -> 2303
+	2304 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Fire Potion lvl4</TD></TR><TR><TD>1 × Battle Axe lvl3</TD></TR></TABLE>>]
+	2302 -> 2304
+	2305 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>3 × Poison Bottle lvl4</TD></TR><TR><TD>1 × Sword lvl5</TD></TR></TABLE>>]
+	2303 -> 2305
+	2304 -> 2305
+	2306 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl5</TD></TR></TABLE>>]
+	2305 -> 2306
+	2307 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>3 × Fire Rod lvl5</TD></TR><TR><TD>2 × Wood lvl5</TD></TR></TABLE>>]
+	2306 -> 2307
+	2308 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Wind Scepter lvl5</TD></TR></TABLE>>]
+	2307 -> 2308
+	2309 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Holy Staff lvl5</TD></TR></TABLE>>]
+	2308 -> 2309
+	2310 [penwidth=4.0, label=<<TABLE BORDER="0"><TR><TD>1 × Gloves lvl3</TD></TR><TR><TD>1 × Tools lvl11</TD></TR></TABLE>>]
+	2309 -> 2310
+	2311 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Battle Axe lvl4</TD></TR></TABLE>>]
+	2309 -> 2311
+	2312 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl8</TD></TR></TABLE>>]
+	2311 -> 2312
+	2313 [penwidth=4.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl14</TD></TR></TABLE>>]
+	2310 -> 2313
+	2314 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Sword lvl8</TD></TR><TR><TD>1 × Copper Armour lvl6</TD></TR></TABLE>>]
+	2312 -> 2314
+	2305 -> 2314
+	2315 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Battle Axe lvl7</TD></TR><TR><TD>1 × Fire Potion lvl4</TD></TR></TABLE>>]
+	2314 -> 2315
+	2316 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Stone lvl6</TD></TR></TABLE>>]
+	2314 -> 2316
+	2317 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl7</TD></TR></TABLE>>]
+	2316 -> 2317
+	2318 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>2 × Stone lvl6</TD></TR></TABLE>>]
+	2317 -> 2318
+	2319 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl9</TD></TR></TABLE>>]
+	2318 -> 2319
+	2320 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Stone lvl6</TD></TR><TR><TD>1 × Tools lvl2</TD></TR></TABLE>>]
+	2319 -> 2320
+	2321 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>2 × Stone lvl6</TD></TR></TABLE>>]
+	2320 -> 2321
+	2322 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Sword lvl7</TD></TR><TR><TD>1 × Fire Rod lvl5</TD></TR></TABLE>>]
+	2318 -> 2322
+	2323 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Battle Axe lvl4</TD></TR><TR><TD>2 × Fire Potion lvl4</TD></TR></TABLE>>]
+	2322 -> 2323
+	2324 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>3 × Fire Potion lvl4</TD></TR><TR><TD>1 × Rope lvl4</TD></TR></TABLE>>]
+	2323 -> 2324
+	2314 -> 2324
+	2325 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>3 × Wood lvl5</TD></TR></TABLE>>]
+	2324 -> 2325
+	2326 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl7</TD></TR></TABLE>>]
+	2325 -> 2326
+	2327 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>2 × Rope lvl4</TD></TR></TABLE>>]
+	2326 -> 2327
+	2328 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>2 × Wood lvl5</TD></TR></TABLE>>]
+	2323 -> 2328
+	2329 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Battle Axe lvl6</TD></TR><TR><TD>1 × Rivets lvl5</TD></TR></TABLE>>]
+	2328 -> 2329
+	2330 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl5</TD></TR></TABLE>>]
+	2329 -> 2330
+	2331 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl9</TD></TR></TABLE>>]
+	2323 -> 2331
+	2332 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>3 × Stone lvl6</TD></TR></TABLE>>]
+	2331 -> 2332
+	2333 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl6</TD></TR></TABLE>>]
+	2332 -> 2333
+	2334 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Stone lvl6</TD></TR></TABLE>>]
+	2333 -> 2334
+	2324 -> 2334
+	2335 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>2 × Wood lvl5</TD></TR></TABLE>>]
+	2334 -> 2335
+	2336 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Sword lvl6</TD></TR><TR><TD>1 × Wood lvl5</TD></TR></TABLE>>]
+	2335 -> 2336
+	2337 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>3 × Wood lvl5</TD></TR></TABLE>>]
+	2336 -> 2337
+	2338 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Fire Rod lvl5</TD></TR><TR><TD>1 × Rivets lvl5</TD></TR></TABLE>>]
+	2337 -> 2338
+	2339 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Battle Axe lvl5</TD></TR><TR><TD>1 × Tools lvl7</TD></TR></TABLE>>]
+	2338 -> 2339
+	2340 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Sword lvl8</TD></TR><TR><TD>1 × Copper Armour lvl8</TD></TR></TABLE>>]
+	2337 -> 2340
+	2341 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>2 × Wind Scepter lvl5</TD></TR></TABLE>>]
+	2340 -> 2341
+	2339 -> 2341
+	2342 [penwidth=3.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl8</TD></TR><TR><TD>1 × Gloves lvl3</TD></TR></TABLE>>]
+	2341 -> 2342
+	2343 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>2 × Wood lvl5</TD></TR></TABLE>>]
+	2341 -> 2343
+	2344 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl6</TD></TR></TABLE>>]
+	2343 -> 2344
+	2345 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl7</TD></TR><TR><TD>2 × Wood lvl5</TD></TR></TABLE>>]
+	2344 -> 2345
+	2346 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>4 × Stone lvl6</TD></TR></TABLE>>]
+	2345 -> 2346
+	2347 [penwidth=3.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl10</TD></TR><TR><TD>1 × Copper Armour lvl5</TD></TR></TABLE>>]
+	2346 -> 2347
+	2348 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>2 × Stone lvl6</TD></TR></TABLE>>]
+	2346 -> 2348
+	2349 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl9</TD></TR><TR><TD>3 × Stone lvl6</TD></TR></TABLE>>]
+	2348 -> 2349
+	2350 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>4 × Wood lvl5</TD></TR></TABLE>>]
+	2349 -> 2350
+	2351 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl8</TD></TR></TABLE>>]
+	2350 -> 2351
+	2352 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>3 × Stone lvl6</TD></TR></TABLE>>]
+	2351 -> 2352
+	2353 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl8</TD></TR></TABLE>>]
+	2352 -> 2353
+	2354 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl10</TD></TR><TR><TD>1 × Holy Staff lvl5</TD></TR></TABLE>>]
+	2353 -> 2354
+	2344 -> 2354
+	2355 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Fire Rod lvl5</TD></TR><TR><TD>3 × Poison Bottle lvl4</TD></TR></TABLE>>]
+	2354 -> 2355
+	2356 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Battle Axe lvl7</TD></TR><TR><TD>1 × Copper Armour lvl8</TD></TR></TABLE>>]
+	2355 -> 2356
+	2357 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>2 × Wind Scepter lvl5</TD></TR></TABLE>>]
+	2356 -> 2357
+	2358 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl8</TD></TR><TR><TD>1 × Fire Potion lvl4</TD></TR></TABLE>>]
+	2356 -> 2358
+	2359 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Holy Staff lvl5</TD></TR></TABLE>>]
+	2357 -> 2359
+	2360 [penwidth=2.0, label=<<TABLE BORDER="0"><TR><TD>1 × Sword lvl6</TD></TR></TABLE>>]
+	2357 -> 2360
+	2361 [penwidth=2.0, label=<<TABLE BORDER="0"><TR><TD>2 × Holy Staff lvl5</TD></TR><TR><TD>1 × Gloves lvl3</TD></TR></TABLE>>]
+	2359 -> 2361
+	2362 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl8</TD></TR></TABLE>>]
+	2357 -> 2362
+	2363 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl7</TD></TR></TABLE>>]
+	2362 -> 2363
+	2364 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl9</TD></TR></TABLE>>]
+	2363 -> 2364
+	2354 -> 2364
+	2365 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>2 × Wood lvl5</TD></TR></TABLE>>]
+	2364 -> 2365
+	2366 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Sword lvl7</TD></TR><TR><TD>3 × Wood lvl5</TD></TR></TABLE>>]
+	2365 -> 2366
+	2367 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>4 × Stone lvl6</TD></TR><TR><TD>2 × Fire Potion lvl4</TD></TR></TABLE>>]
+	2366 -> 2367
+	2368 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>3 × Wood lvl5</TD></TR><TR><TD>3 × Wind Scepter lvl5</TD></TR></TABLE>>]
+	2367 -> 2368
+	2369 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl8</TD></TR></TABLE>>]
+	2368 -> 2369
+	2370 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl9</TD></TR></TABLE>>]
+	2369 -> 2370
+	2371 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>3 × Fire Rod lvl5</TD></TR><TR><TD>4 × Fire Potion lvl4</TD></TR></TABLE>>]
+	2370 -> 2371
+	2372 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl11</TD></TR><TR><TD>4 × Poison Bottle lvl4</TD></TR></TABLE>>]
+	2371 -> 2372
+	2373 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>3 × Fire Potion lvl4</TD></TR></TABLE>>]
+	2372 -> 2373
+	2374 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Gloves lvl3</TD></TR><TR><TD>1 × Farming Tools lvl12</TD></TR></TABLE>>]
+	2373 -> 2374
+	2375 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>3 × Fire Rod lvl5</TD></TR><TR><TD>4 × Wood lvl5</TD></TR></TABLE>>]
+	2374 -> 2375
+	2376 [penwidth=2.0, label=<<TABLE BORDER="0"><TR><TD>3 × Wind Scepter lvl5</TD></TR></TABLE>>]
+	2374 -> 2376
+	2377 [penwidth=2.0, label=<<TABLE BORDER="0"><TR><TD>3 × Holy Staff lvl5</TD></TR></TABLE>>]
+	2376 -> 2377
+	2378 [penwidth=2.0, label=<<TABLE BORDER="0"><TR><TD>2 × Gloves lvl3</TD></TR><TR><TD>2 × Rope lvl4</TD></TR></TABLE>>]
+	2377 -> 2378
+	2379 [penwidth=3.0, label=<<TABLE BORDER="0"><TR><TD>3 × Rivets lvl5</TD></TR><TR><TD>3 × Fire Rod lvl5</TD></TR></TABLE>>]
+	2375 -> 2379
+	2380 [penwidth=3.0, label=<<TABLE BORDER="0"><TR><TD>2 × Rope lvl4</TD></TR><TR><TD>1 × Tools lvl9</TD></TR></TABLE>>]
+	2379 -> 2380
+	2381 [penwidth=3.0, label=<<TABLE BORDER="0"><TR><TD>4 × Fire Potion lvl4</TD></TR><TR><TD>4 × Poison Bottle lvl4</TD></TR></TABLE>>]
+	2380 -> 2381
+	2382 [penwidth=4.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl12</TD></TR><TR><TD>4 × Wood lvl5</TD></TR></TABLE>>]
+	2381 -> 2382
+	2383 [penwidth=4.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl11</TD></TR><TR><TD>1 × Gloves lvl3</TD></TR></TABLE>>]
+	2382 -> 2383
+	2384 [penwidth=3.0, label=<<TABLE BORDER="0"><TR><TD>1 × Battle Axe lvl7</TD></TR><TR><TD>2 × Rope lvl4</TD></TR></TABLE>>]
+	2383 -> 2384
+	2385 [penwidth=5.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl14</TD></TR><TR><TD>1 × Gloves lvl3</TD></TR></TABLE>>]
+	2384 -> 2385
+	2386 [penwidth=4.0, label=<<TABLE BORDER="0"><TR><TD>1 × Sword lvl9</TD></TR><TR><TD>1 × Copper Armour lvl8</TD></TR></TABLE>>]
+	2385 -> 2386
+}

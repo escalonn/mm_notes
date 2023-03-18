@@ -44,6 +44,11 @@ event_items.db:
 	sed 's/Settings0/Settings1001/;s/raw_data/new_raw_data/' initial.sql | sqlite3 event_items.db
 
 event_graph.png:
-	dot -Tpng event_graph.dot > event_graph.png
+	dot -Tpng event_graph.gv > event_graph.png
 
-.PHONY: new_data.json items.db event_items.db event_graph.png
+# dot -Tpng -Gdpi=150 event_graph.gv > event_graph.png
+
+event_graph.svg:
+	dot -Tsvg event_graph.gv > event_graph.svg
+
+.PHONY: new_data.json items.db event_items.db event_graph.png event_graph.svg

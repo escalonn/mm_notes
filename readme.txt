@@ -101,6 +101,15 @@ fonts
     garamond
     century schoolbook
     gill sans mt
+graphviz fonts
+    Bell MT
+    Book Antiqua
+    Californian FB
+    Calisto MT
+    Century Schoolbook
+    Garamond
+    Gill Sans MT
+    Goudy Old Style
 ad algorithms
     after ad finishes
     look at board
