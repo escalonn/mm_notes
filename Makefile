@@ -1,4 +1,4 @@
-data.json:
+new_data.json:
 	py format-response.py
 
 check-d-cloud:
@@ -43,4 +43,7 @@ event_items.db:
 	rm -f event_items.db
 	sed 's/Settings0/Settings1001/;s/raw_data/new_raw_data/' initial.sql | sqlite3 event_items.db
 
-.PHONY: data.json items.db event_items.db
+event_graph.png:
+	dot -Tpng event_graph.dot > event_graph.png
+
+.PHONY: new_data.json items.db event_items.db event_graph.png

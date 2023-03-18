@@ -1,0 +1,428 @@
+strict digraph {
+	2185 [label=<1 Farming Tools lvl3>]
+	2186 [label=<1 Farming Tools lvl4>]
+	2185 -> 2186
+	2187 [label=<1 Gloves lvl3>]
+	2186 -> 2187
+	2188 [label=<1 Tools lvl3>]
+	2186 -> 2188
+	2189 [label=<1 Farming Tools lvl3>]
+	2186 -> 2189
+	2190 [label=<1 Wood lvl4>]
+	2189 -> 2190
+	2191 [label=<1 Farming Tools lvl2>]
+	2190 -> 2191
+	2192 [label=<1 Tools lvl2>]
+	2191 -> 2192
+	2193 [label=<1 Tools lvl4>]
+	2192 -> 2193
+	2194 [label=<1 Farming Tools lvl3<BR/>1 Wood lvl3>]
+	2190 -> 2194
+	2193 -> 2194
+	2195 [label=<1 Farming Tools lvl4>]
+	2194 -> 2195
+	2191 -> 2195
+	2196 [label=<1 Wood lvl4>]
+	2195 -> 2196
+	2190 -> 2196
+	2197 [label=<1 Tools lvl7>]
+	2196 -> 2197
+	2198 [label=<1 Farming Tools lvl4<BR/>1 Wood lvl3>]
+	2197 -> 2198
+	2199 [label=<1 Wood lvl5>]
+	2198 -> 2199
+	2196 -> 2199
+	2200 [label=<1 Farming Tools lvl3>]
+	2190 -> 2200
+	2201 [label=<1 Rope lvl4>]
+	2198 -> 2201
+	2202 [label=<1 Farming Tools lvl5>]
+	2201 -> 2202
+	2203 [label=<2 Farming Tools lvl3<BR/>1 Farming Tools lvl4>]
+	2201 -> 2203
+	2204 [label=<1 Wind Scepter lvl5<BR/>3 Wood lvl5>]
+	2202 -> 2204
+	2205 [label=<1 Rivets lvl5>]
+	2203 -> 2205
+	2206 [label=<1 Wood lvl5<BR/>1 Rope lvl4>]
+	2201 -> 2206
+	2207 [label=<1 Tools lvl5<BR/>1 Tools lvl4>]
+	2198 -> 2207
+	2205 -> 2207
+	2208 [label=<1 Sword lvl5>]
+	2207 -> 2208
+	2209 [label=<1 Battle Axe lvl5>]
+	2208 -> 2209
+	2210 [label=<1 Farming Tools lvl8<BR/>1 Sword lvl5>]
+	2208 -> 2210
+	2211 [label=<1 Tools lvl7<BR/>2 Wood lvl5>]
+	2210 -> 2211
+	2212 [label=<1 Sword lvl4>]
+	2211 -> 2212
+	2213 [label=<1 Bow lvl2>]
+	2212 -> 2213
+	2214 [label=<1 Farming Tools lvl7<BR/>1 Sword lvl3>]
+	2213 -> 2214
+	2215 [label=<1 Stone lvl4>]
+	2213 -> 2215
+	2216 [label=<1 Battle Axe lvl5>]
+	2212 -> 2216
+	2213 -> 2216
+	2217 [label=<1 Stone lvl4>]
+	2215 -> 2217
+	2218 [label=<1 Stone lvl4<BR/>1 Tools lvl2>]
+	2217 -> 2218
+	2219 [label=<1 Bow lvl3>]
+	2218 -> 2219
+	2220 [label=<1 Sword lvl6>]
+	2219 -> 2220
+	2221 [label=<2 Gloves lvl3>]
+	2220 -> 2221
+	2222 [label=<1 Stone lvl4>]
+	2218 -> 2222
+	2220 -> 2222
+	2223 [label=<1 Tools lvl5>]
+	2222 -> 2223
+	2224 [label=<1 Farming Tools lvl3>]
+	2219 -> 2224
+	2225 [label=<1 Battle Axe lvl4>]
+	2224 -> 2225
+	2226 [label=<1 Wind Scepter lvl5>]
+	2225 -> 2226
+	2212 -> 2226
+	2227 [label=<1 Stone lvl6>]
+	2226 -> 2227
+	2228 [label=<1 Bow lvl4<BR/>1 Copper Armour lvl3>]
+	2227 -> 2228
+	2229 [label=<1 Tools lvl7<BR/>1 Fire Rod lvl5>]
+	2228 -> 2229
+	2230 [label=<1 Holy Staff lvl5>]
+	2229 -> 2230
+	2231 [label=<1 Sword lvl6<BR/>1 Copper Armour lvl4>]
+	2229 -> 2231
+	2226 -> 2231
+	2232 [label=<1 Stone lvl6>]
+	2231 -> 2232
+	2233 [label=<1 Wood lvl5>]
+	2232 -> 2233
+	2234 [label=<1 Bow lvl5<BR/>1 Poison Bottle lvl4>]
+	2233 -> 2234
+	2231 -> 2234
+	2235 [label=<2 Wood lvl5<BR/>1 Tools lvl4>]
+	2233 -> 2235
+	2236 [label=<1 Rope lvl4>]
+	2233 -> 2236
+	2237 [label=<1 Battle Axe lvl6<BR/>1 Copper Armour lvl5>]
+	2235 -> 2237
+	2234 -> 2237
+	2238 [label=<1 Fire Potion lvl4<BR/>1 Fire Rod lvl5>]
+	2237 -> 2238
+	2239 [label=<1 Stone lvl6>]
+	2238 -> 2239
+	2240 [label=<1 Holy Staff lvl5>]
+	2239 -> 2240
+	2241 [label=<1 Stone lvl6<BR/>1 Wind Scepter lvl5>]
+	2239 -> 2241
+	2237 -> 2241
+	2242 [label=<1 Tools lvl5>]
+	2241 -> 2242
+	2243 [label=<1 Farming Tools lvl3<BR/>1 Tools lvl2>]
+	2242 -> 2243
+	2244 [label=<1 Wood lvl5<BR/>1 Farming Tools lvl5>]
+	2243 -> 2244
+	2245 [label=<1 Tools lvl6>]
+	2244 -> 2245
+	2246 [label=<2 Rivets lvl5>]
+	2245 -> 2246
+	2247 [label=<1 Rope lvl4>]
+	2245 -> 2247
+	2248 [label=<1 Stone lvl4>]
+	2245 -> 2248
+	2249 [label=<1 Stone lvl6<BR/>1 Tools lvl7>]
+	2248 -> 2249
+	2250 [label=<1 Tools lvl2>]
+	2249 -> 2250
+	2251 [label=<1 Farming Tools lvl3<BR/>1 Farming Tools lvl4>]
+	2250 -> 2251
+	2252 [label=<1 Wood lvl5>]
+	2251 -> 2252
+	2253 [label=<1 Tools lvl5>]
+	2252 -> 2253
+	2254 [label=<1 Fire Potion lvl4>]
+	2253 -> 2254
+	2241 -> 2254
+	2255 [label=<1 Sword lvl5<BR/>1 Gloves lvl3>]
+	2253 -> 2255
+	2256 [label=<1 Farming Tools lvl8>]
+	2253 -> 2256
+	2257 [label=<1 Stone lvl6>]
+	2254 -> 2257
+	2258 [label=<1 Tools lvl5<BR/>1 Copper Armour lvl3>]
+	2257 -> 2258
+	2259 [label=<1 Tools lvl9>]
+	2258 -> 2259
+	2260 [label=<2 Wood lvl5>]
+	2259 -> 2260
+	2261 [label=<1 Tools lvl5>]
+	2260 -> 2261
+	2262 [label=<1 Wood lvl5>]
+	2261 -> 2262
+	2263 [label=<1 Farming Tools lvl5>]
+	2262 -> 2263
+	2264 [label=<1 Tools lvl4>]
+	2263 -> 2264
+	2254 -> 2264
+	2265 [label=<3 Rope lvl4>]
+	2262 -> 2265
+	2266 [label=<1 Gloves lvl3<BR/>2 Wind Scepter lvl5>]
+	2264 -> 2266
+	2267 [label=<1 Gloves lvl3<BR/>2 Rivets lvl5>]
+	2267 -> 2267
+	2268 [label=<1 Sword lvl8<BR/>1 Copper Armour lvl7>]
+	2264 -> 2268
+	2269 [label=<1 Battle Axe lvl7<BR/>1 Copper Armour lvl7>]
+	2268 -> 2269
+	2270 [label=<1 Farming Tools lvl7<BR/>1 Fire Rod lvl5>]
+	2269 -> 2270
+	2271 [label=<1 Tools lvl7<BR/>1 Wind Scepter lvl5>]
+	2269 -> 2271
+	2272 [label=<1 Wood lvl5>]
+	2271 -> 2272
+	2273 [label=<1 Wood lvl5<BR/>1 Rivets lvl5>]
+	2272 -> 2273
+	2274 [label=<2 Poison Bottle lvl4>]
+	2271 -> 2274
+	2275 [label=<1 Fire Potion lvl4>]
+	2271 -> 2275
+	2276 [label=<1 Sword lvl6>]
+	2274 -> 2276
+	2277 [label=<2 Poison Bottle lvl4<BR/>1 Gloves lvl3>]
+	2276 -> 2277
+	2278 [label=<1 Wind Scepter lvl5>]
+	2277 -> 2278
+	2279 [label=<2 Fire Rod lvl5>]
+	2277 -> 2279
+	2280 [label=<1 Farming Tools lvl6>]
+	2277 -> 2280
+	2281 [label=<1 Tools lvl5>]
+	2280 -> 2281
+	2282 [label=<2 Wood lvl5>]
+	2281 -> 2282
+	2283 [label=<1 Tools lvl6>]
+	2282 -> 2283
+	2284 [label=<1 Wood lvl5>]
+	2283 -> 2284
+	2264 -> 2284
+	2285 [label=<1 Rope lvl4>]
+	2282 -> 2285
+	2286 [label=<3 Rivets lvl5>]
+	2285 -> 2286
+	2287 [label=<1 Tools lvl10<BR/>1 Gloves lvl3>]
+	2285 -> 2287
+	2288 [label=<2 Rope lvl4<BR/>1 Farming Tools lvl14>]
+	2285 -> 2288
+	2289 [label=<3 Rivets lvl5<BR/>1 Tools lvl8>]
+	2286 -> 2289
+	2290 [label=<2 Holy Staff lvl5<BR/>1 Farming Tools lvl12>]
+	2287 -> 2290
+	2291 [label=<1 Tools lvl6>]
+	2283 -> 2291
+	2292 [label=<2 Wind Scepter lvl5>]
+	2291 -> 2292
+	2293 [label=<1 Farming Tools lvl8>]
+	2291 -> 2293
+	2294 [label=<1 Farming Tools lvl6<BR/>1 Tools lvl3>]
+	2292 -> 2294
+	2295 [label=<1 Holy Staff lvl5>]
+	2293 -> 2295
+	2284 -> 2295
+	2296 [label=<1 Farming Tools lvl7>]
+	2295 -> 2296
+	2297 [label=<1 Farming Tools lvl8>]
+	2296 -> 2297
+	2298 [label=<1 Battle Axe lvl5<BR/>1 Fire Rod lvl5>]
+	2295 -> 2298
+	2299 [label=<3 Poison Bottle lvl4<BR/>1 Fire Potion lvl4>]
+	2298 -> 2299
+	2300 [label=<1 Sword lvl7>]
+	2298 -> 2300
+	2301 [label=<1 Holy Staff lvl5<BR/>1 Tools lvl13>]
+	2300 -> 2301
+	2302 [label=<1 Fire Potion lvl4>]
+	2300 -> 2302
+	2303 [label=<3 Poison Bottle lvl4>]
+	2302 -> 2303
+	2304 [label=<1 Fire Potion lvl4<BR/>1 Battle Axe lvl3>]
+	2302 -> 2304
+	2305 [label=<3 Poison Bottle lvl4<BR/>1 Sword lvl5>]
+	2303 -> 2305
+	2304 -> 2305
+	2306 [label=<1 Tools lvl5>]
+	2305 -> 2306
+	2307 [label=<3 Fire Rod lvl5<BR/>2 Wood lvl5>]
+	2306 -> 2307
+	2308 [label=<1 Wind Scepter lvl5>]
+	2307 -> 2308
+	2309 [label=<1 Holy Staff lvl5>]
+	2308 -> 2309
+	2310 [label=<1 Gloves lvl3<BR/>1 Tools lvl11>]
+	2309 -> 2310
+	2311 [label=<1 Battle Axe lvl4>]
+	2309 -> 2311
+	2312 [label=<1 Tools lvl8>]
+	2311 -> 2312
+	2313 [label=<1 Farming Tools lvl14>]
+	2310 -> 2313
+	2314 [label=<1 Sword lvl8<BR/>1 Copper Armour lvl6>]
+	2312 -> 2314
+	2305 -> 2314
+	2315 [label=<1 Battle Axe lvl7<BR/>1 Fire Potion lvl4>]
+	2314 -> 2315
+	2316 [label=<1 Stone lvl6>]
+	2314 -> 2316
+	2317 [label=<1 Tools lvl7>]
+	2316 -> 2317
+	2318 [label=<2 Stone lvl6>]
+	2317 -> 2318
+	2319 [label=<1 Tools lvl9>]
+	2318 -> 2319
+	2320 [label=<1 Stone lvl6<BR/>1 Tools lvl2>]
+	2319 -> 2320
+	2321 [label=<2 Stone lvl6>]
+	2320 -> 2321
+	2322 [label=<1 Sword lvl7<BR/>1 Fire Rod lvl5>]
+	2318 -> 2322
+	2323 [label=<1 Battle Axe lvl4<BR/>2 Fire Potion lvl4>]
+	2322 -> 2323
+	2324 [label=<3 Fire Potion lvl4<BR/>1 Rope lvl4>]
+	2323 -> 2324
+	2314 -> 2324
+	2325 [label=<3 Wood lvl5>]
+	2324 -> 2325
+	2326 [label=<1 Tools lvl7>]
+	2325 -> 2326
+	2327 [label=<2 Rope lvl4>]
+	2326 -> 2327
+	2328 [label=<2 Wood lvl5>]
+	2323 -> 2328
+	2329 [label=<1 Battle Axe lvl6<BR/>1 Rivets lvl5>]
+	2328 -> 2329
+	2330 [label=<1 Farming Tools lvl5>]
+	2329 -> 2330
+	2331 [label=<1 Tools lvl9>]
+	2323 -> 2331
+	2332 [label=<3 Stone lvl6>]
+	2331 -> 2332
+	2333 [label=<1 Tools lvl6>]
+	2332 -> 2333
+	2334 [label=<1 Stone lvl6>]
+	2333 -> 2334
+	2324 -> 2334
+	2335 [label=<2 Wood lvl5>]
+	2334 -> 2335
+	2336 [label=<1 Sword lvl6<BR/>1 Wood lvl5>]
+	2335 -> 2336
+	2337 [label=<3 Wood lvl5>]
+	2336 -> 2337
+	2338 [label=<1 Fire Rod lvl5<BR/>1 Rivets lvl5>]
+	2337 -> 2338
+	2339 [label=<1 Battle Axe lvl5<BR/>1 Tools lvl7>]
+	2338 -> 2339
+	2340 [label=<1 Sword lvl8<BR/>1 Copper Armour lvl8>]
+	2337 -> 2340
+	2341 [label=<2 Wind Scepter lvl5>]
+	2340 -> 2341
+	2339 -> 2341
+	2342 [label=<1 Tools lvl8<BR/>1 Gloves lvl3>]
+	2341 -> 2342
+	2343 [label=<2 Wood lvl5>]
+	2341 -> 2343
+	2344 [label=<1 Farming Tools lvl6>]
+	2343 -> 2344
+	2345 [label=<1 Tools lvl7<BR/>2 Wood lvl5>]
+	2344 -> 2345
+	2346 [label=<4 Stone lvl6>]
+	2345 -> 2346
+	2347 [label=<1 Farming Tools lvl10<BR/>1 Copper Armour lvl5>]
+	2346 -> 2347
+	2348 [label=<2 Stone lvl6>]
+	2346 -> 2348
+	2349 [label=<1 Tools lvl9<BR/>3 Stone lvl6>]
+	2348 -> 2349
+	2350 [label=<4 Wood lvl5>]
+	2349 -> 2350
+	2351 [label=<1 Farming Tools lvl8>]
+	2350 -> 2351
+	2352 [label=<3 Stone lvl6>]
+	2351 -> 2352
+	2353 [label=<1 Farming Tools lvl8>]
+	2352 -> 2353
+	2354 [label=<1 Tools lvl10<BR/>1 Holy Staff lvl5>]
+	2353 -> 2354
+	2344 -> 2354
+	2355 [label=<1 Fire Rod lvl5<BR/>3 Poison Bottle lvl4>]
+	2354 -> 2355
+	2356 [label=<1 Battle Axe lvl7<BR/>1 Copper Armour lvl8>]
+	2355 -> 2356
+	2357 [label=<2 Wind Scepter lvl5>]
+	2356 -> 2357
+	2358 [label=<1 Farming Tools lvl8<BR/>1 Fire Potion lvl4>]
+	2356 -> 2358
+	2359 [label=<1 Holy Staff lvl5>]
+	2357 -> 2359
+	2360 [label=<1 Sword lvl6>]
+	2357 -> 2360
+	2361 [label=<2 Holy Staff lvl5<BR/>1 Gloves lvl3>]
+	2359 -> 2361
+	2362 [label=<1 Tools lvl8>]
+	2357 -> 2362
+	2363 [label=<1 Farming Tools lvl7>]
+	2362 -> 2363
+	2364 [label=<1 Tools lvl9>]
+	2363 -> 2364
+	2354 -> 2364
+	2365 [label=<2 Wood lvl5>]
+	2364 -> 2365
+	2366 [label=<1 Sword lvl7<BR/>3 Wood lvl5>]
+	2365 -> 2366
+	2367 [label=<4 Stone lvl6<BR/>2 Fire Potion lvl4>]
+	2366 -> 2367
+	2368 [label=<3 Wood lvl5<BR/>3 Wind Scepter lvl5>]
+	2367 -> 2368
+	2369 [label=<1 Tools lvl8>]
+	2368 -> 2369
+	2370 [label=<1 Farming Tools lvl9>]
+	2369 -> 2370
+	2371 [label=<3 Fire Rod lvl5<BR/>4 Fire Potion lvl4>]
+	2370 -> 2371
+	2372 [label=<1 Tools lvl11<BR/>4 Poison Bottle lvl4>]
+	2371 -> 2372
+	2373 [label=<3 Fire Potion lvl4>]
+	2372 -> 2373
+	2374 [label=<1 Gloves lvl3<BR/>1 Farming Tools lvl12>]
+	2373 -> 2374
+	2375 [label=<3 Fire Rod lvl5<BR/>4 Wood lvl5>]
+	2374 -> 2375
+	2376 [label=<3 Wind Scepter lvl5>]
+	2374 -> 2376
+	2377 [label=<3 Holy Staff lvl5>]
+	2376 -> 2377
+	2378 [label=<2 Gloves lvl3<BR/>2 Rope lvl4>]
+	2377 -> 2378
+	2379 [label=<3 Rivets lvl5<BR/>3 Fire Rod lvl5>]
+	2375 -> 2379
+	2380 [label=<2 Rope lvl4<BR/>1 Tools lvl9>]
+	2379 -> 2380
+	2381 [label=<4 Fire Potion lvl4<BR/>4 Poison Bottle lvl4>]
+	2380 -> 2381
+	2382 [label=<1 Tools lvl12<BR/>4 Wood lvl5>]
+	2381 -> 2382
+	2383 [label=<1 Farming Tools lvl11<BR/>1 Gloves lvl3>]
+	2382 -> 2383
+	2384 [label=<1 Battle Axe lvl7<BR/>2 Rope lvl4>]
+	2383 -> 2384
+	2385 [label=<1 Farming Tools lvl14<BR/>1 Gloves lvl3>]
+	2384 -> 2385
+	2386 [label=<1 Sword lvl9<BR/>1 Copper Armour lvl8>]
+	2385 -> 2386
+}

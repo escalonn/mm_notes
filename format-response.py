@@ -37,7 +37,7 @@ def decode_json(s, int_parser):
         return s
 
 
-in_name = 'raw_data.json'
+in_name = 'new_raw_data.json'
 key_name = 'configs_key'
 # in_name = 'raw_response.json'
 # key_name = 'entries'
@@ -71,7 +71,7 @@ with open('categories.csv', 'w', newline='') as f:
 int_parser = item_id_int_parser(item_id_map)
 
 with open(in_name, encoding='utf8') as f:
-    data = json.load(f, parse_int=int_parser)
+    data = json.load(f)
 
 # jsonpath_ng.parse('')
 # find all the IDs and stuff
@@ -79,9 +79,20 @@ with open(in_name, encoding='utf8') as f:
 
 data[key_name] = {k: decode_json(v, int_parser) for k, v in data[key_name].items()}
 
-out_name = in_name[4:]
+out_name = in_name.replace('raw_', '')
 with open(out_name, 'w') as f:
     json.dump(data, f, indent=2)
+
+with open('event_graph.dot', 'w') as f:
+    print('strict digraph {', file=f)
+    for quest in data[key_name]['questSettings1001']['quests']:
+        label = '<BR/>'.join(f'{x["amount"]} {x["itemId"][:-9]}'
+                           for x in quest['objectives'])
+        print(f'\t{quest["uid"]} [label=<{label}>]', file=f)
+        if 'requirements' in quest:
+            for r in quest['requirements']:
+                print(f'\t{r["requirementValue"]} -> {quest["uid"]}', file=f)
+    print('}', file=f)
 
 # fields = ['Category', 'Level', 'Source', 'Drops', 'Charge', 'Stack']
 # gens = []
