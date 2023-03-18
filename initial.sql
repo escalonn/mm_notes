@@ -268,8 +268,8 @@ SELECT
 FROM
   source_json,
   json_each(source_json.json, '$.droppableItems')
-WHERE
-  json_each.value ->> '$.dropId' IS NOT NULL -- to handle event Stone lvl6 dropping nothing
+-- WHERE
+--   json_each.value ->> '$.dropId' IS NOT NULL -- to handle event Stone lvl6 dropping nothing
 GROUP BY
   source_json.item,
   source_json.kind,

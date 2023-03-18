@@ -12,7 +12,7 @@ watch-d-cloud:
 
 pull-d-config:
 	adb -d backup -noapk com.pixodust.games.free.rpg.medieval.merge.puzzle.empire
-	dd if=backup.ab bs=24 skip=1 | openssl zlib -d | tar -xO --wildcards '*activate.json' > raw_data.json && rm backup.ab
+	dd if=backup.ab bs=24 skip=1 | openssl zlib -d | tar -xO --wildcards '*activate.json' > new_raw_data.json && rm backup.ab
 
 pull-d-cloud: check-d-cloud
 	adb -d pull sdcard/Android/data/com.pixodust.games.free.rpg.medieval.merge.puzzle.empire/files/GameSaves/Cloud/CloudSave.json
@@ -41,6 +41,6 @@ items.db:
 
 event_items.db:
 	rm -f event_items.db
-	sed 's/Settings0/Settings1001/' initial.sql | sqlite3 event_items.db
+	sed 's/Settings0/Settings1001/;s/raw_data/new_raw_data/' initial.sql | sqlite3 event_items.db
 
 .PHONY: data.json items.db event_items.db
