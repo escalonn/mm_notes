@@ -1,30 +1,30 @@
 strict digraph {
 	node [shape=box, fontname="Charter"]
 	edge [arrowhead=vee]
-	2185 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl3</TD></TR><HR/><TR><TD>1 × Gloves lvl1</TD></TR></TABLE>>]
+	2185 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl3</TD></TR><HR/><TR><TD><FONT POINT-SIZE="12">1 × Gloves lvl1</FONT></TD></TR></TABLE>>]
 	2186 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl4</TD></TR></TABLE>>]
 	2185 -> 2186
 	2187 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Gloves lvl3</TD></TR></TABLE>>]
 	2186 -> 2187
 	2188 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl3</TD></TR></TABLE>>]
 	2186 -> 2188
-	2189 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl3</TD></TR><HR/><TR><TD>1 × Tree lvl6</TD></TR></TABLE>>]
+	2189 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl3</TD></TR><HR/><TR><TD><FONT POINT-SIZE="12">1 × Tree lvl6</FONT></TD></TR></TABLE>>]
 	2186 -> 2189
-	2190 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Wood lvl4</TD></TR><HR/><TR><TD>1 × Guardian Tree lvl1</TD></TR></TABLE>>]
+	2190 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Wood lvl4</TD></TR><HR/><TR><TD><FONT POINT-SIZE="12">1 × Guardian Tree lvl1</FONT></TD></TR></TABLE>>]
 	2189 -> 2190
-	2191 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl2</TD></TR><HR/><TR><TD>1 × Copper Ingot lvl1</TD></TR></TABLE>>]
+	2191 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl2</TD></TR><HR/><TR><TD><FONT POINT-SIZE="12">1 × Copper Ingot lvl1</FONT></TD></TR></TABLE>>]
 	2190 -> 2191
 	2192 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl2</TD></TR></TABLE>>]
 	2191 -> 2192
 	2193 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl4</TD></TR></TABLE>>]
 	2192 -> 2193
-	2194 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl3</TD></TR><TR><TD>1 × Wood lvl3</TD></TR><HR/><TR><TD>1 × Rivets lvl1</TD></TR></TABLE>>]
+	2194 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl3</TD></TR><TR><TD>1 × Wood lvl3</TD></TR><HR/><TR><TD><FONT POINT-SIZE="12">1 × Rivets lvl1</FONT></TD></TR></TABLE>>]
 	2190 -> 2194
 	2193 -> 2194
 	2195 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl4</TD></TR></TABLE>>]
 	2194 -> 2195
 	2191 -> 2195
-	2196 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Wood lvl4</TD></TR><HR/><TR><TD>1 × Rope lvl1</TD></TR></TABLE>>]
+	2196 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Wood lvl4</TD></TR><HR/><TR><TD><FONT POINT-SIZE="12">1 × Rope lvl1</FONT></TD></TR></TABLE>>]
 	2195 -> 2196
 	2190 -> 2196
 	2197 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl7</TD></TR></TABLE>>]
@@ -38,7 +38,7 @@ strict digraph {
 	2190 -> 2200
 	2201 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Rope lvl4</TD></TR></TABLE>>]
 	2198 -> 2201
-	2202 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl5</TD></TR><HR/><TR><TD>1 × Forge lvl1</TD></TR></TABLE>>]
+	2202 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl5</TD></TR><HR/><TR><TD><FONT POINT-SIZE="12">1 × Forge lvl1</FONT></TD></TR></TABLE>>]
 	2201 -> 2202
 	2203 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>2 × Farming Tools lvl3</TD></TR><TR><TD>1 × Farming Tools lvl4</TD></TR></TABLE>>]
 	2201 -> 2203
@@ -51,7 +51,7 @@ strict digraph {
 	2207 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl5</TD></TR><TR><TD>1 × Tools lvl4</TD></TR></TABLE>>]
 	2198 -> 2207
 	2205 -> 2207
-	2208 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Sword lvl5</TD></TR><HR/><TR><TD>1 × Mine lvl5</TD></TR></TABLE>>]
+	2208 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Sword lvl5</TD></TR><HR/><TR><TD><FONT POINT-SIZE="12">1 × Mine lvl5</FONT></TD></TR></TABLE>>]
 	2207 -> 2208
 	2209 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Battle Axe lvl5</TD></TR></TABLE>>]
 	2208 -> 2209

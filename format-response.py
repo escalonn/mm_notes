@@ -3,7 +3,8 @@ from itertools import islice
 import json
 from urllib.request import urlopen
 import html5lib
-import jsonpath_ng
+# import jsonpath_ng
+import networkx
 
 
 def fetch_item_id_map():
@@ -84,15 +85,22 @@ out_name = in_name.replace('raw_', '')
 with open(out_name, 'w') as f:
     json.dump(data, f, indent=2)
 
+event_quests = data[key_name]['questSettings1001']['quests']
+quest_graph = networkx.DiGraph()
+for quest in event_quests:
+    quest_graph.add_node(quest['uid'])
+    if 'requirements' in quest:
+        for r in quest['requirements']:
+            quest_graph.add_edge(r['requirementValue'], quest['uid'])
 min_reward = 50
 with open('event_graph.gv', 'w', encoding='utf8') as f:
     print('strict digraph {', file=f)
     print('\tnode [shape=box, fontname="Charter"]', file=f)
     print('\tedge [arrowhead=vee]', file=f)
-    for quest in data[key_name]['questSettings1001']['quests']:
+    for quest in event_quests:
         objective_rows = ''.join(f'<TR><TD>{x["amount"]} × {x["itemId"][:-9]}</TD></TR>'
                                  for x in quest['objectives'])
-        reward_rows = ''.join(f'<TR><TD>{x["itemReward"]["amount"]} × {x["itemReward"]["itemId"][:-9]}</TD></TR>'
+        reward_rows = ''.join(f'<TR><TD><FONT POINT-SIZE="12">{x["itemReward"]["amount"]} × {x["itemReward"]["itemId"][:-9]}</FONT></TD></TR>'
                               for x in quest['rewards'] if 'itemReward' in x)
         if reward_rows:
             reward_rows = '<HR/>' + reward_rows
