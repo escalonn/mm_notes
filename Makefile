@@ -8,7 +8,7 @@ check-e-cloud:
 	adb -e shell 'stat -c %y sdcard/Android/data/*medieval.merge*/files/GameSaves/Cloud/CloudSave.json'
 
 watch-d-cloud:
-	while true; do adb -d shell 'stat -c %y sdcard/Android/data/*medieval.merge*/files/GameSaves/Cloud/CloudSave.json'; sleep 2; done
+	while true; do adb -d shell 'stat -c %y sdcard/Android/data/*medieval.merge*/files/GameSaves/Cloud/CloudSave.json'; sleep 4; done
 
 pull-d-config:
 	adb -d backup -noapk com.pixodust.games.free.rpg.medieval.merge.puzzle.empire
