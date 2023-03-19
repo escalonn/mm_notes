@@ -134,7 +134,7 @@ for item in data[key_name]['boardItemSettings1001']['items']:
                 event_item_graph.add_edge(
                     item_id, drop_id, gen_type='finite')
     if 'chest' in item and 'forcedDrops' in item['chest']:
-        gen_type = 'finite' if 'destroyAfterTaps' in item[source] else 'infinite'
+        gen_type = 'finite' if 'destroyAfterTaps' in item['manualSource'] else 'infinite'
         for drop in item['chest']['forcedDrops']:
             drop_id = int(
                 drop['itemId'][-7:-1]) if isinstance(drop['itemId'], str) else drop['itemId']
@@ -157,7 +157,7 @@ with open('event_item_category_graph.gv', 'w', encoding='utf8') as f:
     for node, graph in event_item_category_graph.nodes(data='graph'):
         max_lvl = max(x for x in graph)
         caption = categories.get(max_lvl // 1000, max_lvl // 1000)
-        if caption in ['Gift Box', 'Coin Bag', 'Piggybank', 'Ruby', 'Emerald', 'Topaz', 'Sapphire', 'Apple', 'Backpack', 'Energy']:
+        if caption in ['Gift Box', 'Regular Chest', 'Special Chest', 'Coin Bag', 'Piggybank', 'Ruby', 'Emerald', 'Topaz', 'Apple', 'Backpack', 'Energy', 'Gemstone', 'Pocket Watch']:
             continue
         edges = set((node, node, t) for *_, t in graph.edges(data='gen_type')
                     ) | set(event_item_category_graph.edges(node, data='gen_type'))
