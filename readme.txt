@@ -121,7 +121,7 @@ ad algorithms
 explore config with jq
     `jq '.configs_key | .[] |= fromjson' raw_data.json`
     (all quest gift box ad rewards:)
-        `jq '.configs_key | .[] |= fromjson | [.randomTreasureSettings0.giftRewardSettings[].giftBox] as $gifts | .boardItemSettings0.items[] | select(.id | inside($gifts[])) | .manualSource | {destroyAfterTaps, dropId: .droppableItems[0].dropId}' raw_data.json`
+        `jq '.configs_key | .[] |= fromjson | [.randomTreasureSettings0.giftRewardSettings[].giftBox] as $gifts | .boardItemSettings0.items[] | select(.id ==$gifts[]) | .manualSource | {destroyAfterTaps, dropId: .droppableItems[0].dropId}' raw_data.json`
     (all items on all boards indiscriminately)
         `jq '.configs_key | .[] |= fromjson | [to_entries[] | select(.key | startswith("boardItemSettings")).value.items] | add' raw_data.json`
 explore new board/event
@@ -130,7 +130,8 @@ explore new board/event
 "test suite" on config json
     empty if all items' level = id % 1000 + 1
         `jq '.configs_key | .[] |= fromjson | [to_entries[] | select(.key | startswith("boardItemSettings")).value.items] | add[] | select(.level != .id % 1000 + 1)' raw_data.json`
-    todo: empty if, for all pairs of items with adjacent ids, the larger-id one is always the merge result of the other
+    empty if all main-board items that have a next-lvl version can merge into that higher version
+        `jq '.configs_key | .[] |= fromjson | .boardItemSettings0.items | [.[].id] as $items | .[] | select(.mergeable.nextItemId != .id + 1) | select(.id + 1 == $items[]) | .id' raw_data.json`
 next event
     working on quest graph
     make item (category/family) graph
@@ -139,3 +140,6 @@ next event
         use different edge styles to distinguish finite, infinite manual, and infinite auto generation
         use images from exported_assets in the graph
             update exported_assets and look for changes
+        increase node distance or dpi so i can annotate with image editor
+        todo: the dashed edges from the forge are underneath the solid lines???
+            i'm fine with them just being solid but why??

@@ -115,6 +115,9 @@ with open('event_graph.gv', 'w', encoding='utf8') as f:
                 print(f'\t{r["requirementValue"]} -> {quest["uid"]}', file=f)
     print('}', file=f)
 
+def extract_id(label):
+    return label if isinstance(label, int) else int(label[-7:-1])
+
 event_item_graph = nx.DiGraph()
 for item in data[key_name]['boardItemSettings1001']['items']:
     item_id = int(item['id'][-7:-1]
@@ -125,47 +128,53 @@ for item in data[key_name]['boardItemSettings1001']['items']:
             gen_type = 'auto' if source == 'autoSource' else (
                 'finite' if 'destroyAfterTaps' in item[source] else 'infinite')
             for drop in item[source]['droppableItems']:
-                drop_id = int(
-                    drop['dropId'][-7:-1]) if isinstance(drop['dropId'], str) else drop['dropId']
                 event_item_graph.add_edge(
-                    item_id, drop_id, gen_type=gen_type)
+                    item_id, extract_id(drop['dropId']), gen_type=gen_type)
             if drop := item[source].get('droppedItemOnDestroy'):
-                drop_id = int(drop[-7:-1]) if isinstance(drop, str) else drop
                 event_item_graph.add_edge(
-                    item_id, drop_id, gen_type='finite')
+                    item_id, extract_id(drop), gen_type='destroy')
+    if 'mergeable' in item:
+        next_id = extract_id(item['mergeable']['nextItemId'])
+        if next_id != item_id + 1:
+            event_item_graph.add_edge(item_id, next_id, gen_type='merge')
     if 'chest' in item and 'forcedDrops' in item['chest']:
         gen_type = 'finite' if 'destroyAfterTaps' in item['manualSource'] else 'infinite'
         for drop in item['chest']['forcedDrops']:
-            drop_id = int(
-                drop['itemId'][-7:-1]) if isinstance(drop['itemId'], str) else drop['itemId']
+            drop_id = extract_id(drop['itemId'])
             event_item_graph.add_edge(item_id, drop_id, gen_type=gen_type)
-type_to_style = {
-    'infinite': 'solid',
-    'finite': 'dashed',
-    'auto': 'bold'
+gen_type_to_attrs = {
+    'auto': 'style=bold',
+    'infinite': 'style=solid',
+    'finite': 'style=dashed',
+    'destroy': 'style=dashed,arrowtail=invempty',
+    'merge': 'style=dashed,arrowtail=inv'
 }
+not_accessible = ['Gift Box', 'Regular Chest', 'Special Chest', 'Coin Bag', 'Piggybank',
+                  'Ruby', 'Emerald', 'Topaz', 'Apple', 'Energy', 'Gemstone', 'Pocket Watch']
+unmergeable = ['Tree', 'Sword', 'Battle Axe', 'Copper Armour'] # todo use this.. dashed border looks bad though
 partition = defaultdict(set)
 for node in event_item_graph:
     partition[node // 1000].add(node)
 event_item_category_graph = nx.quotient_graph(event_item_graph, partition, relabel=True,
                                               create_using=nx.MultiDiGraph)
 with open('event_item_category_graph.gv', 'w', encoding='utf8') as f:
-    print('strict digraph {', file=f)
-    print('\timagepath="exported-assets\\Sprite"', file=f)
-    print('\tnode [shape=box, fontname="Charter", imagescale=true]', file=f)
-    print('\tedge [arrowhead=vee, fontname="Charter"]', file=f)
+    print('digraph {', file=f)
+    print('\tgraph [imagepath="exported-assets\\Sprite"]', file=f)
+    print('\tnode [shape=box, fontname="Charter", fontsize=11, imagescale=true]',
+          file=f)
+    print('\tedge [arrowsize=0.7, dir=both, arrowhead=vee, arrowtail=none]', file=f)
     for node, graph in event_item_category_graph.nodes(data='graph'):
         max_lvl = max(x for x in graph)
         caption = categories.get(max_lvl // 1000, max_lvl // 1000)
-        if caption in ['Gift Box', 'Regular Chest', 'Special Chest', 'Coin Bag', 'Piggybank', 'Ruby', 'Emerald', 'Topaz', 'Apple', 'Backpack', 'Energy', 'Gemstone', 'Pocket Watch']:
+        if caption in not_accessible:
             continue
         edges = set((node, node, t) for *_, t in graph.edges(data='gen_type')
                     ) | set(event_item_category_graph.edges(node, data='gen_type'))
-        width = 3 if any(t != 'finite' for *_, t in edges) else 1
-        label = f'<TABLE BORDER="0"><TR><TD FIXEDSIZE="TRUE" HEIGHT="60" WIDTH="60"><IMG SRC="Item-{max_lvl}.png"/></TD></TR><TR><TD>{caption}</TD></TR></TABLE>'
+        width = 3 if any(t in ['auto', 'infinite'] for *_, t in edges) else 1
+        label = f'<TABLE BORDER="0"><TR><TD FIXEDSIZE="TRUE" HEIGHT="50" WIDTH="50"><IMG SRC="Item-{max_lvl}.png"/></TD></TR><TR><TD>{caption}</TD></TR></TABLE>'
         print(f'\t{node} [penwidth={width}, label=<{label}>]', file=f)
         for c1, c2, gen_type in sorted(edges):
-            print(f'\t{c1} -> {c2} [style={type_to_style[gen_type]}]',
+            print(f'\t{c1} -> {c2} [{gen_type_to_attrs[gen_type]}]',
                   file=f)
     print('}', file=f)
 
