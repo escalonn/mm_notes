@@ -55,7 +55,8 @@ id_name_patch = {
         (154, ('Gold Armour', 8)),
         (160, ("Alchemist Cauldron", 1)),
         (161, ('Fire Potion', 4)),
-        (162, ('Poison Bottle', 4))
+        (162, ('Poison Bottle', 4)),
+        (955, ('Energy', 5)),
     ] for i in range(m)
 }
 
@@ -132,6 +133,12 @@ for item in data[key_name]['boardItemSettings1001']['items']:
                 drop_id = int(drop[-7:-1]) if isinstance(drop, str) else drop
                 event_item_graph.add_edge(
                     item_id, drop_id, gen_type='finite')
+    if 'chest' in item and 'forcedDrops' in item['chest']:
+        gen_type = 'finite' if 'destroyAfterTaps' in item[source] else 'infinite'
+        for drop in item['chest']['forcedDrops']:
+            drop_id = int(
+                drop['itemId'][-7:-1]) if isinstance(drop['itemId'], str) else drop['itemId']
+            event_item_graph.add_edge(item_id, drop_id, gen_type=gen_type)
 type_to_style = {
     'infinite': 'solid',
     'finite': 'dashed',
@@ -145,20 +152,20 @@ event_item_category_graph = nx.quotient_graph(event_item_graph, partition, relab
 with open('event_item_category_graph.gv', 'w', encoding='utf8') as f:
     print('strict digraph {', file=f)
     print('\timagepath="exported-assets\\Sprite"', file=f)
-    print('\tnode [shape=none, fontname="Charter", imagescale=true]', file=f)
+    print('\tnode [shape=box, fontname="Charter", imagescale=true]', file=f)
     print('\tedge [arrowhead=vee, fontname="Charter"]', file=f)
     for node, graph in event_item_category_graph.nodes(data='graph'):
         max_lvl = max(x for x in graph)
-        caption = categories.get(max_lvl // 1000, node)
-        if caption == 'Gift Box':
-            break
-        label = f'<TABLE BORDER="0"><TR><TD><IMG SRC="Item-{max_lvl}.png"/></TD></TR><TR><TD>{caption}</TD></TR></TABLE>'
-        print(f'\t{node} [label=<{label}>]', file=f)
-        for c1, c2, gen_type in set(event_item_category_graph.edges(node, data='gen_type')):
+        caption = categories.get(max_lvl // 1000, max_lvl // 1000)
+        if caption in ['Gift Box', 'Coin Bag', 'Piggybank', 'Ruby', 'Emerald', 'Topaz', 'Sapphire', 'Apple', 'Backpack', 'Energy']:
+            continue
+        edges = set((node, node, t) for *_, t in graph.edges(data='gen_type')
+                    ) | set(event_item_category_graph.edges(node, data='gen_type'))
+        width = 3 if any(t != 'finite' for *_, t in edges) else 1
+        label = f'<TABLE BORDER="0"><TR><TD FIXEDSIZE="TRUE" HEIGHT="60" WIDTH="60"><IMG SRC="Item-{max_lvl}.png"/></TD></TR><TR><TD>{caption}</TD></TR></TABLE>'
+        print(f'\t{node} [penwidth={width}, label=<{label}>]', file=f)
+        for c1, c2, gen_type in sorted(edges):
             print(f'\t{c1} -> {c2} [style={type_to_style[gen_type]}]',
-                  file=f)
-        for gen_type in set(t for *_, t in graph.edges(node, data='gen_type')):
-            print(f'\t{node} -> {node} [style={type_to_style[gen_type]}]',
                   file=f)
     print('}', file=f)
 

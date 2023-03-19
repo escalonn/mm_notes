@@ -3129,11 +3129,11 @@
           "level": 4
         },
         {
-          "id": 955000,
+          "id": "Energy lvl1 [955000]",
           "name": "Main/item_955000",
           "level": 1,
           "mergeable": {
-            "nextItemId": 955001
+            "nextItemId": "Energy lvl2 [955001]"
           },
           "collectible": {
             "genericReward": {
@@ -3144,11 +3144,11 @@
           }
         },
         {
-          "id": 955001,
+          "id": "Energy lvl2 [955001]",
           "name": "Main/item_955001",
           "level": 2,
           "mergeable": {
-            "nextItemId": 955002
+            "nextItemId": "Energy lvl3 [955002]"
           },
           "collectible": {
             "genericReward": {
@@ -3159,11 +3159,11 @@
           }
         },
         {
-          "id": 955002,
+          "id": "Energy lvl3 [955002]",
           "name": "Main/item_955002",
           "level": 3,
           "mergeable": {
-            "nextItemId": 955003
+            "nextItemId": "Energy lvl4 [955003]"
           },
           "collectible": {
             "genericReward": {
@@ -3174,11 +3174,11 @@
           }
         },
         {
-          "id": 955003,
+          "id": "Energy lvl4 [955003]",
           "name": "Main/item_955003",
           "level": 4,
           "mergeable": {
-            "nextItemId": 955004
+            "nextItemId": "Energy lvl5 [955004]"
           },
           "collectible": {
             "genericReward": {
@@ -3189,7 +3189,7 @@
           }
         },
         {
-          "id": 955004,
+          "id": "Energy lvl5 [955004]",
           "name": "Main/item_955004",
           "level": 5,
           "collectible": {
