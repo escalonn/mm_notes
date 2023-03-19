@@ -1,6 +1,9 @@
 new_data.json:
 	py format-response.py
 
+connect-e:
+	adb connect localhost:60551
+
 check-d-cloud:
 	adb -d shell 'stat -c %y sdcard/Android/data/*medieval.merge*/files/GameSaves/Cloud/CloudSave.json'
 
@@ -46,9 +49,12 @@ event_items.db:
 event_graph.png:
 	dot -Tpng event_graph.gv > event_graph.png
 
+event_item_category_graph.png:
+	dot -Tpng event_item_category_graph.gv > event_item_category_graph.png
+
 # dot -Tpng -Gdpi=150 event_graph.gv > event_graph.png
 
 event_graph.svg:
 	dot -Tsvg event_graph.gv > event_graph.svg
 
-.PHONY: new_data.json items.db event_items.db event_graph.png event_graph.svg
+.PHONY: new_data.json items.db event_items.db event_graph.png event_graph.svg event_item_category_graph.png

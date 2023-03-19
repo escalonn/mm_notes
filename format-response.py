@@ -1,10 +1,11 @@
+from collections import defaultdict
 import csv
 from itertools import islice
 import json
 from urllib.request import urlopen
 import html5lib
 # import jsonpath_ng
-import networkx
+import networkx as nx
 
 
 def fetch_item_id_map():
@@ -86,7 +87,7 @@ with open(out_name, 'w') as f:
     json.dump(data, f, indent=2)
 
 event_quests = data[key_name]['questSettings1001']['quests']
-quest_graph = networkx.DiGraph()
+quest_graph = nx.DiGraph()
 for quest in event_quests:
     quest_graph.add_node(quest['uid'])
     if 'requirements' in quest:
@@ -111,6 +112,54 @@ with open('event_graph.gv', 'w', encoding='utf8') as f:
         if 'requirements' in quest:
             for r in quest['requirements']:
                 print(f'\t{r["requirementValue"]} -> {quest["uid"]}', file=f)
+    print('}', file=f)
+
+event_item_graph = nx.DiGraph()
+for item in data[key_name]['boardItemSettings1001']['items']:
+    item_id = int(item['id'][-7:-1]
+                  ) if isinstance(item['id'], str) else item['id']
+    event_item_graph.add_node(item_id)
+    for source in ['manualSource', 'autoSource']:
+        if source in item:
+            gen_type = 'auto' if source == 'autoSource' else (
+                'finite' if 'destroyAfterTaps' in item[source] else 'infinite')
+            for drop in item[source]['droppableItems']:
+                drop_id = int(
+                    drop['dropId'][-7:-1]) if isinstance(drop['dropId'], str) else drop['dropId']
+                event_item_graph.add_edge(
+                    item_id, drop_id, gen_type=gen_type)
+            if drop := item[source].get('droppedItemOnDestroy'):
+                drop_id = int(drop[-7:-1]) if isinstance(drop, str) else drop
+                event_item_graph.add_edge(
+                    item_id, drop_id, gen_type='finite')
+type_to_style = {
+    'infinite': 'solid',
+    'finite': 'dashed',
+    'auto': 'bold'
+}
+partition = defaultdict(set)
+for node in event_item_graph:
+    partition[node // 1000].add(node)
+event_item_category_graph = nx.quotient_graph(event_item_graph, partition, relabel=True,
+                                              create_using=nx.MultiDiGraph)
+with open('event_item_category_graph.gv', 'w', encoding='utf8') as f:
+    print('strict digraph {', file=f)
+    print('\timagepath="exported-assets\\Sprite"', file=f)
+    print('\tnode [shape=none, fontname="Charter", imagescale=true]', file=f)
+    print('\tedge [arrowhead=vee, fontname="Charter"]', file=f)
+    for node, graph in event_item_category_graph.nodes(data='graph'):
+        max_lvl = max(x for x in graph)
+        caption = categories.get(max_lvl // 1000, node)
+        if caption == 'Gift Box':
+            break
+        label = f'<TABLE BORDER="0"><TR><TD><IMG SRC="Item-{max_lvl}.png"/></TD></TR><TR><TD>{caption}</TD></TR></TABLE>'
+        print(f'\t{node} [label=<{label}>]', file=f)
+        for c1, c2, gen_type in set(event_item_category_graph.edges(node, data='gen_type')):
+            print(f'\t{c1} -> {c2} [style={type_to_style[gen_type]}]',
+                  file=f)
+        for gen_type in set(t for *_, t in graph.edges(node, data='gen_type')):
+            print(f'\t{node} -> {node} [style={type_to_style[gen_type]}]',
+                  file=f)
     print('}', file=f)
 
 # fields = ['Category', 'Level', 'Source', 'Drops', 'Charge', 'Stack']

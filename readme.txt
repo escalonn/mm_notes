@@ -131,3 +131,11 @@ explore new board/event
     empty if all items' level = id % 1000 + 1
         `jq '.configs_key | .[] |= fromjson | [to_entries[] | select(.key | startswith("boardItemSettings")).value.items] | add[] | select(.level != .id % 1000 + 1)' raw_data.json`
     todo: empty if, for all pairs of items with adjacent ids, the larger-id one is always the merge result of the other
+next event
+    working on quest graph
+    make item (category/family) graph
+        maybe exclude boxes and chests? nah
+        try different layout engines besides dot
+        use different edge styles to distinguish finite, infinite manual, and infinite auto generation
+        use images from exported_assets in the graph
+            update exported_assets and look for changes
