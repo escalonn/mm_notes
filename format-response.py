@@ -96,8 +96,8 @@ for quest in event_quests:
             quest_graph.add_edge(r['requirementValue'], quest['uid'])
 min_reward = 50
 with open('event_graph.gv', 'w', encoding='utf8') as f:
-    print('strict digraph {', file=f)
-    print('\tnode [shape=box, fontname="Charter"]', file=f)
+    print('digraph {', file=f)
+    print('\tnode [shape=box, fontname="Charter", fontsize=14]', file=f)
     print('\tedge [arrowhead=vee]', file=f)
     for quest in event_quests:
         objective_rows = ''.join(f'<TR><TD>{x["amount"]} × {x["itemId"][:-9]}</TD></TR>'
@@ -107,9 +107,10 @@ with open('event_graph.gv', 'w', encoding='utf8') as f:
         if reward_rows:
             reward_rows = '<HR/>' + reward_rows
         label = f'<TABLE BORDER="0">{objective_rows}{reward_rows}</TABLE>'
+        xlabel = '<FONT POINT-SIZE="7"><B>\\N</B></FONT>'
         width = sum(r['mapEventReward']['amount']
                     for r in quest['rewards'] if 'mapEventReward' in r) / min_reward if 'rewards' in quest else 0
-        print(f'\t{quest["uid"]} [penwidth={width}, label=<{label}>]', file=f)
+        print(f'\t{quest["uid"]} [penwidth={width}, label=<{label}>, xlabel=<{xlabel}>]', file=f)
         if 'requirements' in quest:
             for r in quest['requirements']:
                 print(f'\t{r["requirementValue"]} -> {quest["uid"]}', file=f)

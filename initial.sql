@@ -268,8 +268,8 @@ SELECT
 FROM
   source_json,
   json_each(source_json.json, '$.droppableItems')
--- WHERE
---   json_each.value ->> '$.dropId' IS NOT NULL -- to handle event Stone lvl6 dropping nothing
+  -- WHERE
+  --   json_each.value ->> '$.dropId' IS NOT NULL -- to handle event Stone lvl6 dropping nothing
 GROUP BY
   source_json.item,
   source_json.kind,
@@ -456,6 +456,68 @@ SELECT
 FROM
   gift
   JOIN source_drop_v USING (item);
+
+CREATE TABLE
+  quest_json (
+    id INTEGER PRIMARY KEY NOT NULL,
+    objectives_json TEXT NOT NULL
+  );
+
+INSERT INTO
+  quest_json (id, objectives_json)
+SELECT
+  value ->> '$.uid',
+  value ->> '$.objectives'
+FROM
+  json_each(
+    (
+      SELECT
+        v
+      FROM
+        configs_json
+      WHERE
+        k = 'questSettings1001'
+    ),
+    '$.quests'
+  );
+
+CREATE TABLE
+  quest (id INTEGER PRIMARY KEY NOT NULL);
+
+CREATE TABLE
+  quest_objective (
+    quest INTEGER NOT NULL REFERENCES quest (id),
+    item INTEGER NOT NULL REFERENCES item (id),
+    n INTEGER NOT NULL DEFAULT 1
+  );
+
+CREATE VIEW
+  quest_v AS
+SELECT
+  quest_objective.quest,
+  group_concat(quest_objective.n || ' x ' || item.descr, ', ') AS objectives
+FROM
+  quest_objective
+  JOIN item ON quest_objective.item = item.id
+GROUP BY
+  quest_objective.quest;
+
+INSERT INTO
+  quest (id)
+SELECT
+  id
+FROM
+  quest_json;
+
+INSERT INTO
+  quest_objective (quest, item, n)
+SELECT
+  quest_json.id,
+  json_each.value ->> '$.itemId',
+  json_each.value ->> '$.amount'
+FROM
+  quest_json,
+  json_each(quest_json.objectives_json);
 
 -- DROP TABLE categories_csv;
 -- DROP TABLE configs_json;
