@@ -90,16 +90,27 @@ with open(out_name, 'w') as f:
 event_quests = data[key_name]['questSettings1001']['quests']
 quest_graph = nx.DiGraph()
 for quest in event_quests:
-    quest_graph.add_node(quest['uid'])
-    if 'requirements' in quest:
-        for r in quest['requirements']:
-            quest_graph.add_edge(r['requirementValue'], quest['uid'])
+    uid = quest['uid']
+    quest_graph.add_node(uid)
+    for r in quest.get('requirements', []):
+        quest_graph.add_edge(r['requirementValue'], uid)
+quest_graph.remove_edge(2267, 2267)
+quest_graph.add_edge(2266, 2267) # patch for bugged quest
+quest_graph.add_edge(2202, 2208) # necessary forge reward
+for u, v in list(quest_graph.edges()): # remove redundant requirements
+    quest_graph.remove_edge(u, v)
+    if not nx.has_path(quest_graph, u, v):
+        quest_graph.add_edge(u, v)
+last_quest = max(quest_graph)
+main_path = nx.ancestors(quest_graph, last_quest) | {last_quest}
 min_reward = 50
 with open('event_graph.gv', 'w', encoding='utf8') as f:
     print('digraph {', file=f)
-    print('\tnode [shape=box, fontname="Charter", fontsize=14]', file=f)
+    print('\tnode [shape=box, fontname="Charter", fontsize=14, fillcolor=gray90]',
+          file=f)
     print('\tedge [arrowhead=vee]', file=f)
     for quest in event_quests:
+        uid = quest["uid"]
         objective_rows = ''.join(f'<TR><TD>{x["amount"]} × {x["itemId"][:-9]}</TD></TR>'
                                  for x in quest['objectives'])
         reward_rows = ''.join(f'<TR><TD><FONT POINT-SIZE="12">{x["itemReward"]["amount"]} × {x["itemReward"]["itemId"][:-9]}</FONT></TD></TR>'
@@ -110,10 +121,10 @@ with open('event_graph.gv', 'w', encoding='utf8') as f:
         xlabel = '<FONT POINT-SIZE="7"><B>\\N</B></FONT>'
         width = sum(r['mapEventReward']['amount']
                     for r in quest['rewards'] if 'mapEventReward' in r) / min_reward if 'rewards' in quest else 0
-        print(f'\t{quest["uid"]} [penwidth={width}, label=<{label}>, xlabel=<{xlabel}>]', file=f)
-        if 'requirements' in quest:
-            for r in quest['requirements']:
-                print(f'\t{r["requirementValue"]} -> {quest["uid"]}', file=f)
+        style = '\"\"' if uid in main_path else 'filled'
+        print(f'\t{uid} [penwidth={width}, label=<{label}>, xlabel=<{xlabel}>, style={style}]', file=f)
+        for r in quest_graph.adj[uid]:
+            print(f'\t{uid} -> {r}', file=f)
     print('}', file=f)
 
 def extract_id(label):
