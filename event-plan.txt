@@ -1,6 +1,5 @@
 generator goals:
-    barrel: lvl10?
-        limited by recharge speed of tree?
+    barrel: lvl10
     toolbox: lvl10??
     mine: lvl8?
 tree
@@ -9,6 +8,17 @@ tree
     tapping tree ~> level up barrel
     producing 10 barrel lvl1s when low level
     rush wood quests so barrel levels up faster
+    lvl6: 20 drops, 5m, 20 drops, 5m, 20 drops, 2m30s, 10 drops
+        each drop = 1.45 x wood lvl1; 70 drops = 101.5 lvl1 = 6.34375 x lvl5
+    lvl1: 30m, 2 drops
+    lvl2: 20m, 2 drops
+    lvl3: 12m40s, 2 drops
+    lvl4: 8m, 2 drops
+    lvl5: 5m, 2 drops
+    1 cycle: 1h28m40s charge time, 80 energy, 180% energy usage
+    need 58.5 x wood lvl5.
+        finish in middle of 10th cycle, so 90 barrel pieces, = 1.4 barrel lvl7.
+        = 1.66 lvl7 counting initial barrel lvl5.
 barrel, farming tools, gloves
     vanilla (max barrel not quite as strong or fast as vanilla)
     get first lvl5 free from board, get more barrel from using tree
@@ -23,8 +33,12 @@ barrel, farming tools, gloves
         │ 10 │ 11.08    │ 11176     │
     need 16 gloves lvl3 (1280e)
     delay using barrel as late as possible to benefit from higher lvl energy cost reduction
+    lvl7 -> lvl8 takes ~589e [worth]
+    lvl8 -> lvl9 takes ~1073e [worth]
+    lvl9 -> lvl10 takes ~2111e [worth]
 wood, bow
     vanilla
+    basically wood is cheap, 13 energy for a max wood, so don't need to save it
 forge
     get exactly 1, from early quest (after first rope quest) and board
     levels itself up quickly
@@ -63,6 +77,7 @@ mine, stone
         mine lvl10:         443e (0.62d) [not worth]
     have to check how many swords/axes/copper armour is being made
         and therefore how many ingots are easily made...
+
 
 toolbox, tools, rope, rivets
     get copper ingot lvl1 from very early quest, merge on board to lvl4,

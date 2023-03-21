@@ -74,8 +74,6 @@ cloud saves
     actions include: app startup, moving an item on the board
     actions do not include: selecting different items on the board, switching between map and board
 todo
-    pull https://medieval-merge-game-fanbase.fandom.com/wiki/Game_Asset_Item_Ids
-        have format-response (rename it) replace IDs, maybe 100000 -> barrel000 or barrel1
     complete the datamine from the apk
     see if theres anything interesting in the sdcard/files/il2cpp .dats
     missing strings
@@ -95,6 +93,13 @@ todo
         it's silly that tinderbox is in one area but fairy fountain is in another, they work the same
         probably organize as: (1a) manual infinite, (1b) manual finite, (2) automatic.
     maybe redo game ID page to have categories and max level instead of a row for every item?
+    make python script to read cloudsave and output reward inventory contents
+        .model.boardContextsData.mainBoard.rewardInventoryData.items
+        .model.boardContextsData.eventBoard.rewardInventoryData.items
+            look up .model.boardContextsData.eventBoard.id to know which data
+            to decode gift boxes with from raw_data.json
+        (including gift box contents)
+        factor id_name_map into separate module to import, i guess
 
 fonts
     franklin gothic
