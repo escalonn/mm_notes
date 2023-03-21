@@ -49,7 +49,7 @@ gtree:
 	yq '.model.boardContextsData.mainBoard.boardData.entries[][].item | select(.id > 107005 and .id < 108000) | .manualSource' CloudSave.json
 
 flower:
-	jq '[.model.boardContextsData.mainBoard.boardData.entries[][].item | select(.id == 109005) | .autoSource | {currentItemCharges, lastEvaluationTime, minutesSinceLast: ((.crescentRechargeTimer // 0) / 60), minutesUntilNext: ((1980 - (.crescentRechargeTimer // 0)) / 60)}]' CloudSave.json | yq -P
+	jq '[.model.boardContextsData.mainBoard.boardData.entries[][].item | select(.id == 109005) | .autoSource | {currentItemCharges, lastEvaluationTime, minutesSinceLast: ((.crescentRechargeTimer // 0) / 60), minutesUntilNext: ((900 - (.crescentRechargeTimer // 0)) / 60)}]' CloudSave.json | yq -P
 
 fountain:
 	@echo "(lvl8: 3 charges of 36, total 108)"
