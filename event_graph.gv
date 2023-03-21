@@ -211,7 +211,7 @@ digraph {
 	2285 -> 2288
 	2286 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>3 × Rivets lvl5</TD></TR></TABLE>>, xlabel=<<FONT POINT-SIZE="7"><B>\N</B></FONT>>, style=filled]
 	2286 -> 2289
-	2287 [penwidth=4.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl10</TD></TR><TR><TD>1 × Gloves lvl3</TD></TR></TABLE>>, xlabel=<<FONT POINT-SIZE="7"><B>\N</B></FONT>>, style=filled]
+	2287 [penwidth=4.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl9</TD></TR><TR><TD>1 × Gloves lvl3</TD></TR></TABLE>>, xlabel=<<FONT POINT-SIZE="7"><B>\N</B></FONT>>, style=filled]
 	2287 -> 2290
 	2288 [penwidth=4.0, label=<<TABLE BORDER="0"><TR><TD>2 × Rope lvl4</TD></TR><TR><TD>1 × Farming Tools lvl14</TD></TR></TABLE>>, xlabel=<<FONT POINT-SIZE="7"><B>\N</B></FONT>>, style=filled]
 	2289 [penwidth=4.0, label=<<TABLE BORDER="0"><TR><TD>3 × Rivets lvl5</TD></TR><TR><TD>1 × Tools lvl8</TD></TR></TABLE>>, xlabel=<<FONT POINT-SIZE="7"><B>\N</B></FONT>>, style=filled]

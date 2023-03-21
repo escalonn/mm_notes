@@ -426,9 +426,9 @@
           "manualSource": {
             "spendsEnergy": true,
             "startEmpty": true,
-            "destroyAfterTaps": 1,
+            "destroyAfterTaps": 2,
             "droppedItemOnDestroy": "Tree lvl2 [103001]",
-            "dropsPerRecharge": 1,
+            "dropsPerRecharge": 2,
             "rechargeTimer": 1800,
             "rechargesStack": 1,
             "droppableItems": [
@@ -461,9 +461,9 @@
           "manualSource": {
             "spendsEnergy": true,
             "startEmpty": true,
-            "destroyAfterTaps": 1,
+            "destroyAfterTaps": 2,
             "droppedItemOnDestroy": "Tree lvl3 [103002]",
-            "dropsPerRecharge": 1,
+            "dropsPerRecharge": 2,
             "rechargeTimer": 1200,
             "rechargesStack": 1,
             "droppableItems": [
@@ -481,9 +481,9 @@
           "manualSource": {
             "spendsEnergy": true,
             "startEmpty": true,
-            "destroyAfterTaps": 1,
+            "destroyAfterTaps": 2,
             "droppedItemOnDestroy": "Tree lvl4 [103003]",
-            "dropsPerRecharge": 1,
+            "dropsPerRecharge": 2,
             "rechargeTimer": 760,
             "rechargesStack": 1,
             "droppableItems": [
@@ -501,9 +501,9 @@
           "manualSource": {
             "spendsEnergy": true,
             "startEmpty": true,
-            "destroyAfterTaps": 1,
+            "destroyAfterTaps": 2,
             "droppedItemOnDestroy": "Tree lvl5 [103004]",
-            "dropsPerRecharge": 1,
+            "dropsPerRecharge": 2,
             "rechargeTimer": 480,
             "rechargesStack": 1,
             "droppableItems": [
@@ -521,9 +521,9 @@
           "manualSource": {
             "spendsEnergy": true,
             "startEmpty": true,
-            "destroyAfterTaps": 1,
+            "destroyAfterTaps": 2,
             "droppedItemOnDestroy": "Tree lvl6 [103005]",
-            "dropsPerRecharge": 1,
+            "dropsPerRecharge": 2,
             "rechargeTimer": 300,
             "rechargesStack": 1,
             "droppableItems": [
@@ -1462,7 +1462,7 @@
           },
           "manualSource": {
             "spendsEnergy": true,
-            "dropsPerRecharge": 6,
+            "dropsPerRecharge": 7,
             "rechargeTimer": 1200,
             "rechargesStack": 4,
             "droppableItems": [
@@ -1498,7 +1498,7 @@
           },
           "manualSource": {
             "spendsEnergy": true,
-            "dropsPerRecharge": 7,
+            "dropsPerRecharge": 8,
             "rechargeTimer": 1200,
             "rechargesStack": 4,
             "droppableItems": [
@@ -1535,7 +1535,7 @@
           "level": 10,
           "manualSource": {
             "spendsEnergy": true,
-            "dropsPerRecharge": 8,
+            "dropsPerRecharge": 9,
             "rechargeTimer": 600,
             "rechargesStack": 4,
             "droppableItems": [
@@ -3238,6 +3238,16 @@
           "level": 5,
           "mergeable": {
             "nextItemId": "Backpack lvl6 [962005]"
+          },
+          "purchasable": {
+            "costType": 0,
+            "price": [
+              {
+                "currencyType": 1,
+                "currencyAmount": 120,
+                "mapId": 0
+              }
+            ]
           }
         },
         {
@@ -5045,6 +5055,226 @@
       "PlayGamesEnable": true,
       "disconnectTime": 7,
       "minVersion": "1.33.0"
+    },
+    "itemOverrideSettings": {
+      "items": [
+        {
+          "id": "Cauldron lvl1 [991000]",
+          "name": "Main/item_991000",
+          "level": 1,
+          "manualSource": {
+            "spendsEnergy": false,
+            "destroyAfterTaps": 5,
+            "dropsPerRecharge": 5,
+            "rechargeTimer": 0,
+            "rechargesStack": 1,
+            "droppableItems": [
+              {
+                "dropId": "Energy lvl1 [997000]",
+                "dropRate": 0.65
+              },
+              {
+                "dropId": "Energy lvl2 [997001]",
+                "dropRate": 0.25
+              },
+              {
+                "dropId": "Energy lvl3 [997002]",
+                "dropRate": 0.1
+              }
+            ]
+          }
+        },
+        {
+          "id": "Regular Chest lvl1 [994000]",
+          "name": "Main/item_994000",
+          "level": 1,
+          "mergeable": {
+            "nextItemId": "Regular Chest lvl2 [994001]"
+          },
+          "manualSource": {
+            "spendsEnergy": false,
+            "destroyAfterTaps": 10,
+            "dropsPerRecharge": 10,
+            "rechargeTimer": 0,
+            "rechargesStack": 1,
+            "droppableItems": [
+              {
+                "dropId": "Barrel lvl1 [100000]",
+                "dropRate": 0.1
+              },
+              {
+                "dropId": "Barn lvl1 [129000]",
+                "dropRate": 0.1
+              },
+              {
+                "dropId": "Nether Portal lvl1 [133000]",
+                "dropRate": 0.1
+              },
+              {
+                "dropId": "Energy lvl1 [997000]",
+                "dropRate": 0.04
+              },
+              {
+                "dropId": "Energy lvl2 [997001]",
+                "dropRate": 0.03
+              },
+              {
+                "dropId": "Coins lvl1 [996000]",
+                "dropRate": 0.63
+              }
+            ]
+          },
+          "chest": {
+            "unlockingTimer": 480
+          }
+        },
+        {
+          "id": "Regular Chest lvl2 [994001]",
+          "name": "Main/item_994001",
+          "level": 2,
+          "manualSource": {
+            "spendsEnergy": false,
+            "destroyAfterTaps": 22,
+            "dropsPerRecharge": 22,
+            "rechargeTimer": 0,
+            "rechargesStack": 1,
+            "droppableItems": [
+              {
+                "dropId": "Barrel lvl1 [100000]",
+                "dropRate": 0.1
+              },
+              {
+                "dropId": "Barn lvl1 [129000]",
+                "dropRate": 0.1
+              },
+              {
+                "dropId": "Nether Portal lvl1 [133000]",
+                "dropRate": 0.15
+              },
+              {
+                "dropId": "Coins lvl1 [996000]",
+                "dropRate": 0.26
+              },
+              {
+                "dropId": "Energy lvl2 [997001]",
+                "dropRate": 0.06
+              },
+              {
+                "dropId": "Pocket Watch lvl1 [963000]",
+                "dropRate": 0.12
+              },
+              {
+                "dropId": "Pocket Watch lvl2 [963001]",
+                "dropRate": 0.08
+              },
+              {
+                "dropId": "Gemstone lvl1 [990000]",
+                "dropRate": 0.13
+              }
+            ]
+          },
+          "chest": {
+            "unlockingTimer": 1500
+          }
+        },
+        {
+          "id": "Special Chest lvl1 [995000]",
+          "name": "Main/item_995000",
+          "level": 1,
+          "mergeable": {
+            "nextItemId": "Special Chest lvl2 [995001]"
+          },
+          "manualSource": {
+            "spendsEnergy": false,
+            "destroyAfterTaps": 12,
+            "dropsPerRecharge": 12,
+            "rechargeTimer": 0,
+            "rechargesStack": 1,
+            "droppableItems": [
+              {
+                "dropId": "Toolbox lvl1 [110000]",
+                "dropRate": 0.12
+              },
+              {
+                "dropId": "Mine lvl1 [121000]",
+                "dropRate": 0.12
+              },
+              {
+                "dropId": "Forge lvl1 [105000]",
+                "dropRate": 0.12
+              },
+              {
+                "dropId": "Energy lvl1 [997000]",
+                "dropRate": 0.08
+              },
+              {
+                "dropId": "Energy lvl2 [997001]",
+                "dropRate": 0.04
+              },
+              {
+                "dropId": "Coins lvl1 [996000]",
+                "dropRate": 0.24
+              },
+              {
+                "dropId": "Coins lvl2 [996001]",
+                "dropRate": 0.28
+              }
+            ]
+          },
+          "chest": {
+            "unlockingTimer": 1800
+          }
+        },
+        {
+          "id": "Special Chest lvl2 [995001]",
+          "name": "Main/item_995001",
+          "level": 2,
+          "manualSource": {
+            "spendsEnergy": false,
+            "destroyAfterTaps": 28,
+            "dropsPerRecharge": 28,
+            "rechargeTimer": 0,
+            "rechargesStack": 1,
+            "droppableItems": [
+              {
+                "dropId": "Toolbox lvl1 [110000]",
+                "dropRate": 0.12
+              },
+              {
+                "dropId": "Mine lvl1 [121000]",
+                "dropRate": 0.12
+              },
+              {
+                "dropId": "Forge lvl1 [105000]",
+                "dropRate": 0.12
+              },
+              {
+                "dropId": "Hourglass lvl1 [117000]",
+                "dropRate": 0.14
+              },
+              {
+                "dropId": "Hourglass lvl2 [117001]",
+                "dropRate": 0.08
+              },
+              {
+                "dropId": "Energy lvl2 [997001]",
+                "dropRate": 0.06
+              },
+              {
+                "dropId": "Coins lvl3 [996002]",
+                "dropRate": 0.24
+              },
+              {
+                "dropId": "Gemstone lvl1 [990000]",
+                "dropRate": 0.12
+              }
+            ]
+          },
+          "chest": {
+            "unlockingTimer": 5400
+          }
+        }
+      ]
     },
     "mailSettings": {
       "enabled": true,
@@ -17113,7 +17343,7 @@
           "requirements": [
             {
               "requirementId": 1,
-              "requirementValue": 2267
+              "requirementValue": 2266
             }
           ],
           "objectives": [
@@ -17610,7 +17840,7 @@
           ],
           "objectives": [
             {
-              "itemId": "Tools lvl10 [111009]",
+              "itemId": "Tools lvl9 [111008]",
               "amount": 1
             },
             {
@@ -21589,13 +21819,13 @@
       }
     }
   },
-  "fetch_time_key": 1679084113264,
+  "fetch_time_key": 1679349837134,
   "abt_experiments_key": [
     {
-      "experimentId": "_exp_163",
+      "experimentId": "_exp_165",
       "variantId": "0",
-      "triggerEvent": "tutorial_complete",
-      "experimentStartTime": "2023-02-27T18:20:22.543Z",
+      "triggerEvent": "quest_completed_266",
+      "experimentStartTime": "2023-03-20T14:24:06.169Z",
       "triggerTimeoutMillis": "15552000000",
       "timeToLiveMillis": "15552000000"
     }

@@ -4,39 +4,38 @@ new_data.json:
 connect-e:
 	adb connect localhost:60551
 
-check-d-cloud:
-	adb -d shell 'stat -c %y sdcard/Android/data/*medieval.merge*/files/GameSaves/Cloud/CloudSave.json'
-
 check-e-cloud:
 	adb -e shell 'stat -c %y sdcard/Android/data/*medieval.merge*/files/GameSaves/Cloud/CloudSave.json'
 
-watch-d-cloud:
-	while true; do adb -d shell 'stat -c %y sdcard/Android/data/*medieval.merge*/files/GameSaves/Cloud/CloudSave.json'; sleep 4; done
+clear-e-data:
+	adb -e shell pm clear com.pixodust.games.free.rpg.medieval.merge.puzzle.empire
 
 pull-d-config:
 	adb -d backup -noapk com.pixodust.games.free.rpg.medieval.merge.puzzle.empire
 	dd if=backup.ab bs=24 skip=1 | openssl zlib -d | tar -xO --wildcards '*activate.json' > new_raw_data.json && rm backup.ab
 
+check-d-cloud:
+	adb -d shell 'stat -c %y sdcard/Android/data/*medieval.merge*/files/GameSaves/Cloud/CloudSave.json'
+
+watch-d-cloud:
+	while true; do adb -d shell 'stat -c %y sdcard/Android/data/*medieval.merge*/files/GameSaves/Cloud/CloudSave.json'; sleep 4; done
+
 pull-d-cloud: check-d-cloud
 	adb -d pull sdcard/Android/data/com.pixodust.games.free.rpg.medieval.merge.puzzle.empire/files/GameSaves/Cloud/CloudSave.json
 	npx -y prettier --end-of-line auto --write CloudSave.json
 
-cloud-check-needle:
+check-cloud-needle:
 	jq '[.model.boardContextsData.mainBoard.boardData.entries[][].item | select(.id == 131005) | .autoSource | {currentItemCharges, lastEvaluationTime} * if has("crescentRechargeTimer") then {minutesSinceLast: (.crescentRechargeTimer / 60), minutesUntilNext: ((1980 - .crescentRechargeTimer) / 60)} else {} end]' CloudSave.json | yq -P
 
-cloud-check-tree:
+check-cloud-tree:
 	yq '.model.boardContextsData.mainBoard.boardData.entries[][].item | select(.id == 103005) | .manualSource' CloudSave.json
 
-cloud-check-gtree:
+check-cloud-gtree:
 	yq '.model.boardContextsData.mainBoard.boardData.entries[][].item | select(.id > 107005 and .id < 108000) | .manualSource' CloudSave.json
 
-# 6174
-cloud-check-fountain:
+check-cloud-fountain:
 	@echo "(lvl8: 3 charges of 36, total 108)"
 	yq '.model.boardContextsData.mainBoard.boardData.entries[][].item | select(.id > 135004 and .id < 136000) | {id, manualSource}' CloudSave.json
-
-e-clear-data:
-	adb -e shell pm clear com.pixodust.games.free.rpg.medieval.merge.puzzle.empire
 
 items.db:
 	rm -f items.db

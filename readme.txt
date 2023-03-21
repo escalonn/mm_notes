@@ -147,5 +147,8 @@ next event
         it doesn't know about equivalency to higher level potions
     total point reward from event quests
         `jq '.configs_key | .[] |= fromjson | [.questSettings1001.quests[].rewards[].mapEventReward.amount] | add' new_raw_data.json`
+    looking at charge time / energy usage for specified about of item
+        `sqlite3 -markdown event_items.db "select source_item % 1000 + 1 as gen, round(avg_charge_s * 19 / 3600 / 24,1) as charge_d, cast(round(avg_energy * 19) as int) as energy, round(energy_usage,2) as energy_usage from recipe where item = (select id from item where descr like 'rope%4') and source_item < 900000"`
+        user-defined functions sure would be nice for stuff like interval formatting...
     todo continue item requirement counting for other items
         continue deciding whether higher level generators are worth it

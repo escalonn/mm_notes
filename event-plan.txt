@@ -67,16 +67,16 @@ toolbox, tools, rope, rivets
         get toolbox lvl1, merge on board to lvl5.
     get more toolbox from using copper armour from forge
     drop rates are mostly buffed from vanilla but rope & rivets stay constant with lvl
-    need 2.997 tools lvl13
-    │ gen │charge_d│energy │   energy_usage
-    ├─────┼────────┼───────┼─────
-    │ 4   │  106.5 │ 13637 │ 0.17
-    │ 5   │   76.7 │ 12273 │ 0.22
-    │ 6   │   58.1 │ 11158 │ 0.26
-    │ 7   │   30.4 │  8767 │ 0.4
-    │ 8   │   17.7 │  7671 │ 0.6
-    │ 9   │   10.5 │  5336 │ 0.7
-    │ 10  │    3.8 │  4383 │ 1.6
+    need 2.934 tools lvl13
+    | gen | charge_d | energy | energy_usage |
+    |-----|----------|--------|--------------|
+    | 4   | 104.3    | 13353  | 0.18         |
+    | 5   | 75.1     | 12018  | 0.22         |
+    | 6   | 56.9     | 10925  | 0.27         |
+    | 7   | 29.8     | 8584   | 0.4          |
+    | 8   | 17.4     | 7511   | 0.6          |
+    | 9   | 10.4     | 5225   | 0.7          |
+    | 10  | 3.7      | 4292   | 1.6          |
     17 rivets lvl5
     │ gen │ charge_d │ energy │ energy_usage │
     ├─────┼──────────┼────────┼──────────────┤

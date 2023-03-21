@@ -94,10 +94,9 @@ for quest in event_quests:
     quest_graph.add_node(uid)
     for r in quest.get('requirements', []):
         quest_graph.add_edge(r['requirementValue'], uid)
-quest_graph.remove_edge(2267, 2267)
-quest_graph.add_edge(2266, 2267) # patch for bugged quest
 quest_graph.add_edge(2202, 2208) # necessary forge reward
-for u, v in list(quest_graph.edges()): # remove redundant requirements
+# remove redundant requirements (in quadratic time cause it's easier)
+for u, v in list(quest_graph.edges()):
     quest_graph.remove_edge(u, v)
     if not nx.has_path(quest_graph, u, v):
         quest_graph.add_edge(u, v)
