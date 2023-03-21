@@ -141,13 +141,13 @@ next event
     query for all quest objectives
         `sqlite3 -box event_items.db "select item.descr as item, sum(qo.n) as n from quest_objective as qo join item on qo.item = item.id group by qo.item order by item"`
     all objectives that a particular source item can make
-        `sqlite3 -box event_items.db "select item.descr as item, sum(qo.n) as n, recipe.avg_energy * sum(qo.n) as energy from quest_objective as qo join item on qo.item = item.id join recipe on recipe.item = qo.item where recipe.source_item = 135008 group by qo.item"`
+        `sqlite3 -box event_items.db "select item.descr as item, sum(qo.n) as n, recipe.avg_energy * sum(qo.n) as energy from quest_objective as qo join item on qo.item = item.id join recipe on recipe.item = qo.item where recipe.source_item = (select id from item where descr like 'tree%6') group by qo.item"`
     todo: i should be able to write a query that tells me "i need this many alchemist cauldrons in total for all quests", but item_equiv is a little shoddy right now
         see eg: `sqlite3 -box event_items.db "select * from item_equiv_v where a like '%cauldron%'"`
         it doesn't know about equivalency to higher level potions
     total point reward from event quests
         `jq '.configs_key | .[] |= fromjson | [.questSettings1001.quests[].rewards[].mapEventReward.amount] | add' new_raw_data.json`
-    looking at charge time / energy usage for specified about of item
+    looking at charge time / energy usage for specified amount of item
         `sqlite3 -markdown event_items.db "select source_item % 1000 + 1 as gen, round(avg_charge_s * 19 / 3600 / 24,1) as charge_d, cast(round(avg_energy * 19) as int) as energy, round(energy_usage,2) as energy_usage from recipe where item = (select id from item where descr like 'rope%4') and source_item < 900000"`
         user-defined functions sure would be nice for stuff like interval formatting...
     todo continue item requirement counting for other items

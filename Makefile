@@ -1,18 +1,24 @@
-new_data.json:
+data_new.json:
 	py format-response.py
 
 connect-e:
-	adb connect localhost:60551
+	adb connect localhost:`sed -nE '/status.adb/ { s/[^"]*"(.*)"/\1/; p }' C:/ProgramData/BlueStacks_nxt/bluestacks.conf`
 
-check-e-cloud:
+pull-e-config: connect-e
+	adb -e shell 'su -c "cp /data/data/*medieval.merge*/files/frc* /mnt/windows/BstSharedFolder"'
+	cp /c/ProgramData/BlueStacks_nxt/Engine/UserData/SharedFolder/frc* raw_bs_data.json
+	py format-response.py raw_data_bs.json
+
+check-e-cloud: connect-e
 	adb -e shell 'stat -c %y sdcard/Android/data/*medieval.merge*/files/GameSaves/Cloud/CloudSave.json'
 
-clear-e-data:
+clear-e-data: connect-e
 	adb -e shell pm clear com.pixodust.games.free.rpg.medieval.merge.puzzle.empire
 
 pull-d-config:
 	adb -d backup -noapk com.pixodust.games.free.rpg.medieval.merge.puzzle.empire
-	dd if=backup.ab bs=24 skip=1 | openssl zlib -d | tar -xO --wildcards '*activate.json' > new_raw_data.json && rm backup.ab
+	dd if=backup.ab bs=24 skip=1 | openssl zlib -d | tar -xO --wildcards '*activate.json' > raw_data_new.json && rm backup.ab
+	py format-response.py
 
 check-d-cloud:
 	adb -d shell 'stat -c %y sdcard/Android/data/*medieval.merge*/files/GameSaves/Cloud/CloudSave.json'
@@ -43,7 +49,7 @@ items.db:
 
 event_items.db:
 	rm -f event_items.db
-	sed 's/Settings0/Settings1001/;s/raw_data/new_raw_data/' initial.sql | sqlite3 event_items.db
+	sed 's/Settings0/Settings1001/;s/raw_data/raw_data_new/' initial.sql | sqlite3 event_items.db
 
 event_graph.png:
 	dot -Tpng event_graph.gv > event_graph.png
@@ -53,7 +59,4 @@ event_item_category_graph.png:
 
 # dot -Tpng -Gdpi=150 event_graph.gv > event_graph.png
 
-event_graph.svg:
-	dot -Tsvg event_graph.gv > event_graph.svg
-
-.PHONY: new_data.json items.db event_items.db event_graph.png event_graph.svg event_item_category_graph.png
+.PHONY: data_new.json items.db event_items.db event_graph.png event_graph.svg event_item_category_graph.png

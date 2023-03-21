@@ -3,6 +3,7 @@ import csv
 from itertools import islice
 import json
 from urllib.request import urlopen
+import sys
 import html5lib
 # import jsonpath_ng
 import networkx as nx
@@ -39,10 +40,7 @@ def decode_json(s, int_parser):
         return s
 
 
-in_name = 'new_raw_data.json'
-key_name = 'configs_key'
-# in_name = 'raw_response.json'
-# key_name = 'entries'
+in_name = sys.argv[1] if len(sys.argv) > 1 else 'raw_data_new.json'
 
 id_name_patch = {
     str(c * 1000 + i): (n, str(i + 1)) for (c, (n, m)) in [
@@ -80,14 +78,15 @@ with open(in_name, encoding='utf8') as f:
 # find all the IDs and stuff
 # also... find rechargeTimer etc and format as nice hms
 
-data[key_name] = {k: decode_json(v, int_parser)
-                  for k, v in data[key_name].items()}
+data['configs_key'] = {k: decode_json(v, int_parser)
+                  for k, v in data['configs_key'].items()}
 
 out_name = in_name.replace('raw_', '')
+assert in_name != out_name
 with open(out_name, 'w') as f:
     json.dump(data, f, indent=2)
 
-event_quests = data[key_name]['questSettings1001']['quests']
+event_quests = data['configs_key']['questSettings1001']['quests']
 quest_graph = nx.DiGraph()
 for quest in event_quests:
     uid = quest['uid']
@@ -130,7 +129,7 @@ def extract_id(label):
     return label if isinstance(label, int) else int(label[-7:-1])
 
 event_item_graph = nx.DiGraph()
-for item in data[key_name]['boardItemSettings1001']['items']:
+for item in data['configs_key']['boardItemSettings1001']['items']:
     item_id = int(item['id'][-7:-1]
                   ) if isinstance(item['id'], str) else item['id']
     event_item_graph.add_node(item_id)
@@ -191,7 +190,7 @@ with open('event_item_category_graph.gv', 'w', encoding='utf8') as f:
 
 # fields = ['Category', 'Level', 'Source', 'Drops', 'Charge', 'Stack']
 # gens = []
-# for item in data[key_name]['boardItemSettings1000']['items']:
+# for item in data['configs_key']['boardItemSettings1000']['items']:
 #     item_id = item['id']
 #     if isinstance(item_id, str):
 #         item_id = int(item_id.split('[')[-1][:-1])
