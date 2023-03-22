@@ -6,8 +6,8 @@ pull-e-config:
 	read -p "press enter when app is loaded"
 	adb -e shell 'su -c "stat -c %y /data/data/*medieval.merge*/files/frc*"'
 	adb -e shell 'su -c "cp /data/data/*medieval.merge*/files/frc* /mnt/windows/BstSharedFolder"'
-	cp /c/ProgramData/BlueStacks_nxt/Engine/UserData/SharedFolder/frc* raw_bs_data.json
-	py format-response.py raw_data_bs.json
+	cp /c/ProgramData/BlueStacks_nxt/Engine/UserData/SharedFolder/frc* raw_data_new_bs.json
+	py format-response.py raw_data_new_bs.json
 
 check-e-cloud:
 	adb -e shell 'stat -c %y sdcard/Android/data/*medieval.merge*/files/GameSaves/Cloud/CloudSave.json'
