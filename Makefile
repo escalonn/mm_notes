@@ -1,6 +1,7 @@
 connect-e:
 	"C:/Program Files/BlueStacks_nxt/HD-Player.exe" --instance Nougat64 &
-	while adb connect localhost:`sed -nE '/status.adb/ { s/[^"]*"(.*)"/\1/; p }' C:/ProgramData/BlueStacks_nxt/bluestacks.conf` | grep -q cannot; do :; done
+	while adb connect localhost:$$(sed -nE '/status.adb/ { s/[^"]*"(.*)"/\1/; p }' C:/ProgramData/BlueStacks_nxt/bluestacks.conf) | grep -q cannot; do :; done
+	for d in $$(adb devices | grep offline | cut -d " " -f1); do adb disconnect $d; done
 
 launch-e: connect-e
 	adb -e shell monkey -p com.pixodust.games.free.rpg.medieval.merge.puzzle.empire 1

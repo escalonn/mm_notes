@@ -21,13 +21,13 @@ def load_wiki_item_info():
 def load_fallback_item_info():
     return {
         str(c * 1000 + i): (n, str(i + 1)) for (c, (n, m)) in [
-            (157, ('Ancient Mine', 10)),
-            (155, ('Copper Ingot', 4)),
             (153, ('Copper Armour', 8)),
+            (154, ('Gold Armour', 8)),
+            (155, ('Copper Ingot', 4)),
+            (156, ('Gold Ingot', 4)),
+            (157, ('Ancient Mine', 10)),
             (158, ('Steel Ingot', 4)),
             (159, ('Steel Armour', 8)),
-            (156, ('Gold Ingot', 4)),
-            (154, ('Gold Armour', 8)),
             (160, ("Alchemist Cauldron", 1)),
             (161, ('Fire Potion', 4)),
             (162, ('Poison Bottle', 4)),

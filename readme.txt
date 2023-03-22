@@ -155,5 +155,12 @@ next event
     looking at charge time / energy usage for specified amount of item
         `sqlite3 -markdown event_items.db "select source_item % 1000 + 1 as gen, round(avg_charge_s * 19 / 3600 / 24,1) as charge_d, cast(round(avg_energy * 19) as int) as energy, round(energy_usage,2) as energy_usage from recipe where item = (select id from item where descr like 'rope%4') and source_item < 900000"`
         user-defined functions sure would be nice for stuff like interval formatting...
+    total quest objective of an item category
+        `sqlite3 -box event_items.db "with item_obj as (select c.id, c.title, lvl, sum(n) as n from quest_objective as qo join item on item = item.id join category as c on c.id = item.category group by item) select title, max(lvl) as lvl, round(sum(n*pow(2,lvl))/pow(2,max(lvl)),3) as n from item_obj group by id order by id"`
+    recursive cte to handle forge drops in event. infinite loop if there's a cycle..
+        can't just "where not exists" since i guess you can only reference the recursive table once
+        `sqlite3 -box event_items.db "with edge (a, energy, b) as (select item, total_drops, successor from source where item in (select id from item where descr like 'sword%' or descr like '%axe%' or descr like '%armour%')), equiv (a, energy, b) as (select a, 0, a from edge union all select x.a, x.energy+y.energy, y.b from equiv as x join edge as y on x.b = y.a) select * from equiv order by a, b"`
+        with descrs
+            `sqlite3 -box event_items.db "with edge (a, energy, b) as (select item, total_drops, successor from source where item in (select id from item where descr like 'sword%' or descr like '%axe%' or descr like '%armour%')), equiv (a, energy, b) as (select a, 0, a from edge union all select x.a, x.energy+y.energy, y.b from equiv as x join edge as y on x.b = y.a) select i1.descr as a, energy, i2.descr as b from equiv join item as i1 on i1.id = a join item as i2 on i2.id = b order by a, b"`
     todo continue item requirement counting for other items
         continue deciding whether higher level generators are worth it

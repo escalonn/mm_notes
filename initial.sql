@@ -276,6 +276,8 @@ GROUP BY
   json_each.value ->> '$.dropId';
 
 -- has rows for "lvl5 tool = 8 * lvl2 tool"
+-- WRONG for e.g. event swords since they CANT merge together
+-- only resolution would probably be to use recursive cte to make this part.
 -- merges:
 INSERT INTO
   item_equiv (a, n, b)
@@ -297,6 +299,7 @@ WHERE
 --     (that second one's maybe ok though?)
 -- issue: it doesn't know that for cauldron making energy3, energy1s help,
 --     nor that cauldrons can make energy4s or 5s
+-- issue: MISSING equivalency to successor
 -- finite generators:
 INSERT INTO
   item_equiv (a, energy, b, m)
