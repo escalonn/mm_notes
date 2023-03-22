@@ -25,7 +25,7 @@ def decode_json(s, int_parser):
 
 in_name = sys.argv[1] if len(sys.argv) > 1 else 'raw_data_new.json'
 
-item_id_map = mm_lib.load_item_names()
+item_id_map = mm_lib.load_item_info()
 # item_id_map = {} # disable name replacing
 
 categories = {int(k) // 1000: v[0]

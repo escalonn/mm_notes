@@ -3,7 +3,7 @@ from urllib.request import urlopen
 import html5lib
 
 
-def load_wiki_item_names():
+def load_wiki_item_info():
     item_id_to_name = {}
     url = 'https://medieval-merge-game-fanbase.fandom.com/wiki/Game_Asset_Item_Ids'
     ns = '{http://www.w3.org/1999/xhtml}'
@@ -18,7 +18,7 @@ def load_wiki_item_names():
     return item_id_to_name
 
 
-def load_fallback_item_names():
+def load_fallback_item_info():
     return {
         str(c * 1000 + i): (n, str(i + 1)) for (c, (n, m)) in [
             (157, ('Ancient Mine', 10)),
@@ -35,5 +35,5 @@ def load_fallback_item_names():
         ] for i in range(m)
     }
 
-def load_item_names():
-    return load_fallback_item_names() | load_wiki_item_names()
+def load_item_info():
+    return load_fallback_item_info() | load_wiki_item_info()

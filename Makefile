@@ -20,7 +20,6 @@ watch-e-cloud:
 
 pull-e-cloud: check-e-cloud
 	adb -e pull sdcard/Android/data/com.pixodust.games.free.rpg.medieval.merge.puzzle.empire/files/GameSaves/Cloud/CloudSave.json
-	npx -y prettier --end-of-line auto --write CloudSave.json
 
 clear-e-data:
 	adb -e shell pm clear com.pixodust.games.free.rpg.medieval.merge.puzzle.empire
@@ -38,7 +37,9 @@ watch-d-cloud:
 
 pull-d-cloud: check-d-cloud
 	adb -d pull sdcard/Android/data/com.pixodust.games.free.rpg.medieval.merge.puzzle.empire/files/GameSaves/Cloud/CloudSave.json
-	npx -y prettier --end-of-line auto --write CloudSave.json
+
+rewards:
+	yq '.model.boardContextsData.mainBoard.rewardInventoryData.items' CloudSave.json
 
 # do date math to figure out how many there really are NOW, and
 # show time until next, time until full, time when next, time when full
@@ -57,6 +58,9 @@ flower:
 fountain:
 	@echo "(lvl8: 3 charges of 36, total 108)"
 	yq '.model.boardContextsData.mainBoard.boardData.entries[][].item | select(.id > 135004 and .id < 136000) | {id, manualSource}' CloudSave.json
+
+format-cloud:
+	npx -y prettier --end-of-line auto --write CloudSave.json
 
 data_new.json:
 	py format-response.py
