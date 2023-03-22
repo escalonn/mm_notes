@@ -1,27 +1,10 @@
 from collections import defaultdict
 import csv
-from itertools import islice
 import json
-from urllib.request import urlopen
 import sys
-import html5lib
 # import jsonpath_ng
 import networkx as nx
-
-
-def fetch_item_id_map():
-    item_id_map = {}
-    url = 'https://medieval-merge-game-fanbase.fandom.com/wiki/Game_Asset_Item_Ids'
-    ns = '{http://www.w3.org/1999/xhtml}'
-    with urlopen(url) as f:
-        document = html5lib.parse(
-            f, transport_encoding=f.info().get_content_charset())
-    table = document.find('.//*[@id="mw-content-text"]//{*}table')
-    for row in islice(table.iter(ns + 'tr'), 1, None):
-        data = [''.join(td.itertext()).strip() for td in row.iter(ns + 'td')]
-        item_id, item_name, item_level = data
-        item_id_map[item_id] = item_name, item_level
-    return item_id_map
+import mm_lib
 
 
 def item_id_int_parser(item_id_map):
@@ -42,23 +25,7 @@ def decode_json(s, int_parser):
 
 in_name = sys.argv[1] if len(sys.argv) > 1 else 'raw_data_new.json'
 
-id_name_patch = {
-    str(c * 1000 + i): (n, str(i + 1)) for (c, (n, m)) in [
-        (157, ('Ancient Mine', 10)),
-        (155, ('Copper Ingot', 4)),
-        (153, ('Copper Armour', 8)),
-        (158, ('Steel Ingot', 4)),
-        (159, ('Steel Armour', 8)),
-        (156, ('Gold Ingot', 4)),
-        (154, ('Gold Armour', 8)),
-        (160, ("Alchemist Cauldron", 1)),
-        (161, ('Fire Potion', 4)),
-        (162, ('Poison Bottle', 4)),
-        (955, ('Energy', 5)),
-    ] for i in range(m)
-}
-
-item_id_map = id_name_patch | fetch_item_id_map()
+item_id_map = mm_lib.load_item_names()
 # item_id_map = {} # disable name replacing
 
 categories = {int(k) // 1000: v[0]

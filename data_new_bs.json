@@ -15251,72 +15251,6 @@
     "questConfigSettings": {
       "maximumQuestAmount": 20
     },
-    "questOverrideSettings0": {
-      "quests": [
-        {
-          "id": "Tools lvl2 [111001]",
-          "uid": 369,
-          "requirements": [
-            {
-              "requirementId": 1,
-              "requirementValue": "266"
-            }
-          ],
-          "levelObjective": 16,
-          "rewards": [
-            {
-              "itemReward": {
-                "itemId": "XP Medal lvl3 [998002]",
-                "amount": 1
-              }
-            },
-            {
-              "itemReward": {
-                "itemId": "Coins lvl3 [996002]",
-                "amount": 1
-              }
-            },
-            {
-              "itemReward": {
-                "itemId": "Special Chest lvl1 [995000]",
-                "amount": 1
-              }
-            }
-          ]
-        },
-        {
-          "id": "Energy lvl2 [997001]",
-          "uid": 762,
-          "requirements": [
-            {
-              "requirementId": 1,
-              "requirementValue": 369
-            }
-          ],
-          "levelObjective": 17,
-          "rewards": [
-            {
-              "itemReward": {
-                "itemId": "XP Medal lvl3 [998002]",
-                "amount": 1
-              }
-            },
-            {
-              "itemReward": {
-                "itemId": "Special Chest lvl1 [995000]",
-                "amount": 1
-              }
-            },
-            {
-              "itemReward": {
-                "itemId": "Regular Chest lvl2 [994001]",
-                "amount": 1
-              }
-            }
-          ]
-        }
-      ]
-    },
     "questSettings1001": {
       "quests": [
         {
@@ -21885,11 +21819,11 @@
       }
     }
   },
-  "fetch_time_key": 1679387143195,
+  "fetch_time_key": 1679464469792,
   "abt_experiments_key": [
     {
       "experimentId": "_exp_165",
-      "variantId": "1",
+      "variantId": "0",
       "triggerEvent": "quest_completed_266",
       "experimentStartTime": "2023-03-20T14:24:06.169Z",
       "triggerTimeoutMillis": "15552000000",
