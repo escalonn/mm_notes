@@ -21819,13 +21819,21 @@
       }
     }
   },
-  "fetch_time_key": 1679502605919,
+  "fetch_time_key": 1679605916785,
   "abt_experiments_key": [
     {
       "experimentId": "_exp_165",
       "variantId": "0",
       "triggerEvent": "quest_completed_266",
       "experimentStartTime": "2023-03-20T14:24:06.169Z",
+      "triggerTimeoutMillis": "15552000000",
+      "timeToLiveMillis": "15552000000"
+    },
+    {
+      "experimentId": "_exp_169",
+      "variantId": "0",
+      "triggerEvent": "inventory_slot_buy",
+      "experimentStartTime": "2023-03-23T20:42:24.512Z",
       "triggerTimeoutMillis": "15552000000",
       "timeToLiveMillis": "15552000000"
     }
