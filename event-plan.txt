@@ -1,13 +1,15 @@
 generator goals:
     barrel: lvl10
-    toolbox: lvl10??
-    mine: lvl8?
-    forge: ?
+    toolbox: lvl10
+    mine: lvl8
+    forge: lvl10?
+    guardian tree: lvl8
 tree
     get exactly 1, from very early quest
     cycles 1->2->3->4->5->6->1 (charge)
     tapping tree ~> level up barrel
     producing 10 barrel lvl1s when low level
+    rush barrel lvl9 at least asap.
     rush wood and bow quests so barrel levels up faster
     lvl6: 20 drops, 5m, 20 drops, 5m, 20 drops, 2m30s, 10 drops
         each drop = 1.45 x wood lvl1; 70 drops = 101.5 lvl1 = 6.34375 x lvl5
@@ -35,9 +37,11 @@ barrel, farming tools, gloves
         │ 10 │ 11.08    │ 11176     │
     need 16 gloves lvl3 (1280e)
     delay using barrel as late as possible to benefit from higher lvl energy cost reduction
-    lvl7 -> lvl8 takes ~589e [worth]
-    lvl8 -> lvl9 takes ~1073e [worth]
-    lvl9 -> lvl10 takes ~2111e [worth]
+    lvl5 -> lvl6 takes ~589e
+    lvl6 -> lvl7 takes ~589e
+    lvl7 -> lvl8 takes ~589e
+    lvl8 -> lvl9 takes ~1073e [worth, too slow]
+    lvl9 -> lvl10 takes ~2111e [worth, by just 267e]
 wood, bow
     vanilla
     basically wood is cheap, 13 energy for a max wood, so don't need to save it
@@ -47,9 +51,16 @@ forge
     levels itself up "quickly" but you can't merge the drops together...
     tapping forge ~> level up forge, toolbox, mine
     should i level up forge sooner and sell the drops?
+        two extremes - max lvl forge immediately - how many ingots do we HAVE to make
+            16 swords, 10 axes, 8 armour. 16 swords => 40 drops.
+            swords: 642 ingots. axes: 570 ingots. total 1212.
+            armour: 302 ingots.
+        other side - no useless forge drops.
+
      5, 6, 7, 8,    9, 10
      4, 9,16,25,   30
     4h,6h,6h,5h,2h30m
+    sword
 sword
     not mergeable!
     levels itself up while emptying of iron ingot (no charge)
@@ -72,8 +83,15 @@ copper armour
     need armour: 88877655433
 iron ingot
     lvl4 has 2 mine lvl1s. (8 ingot lvl1s -> 2 mine lvl1) (costs energy)
+    have to make 1212 at minimum (rush forge) to level up swords & axes for quests.
+    = 303 mine lvl1 = 1.18 mine lvl9 (1.25 lvl9 counting initial lvl5)
+    but iron ingots should just be sold once reach mine lvl8, not worth the energy to open.
+    should check when naturally get to mine lvl8 and see if it would be worth rushing.
 copper ingot
-    lvl4 has 3 toolbox lvl1s. (8 ingot lvl1s -> 3 mine lvl1) (costs energy)
+    lvl4 has 3 toolbox lvl1s. (8 ingot lvl1s -> 3 toolbox lvl1) (costs energy)
+    have to make 302 at minimum (rush forge) to level up armour for quests.
+    = 113 toolbox lvl1 = 0.885 lvl8 (1.01 lvl8)
+    need to farm copper to level toolbox.
 mine, stone
     vanilla (little slower than vanilla, no tinderbox)
     get first mine lvl5 from early quest (first sword quest, after rivets quest)
@@ -87,8 +105,7 @@ mine, stone
         mine lvl10:         443e (0.62d) [not worth]
     have to check how many swords/axes/copper armour is being made
         and therefore how many ingots are easily made...
-
-
+        [done, see elsewhere]
 toolbox, tools, rope, rivets
     get copper ingot lvl1 from very early quest, merge on board to lvl4,
         get toolbox lvl1, merge on board to lvl5.
@@ -101,10 +118,10 @@ toolbox, tools, rope, rivets
     | 5   | 75.1     | 12018  | 0.22         |
     | 6   | 56.9     | 10925  | 0.27         |
     | 7   | 29.8     | 8584   | 0.4          |
-    | 8   | 17.4     | 7511   | 0.6          |
+    | 8   | 17.4     | 7511   | 0.6          | [too slow]
     | 9   | 10.4     | 5225   | 0.7          |
-    | 10  | 3.7      | 4292   | 1.6          |
-    17 rivets lvl5
+    | 10  | 3.7      | 4292   | 1.6          | [worth]
+    17 rivets lvl5.
     │ gen │ charge_d │ energy │ energy_usage │
     ├─────┼──────────┼────────┼──────────────┤
     │ 4   │ 35.4     │ 4533   │ 0.18         │
@@ -122,14 +139,34 @@ guardian tree
         doesn't matter what level, get fair exchange of fountain to tree
         lower level fountain: less energy to spend (56% more for lvl10 than lvl6, but it's tiny who cares), but less staffs produced
     slightly faster than vanilla (lot faster at lvls 9 & 10), always drops lvl1 bag though, no energy savings only charge speed
+    16 flowers -> fountains -> 1.03 gtree lvl7.
+        first 16, at 1.53 lvl7. 32, at 1.28 lvl8.
+    gtree -> flower -> fountain -> gtree is kind of a predetermined loop,
+        i guess there is no point in rushing, except the extra to speed up the second s box.
+        most of the time is spent at lvl7 gtree.
+        once reached lvl8, not much point to save more gtree pieces?
+    zero value in merging gtrees besides saving space.
+    | gen | charge_d | energy | energy_usage |
+    |-----|----------|--------|--------------|
+    | 6   | 28.7     | 688    | 0.03         |
+    | 7   | 14.3     | 688    | 0.07         | [too slow]
+    | 8   | 7.2      | 688    | 0.13         |
+    | 9   | 3.6      | 688    | 0.27         |
+    | 10  | 1.8      | 688    | 0.53         |
 guardian seed bags
     vanilla (but empty seed bags make backpacks!!)
+    8x lvl1 => 12x flower lvl1.
+    1 flower lvl6 <== 21.333 seed bag lvl1.
+    to make 32 flower, 86 max seed bag.
 empty seed bag
     16 empty bags -> 1 backpack lvl6
 guardian flower
     max level has 20 drops of fountain: avg 4.125 lvl6 fountains (minimum 2.5 lvl6)
         0.515625 lvl9s
         todo put this shit in item_equiv!
+        could theoretically save scum to get twice as many fountains or w/e.
+            but still need to make more flowers for potions so, not useful
+            (maybe if staff quests get way ahead of potion quests or something)
     turns into 1 alchemist cauldron when empty
     for cauldrons, i need 29 flowers (for potions) - 16 flower mark for q2371.
     for fountains, i need 25 flowers (for staffs) - 16 flower mark for q2357.
@@ -139,7 +176,7 @@ alchemist cauldron
     has 11 fire/poison potions (0.9 x fire lvl4 + 0.9 x poison lvl4)
         for potions, i need 29 flowers (cauldrons)
         first s box for fires for q2371, for poisons for q2372.
-        might as well push to second s box during q2381
+        might as well push to second s box during q2381 (last gtree-related quest)
     from the board, we get 1 fire lvl2 & 1 poison lvl3, still need 29 cauldrons
     empties into gold ingot lvl1 (8 cauldrons -> 1 hourglass lvl6)
         enough to pay for 83% of the energy used to empty the cauldron
@@ -170,6 +207,27 @@ fairy fountain
     this means 960/75=12.8 lvl9s
     that means 12.8/.515=24.82 flowers
     16-flower mark (s box) at 14 fire staffs (q2371) or 14 wind staffs (q2357)
+combined by hand
+    ┌───────────────┬─────┬───────────┬───────────┬────────────────┐
+    │     title     │ lvl │    all    │   main    │   side         │
+    ├───────────────┼─────┼───────────┼───────────┼────────────────┤
+    │ Wood          │   5 │ 58.5      │ 12        │ 46.5           │
+    │ Bow           │   5 │  1.875    │  0        │  1.875         │
+    │ Farming Tools │  14 │  3.888428 │  2.38916  │  1.499268      │
+    │ Gloves        │   3 │ 16        │ 12        │  4             │
+    │ Sword         │     │           │[3656]     │[55468675876879]│
+    │ Battle Axe    │     │           │[5576]     │[4675344577]    │
+    │ Copper Armour │     │           │[5]        │[3453776888]    │
+    │ Stone         │   6 │ 33.25     │  3.25     │  30            │
+    │ Tools         │  13 │  2.934082 │  1.459473 │  1.47461       │
+    │ Rivets        │   5 │ 17        │ 12        │  5             │
+    │ Rope          │   4 │ 19        │ 13        │  6             │
+    │ Fire Potion   │   4 │ 26        │  4        │ 22             │
+    │ Poison Bottle │   4 │ 25        │  3        │ 22             │
+    │ Fire Rod      │   5 │ 21        │  3        │ 18             │
+    │ Wind Scepter  │   5 │ 20        │  9        │ 11             │
+    │ Holy Staff    │   5 │ 14        │ 11        │  3             │
+    └───────────────┴─────┴───────────┴───────────┴────────────────┘
 all objectives
     ┌───────────────┬─────┬──────────┐
     │     title     │ lvl │    n     │
@@ -191,3 +249,44 @@ all objectives
     │ Fire Potion   │ 4   │ 26.0     │
     │ Poison Bottle │ 4   │ 25.0     │
     └───────────────┴─────┴──────────┘
+side objectives
+    ┌───────────────┬─────┬───────┐
+    │     title     │ lvl │   n   │
+    ├───────────────┼─────┼───────┤
+    │ Farming Tools │ 14  │ 1.499 │
+    │ Gloves        │ 3   │ 4.0   │
+    │ Wood          │ 5   │ 46.5  │
+    │ Sword         │ 9   │ 3.844 │
+    │ Tools         │ 12  │ 2.949 │
+    │ Rivets        │ 5   │ 5.0   │
+    │ Rope          │ 4   │ 6.0   │
+    │ Stone         │ 6   │ 30.0  │
+    │ Bow           │ 5   │ 1.875 │
+    │ Battle Axe    │ 7   │ 4.438 │
+    │ Fire Rod      │ 5   │ 18.0  │
+    │ Wind Scepter  │ 5   │ 11.0  │
+    │ Holy Staff    │ 5   │ 3.0   │
+    │ Copper Armour │ 8   │ 4.5   │
+    │ Fire Potion   │ 4   │ 22.0  │
+    │ Poison Bottle │ 4   │ 22.0  │
+    └───────────────┴─────┴───────┘
+main objectives
+    ┌───────────────┬─────┬───────┐
+    │     title     │ lvl │   n   │
+    ├───────────────┼─────┼───────┤
+    │ Farming Tools │ 14  │ 2.389 │
+    │ Gloves        │ 3   │ 12.0  │
+    │ Wood          │ 5   │ 12.0  │
+    │ Sword         │ 6   │ 2.625 │
+    │ Tools         │ 13  │ 1.459 │
+    │ Rivets        │ 5   │ 12.0  │
+    │ Rope          │ 4   │ 13.0  │
+    │ Stone         │ 6   │ 3.25  │
+    │ Battle Axe    │ 7   │ 2.0   │
+    │ Fire Rod      │ 5   │ 3.0   │
+    │ Wind Scepter  │ 5   │ 9.0   │
+    │ Holy Staff    │ 5   │ 11.0  │
+    │ Copper Armour │ 5   │ 1.0   │
+    │ Fire Potion   │ 4   │ 4.0   │
+    │ Poison Bottle │ 4   │ 3.0   │
+    └───────────────┴─────┴───────┘

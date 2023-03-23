@@ -1,4 +1,5 @@
 .import --csv categories.csv categories_csv
+.import --csv event_quests.csv event_quests_csv
 
 CREATE TABLE
   category (id INTEGER PRIMARY KEY NOT NULL, title TEXT);
@@ -466,6 +467,7 @@ CREATE TABLE
     objectives_json TEXT NOT NULL
   );
 
+--  going in both db right now :/
 INSERT INTO
   quest_json (id, objectives_json)
 SELECT
@@ -485,7 +487,7 @@ FROM
   );
 
 CREATE TABLE
-  quest (id INTEGER PRIMARY KEY NOT NULL);
+  quest (id INTEGER PRIMARY KEY NOT NULL, side INTEGER NULL);
 
 CREATE TABLE
   quest_objective (
@@ -498,19 +500,23 @@ CREATE VIEW
   quest_v AS
 SELECT
   quest_objective.quest,
-  group_concat(quest_objective.n || ' x ' || item.descr, ', ') AS objectives
+  group_concat(quest_objective.n || ' x ' || item.descr, ', ') AS objectives,
+  quest.side
 FROM
   quest_objective
   JOIN item ON quest_objective.item = item.id
+  JOIN quest ON quest_objective.quest = quest.id
 GROUP BY
   quest_objective.quest;
 
 INSERT INTO
-  quest (id)
+  quest (id, side)
 SELECT
-  id
+  quest_json.id,
+  event_quests_csv.side
 FROM
-  quest_json;
+  quest_json
+  LEFT JOIN event_quests_csv ON quest_json.id = event_quests_csv.uid;
 
 INSERT INTO
   quest_objective (quest, item, n)
@@ -523,6 +529,7 @@ FROM
   json_each(quest_json.objectives_json);
 
 -- DROP TABLE categories_csv;
+-- DROP TABLE event_quests_csv;
 -- DROP TABLE configs_json;
 -- DROP TABLE items_json;
 -- DROP TABLE source_json;

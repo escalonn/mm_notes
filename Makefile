@@ -1,7 +1,7 @@
 connect-e:
+	for d in $$(adb devices | grep offline | cut -d " " -f1); do adb disconnect $d; done
 	"C:/Program Files/BlueStacks_nxt/HD-Player.exe" --instance Nougat64 &
 	while adb connect localhost:$$(sed -nE '/status.adb/ { s/[^"]*"(.*)"/\1/; p }' C:/ProgramData/BlueStacks_nxt/bluestacks.conf) | grep -q cannot; do :; done
-	for d in $$(adb devices | grep offline | cut -d " " -f1); do adb disconnect $d; done
 
 launch-e: connect-e
 	adb -e shell monkey -p com.pixodust.games.free.rpg.medieval.merge.puzzle.empire 1
@@ -59,6 +59,9 @@ flower:
 fountain:
 	@echo "(lvl8: 3 charges of 36, total 108)"
 	yq '.model.boardContextsData.mainBoard.boardData.entries[][].item | select(.id > 135004 and .id < 136000) | {id, manualSource}' CloudSave.json
+
+barn:
+	yq '.model.boardContextsData.mainBoard.boardData.entries[][].item | select(.id > 129002 and .id < 130000) | .manualSource' CloudSave.json
 
 format-cloud:
 	npx -y prettier --end-of-line auto --write CloudSave.json
