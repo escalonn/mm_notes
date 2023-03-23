@@ -5056,6 +5056,403 @@
       "disconnectTime": 7,
       "minVersion": "1.33.0"
     },
+    "inventoryEntryPurchaseCatalogSettings": {
+      "startingSlots": 1,
+      "settings": [
+        {
+          "level": 2,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 25
+          }
+        },
+        {
+          "level": 3,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 30
+          }
+        },
+        {
+          "level": 4,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 35
+          }
+        },
+        {
+          "level": 5,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 40
+          }
+        },
+        {
+          "level": 6,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 45
+          }
+        },
+        {
+          "level": 7,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 51
+          }
+        },
+        {
+          "level": 8,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 62
+          }
+        },
+        {
+          "level": 9,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 74
+          }
+        },
+        {
+          "level": 10,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 96
+          }
+        },
+        {
+          "level": 11,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 120
+          }
+        },
+        {
+          "level": 12,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 162
+          }
+        },
+        {
+          "level": 13,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 208
+          }
+        },
+        {
+          "level": 14,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 287
+          }
+        },
+        {
+          "level": 15,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 374
+          }
+        },
+        {
+          "level": 16,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 523
+          }
+        },
+        {
+          "level": 17,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 687
+          }
+        },
+        {
+          "level": 18,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 881
+          }
+        },
+        {
+          "level": 19,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 1095
+          }
+        },
+        {
+          "level": 20,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 1348
+          }
+        },
+        {
+          "level": 21,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 1627
+          }
+        },
+        {
+          "level": 22,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 1956
+          }
+        },
+        {
+          "level": 23,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 2319
+          }
+        },
+        {
+          "level": 24,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 2747
+          }
+        },
+        {
+          "level": 25,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 3219
+          }
+        },
+        {
+          "level": 26,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 17436
+          }
+        },
+        {
+          "level": 27,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 23580
+          }
+        },
+        {
+          "level": 28,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 24305
+          }
+        },
+        {
+          "level": 29,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 25104
+          }
+        },
+        {
+          "level": 30,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 26047
+          }
+        },
+        {
+          "level": 31,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 27086
+          }
+        },
+        {
+          "level": 32,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 28312
+          }
+        },
+        {
+          "level": 33,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 29663
+          }
+        },
+        {
+          "level": 34,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 31257
+          }
+        },
+        {
+          "level": 35,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 33014
+          }
+        },
+        {
+          "level": 36,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 35087
+          }
+        },
+        {
+          "level": 37,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 37372
+          }
+        },
+        {
+          "level": 38,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 40067
+          }
+        },
+        {
+          "level": 39,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 44637
+          }
+        },
+        {
+          "level": 40,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 50027
+          }
+        },
+        {
+          "level": 41,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 59167
+          }
+        },
+        {
+          "level": 42,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 69947
+          }
+        },
+        {
+          "level": 43,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 88227
+          }
+        },
+        {
+          "level": 44,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 109787
+          }
+        },
+        {
+          "level": 45,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 146347
+          }
+        },
+        {
+          "level": 46,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 189467
+          }
+        },
+        {
+          "level": 47,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 262587
+          }
+        },
+        {
+          "level": 48,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 348827
+          }
+        },
+        {
+          "level": 49,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 495067
+          }
+        },
+        {
+          "level": 50,
+          "currencyReward": {
+            "currencyType": 0,
+            "mapId": 0,
+            "currencyAmount": 667547
+          }
+        }
+      ]
+    },
     "itemOverrideSettings": {
       "items": [
         {
@@ -21819,7 +22216,7 @@
       }
     }
   },
-  "fetch_time_key": 1679605916785,
+  "fetch_time_key": 1679615221290,
   "abt_experiments_key": [
     {
       "experimentId": "_exp_165",
@@ -21831,7 +22228,7 @@
     },
     {
       "experimentId": "_exp_169",
-      "variantId": "0",
+      "variantId": "1",
       "triggerEvent": "inventory_slot_buy",
       "experimentStartTime": "2023-03-23T20:42:24.512Z",
       "triggerTimeoutMillis": "15552000000",
