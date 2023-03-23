@@ -52,7 +52,7 @@ CREATE TABLE
 CREATE INDEX source_drop_drop_item ON source_drop (drop_item);
 
 -- figure out what table knows "barrel drops 90% knife lvl1"
--- and what table knows "barrel drops 120% knife lvl1 because of lvl2 drops"
+-- and what table knows "barrel drops 130% knife lvl1 because of lvl2 drops"
 -- right now source_drop and source_drop_v are the former.
 -- maybe no table knows the latter?
 CREATE VIEW
@@ -110,7 +110,7 @@ CREATE TABLE
     source_kind TEXT NOT NULL,
     avg_charge_s REAL NOT NULL,
     avg_energy REAL NOT NULL DEFAULT 0,
-    avg_energy_s REAL NOT NULL AS (avg_energy * 120),
+    avg_energy_s REAL NOT NULL AS (avg_energy * 86400 / 720),
     energy_usage REAL NULL AS (avg_energy_s / avg_charge_s),
     overall_time_s REAL NOT NULL AS (max(avg_charge_s, avg_energy_s)) STORED,
     PRIMARY KEY (item, source_item, source_kind),
@@ -315,7 +315,7 @@ WHERE
   total_drops IS NOT NULL;
 
 -- maybe should have table for the slices of each recipe...
--- or maybe rather a table representing the effective rates like 120%...
+-- or maybe rather a table representing the effective rates like 130%...
 --    but i think that couldn't generalize to complex recipes like steel
 INSERT INTO
   recipe (
@@ -546,3 +546,5 @@ FROM
 -- could use sexy recursive CTE on item_equiv to find indirect relationships....
 -- some table should know that armour lvl5 = XX amount of steel in the long run (via armour lvl9)
 --    maybe a separate table for just finite-generator stuff? idk maybe not
+-- add column to recipe_v, recipe_times_v, recipe for charge_time with 100% ad charges
+-- add column to recipe_v, recipe_times_v for stack time?

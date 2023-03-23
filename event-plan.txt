@@ -1,6 +1,6 @@
 generator goals:
     barrel: lvl10
-    toolbox: lvl10
+    toolbox: lvl9
     mine: lvl8
     forge: lvl10?
     guardian tree: lvl8
@@ -45,21 +45,22 @@ barrel, farming tools, gloves
     vanilla (max barrel not quite as strong or fast as vanilla)
     get first lvl5 free from board, get more barrel from using tree
     need 3.888 farming tools lvl14!!
-      barrel │ charge d │ energy
-        │  4 │ 349.2    │ 33530     │
-        │  5 │ 252.8    │ 30337     │
-        │  6 │ 129.7    │ 25483     │
-        │  7 │ 111.8    │ 21968     │
-        │  8 │ 64.82    │ 16335     │
-        │  9 │ 26.89    │ 13554     │
-        │ 10 │ 11.08    │ 11176     │
+        | gen | charge_d | energy | energy_usage |
+        |-----|----------|--------|--------------|
+        | 4   | 349.3    | 33531  | 0.06         |
+        | 5   | 252.8    | 30337  | 0.07         |
+        | 6   | 129.8    | 25483  | 0.12         |
+        | 7   | 111.9    | 21968  | 0.12         |
+        | 8   | 64.8     | 16335  | 0.15         |
+        | 9   | 26.9     | 13555  | 0.3          |
+        | 10  | 11.1     | 11177  | 0.59         |
     need 16 gloves lvl3 (1280e)
     delay using barrel as late as possible to benefit from higher lvl energy cost reduction
-    lvl5 -> lvl6 takes ~589e
-    lvl6 -> lvl7 takes ~589e
-    lvl7 -> lvl8 takes ~589e
-    lvl8 -> lvl9 takes ~1073e [worth, too slow]
-    lvl9 -> lvl10 takes ~2111e [worth, by just 267e]
+    lvl5 -> lvl6 takes 128e
+    lvl6 -> lvl7 takes 256e
+    lvl7 -> lvl8 takes 512e
+    lvl8 -> lvl9 takes 1024e [worth, too slow]
+    lvl9 -> lvl10 takes 2048e [worth, by just 329e]
     can buy barrel lvl1 for 180 gold or 10 gems. each one is worth 8 energy.
         gems not worth it. gold probably not worth it.
     can buy barrel lvl2 for 300 gold or 18 gems. each one is worth 16 energy.
@@ -75,16 +76,28 @@ forge
     should i level up forge sooner and sell the drops?
         two extremes - max lvl forge immediately - how many ingots do we HAVE to make
             16 swords, 10 axes, 8 armour. 16 swords => 40 drops.
-            swords: 642 ingots. axes: 570 ingots. total 1212.
+            swords: 654 ingots. axes: 570 ingots. total 1212.
             armour: 302 ingots.
         other side - no useless forge drops.
+            swords: 871 ingots. axes: 923 ingots.
+            definitely worse.
         middle ground: rush forge & toolbox together, selling swords & axes.
+            if rush toolbox all the way, have to make copper armour again later.
+            todo decide if this is worth it.
+        middle ground: rush to lvl9, wait there. probably good.
     can buy forge lvl5 for 150 gems... not worth it, no point
      5, 6, 7, 8,    9, 10
      4, 9,16,25,   30
     4h,6h,6h,5h,2h30m
-    lvl5 makes: sword 1.6x1, axe 1.4x1, armour 1x1
-    lvl6 makes: sword 1.6x1, axe 1.4x1, armour 1x1
+    5->10: 84 energy
+    lvl5 makes: sword  1.6x1, axe 1.40x1, armour 1.00x1 (~69 copper ingot)
+    lvl6 makes: sword  3.6x2, axe 3.15x2, armour 2.25x2 (~134 copper ingot)
+    lvl7 makes: sword  5.6x2, axe 4.80x2, armour 3.20x2 (~201 copper ingot)
+                sword  0.8x3, axe 0.80x3, armour 0.80x3 (~64 copper ingot)
+    lvl8 makes: sword 10.0x3, axe 8.75x3, armour 6.25x3 (~384 copper ingot)
+    lvl9 makes: sword 10.5x3, axe 9.00x3, armour 6.00x3 (~384 copper ingot)
+                sword  1.5x4, axe 1.50x4, armour 1.50x4 (~90 copper ingot) (total ~1326 copper ingot.)
+        far more than enough copper ingots for toolbox.
 sword
     not mergeable!
     levels itself up while emptying of iron ingot (no charge)
@@ -127,12 +140,15 @@ mine, stone
         since we need to farm copper for toolboxes, we have too many swords, so mine lvl1
         is worth only 5 energy. not worth it
     need 33.25 stone lvl6, mostly for main quests
-        mine lvl5:  13.3d, 1064e         [too slow]
-        mine lvl6:  6.05d,  967e
-        mine lvl7:  3.96d,  887e
-        mine lvl8:  2.11d,  709e         [7->8 worth getting 114 extra lvl1 ingots]
-        mine lvl9:  1.30d,  625e         [not worth]
-        mine lvl10:         443e (0.62d) [not worth]
+        | gen | charge_d | energy | energy_usage |
+        |-----|----------|--------|--------------|
+        | 5   | 13.3     | 1064   | 0.05         |  [too slow]
+        | 6   | 6.0      | 967    | 0.09         |
+        | 7   | 4.0      | 887    | 0.13         |
+        | 8   | 2.1      | 709    | 0.2          |  [7->8 worth getting 114 extra lvl1 ingots]
+        | 9   | 1.3      | 626    | 0.28         |  [not worth]
+        | 10  | 0.5      | 443    | 0.56         |  [not worth]
+    5->8 112 mine lvl1, 56 max ingots, 448 taps on sword or axe
     can buy stone lvl1 for 75 gold or 3 gems. not worth
     have to check how many swords/axes/copper armour is being made
         and therefore how many ingots are easily made...
@@ -148,24 +164,29 @@ toolbox, tools, rope, rivets
     need 2.934 tools lvl13
     | gen | charge_d | energy | energy_usage |
     |-----|----------|--------|--------------|
-    | 4   | 104.3    | 13353  | 0.18         |
-    | 5   | 75.1     | 12018  | 0.22         |
-    | 6   | 56.9     | 10925  | 0.27         |
-    | 7   | 29.8     | 8584   | 0.4          |
-    | 8   | 17.4     | 7511   | 0.6          | [too slow]
-    | 9   | 10.4     | 5225   | 0.7          |
-    | 10  | 3.7      | 4292   | 1.6          | [worth]
+    | 4   | 104.3    | 13353  | 0.08         |
+    | 5   | 75.1     | 12018  | 0.09         |
+    | 6   | 56.9     | 10925  | 0.11         |
+    | 7   | 29.8     | 8584   | 0.17         |
+    | 8   | 14.9     | 7511   | 0.3          | [too slow]
+    | 9   | 9.1      | 5225   | 0.34         |
+    | 10  | 3.3      | 4292   | 0.76         | [not worth]
     17 rivets lvl5.
-    │ gen │ charge_d │ energy │ energy_usage │
-    ├─────┼──────────┼────────┼──────────────┤
-    │ 4   │ 35.4     │ 4533   │ 0.18         │
-    │ 5   │ 28.3     │ 4533   │ 0.22         │
-    │ 6   │ 23.6     │ 4533   │ 0.27         │
-    │ 7   │ 15.7     │ 4533   │ 0.4          │
-    │ 8   │ 10.5     │ 4533   │ 0.6          │
-    │ 9   │ 9.0      │ 4533   │ 0.7          │
-    │ 10  │ 3.9      │ 4533   │ 1.6          │
+    | gen | charge_d | energy | energy_usage |
+    |-----|----------|--------|--------------|
+    | 4   | 35.4     | 4533   | 0.08         |
+    | 5   | 28.3     | 4533   | 0.09         |
+    | 6   | 23.6     | 4533   | 0.11         |
+    | 7   | 15.7     | 4533   | 0.17         |
+    | 8   | 9.0      | 4533   | 0.3          |
+    | 9   | 7.9      | 4533   | 0.34         |
+    | 10  | 3.5      | 4533   | 0.76         |
     19 rope lvl4 (3800e)
+    5 -> 6: 42.67 lvl1 ingots + 16 energy
+    6 -> 7: 85.33 lvl1 ingots + 32 energy
+    7 -> 8: 170.67 lvl1 ingots + 64 energy
+    8 -> 9: 341.33 lvl1 ingots + 128 energy
+    9 -> 10: 682.67 lvl1 ingots + 256 energy [not worth]
     delay using toolbox for the BIG quests as late as possible to benefit from higher lvl energy cost reduction
     todo decide whether to rush toolbox early.
     todo calculate how much copper armour needed for making toolbox
@@ -188,16 +209,16 @@ guardian tree
     zero value in merging gtrees besides saving space.
     | gen | charge_d | energy | energy_usage |
     |-----|----------|--------|--------------|
-    | 6   | 28.7     | 688    | 0.03         |
-    | 7   | 14.3     | 688    | 0.07         | [too slow]
-    | 8   | 7.2      | 688    | 0.13         |
-    | 9   | 3.6      | 688    | 0.27         |
-    | 10  | 1.8      | 688    | 0.53         |
+    | 6   | 26.0     | 624    | 0.01         |
+    | 7   | 13.0     | 624    | 0.03         | [too slow]
+    | 8   | 6.5      | 624    | 0.06         |
+    | 9   | 3.3      | 624    | 0.11         |
+    | 10  | 1.6      | 624    | 0.23         |
 guardian seed bags
     vanilla (but empty seed bags make backpacks!!)
     8x lvl1 => 12x flower lvl1.
     1 flower lvl6 <== 21.333 seed bag lvl1.
-    to make 32 flower, 86 max seed bag.
+    to make 32 flower, 86 max seed bag. to make 29, 78.
 empty seed bag
     16 empty bags -> 1 backpack lvl6
     can buy backpack lvl5 for 120 gems... probably not worth
@@ -267,18 +288,19 @@ gift box ad rewards
     Farming Tools [8x Farming Tools lvl1]   2.8 energy
     Gloves        [1x Gloves lvl1]          0   energy
     Stone         [4x Stone lvl1]           2.7 energy
-    Tools         [4x Tools lvl1]           0   energy or 1.4 energy if rivets limit
-    Rivets        [1x Rivets lvl1]         16.7 energy or 0   energy if tools limit
+    Tools         [4x Tools lvl1]           1.7 energy
+    Rivets        [1x Rivets lvl1]          0 energy   or 16.7 energy if tools limit
     Rope          [1x Rope lvl1]            0   energy
-    Sword         [3x Sword lvl1]           0   energy
-    Battle Axe    [1x Battle Axe lvl1]      0   energy
-    Copper Armour [1x Copper Armour lvl1]   4   energy
+    Sword         [3x Sword lvl1]          ~1   energy
+    Battle Axe    [1x Battle Axe lvl1]     ~1   energy
+    Copper Armour [1x Copper Armour lvl1]   0   energy
     Fire Potion   [2x Fire Potion lvl1]    14.9 energy or 1.7 energy if staves/sbox limit, or 1h55m gtree7 charge time
     Poison Bottle [2x Poison Bottle lvl1]  14.9 energy or 1.7 energy if staves/sbox limit, or 1h55m gtree7 charge time
     Fire Rod      [1x Fire Rod lvl1]        0   energy or 3.7 energy if staves limit, or 24m gtree7 charge time
     Wind Scepter  [1x Wind Scepter lvl1]    0   energy or 3.7 energy if staves limit, or 24m gtree7 charge time
     Holy Staff    [1x Holy Staff lvl1]      0   energy
     after watching 16 rivets ads, rivets & tools on par. less if used toolbox at lower levels.
+        ^ only true if we go to toolbox 10
     after watching ~22 potion ads, potions and staves on par.
     after watching ~208 (lol) fire/wind ads, holy staves on par.
 combined by hand
@@ -343,24 +365,4 @@ main objectives
     │ Copper Armour │ 8   │ 4.5   │
     │ Fire Potion   │ 4   │ 22.0  │
     │ Poison Bottle │ 4   │ 22.0  │
-    └───────────────┴─────┴───────┘
-main objectives
-    ┌───────────────┬─────┬───────┐
-    │     title     │ lvl │   n   │
-    ├───────────────┼─────┼───────┤
-    │ Farming Tools │ 14  │ 2.389 │
-    │ Gloves        │ 3   │ 12.0  │
-    │ Wood          │ 5   │ 12.0  │
-    │ Sword         │ 6   │ 2.625 │
-    │ Tools         │ 13  │ 1.459 │
-    │ Rivets        │ 5   │ 12.0  │
-    │ Rope          │ 4   │ 13.0  │
-    │ Stone         │ 6   │ 3.25  │
-    │ Battle Axe    │ 7   │ 2.0   │
-    │ Fire Rod      │ 5   │ 3.0   │
-    │ Wind Scepter  │ 5   │ 9.0   │
-    │ Holy Staff    │ 5   │ 11.0  │
-    │ Copper Armour │ 5   │ 1.0   │
-    │ Fire Potion   │ 4   │ 4.0   │
-    │ Poison Bottle │ 4   │ 3.0   │
     └───────────────┴─────┴───────┘

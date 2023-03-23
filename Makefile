@@ -78,7 +78,7 @@ items.db:
 
 event_items.db:
 	rm -f event_items.db
-	sed 's/Settings0/Settings1001/;s/raw_data/raw_data_new/' initial.sql | sqlite3 event_items.db
+	sed 's/Settings0/Settings1001/;s/raw_data/raw_data_new/;s/720/1700/' initial.sql | sqlite3 event_items.db
 
 event_graph.png:
 	dot -Tpng event_graph.gv > event_graph.png
