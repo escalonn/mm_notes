@@ -4,8 +4,25 @@ generator goals:
     mine: lvl8
     forge: lvl10?
     guardian tree: lvl8
+generator ad recharges:
+    !tree: use on lvl1, saves 30m... probably not worth (energy limited)
+    !barrel: saves 20m (it's probably fast enough already)
+    toolbox: saves 10m (not worth, it's fast enough already)
+    mine: saves 15m (not worth, it's fast enough already)
+    !forge5: saves 4h (it's probably fast enough already)
+    !forge6: saves 3h (it's probably fast enough already)
+    forge10: saves 15m (not worth, it's fast enough already)
+    !!gtree6: saves 2h (worth)
+    !!gtree7: saves 1h (worth)
+    !gtree8: saves 30m (it's probably fast enough already)
+    fairy fountain: saves 10m (not worth, it's fast enough already)
 tree
     get exactly 1, from very early quest
+    can buy tree lvl1 for 1200 gold or 250 gems
+        if you keep it: more barrel pieces, but it's already energy-limited.
+            but would just make it easier to spend that energy down.
+        if you sell it at lvl6, = 10 barrels, 70 energy saved.
+            gems not worth it. gold probably not worth it.
     cycles 1->2->3->4->5->6->1 (charge)
     tapping tree ~> level up barrel
     producing 10 barrel lvl1s when low level
@@ -21,6 +38,7 @@ tree
     1 cycle: 1h28m40s charge time, 80 energy, 180% energy usage
     need 58.5 x wood lvl5, + 30 bow lvl1, minus 1 on the board (+14.5 wood lvl5).
         73 wood lvl5.
+        a little of the wood and none of the bow is for sidequests.
         finish in middle of 12th cycle, so 120 barrel pieces, = 0.94 barrel lvl8.
         = 1.06 lvl8 counting initial barrel lvl5.
 barrel, farming tools, gloves
@@ -42,6 +60,10 @@ barrel, farming tools, gloves
     lvl7 -> lvl8 takes ~589e
     lvl8 -> lvl9 takes ~1073e [worth, too slow]
     lvl9 -> lvl10 takes ~2111e [worth, by just 267e]
+    can buy barrel lvl1 for 180 gold or 10 gems. each one is worth 8 energy.
+        gems not worth it. gold probably not worth it.
+    can buy barrel lvl2 for 300 gold or 18 gems. each one is worth 16 energy.
+        gems not worth it. gold probably not worth it.
 wood, bow
     vanilla
     basically wood is cheap, 13 energy for a max wood, so don't need to save it
@@ -56,11 +78,13 @@ forge
             swords: 642 ingots. axes: 570 ingots. total 1212.
             armour: 302 ingots.
         other side - no useless forge drops.
-
+        middle ground: rush forge & toolbox together, selling swords & axes.
+    can buy forge lvl5 for 150 gems... not worth it, no point
      5, 6, 7, 8,    9, 10
      4, 9,16,25,   30
     4h,6h,6h,5h,2h30m
-    sword
+    lvl5 makes: sword 1.6x1, axe 1.4x1, armour 1x1
+    lvl6 makes: sword 1.6x1, axe 1.4x1, armour 1x1
 sword
     not mergeable!
     levels itself up while emptying of iron ingot (no charge)
@@ -81,6 +105,7 @@ copper armour
     1, 2, 3, 4, 5, 6, 7, 8
     2, 3, 4,10,12,18,20
     need armour: 88877655433
+    1 copper armour has 60 to 69 ingots depending on starting lvl.
 iron ingot
     lvl4 has 2 mine lvl1s. (8 ingot lvl1s -> 2 mine lvl1) (costs energy)
     have to make 1212 at minimum (rush forge) to level up swords & axes for quests.
@@ -92,17 +117,23 @@ copper ingot
     have to make 302 at minimum (rush forge) to level up armour for quests.
     = 113 toolbox lvl1 = 0.885 lvl8 (1.01 lvl8)
     need to farm copper to level toolbox.
+    copper ingots cost like 1.07 energy since you have to get the armour.
 mine, stone
     vanilla (little slower than vanilla, no tinderbox)
     get first mine lvl5 from early quest (first sword quest, after rivets quest)
     get more mine from using swords/axes from forge
-    need 33.25 stone lvl6
+    can buy mine lvl1 for 190 gold or 11 gems
+    can buy mine lvl2 for 350 gold or 19 gems
+        since we need to farm copper for toolboxes, we have too many swords, so mine lvl1
+        is worth only 5 energy. not worth it
+    need 33.25 stone lvl6, mostly for main quests
         mine lvl5:  13.3d, 1064e         [too slow]
         mine lvl6:  6.05d,  967e
         mine lvl7:  3.96d,  887e
         mine lvl8:  2.11d,  709e         [7->8 worth getting 114 extra lvl1 ingots]
         mine lvl9:  1.30d,  625e         [not worth]
         mine lvl10:         443e (0.62d) [not worth]
+    can buy stone lvl1 for 75 gold or 3 gems. not worth
     have to check how many swords/axes/copper armour is being made
         and therefore how many ingots are easily made...
         [done, see elsewhere]
@@ -110,6 +141,9 @@ toolbox, tools, rope, rivets
     get copper ingot lvl1 from very early quest, merge on board to lvl4,
         get toolbox lvl1, merge on board to lvl5.
     get more toolbox from using copper armour from forge
+    can buy toolbox lvl1 for 170 gold or 9 gems.
+    can buy toolbox lvl2 for 280 gold or 16 gems.
+        lvl1 is worth like 3.85 energy, so... no, probably not
     drop rates are mostly buffed from vanilla but rope & rivets stay constant with lvl
     need 2.934 tools lvl13
     | gen | charge_d | energy | energy_usage |
@@ -133,11 +167,17 @@ toolbox, tools, rope, rivets
     │ 10  │ 3.9      │ 4533   │ 1.6          │
     19 rope lvl4 (3800e)
     delay using toolbox for the BIG quests as late as possible to benefit from higher lvl energy cost reduction
+    todo decide whether to rush toolbox early.
+    todo calculate how much copper armour needed for making toolbox
 guardian tree
     get first guardian tree lvl6 from very early quest + merge on board
     get more guardian tree from using up fairy fountains
         doesn't matter what level, get fair exchange of fountain to tree
-        lower level fountain: less energy to spend (56% more for lvl10 than lvl6, but it's tiny who cares), but less staffs produced
+        lower level fountain: less energy to spend (56% more for lvl10 than lvl6, but it's tiny who cares), but less staves produced
+    can buy gtree lvl1 for 220 gold or 14 gems.
+    can buy gtree lvl2 for 380 gold or 22 gems.
+        probably worth gold, especially to finish a chain.
+        gtrees are slow. idk maybe worth to reroll for these and buy an extra lvl6 early? for 6.5k gold?? :/
     slightly faster than vanilla (lot faster at lvls 9 & 10), always drops lvl1 bag though, no energy savings only charge speed
     16 flowers -> fountains -> 1.03 gtree lvl7.
         first 16, at 1.53 lvl7. 32, at 1.28 lvl8.
@@ -160,6 +200,7 @@ guardian seed bags
     to make 32 flower, 86 max seed bag.
 empty seed bag
     16 empty bags -> 1 backpack lvl6
+    can buy backpack lvl5 for 120 gems... probably not worth
 guardian flower
     max level has 20 drops of fountain: avg 4.125 lvl6 fountains (minimum 2.5 lvl6)
         0.515625 lvl9s
@@ -169,9 +210,17 @@ guardian flower
             (maybe if staff quests get way ahead of potion quests or something)
     turns into 1 alchemist cauldron when empty
     for cauldrons, i need 29 flowers (for potions) - 16 flower mark for q2371.
-    for fountains, i need 25 flowers (for staffs) - 16 flower mark for q2357.
+    for fountains, i need 25 flowers (for staves) - 16 flower mark for q2357.
         might as well push the cauldrons to s box at q2357.
+            todo think about whether rushing quests to get s boxes faster is better than
+            rushing generators at very start.
+            considering ads for potions, maybe 2nd s box is not worth.
+                with >~ 22 potion ads, 2nd s box needs 7 extra flowers,
+                527 energy. takes 4.3 days to pay for itself. idk, it's borderline. todo decide
+    costs 32 energy to get 1 flower out of 2.67 seed bags
+    1 flower = 32 energy + 2.67 seed bag = 53.333 energy
 alchemist cauldron
+    1 cauldron = 1 flower + 20 energy = 73.333 energy
     has exactly 1 sapphire (16 cauldrons -> 1 sapphire box)
     has 11 fire/poison potions (0.9 x fire lvl4 + 0.9 x poison lvl4)
         for potions, i need 29 flowers (cauldrons)
@@ -180,6 +229,8 @@ alchemist cauldron
     from the board, we get 1 fire lvl2 & 1 poison lvl3, still need 29 cauldrons
     empties into gold ingot lvl1 (8 cauldrons -> 1 hourglass lvl6)
         enough to pay for 83% of the energy used to empty the cauldron
+    1 potion ad is ~0.36 cauldrons = 3.3 + 26.4 energy if it's the limiting flower product.
+        1.7 + 13.2 energy if both potions are limiting.
 sapphire
     charges faster: 1 hourglass lvl2 every hour, fills up in 2 hours
     1 hourglass lvl6 (2h40m, 80 energy) in 16 hours
@@ -198,18 +249,41 @@ sapphire
 gold ingot
     8 lvl1 -> 1 lvl4 -> 360 coins and hourglass lvl6 (2h40m, 80 energy)
 fairy fountain
-    staffs like vanilla. 1, 1, 2, 3 total charges like vanilla. drops g tree when empty.
+    staves like vanilla. 1, 1, 2, 3 total charges like vanilla. drops g tree when empty.
     6, 7, 8, 9
     6,14,34,75
+    lvl9 has ~26.25 fire, 26.25 wind, 22.5 holy
+    takes 38.79 energy to get fountain lvl9 out of 1.94 flowers.
     we need 21 fire rods (960 energy),
         20 wind scepters (914 energy),
-        14 holy staffs (746 energy!)
+        14 holy staves (746 energy! and most of them are sidequests!)
     this means 960/75=12.8 lvl9s
     that means 12.8/.515=24.82 flowers
-    16-flower mark (s box) at 14 fire staffs (q2371) or 14 wind staffs (q2357)
+    16-flower mark (s box) at 14 fire staves (q2371) or 14 wind staves (q2357)
+    1 fire/wind ad = 0.019 fountain = 0.037 flower = 0.099 seed bag
+        = (1 + 0.737 + 1.184 + 0.792) = 3.7 energy
+gift box ad rewards
+    Wood          [2x Wood lvl1]            0   energy
+    Farming Tools [8x Farming Tools lvl1]   2.8 energy
+    Gloves        [1x Gloves lvl1]          0   energy
+    Stone         [4x Stone lvl1]           2.7 energy
+    Tools         [4x Tools lvl1]           0   energy or 1.4 energy if rivets limit
+    Rivets        [1x Rivets lvl1]         16.7 energy or 0   energy if tools limit
+    Rope          [1x Rope lvl1]            0   energy
+    Sword         [3x Sword lvl1]           0   energy
+    Battle Axe    [1x Battle Axe lvl1]      0   energy
+    Copper Armour [1x Copper Armour lvl1]   4   energy
+    Fire Potion   [2x Fire Potion lvl1]    14.9 energy or 1.7 energy if staves/sbox limit, or 1h55m gtree7 charge time
+    Poison Bottle [2x Poison Bottle lvl1]  14.9 energy or 1.7 energy if staves/sbox limit, or 1h55m gtree7 charge time
+    Fire Rod      [1x Fire Rod lvl1]        0   energy or 3.7 energy if staves limit, or 24m gtree7 charge time
+    Wind Scepter  [1x Wind Scepter lvl1]    0   energy or 3.7 energy if staves limit, or 24m gtree7 charge time
+    Holy Staff    [1x Holy Staff lvl1]      0   energy
+    after watching 16 rivets ads, rivets & tools on par. less if used toolbox at lower levels.
+    after watching ~22 potion ads, potions and staves on par.
+    after watching ~208 (lol) fire/wind ads, holy staves on par.
 combined by hand
     ┌───────────────┬─────┬───────────┬───────────┬────────────────┐
-    │     title     │ lvl │    all    │   main    │   side         │
+    │     title     │ lvl │    all    │   side    │      main      │
     ├───────────────┼─────┼───────────┼───────────┼────────────────┤
     │ Wood          │   5 │ 58.5      │ 12        │ 46.5           │
     │ Bow           │   5 │  1.875    │  0        │  1.875         │
@@ -228,7 +302,7 @@ combined by hand
     │ Wind Scepter  │   5 │ 20        │  9        │ 11             │
     │ Holy Staff    │   5 │ 14        │ 11        │  3             │
     └───────────────┴─────┴───────────┴───────────┴────────────────┘
-all objectives
+side objectives
     ┌───────────────┬─────┬──────────┐
     │     title     │ lvl │    n     │
     ├───────────────┼─────┼──────────┤
@@ -249,7 +323,7 @@ all objectives
     │ Fire Potion   │ 4   │ 26.0     │
     │ Poison Bottle │ 4   │ 25.0     │
     └───────────────┴─────┴──────────┘
-side objectives
+main objectives
     ┌───────────────┬─────┬───────┐
     │     title     │ lvl │   n   │
     ├───────────────┼─────┼───────┤

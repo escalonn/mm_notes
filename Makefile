@@ -63,6 +63,9 @@ fountain:
 barn:
 	yq '.model.boardContextsData.mainBoard.boardData.entries[][].item | select(.id > 129002 and .id < 130000) | .manualSource' CloudSave.json
 
+forge:
+	yq '.model.boardContextsData.mainBoard.boardData.entries[][].item | select(.id > 105003 and .id < 106000) | .autoSource' CloudSave.json
+
 format-cloud:
 	npx -y prettier --end-of-line auto --write CloudSave.json
 

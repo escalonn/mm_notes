@@ -165,11 +165,13 @@ next event
         with descrs
             `sqlite3 -box event_items.db "with edge (a, energy, b) as (select item, total_drops, successor from source where item in (select id from item where descr like 'sword%' or descr like '%axe%' or descr like '%armour%')), equiv (a, energy, b) as (select a, 0, a from edge union all select x.a, x.energy+y.energy, y.b from equiv as x join edge as y on x.b = y.a) select i1.descr as a, energy, i2.descr as b from equiv join item as i1 on i1.id = a join item as i2 on i2.id = b order by a, b"`
     todo decide whether rushing forge makes sense
+    todo decide whether rushing toolbox makes sense
     todo with generator assumptions in place, compute energy requirement for
         each quest, then represent it somehow (log scale on penwidth? but then how to show pt value?)
         border for energy, bgcolor for pt value, [something else] to show skippability
         maybe just leave pt value for a different version of the graph entirely.
-    todo determine which quests are charge-time limited. consider the potions & staffs.
+    todo then, decide how much energy to buy each day. e.g. +300 for 500 gems total, +400 for 1000 gems total
+    [done sortof] determine which quests are charge-time limited. consider the potions & staves.
     todo add up energy requirements for everything, probably put them on the item category graph
         have python ask sqlite to find out about quest energy usage.
             just go ahead and hardcode more aspects of it.
@@ -177,3 +179,8 @@ next event
         whether quest is sidequest.
         so we can get a version of the query at the end of event-plan.txt
             but for only main quests or for only sidequests, to see what's more easily delayed.
+    todo calculate energy value of all (lvl1) items incl generator pieces to aid decision making.
+todo event spreadsheet
+    a table for energy & charge time requirement of each item of each level.
+        forge drop rows and maybe others have to be hardcoded?
+        potions and staves from

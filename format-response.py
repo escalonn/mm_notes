@@ -96,7 +96,7 @@ with open('event_quests.csv', 'w', newline='') as f:
     writer = csv.writer(f)
     writer.writerow(['uid', 'side'])
     for uid in sorted(quest_graph):
-        writer.writerow([uid, int(uid in main_path)])
+        writer.writerow([uid, int(uid not in main_path)])
 
 def extract_id(label):
     return label if isinstance(label, int) else int(label[-7:-1])
