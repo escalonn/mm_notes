@@ -21228,7 +21228,7 @@
     "taskEventSettings": {
       "specialTasksSettings": {
         "generalSettings": {
-          "UID": 41,
+          "UID": 42,
           "minimumQuestsRequirement": 70,
           "autoActivate": true,
           "autoPopup": false,
@@ -21810,7 +21810,7 @@
             "pointsNeeded": 15500,
             "reward": {
               "itemReward": {
-                "itemId": "Forge lvl5 [105004]",
+                "itemId": "Backpack lvl5 [962004]",
                 "amount": 1
               }
             }
@@ -21819,7 +21819,7 @@
       }
     }
   },
-  "fetch_time_key": 1679464469792,
+  "fetch_time_key": 1679502605919,
   "abt_experiments_key": [
     {
       "experimentId": "_exp_165",
