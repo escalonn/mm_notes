@@ -4,6 +4,7 @@ import json
 import sys
 # import jsonpath_ng
 import networkx as nx
+from PIL import Image, ImageDraw, ImageFont
 import mm_lib
 
 
@@ -46,120 +47,154 @@ with open(in_name, encoding='utf8') as f:
 # also... find rechargeTimer etc and format as nice hms
 
 data['configs_key'] = {k: decode_json(v, int_parser)
-                  for k, v in data['configs_key'].items()}
+                       for k, v in data['configs_key'].items()}
 
 out_name = in_name.replace('raw_', '')
 assert in_name != out_name
 with open(out_name, 'w') as f:
     json.dump(data, f, indent=2)
 
-event_quests = data['configs_key']['questSettings1001']['quests']
-quest_graph = nx.DiGraph()
-for quest in event_quests:
-    uid = quest['uid']
-    quest_graph.add_node(uid)
-    for r in quest.get('requirements', []):
-        quest_graph.add_edge(r['requirementValue'], uid)
-quest_graph.add_edge(2202, 2208) # necessary forge reward
-# remove redundant requirements (in quadratic time cause it's easier)
-for u, v in list(quest_graph.edges()):
-    quest_graph.remove_edge(u, v)
-    if not nx.has_path(quest_graph, u, v):
-        quest_graph.add_edge(u, v)
-last_quest = max(quest_graph)
-main_path = nx.ancestors(quest_graph, last_quest) | {last_quest}
-min_reward = 50
-with open('event_graph.gv', 'w', encoding='utf8') as f:
-    print('digraph {', file=f)
-    print('\tnode [shape=box, fontname="Charter", fontsize=14, fillcolor=gray90]',
-          file=f)
-    print('\tedge [arrowhead=vee]', file=f)
-    for quest in event_quests:
-        uid = quest["uid"]
-        objective_rows = ''.join(f'<TR><TD>{x["amount"]} × {x["itemId"][:-9]}</TD></TR>'
-                                 for x in quest['objectives'])
-        reward_rows = ''.join(f'<TR><TD><FONT POINT-SIZE="12">{x["itemReward"]["amount"]} × {x["itemReward"]["itemId"][:-9]}</FONT></TD></TR>'
-                              for x in quest['rewards'] if 'itemReward' in x)
-        if reward_rows:
-            reward_rows = '<HR/>' + reward_rows
-        label = f'<TABLE BORDER="0">{objective_rows}{reward_rows}</TABLE>'
-        xlabel = '<FONT POINT-SIZE="7"><B>\\N</B></FONT>'
-        width = sum(r['mapEventReward']['amount']
-                    for r in quest['rewards'] if 'mapEventReward' in r) / min_reward if 'rewards' in quest else 0
-        style = '\"\"' if uid in main_path else 'filled'
-        print(f'\t{uid} [penwidth={width}, label=<{label}>, xlabel=<{xlabel}>, style={style}]', file=f)
-        for r in quest_graph.adj[uid]:
-            print(f'\t{uid} -> {r}', file=f)
-    print('}', file=f)
+configs = data['configs_key']
 
-with open('event_quests.csv', 'w', newline='') as f:
-    writer = csv.writer(f)
-    writer.writerow(['uid', 'side'])
-    for uid in sorted(quest_graph):
-        writer.writerow([uid, int(uid not in main_path)])
 
 def extract_id(label):
     return label if isinstance(label, int) else int(label[-7:-1])
 
-event_item_graph = nx.DiGraph()
-for item in data['configs_key']['boardItemSettings1001']['items']:
-    item_id = int(item['id'][-7:-1]
-                  ) if isinstance(item['id'], str) else item['id']
-    event_item_graph.add_node(item_id)
-    for source in ['manualSource', 'autoSource']:
-        if source in item:
-            gen_type = 'auto' if source == 'autoSource' else (
-                'finite' if 'destroyAfterTaps' in item[source] else 'infinite')
-            for drop in item[source]['droppableItems']:
-                event_item_graph.add_edge(
-                    item_id, extract_id(drop['dropId']), gen_type=gen_type)
-            if drop := item[source].get('droppedItemOnDestroy'):
-                event_item_graph.add_edge(
-                    item_id, extract_id(drop), gen_type='destroy')
-    if 'mergeable' in item:
-        next_id = extract_id(item['mergeable']['nextItemId'])
-        if next_id != item_id + 1:
-            event_item_graph.add_edge(item_id, next_id, gen_type='merge')
-    if 'chest' in item and 'forcedDrops' in item['chest']:
-        gen_type = 'finite' if 'destroyAfterTaps' in item['manualSource'] else 'infinite'
-        for drop in item['chest']['forcedDrops']:
-            drop_id = extract_id(drop['itemId'])
-            event_item_graph.add_edge(item_id, drop_id, gen_type=gen_type)
-gen_type_to_attrs = {
-    'auto': 'style=bold',
-    'infinite': 'style=solid',
-    'finite': 'style=dashed',
-    'destroy': 'style=dashed,arrowtail=invempty',
-    'merge': 'style=dashed,arrowtail=inv'
-}
-not_accessible = ['Gift Box', 'Regular Chest', 'Special Chest', 'Coin Bag', 'Piggybank',
-                  'Ruby', 'Emerald', 'Topaz', 'Apple', 'Energy', 'Gemstone', 'Pocket Watch']
-unmergeable = ['Tree', 'Sword', 'Battle Axe', 'Copper Armour'] # todo use this.. dashed border looks bad though
-partition = defaultdict(set)
-for node in event_item_graph:
-    partition[node // 1000].add(node)
-event_item_category_graph = nx.quotient_graph(event_item_graph, partition, relabel=True,
-                                              create_using=nx.MultiDiGraph)
-with open('event_item_category_graph.gv', 'w', encoding='utf8') as f:
-    print('digraph {', file=f)
-    print('\tgraph [imagepath="exported-assets\\Sprite"]', file=f)
-    print('\tnode [shape=box, fontname="Charter", fontsize=11, imagescale=true]',
-          file=f)
-    print('\tedge [arrowsize=0.7, dir=both, arrowhead=vee, arrowtail=none]', file=f)
-    for node, graph in event_item_category_graph.nodes(data='graph'):
-        max_lvl = max(x for x in graph)
-        caption = categories.get(max_lvl // 1000, max_lvl // 1000)
-        if caption in not_accessible:
-            continue
-        edges = set((node, node, t) for *_, t in graph.edges(data='gen_type')
-                    ) | set(event_item_category_graph.edges(node, data='gen_type'))
-        width = 3 if any(t in ['auto', 'infinite'] for *_, t in edges) else 1
-        label = f'<TABLE BORDER="0"><TR><TD FIXEDSIZE="TRUE" HEIGHT="50" WIDTH="50"><IMG SRC="Item-{max_lvl}.png"/></TD></TR><TR><TD>{caption}</TD></TR></TABLE>'
-        print(f'\t{node} [penwidth={width}, label=<{label}>]', file=f)
-        for c1, c2, gen_type in sorted(edges):
-            print(f'\t{c1} -> {c2} [{gen_type_to_attrs[gen_type]}]',
-                  file=f)
-    print('}', file=f)
+
+if 'boardItemSettings1001' in configs:
+    event_quests = configs['questSettings1001']['quests']
+    quest_graph = nx.DiGraph()
+    for quest in event_quests:
+        uid = quest['uid']
+        quest_graph.add_node(uid)
+        for r in quest.get('requirements', []):
+            quest_graph.add_edge(r['requirementValue'], uid)
+    quest_graph.add_edge(2202, 2208)  # necessary forge reward
+    # remove redundant requirements (in quadratic time cause it's easier)
+    for u, v in list(quest_graph.edges()):
+        quest_graph.remove_edge(u, v)
+        if not nx.has_path(quest_graph, u, v):
+            quest_graph.add_edge(u, v)
+    last_quest = max(quest_graph)
+    main_path = nx.ancestors(quest_graph, last_quest) | {last_quest}
+    min_reward = 50
+    with open('event_graph.gv', 'w', encoding='utf8') as f:
+        print('digraph {', file=f)
+        print('\tnode [shape=box, fontname="Charter", fontsize=14, fillcolor=gray90]',
+              file=f)
+        print('\tedge [arrowhead=vee]', file=f)
+        for quest in event_quests:
+            uid = quest["uid"]
+            objective_rows = ''.join(f'<TR><TD>{x["amount"]} × {x["itemId"][:-9]}</TD></TR>'
+                                     for x in quest['objectives'])
+            reward_rows = ''.join(f'<TR><TD><FONT POINT-SIZE="12">{x["itemReward"]["amount"]} × {x["itemReward"]["itemId"][:-9]}</FONT></TD></TR>'
+                                  for x in quest['rewards'] if 'itemReward' in x)
+            if reward_rows:
+                reward_rows = '<HR/>' + reward_rows
+            label = f'<TABLE BORDER="0">{objective_rows}{reward_rows}</TABLE>'
+            xlabel = '<FONT POINT-SIZE="7"><B>\\N</B></FONT>'
+            width = sum(r['mapEventReward']['amount']
+                        for r in quest['rewards'] if 'mapEventReward' in r) / min_reward if 'rewards' in quest else 0
+            style = '\"\"' if uid in main_path else 'filled'
+            print(
+                f'\t{uid} [penwidth={width}, label=<{label}>, xlabel=<{xlabel}>, style={style}]', file=f)
+            for r in quest_graph.adj[uid]:
+                print(f'\t{uid} -> {r}', file=f)
+        print('}', file=f)
+
+    with open('event_quests.csv', 'w', newline='') as f:
+        writer = csv.writer(f)
+        writer.writerow(['uid', 'side'])
+        for uid in sorted(quest_graph):
+            writer.writerow([uid, int(uid not in main_path)])
+
+    event_item_graph = nx.DiGraph()
+    for item in configs['boardItemSettings1001']['items']:
+        item_id = int(item['id'][-7:-1]
+                      ) if isinstance(item['id'], str) else item['id']
+        event_item_graph.add_node(item_id)
+        for source in ['manualSource', 'autoSource']:
+            if source in item:
+                gen_type = 'auto' if source == 'autoSource' else (
+                    'finite' if 'destroyAfterTaps' in item[source] else 'infinite')
+                for drop in item[source]['droppableItems']:
+                    event_item_graph.add_edge(
+                        item_id, extract_id(drop['dropId']), gen_type=gen_type)
+                if drop := item[source].get('droppedItemOnDestroy'):
+                    event_item_graph.add_edge(
+                        item_id, extract_id(drop), gen_type='destroy')
+        if 'mergeable' in item:
+            next_id = extract_id(item['mergeable']['nextItemId'])
+            if next_id != item_id + 1:
+                event_item_graph.add_edge(item_id, next_id, gen_type='merge')
+        if 'chest' in item and 'forcedDrops' in item['chest']:
+            gen_type = 'finite' if 'destroyAfterTaps' in item['manualSource'] else 'infinite'
+            for drop in item['chest']['forcedDrops']:
+                drop_id = extract_id(drop['itemId'])
+                event_item_graph.add_edge(item_id, drop_id, gen_type=gen_type)
+    gen_type_to_attrs = {
+        'auto': 'style=bold',
+        'infinite': 'style=solid',
+        'finite': 'style=dashed',
+        'destroy': 'style=dashed,arrowtail=invempty',
+        'merge': 'style=dashed,arrowtail=inv'
+    }
+    not_accessible = ['Gift Box', 'Regular Chest', 'Special Chest', 'Coin Bag', 'Piggybank',
+                      'Ruby', 'Emerald', 'Topaz', 'Apple', 'Energy', 'Gemstone', 'Pocket Watch']
+    # todo use this.. dashed border looks bad though
+    unmergeable = ['Tree', 'Sword', 'Battle Axe', 'Copper Armour']
+    partition = defaultdict(set)
+    for node in event_item_graph:
+        partition[node // 1000].add(node)
+    event_item_category_graph = nx.quotient_graph(event_item_graph, partition, relabel=True,
+                                                  create_using=nx.MultiDiGraph)
+    with open('event_item_category_graph.gv', 'w', encoding='utf8') as f:
+        print('digraph {', file=f)
+        print('\tgraph [imagepath="exported-assets\\Sprite"]', file=f)
+        print('\tnode [shape=box, fontname="Charter", fontsize=11, imagescale=true]',
+              file=f)
+        print(
+            '\tedge [arrowsize=0.7, dir=both, arrowhead=vee, arrowtail=none]', file=f)
+        for node, graph in event_item_category_graph.nodes(data='graph'):
+            max_lvl = max(x for x in graph)
+            caption = categories.get(max_lvl // 1000, max_lvl // 1000)
+            if caption in not_accessible:
+                continue
+            edges = set((node, node, t) for *_, t in graph.edges(data='gen_type')
+                        ) | set(event_item_category_graph.edges(node, data='gen_type'))
+            width = 3 if any(t in ['auto', 'infinite']
+                             for *_, t in edges) else 1
+            label = f'<TABLE BORDER="0"><TR><TD FIXEDSIZE="TRUE" HEIGHT="50" WIDTH="50"><IMG SRC="Item-{max_lvl}.png"/></TD></TR><TR><TD>{caption}</TD></TR></TABLE>'
+            print(f'\t{node} [penwidth={width}, label=<{label}>]', file=f)
+            for c1, c2, gen_type in sorted(edges):
+                print(f'\t{c1} -> {c2} [{gen_type_to_attrs[gen_type]}]',
+                      file=f)
+        print('}', file=f)
+
+    # make image of firstboard
+    board_items = configs['firstBoardSettings1001']['items']
+    cols, rows = 7, 9
+    cell_w, cell_h = 90, 90
+    margin = 10
+    resize = 0.35
+    ImageDraw.ImageDraw.font = ImageFont.truetype('Charter Regular.ttf', 9)
+    board_image = Image.new('RGB', (cell_w * cols, cell_h * rows), 'white')
+    board_draw = ImageDraw.Draw(board_image)
+    for item in board_items:
+        pos = item['entryPos']
+        item_name = item['id'].split(' [')[0]
+        item_id = extract_id(item['id'])
+        x = (pos - 1) % cols * cell_w
+        y = (pos - 1) // cols * cell_h
+        item_img = Image.open(f'exported-assets/Sprite/Item-{item_id}.png')
+        item_img.thumbnail(tuple(int(d * resize) for d in item_img.size))
+        paste_x = x + (cell_w - item_img.size[0]) // 2
+        paste_y = y + (cell_h - item_img.size[1]) // 2
+        board_image.paste(item_img, (paste_x, paste_y), item_img)
+        board_draw.text((x + cell_w // 2, y + cell_h - margin),
+                        item_name, 'black', anchor='ms')
+    board_image.save('event_board.png')
+
 
 # fields = ['Category', 'Level', 'Source', 'Drops', 'Charge', 'Stack']
 # gens = []

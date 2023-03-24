@@ -172,9 +172,11 @@ next event
         maybe just leave pt value for a different version of the graph entirely.
     todo then, decide how much energy to buy each day. e.g. +300 for 500 gems total, +400 for 1000 gems total
     [done sortof] determine which quests are charge-time limited. consider the potions & staves.
-    todo add up energy requirements for everything, probably put them on the item category graph
+    [done] add up energy requirements for everything, probably put them on the item category graph
         have python ask sqlite to find out about quest energy usage.
             just go ahead and hardcode more aspects of it.
+    todo update energy requirement figures based on what board has (fountains, tools, flower,
+        2x toolbox from copper ingot, etc. gold ingot -> 1 more hourglass?)
     [done] have python spit out a csv for what it knows about the quests that sqlite doesnt
         whether quest is sidequest.
         so we can get a version of the query at the end of event-plan.txt

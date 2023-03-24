@@ -189,7 +189,7 @@ toolbox, tools, rope, rivets
     9 -> 10: 682.67 lvl1 ingots + 256 energy [not worth]
     delay using toolbox for the BIG quests as late as possible to benefit from higher lvl energy cost reduction
     todo decide whether to rush toolbox early.
-    todo calculate how much copper armour needed for making toolbox
+    [done] calculate how much copper armour needed for making toolbox
 guardian tree
     get first guardian tree lvl6 from very early quest + merge on board
     get more guardian tree from using up fairy fountains
@@ -238,6 +238,7 @@ guardian flower
             considering ads for potions, maybe 2nd s box is not worth.
                 with >~ 22 potion ads, 2nd s box needs 7 extra flowers,
                 527 energy. takes 4.3 days to pay for itself. idk, it's borderline. todo decide
+                probably not??
     costs 32 energy to get 1 flower out of 2.67 seed bags
     1 flower = 32 energy + 2.67 seed bag = 53.333 energy
 alchemist cauldron
