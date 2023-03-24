@@ -39,6 +39,9 @@ watch-d-cloud:
 pull-d-cloud: check-d-cloud
 	adb -d pull sdcard/Android/data/com.pixodust.games.free.rpg.medieval.merge.puzzle.empire/files/GameSaves/Cloud/CloudSave.json
 
+clear-d-data:
+	adb -d shell pm clear com.pixodust.games.free.rpg.medieval.merge.puzzle.empire
+
 rewards:
 	yq '.model.boardContextsData.mainBoard.rewardInventoryData.items' CloudSave.json
 
