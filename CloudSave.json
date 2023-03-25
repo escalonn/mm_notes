@@ -18,10 +18,10 @@
         "limitedTimeOfferData": []
       },
       "inventory": { "items": {} },
-      "level": { "level": 34, "experience": 288 },
+      "level": { "level": 34, "experience": 304 },
       "energy": {
-        "energy": 109,
-        "lastRechargeTime": "2023-03-25T15:36:46.0076015",
+        "energy": 82,
+        "lastRechargeTime": "2023-03-25T15:43:55.9383433",
         "currencyResetData": {
           "$type": "ResetTypeData, Assembly-CSharp",
           "resetType": 2,
@@ -44,16 +44,16 @@
       },
       "hardCurrency": { "totalEarned": 12751, "current": 5230 },
       "softCurrencyWallets": {
-        "map0": { "totalEarned": 197316, "current": 17419 }
+        "map0": { "totalEarned": 197336, "current": 17439 }
       },
       "initialHardCurrencyEarned": 100
     },
     "analyticsData": {
       "firstPlayTimeUtcBinary": 5249740618604144754,
-      "totalTimePlayed": 2435127,
-      "sessionTimePlayed": 9,
-      "lastTimePlayedUtc": "2023-03-25T15:36:55.575923Z",
-      "totalAdsWatched": 5163,
+      "totalTimePlayed": 2435356,
+      "sessionTimePlayed": 8,
+      "lastTimePlayedUtc": "2023-03-25T15:44:04.327628Z",
+      "totalAdsWatched": 5164,
       "mergeAnalyticsData": {
         "mergeCounter": {
           "100000": 790,
@@ -67,8 +67,8 @@
           "101003": 2294,
           "100003": 56,
           "996000": 958,
-          "996001": 2003,
-          "996002": 1256,
+          "996001": 2004,
+          "996002": 1257,
           "996003": 669,
           "996004": 414,
           "129000": 340,
@@ -95,7 +95,7 @@
           "109002": 828,
           "109003": 415,
           "109004": 209,
-          "990000": 519,
+          "990000": 520,
           "990001": 322,
           "990002": 184,
           "118000": 35,
@@ -103,21 +103,21 @@
           "100004": 28,
           "110001": 309,
           "110002": 103,
-          "997001": 642,
+          "997001": 643,
           "997002": 357,
           "110000": 829,
           "110003": 50,
-          "111000": 11243,
-          "111001": 7479,
-          "997000": 651,
+          "111000": 11253,
+          "111001": 7487,
+          "997000": 652,
           "997003": 158,
-          "111002": 4600,
-          "111003": 2275,
+          "111002": 4604,
+          "111003": 2277,
           "113000": 389,
           "113001": 188,
-          "998000": 7910,
-          "998001": 3859,
-          "998002": 1889,
+          "998000": 7914,
+          "998001": 3861,
+          "998002": 1890,
           "998003": 921,
           "995000": 67,
           "112000": 509,
@@ -137,7 +137,7 @@
           "122001": 2742,
           "994000": 81,
           "993000": 47,
-          "111004": 1095,
+          "111004": 1096,
           "122002": 1389,
           "122003": 692,
           "122004": 334,
@@ -146,7 +146,7 @@
           "963001": 97,
           "141000": 855,
           "124000": 28,
-          "981000": 217,
+          "981000": 218,
           "118002": 8,
           "105003": 52,
           "103000": 239,
@@ -206,7 +206,7 @@
           "128002": 68,
           "130004": 88,
           "142003": 151,
-          "145001": 357,
+          "145001": 358,
           "142004": 60,
           "123000": 22,
           "963004": 3,
@@ -215,9 +215,9 @@
           "100005": 14,
           "145002": 176,
           "981003": 18,
-          "131000": 2664,
+          "131000": 2666,
           "126000": 9,
-          "131001": 1043,
+          "131001": 1044,
           "124001": 14,
           "127002": 16,
           "130005": 40,
@@ -234,21 +234,21 @@
           "131002": 46,
           "135003": 84,
           "131003": 21,
-          "132000": 3384,
-          "132001": 1472,
+          "132000": 3388,
+          "132001": 1474,
           "103003": 8,
           "106006": 47,
-          "132002": 639,
+          "132002": 640,
           "146002": 34,
           "128004": 11,
           "129004": 11,
           "139001": 82,
-          "132003": 261,
+          "132003": 262,
           "105005": 13,
           "110005": 12,
           "139002": 41,
           "140000": 57,
-          "132004": 125,
+          "132004": 126,
           "111007": 93,
           "985000": 18,
           "962000": 88,
@@ -276,7 +276,7 @@
           "138002": 63,
           "137003": 44,
           "131004": 10,
-          "132005": 53,
+          "132005": 54,
           "103004": 4,
           "126001": 4,
           "962003": 11,
@@ -296,7 +296,7 @@
           "135006": 9,
           "129005": 5,
           "111008": 29,
-          "132006": 23,
+          "132006": 24,
           "142006": 9,
           "127003": 3,
           "962004": 7,
@@ -402,7 +402,7 @@
           "130000": 4607,
           "108000": 3995,
           "109000": 6616,
-          "990000": 1076,
+          "990000": 1079,
           "990001": 138,
           "990002": 36,
           "110000": 1751,
@@ -411,10 +411,10 @@
           "996003": 161,
           "110001": 3,
           "997002": 126,
-          "111000": 22753,
-          "997000": 1393,
-          "112000": 1439,
-          "113000": 951,
+          "111000": 22773,
+          "997000": 1395,
+          "112000": 1440,
+          "113000": 952,
           "121000": 248,
           "121001": 9,
           "121002": 5,
@@ -427,9 +427,9 @@
           "122002": 297,
           "963000": 237,
           "963001": 155,
-          "981000": 595,
+          "981000": 597,
           "141000": 2521,
-          "111001": 3832,
+          "111001": 3838,
           "124000": 56,
           "135000": 1853,
           "103000": 728,
@@ -445,12 +445,12 @@
           "142000": 2476,
           "126000": 68,
           "106001": 649,
-          "131000": 7838,
+          "131000": 7841,
           "125000": 42,
           "134001": 4,
           "147000": 2,
           "146000": 272,
-          "132000": 7701,
+          "132000": 7709,
           "140000": 115,
           "111002": 1866,
           "996005": 44,
@@ -458,7 +458,7 @@
           "963002": 72,
           "117003": 89,
           "137000": 574,
-          "138000": 436,
+          "138000": 437,
           "136000": 483,
           "107001": 1,
           "106002": 189,
@@ -586,7 +586,7 @@
           140004, 111011, 140005, 140006
         ]
       },
-      "timeData": { "lastSessionExitTime": "2023-03-25T07:18:09.3207047" },
+      "timeData": { "lastSessionExitTime": "2023-03-25T15:41:56.1936118" },
       "itemDiscoveryData": {
         "seenItemIds": [
           101003, 998000, 996001, 102000, 100000, 100001, 100002, 100003,
@@ -791,8 +791,8 @@
       },
       "scalingPriceData": { "items": { "115000": 9, "114000": 6 } },
       "bundleIapData": {
-        "state": 1,
-        "finishTime": "2023-03-24T19:52:26.8569552-05:00",
+        "state": 2,
+        "finishTime": "2023-03-25T16:38:15.2658203-05:00",
         "completedBundleUIDs": [
           0, 8000, 1, 7999, 7998, 7997, 9999, 7996, 7995, 3, 7994, 7993, 9998,
           7992, 7991, 4, 7990, 9997, 7, 7989, 7988, 7987, 18, 7986, 22, 7985,
@@ -832,9 +832,9 @@
           203, 234, 7794, 204, 7793, 7792, 205, 7791, 206, 235, 9966, 7790, 214,
           215, 7789, 219, 218, 7788, 7787, 7786, 7785, 9965, 7784, 220, 236,
           237, 7783, 7782, 207, 7781, 209, 7780, 9964, 211, 7779, 7778, 7777,
-          212, 216, 217, 7776, 7775, 213, 7774
+          212, 216, 217, 7776, 7775, 213, 7774, 208
         ],
-        "currentEnabledUID": 7774,
+        "currentEnabledUID": 208,
         "rejectedBundles": [
           9999, 9998, 9997, 9996, 9995, 9994, 9993, 9992, 9991, 9990, 9989,
           9988, 9987, 9986, 9985, 9984, 9983, 9982, 9981, 9980, 9979, 9978,
@@ -965,8 +965,8 @@
                   { "questId": 24, "progress": 320, "objective": 320 },
                   { "questId": 26, "progress": 380, "objective": 380 },
                   { "questId": 27, "progress": 300, "objective": 300 },
-                  { "questId": 29, "progress": 217, "objective": 360 },
-                  { "questId": 28, "progress": 257, "objective": 450 }
+                  { "questId": 29, "progress": 251, "objective": 360 },
+                  { "questId": 28, "progress": 310, "objective": 450 }
                 ]
               },
               "rewardsReceived": [
@@ -981,7 +981,7 @@
           "1001": [
             {
               "id": 1001,
-              "uniqueId": "bdb60587-bf87-4fd3-8b5f-abece97e6d34",
+              "uniqueId": "d302f98c-1740-4c4b-ade5-00596cebbf4e",
               "status": 4,
               "previewDate": "2023-03-20T00:00:00Z",
               "startDate": "2023-03-27T00:00:00Z",
@@ -1352,7 +1352,7 @@
       },
       "map2": {
         "questData": {
-          "completedQuestCount": 444,
+          "completedQuestCount": 446,
           "completedQuestIds": [
             961, 962, 963, 775, 776, 777, 778, 964, 780, 781, 779, 965, 782,
             783, 786, 784, 785, 790, 787, 791, 788, 789, 792, 906, 907, 908,
@@ -1391,9 +1391,9 @@
             1046, 1051, 1062, 1067, 1072, 1047, 1048, 1049, 1054, 1055, 1056,
             1057, 1060, 1063, 1229, 1065, 1066, 1068, 1069, 1081, 1083, 1084,
             1085, 1071, 1064, 1214, 1218, 1221, 1086, 1070, 1050, 1222, 1223,
-            1220
+            1220, 1042, 1043
           ],
-          "visibleQuestIds": [195, 770, 1105, 1042, 1058, 1230, 1224],
+          "visibleQuestIds": [195, 770, 1105, 1058, 1230, 1224, 1052],
           "trackers": []
         },
         "id": 2,
@@ -1561,10 +1561,9 @@
                 "item": {
                   "id": 124004,
                   "manualSource": {
-                    "currentItemCharges": 1,
-                    "crescentRechargeTimer": 16777.6328,
-                    "lastEvaluationTime": "2023-03-25T15:36:45.8965323",
-                    "itemsGenerated": 117
+                    "crescentRechargeTimer": 229.888672,
+                    "lastEvaluationTime": "2023-03-25T15:44:04.9882287",
+                    "itemsGenerated": 118
                   },
                   "autoSource": { "currentItemCharges": -1 },
                   "lockedItemData": { "hiddenItemId": -1 },
@@ -1578,10 +1577,9 @@
                 "item": {
                   "id": 124004,
                   "manualSource": {
-                    "currentItemCharges": 1,
-                    "crescentRechargeTimer": 16782.0918,
-                    "lastEvaluationTime": "2023-03-25T15:36:45.8967181",
-                    "itemsGenerated": 76
+                    "crescentRechargeTimer": 229.952713,
+                    "lastEvaluationTime": "2023-03-25T15:44:04.9882398",
+                    "itemsGenerated": 77
                   },
                   "autoSource": { "currentItemCharges": -1 },
                   "lockedItemData": { "hiddenItemId": -1 },
@@ -1595,10 +1593,9 @@
                 "item": {
                   "id": 124004,
                   "manualSource": {
-                    "currentItemCharges": 1,
-                    "crescentRechargeTimer": 16782.43,
-                    "lastEvaluationTime": "2023-03-25T15:36:45.896934",
-                    "itemsGenerated": 209
+                    "crescentRechargeTimer": 229.960831,
+                    "lastEvaluationTime": "2023-03-25T15:44:04.9882441",
+                    "itemsGenerated": 210
                   },
                   "autoSource": { "currentItemCharges": -1 },
                   "lockedItemData": { "hiddenItemId": -1 },
@@ -1623,7 +1620,7 @@
               {
                 "position": { "x": 1.0, "y": 1.0 },
                 "item": {
-                  "id": 996002,
+                  "id": 996003,
                   "manualSource": { "currentItemCharges": -1 },
                   "autoSource": { "currentItemCharges": -1 },
                   "lockedItemData": { "hiddenItemId": -1 },
@@ -1634,7 +1631,7 @@
               {
                 "position": { "x": 1.0, "y": 2.0 },
                 "item": {
-                  "id": 997001,
+                  "id": 997002,
                   "manualSource": { "currentItemCharges": -1 },
                   "autoSource": { "currentItemCharges": -1 },
                   "lockedItemData": { "hiddenItemId": -1 },
@@ -1645,7 +1642,7 @@
               {
                 "position": { "x": 1.0, "y": 3.0 },
                 "item": {
-                  "id": 998001,
+                  "id": 113000,
                   "manualSource": { "currentItemCharges": -1 },
                   "autoSource": { "currentItemCharges": -1 },
                   "lockedItemData": { "hiddenItemId": -1 },
@@ -1656,7 +1653,7 @@
               {
                 "position": { "x": 1.0, "y": 4.0 },
                 "item": {
-                  "id": 998000,
+                  "id": 998003,
                   "manualSource": { "currentItemCharges": -1 },
                   "autoSource": { "currentItemCharges": -1 },
                   "lockedItemData": { "hiddenItemId": -1 },
@@ -1669,10 +1666,9 @@
                 "item": {
                   "id": 123004,
                   "manualSource": {
-                    "currentItemCharges": 1,
-                    "crescentRechargeTimer": 1340.40063,
-                    "lastEvaluationTime": "2023-03-25T15:36:45.8972211",
-                    "itemsGenerated": 344
+                    "crescentRechargeTimer": 229.965424,
+                    "lastEvaluationTime": "2023-03-25T15:44:04.9882486",
+                    "itemsGenerated": 345
                   },
                   "autoSource": { "currentItemCharges": -1 },
                   "lockedItemData": { "hiddenItemId": -1 },
@@ -1685,10 +1681,9 @@
                 "item": {
                   "id": 123004,
                   "manualSource": {
-                    "currentItemCharges": 1,
-                    "crescentRechargeTimer": 1340.59314,
-                    "lastEvaluationTime": "2023-03-25T15:36:45.8973674",
-                    "itemsGenerated": 582
+                    "crescentRechargeTimer": 229.966782,
+                    "lastEvaluationTime": "2023-03-25T15:44:04.9882514",
+                    "itemsGenerated": 583
                   },
                   "autoSource": { "currentItemCharges": -1 },
                   "lockedItemData": { "hiddenItemId": -1 },
@@ -1704,7 +1699,8 @@
                   "id": 100009,
                   "manualSource": {
                     "currentItemCharges": 80,
-                    "lastEvaluationTime": "2023-03-25T15:36:45.8975582",
+                    "crescentRechargeTimer": 429.9416,
+                    "lastEvaluationTime": "2023-03-25T15:43:55.839133",
                     "itemsGenerated": 8205
                   },
                   "autoSource": { "currentItemCharges": -1 },
@@ -1717,7 +1713,38 @@
               {
                 "position": { "x": 2.0, "y": 1.0 },
                 "item": {
-                  "id": 131000,
+                  "id": 962005,
+                  "manualSource": { "currentItemCharges": -1 },
+                  "autoSource": { "currentItemCharges": -1 },
+                  "lockedItemData": { "hiddenItemId": -1 },
+                  "currentChestState": -1,
+                  "chestForcedDrops": {},
+                  "backpackItemData": {
+                    "items": [
+                      {
+                        "id": 138000,
+                        "manualSource": { "currentItemCharges": -1 },
+                        "autoSource": { "currentItemCharges": -1 },
+                        "lockedItemData": { "hiddenItemId": -1 },
+                        "currentChestState": -1,
+                        "chestForcedDrops": {}
+                      },
+                      {
+                        "id": 138000,
+                        "manualSource": { "currentItemCharges": -1 },
+                        "autoSource": { "currentItemCharges": -1 },
+                        "lockedItemData": { "hiddenItemId": -1 },
+                        "currentChestState": -1,
+                        "chestForcedDrops": {}
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "position": { "x": 2.0, "y": 2.0 },
+                "item": {
+                  "id": 990001,
                   "manualSource": { "currentItemCharges": -1 },
                   "autoSource": { "currentItemCharges": -1 },
                   "lockedItemData": { "hiddenItemId": -1 },
@@ -1725,17 +1752,36 @@
                   "chestForcedDrops": {}
                 }
               },
-              { "position": { "x": 2.0, "y": 2.0 } },
-              { "position": { "x": 2.0, "y": 3.0 } },
-              { "position": { "x": 2.0, "y": 4.0 } },
+              {
+                "position": { "x": 2.0, "y": 3.0 },
+                "item": {
+                  "id": 990000,
+                  "manualSource": { "currentItemCharges": -1 },
+                  "autoSource": { "currentItemCharges": -1 },
+                  "lockedItemData": { "hiddenItemId": -1 },
+                  "currentChestState": -1,
+                  "chestForcedDrops": {}
+                }
+              },
+              {
+                "position": { "x": 2.0, "y": 4.0 },
+                "item": {
+                  "id": 998001,
+                  "manualSource": { "currentItemCharges": -1 },
+                  "autoSource": { "currentItemCharges": -1 },
+                  "lockedItemData": { "hiddenItemId": -1 },
+                  "currentChestState": -1,
+                  "chestForcedDrops": {}
+                }
+              },
               {
                 "position": { "x": 2.0, "y": 5.0 },
                 "item": {
                   "id": 125004,
                   "manualSource": {
                     "currentItemCharges": 3,
-                    "crescentRechargeTimer": 3539.71777,
-                    "lastEvaluationTime": "2023-03-25T15:36:45.8977306",
+                    "crescentRechargeTimer": 3969.65942,
+                    "lastEvaluationTime": "2023-03-25T15:43:55.8394753",
                     "itemsGenerated": 78
                   },
                   "autoSource": { "currentItemCharges": -1 },
@@ -1750,8 +1796,8 @@
                   "id": 125004,
                   "manualSource": {
                     "currentItemCharges": 3,
-                    "crescentRechargeTimer": 3539.729,
-                    "lastEvaluationTime": "2023-03-25T15:36:45.8979026",
+                    "crescentRechargeTimer": 3969.671,
+                    "lastEvaluationTime": "2023-03-25T15:43:55.8396176",
                     "itemsGenerated": 438
                   },
                   "autoSource": { "currentItemCharges": -1 },
@@ -1768,10 +1814,10 @@
                   "id": 130010,
                   "manualSource": { "currentItemCharges": -1 },
                   "autoSource": {
-                    "currentItemCharges": 3,
-                    "crescentRechargeTimer": 10.2490606,
-                    "lastEvaluationTime": "2023-03-25T15:36:56.1478893",
-                    "itemsGenerated": 6585
+                    "currentItemCharges": 1,
+                    "crescentRechargeTimer": 176.589645,
+                    "lastEvaluationTime": "2023-03-25T15:44:04.9882549",
+                    "itemsGenerated": 6588
                   },
                   "lockedItemData": { "hiddenItemId": -1 },
                   "currentChestState": -1,
@@ -1790,7 +1836,7 @@
                   "backpackItemData": {
                     "items": [
                       {
-                        "id": 132003,
+                        "id": 145003,
                         "manualSource": { "currentItemCharges": -1 },
                         "autoSource": { "currentItemCharges": -1 },
                         "lockedItemData": { "hiddenItemId": -1 },
@@ -1804,7 +1850,7 @@
               {
                 "position": { "x": 3.0, "y": 2.0 },
                 "item": {
-                  "id": 117004,
+                  "id": 981001,
                   "manualSource": { "currentItemCharges": -1 },
                   "autoSource": { "currentItemCharges": -1 },
                   "lockedItemData": { "hiddenItemId": -1 },
@@ -1815,7 +1861,7 @@
               {
                 "position": { "x": 3.0, "y": 3.0 },
                 "item": {
-                  "id": 145000,
+                  "id": 112000,
                   "manualSource": { "currentItemCharges": -1 },
                   "autoSource": { "currentItemCharges": -1 },
                   "lockedItemData": { "hiddenItemId": -1 },
@@ -1826,7 +1872,7 @@
               {
                 "position": { "x": 3.0, "y": 4.0 },
                 "item": {
-                  "id": 145001,
+                  "id": 145000,
                   "manualSource": { "currentItemCharges": -1 },
                   "autoSource": { "currentItemCharges": -1 },
                   "lockedItemData": { "hiddenItemId": -1 },
@@ -1841,8 +1887,8 @@
                   "id": 126004,
                   "manualSource": {
                     "currentItemCharges": 2,
-                    "crescentRechargeTimer": 3539.7688,
-                    "lastEvaluationTime": "2023-03-25T15:36:45.8984438",
+                    "crescentRechargeTimer": 3969.71045,
+                    "lastEvaluationTime": "2023-03-25T15:43:55.8401212",
                     "itemsGenerated": 539
                   },
                   "autoSource": { "currentItemCharges": -1 },
@@ -1859,15 +1905,13 @@
                   "id": 107009,
                   "manualSource": {
                     "currentItemCharges": 14,
-                    "crescentRechargeTimer": 801.7832,
-                    "lastEvaluationTime": "2023-03-25T15:36:45.8985938",
+                    "lastEvaluationTime": "2023-03-25T15:43:55.8402689",
                     "itemsGenerated": 95
                   },
                   "autoSource": {
-                    "currentItemCharges": 2,
-                    "crescentRechargeTimer": 15400.8965,
-                    "lastEvaluationTime": "2023-03-25T15:36:45.8986726",
-                    "itemsGenerated": 190
+                    "crescentRechargeTimer": 390.3182,
+                    "lastEvaluationTime": "2023-03-25T15:44:04.9882591",
+                    "itemsGenerated": 192
                   },
                   "lockedItemData": { "hiddenItemId": -1 },
                   "currentChestState": -1,
@@ -1880,12 +1924,13 @@
                   "id": 107006,
                   "manualSource": {
                     "currentItemCharges": 10,
-                    "lastEvaluationTime": "2023-03-25T15:36:45.8988786",
+                    "crescentRechargeTimer": 429.94165,
+                    "lastEvaluationTime": "2023-03-25T15:43:55.8405228",
                     "itemsGenerated": 37
                   },
                   "autoSource": {
-                    "crescentRechargeTimer": 49262.7773,
-                    "lastEvaluationTime": "2023-03-25T15:36:56.147874",
+                    "crescentRechargeTimer": 49684.21,
+                    "lastEvaluationTime": "2023-03-25T15:44:04.9882619",
                     "itemsGenerated": 12
                   },
                   "lockedItemData": { "hiddenItemId": -1 },
@@ -1899,11 +1944,12 @@
                   "id": 107005,
                   "manualSource": {
                     "currentItemCharges": 10,
-                    "lastEvaluationTime": "2023-03-25T15:36:45.8992547"
+                    "crescentRechargeTimer": 429.941528,
+                    "lastEvaluationTime": "2023-03-25T15:43:55.840776"
                   },
                   "autoSource": {
-                    "crescentRechargeTimer": 136487.531,
-                    "lastEvaluationTime": "2023-03-25T15:36:56.1478837"
+                    "crescentRechargeTimer": 136903.844,
+                    "lastEvaluationTime": "2023-03-25T15:44:04.9882647"
                   },
                   "lockedItemData": { "hiddenItemId": -1 },
                   "currentChestState": -1,
@@ -1924,7 +1970,7 @@
               {
                 "position": { "x": 4.0, "y": 4.0 },
                 "item": {
-                  "id": 145003,
+                  "id": 145001,
                   "manualSource": { "currentItemCharges": -1 },
                   "autoSource": { "currentItemCharges": -1 },
                   "lockedItemData": { "hiddenItemId": -1 },
@@ -1939,13 +1985,13 @@
                   "id": 105008,
                   "manualSource": {
                     "currentItemCharges": 24,
-                    "crescentRechargeTimer": 1131.77368,
-                    "lastEvaluationTime": "2023-03-25T15:36:45.8996287",
+                    "crescentRechargeTimer": 220.825,
+                    "lastEvaluationTime": "2023-03-25T15:43:55.8410757",
                     "itemsGenerated": 897
                   },
                   "autoSource": {
-                    "crescentRechargeTimer": 10.2350426,
-                    "lastEvaluationTime": "2023-03-25T15:36:56.1478946",
+                    "crescentRechargeTimer": 439.046478,
+                    "lastEvaluationTime": "2023-03-25T15:44:04.9882675",
                     "itemsGenerated": 916
                   },
                   "lockedItemData": { "hiddenItemId": -1 },
@@ -1961,10 +2007,10 @@
                   "id": 131005,
                   "manualSource": { "currentItemCharges": -1 },
                   "autoSource": {
-                    "currentItemCharges": 4,
-                    "crescentRechargeTimer": 494.764984,
-                    "lastEvaluationTime": "2023-03-25T15:36:45.8998889",
-                    "itemsGenerated": 1659
+                    "currentItemCharges": 2,
+                    "crescentRechargeTimer": 386.412781,
+                    "lastEvaluationTime": "2023-03-25T15:44:04.9882693",
+                    "itemsGenerated": 1661
                   },
                   "lockedItemData": { "hiddenItemId": -1 },
                   "currentChestState": -1,
@@ -1978,10 +2024,10 @@
                   "id": 131005,
                   "manualSource": { "currentItemCharges": -1 },
                   "autoSource": {
-                    "currentItemCharges": 4,
-                    "crescentRechargeTimer": 521.212646,
-                    "lastEvaluationTime": "2023-03-25T15:36:45.9000265",
-                    "itemsGenerated": 460
+                    "currentItemCharges": 2,
+                    "crescentRechargeTimer": 387.0477,
+                    "lastEvaluationTime": "2023-03-25T15:44:04.988271",
+                    "itemsGenerated": 462
                   },
                   "lockedItemData": { "hiddenItemId": -1 },
                   "currentChestState": -1,
@@ -1995,10 +2041,10 @@
                   "id": 131005,
                   "manualSource": { "currentItemCharges": -1 },
                   "autoSource": {
-                    "currentItemCharges": 4,
-                    "crescentRechargeTimer": 516.595032,
-                    "lastEvaluationTime": "2023-03-25T15:36:45.900161",
-                    "itemsGenerated": 2911
+                    "currentItemCharges": 2,
+                    "crescentRechargeTimer": 397.496,
+                    "lastEvaluationTime": "2023-03-25T15:44:04.9882728",
+                    "itemsGenerated": 2913
                   },
                   "lockedItemData": { "hiddenItemId": -1 },
                   "currentChestState": -1,
@@ -2012,10 +2058,10 @@
                   "id": 131005,
                   "manualSource": { "currentItemCharges": -1 },
                   "autoSource": {
-                    "currentItemCharges": 4,
-                    "crescentRechargeTimer": 507.5139,
-                    "lastEvaluationTime": "2023-03-25T15:36:45.9002961",
-                    "itemsGenerated": 395
+                    "currentItemCharges": 2,
+                    "crescentRechargeTimer": 396.6091,
+                    "lastEvaluationTime": "2023-03-25T15:44:04.9882742",
+                    "itemsGenerated": 397
                   },
                   "lockedItemData": { "hiddenItemId": -1 },
                   "currentChestState": -1,
@@ -2026,7 +2072,7 @@
               {
                 "position": { "x": 5.0, "y": 4.0 },
                 "item": {
-                  "id": 132004,
+                  "id": 145002,
                   "manualSource": { "currentItemCharges": -1 },
                   "autoSource": { "currentItemCharges": -1 },
                   "lockedItemData": { "hiddenItemId": -1 },
@@ -2034,29 +2080,20 @@
                   "chestForcedDrops": {}
                 }
               },
-              {
-                "position": { "x": 5.0, "y": 5.0 },
-                "item": {
-                  "id": 145001,
-                  "manualSource": { "currentItemCharges": -1 },
-                  "autoSource": { "currentItemCharges": -1 },
-                  "lockedItemData": { "hiddenItemId": -1 },
-                  "currentChestState": -1,
-                  "chestForcedDrops": {}
-                }
-              },
+              { "position": { "x": 5.0, "y": 5.0 } },
               {
                 "position": { "x": 5.0, "y": 6.0 },
                 "item": {
                   "id": 105006,
                   "manualSource": {
                     "currentItemCharges": 16,
-                    "lastEvaluationTime": "2023-03-25T15:36:45.9004653",
+                    "crescentRechargeTimer": 429.941467,
+                    "lastEvaluationTime": "2023-03-25T15:43:55.8419446",
                     "itemsGenerated": 88
                   },
                   "autoSource": {
-                    "crescentRechargeTimer": 10.2464294,
-                    "lastEvaluationTime": "2023-03-25T15:36:56.1478994",
+                    "crescentRechargeTimer": 439.05722,
+                    "lastEvaluationTime": "2023-03-25T15:44:04.9882771",
                     "itemsGenerated": 34
                   },
                   "lockedItemData": { "hiddenItemId": -1 },
@@ -2072,8 +2109,8 @@
                   "id": 129007,
                   "manualSource": {
                     "currentItemCharges": 28,
-                    "crescentRechargeTimer": 10924.9766,
-                    "lastEvaluationTime": "2023-03-25T15:36:45.9006578",
+                    "crescentRechargeTimer": 11354.918,
+                    "lastEvaluationTime": "2023-03-25T15:43:55.8421796",
                     "itemsGenerated": 1203
                   },
                   "autoSource": { "currentItemCharges": -1 },
@@ -2088,8 +2125,8 @@
                   "id": 129006,
                   "manualSource": {
                     "currentItemCharges": 24,
-                    "crescentRechargeTimer": 14644.9766,
-                    "lastEvaluationTime": "2023-03-25T15:36:45.9007977",
+                    "crescentRechargeTimer": 15074.9189,
+                    "lastEvaluationTime": "2023-03-25T15:43:55.8422985",
                     "itemsGenerated": 186
                   },
                   "autoSource": { "currentItemCharges": -1 },
@@ -2104,8 +2141,8 @@
                   "id": 129005,
                   "manualSource": {
                     "currentItemCharges": 24,
-                    "crescentRechargeTimer": 14644.9307,
-                    "lastEvaluationTime": "2023-03-25T15:36:45.9011097"
+                    "crescentRechargeTimer": 15074.8721,
+                    "lastEvaluationTime": "2023-03-25T15:43:55.842411"
                   },
                   "autoSource": { "currentItemCharges": -1 },
                   "lockedItemData": { "hiddenItemId": -1 },
@@ -2127,7 +2164,7 @@
               {
                 "position": { "x": 6.0, "y": 4.0 },
                 "item": {
-                  "id": 132005,
+                  "id": 117004,
                   "manualSource": { "currentItemCharges": -1 },
                   "autoSource": { "currentItemCharges": -1 },
                   "lockedItemData": { "hiddenItemId": -1 },
@@ -2142,12 +2179,13 @@
                   "id": 105005,
                   "manualSource": {
                     "currentItemCharges": 15,
-                    "lastEvaluationTime": "2023-03-25T15:36:45.9013437",
+                    "crescentRechargeTimer": 429.941223,
+                    "lastEvaluationTime": "2023-03-25T15:43:55.8425758",
                     "itemsGenerated": 20
                   },
                   "autoSource": {
-                    "crescentRechargeTimer": 10.2456436,
-                    "lastEvaluationTime": "2023-03-25T15:36:56.1479034",
+                    "crescentRechargeTimer": 439.054749,
+                    "lastEvaluationTime": "2023-03-25T15:44:04.9882797",
                     "itemsGenerated": 2
                   },
                   "lockedItemData": { "hiddenItemId": -1 },
@@ -2163,8 +2201,7 @@
                   "id": 121008,
                   "manualSource": {
                     "currentItemCharges": 10,
-                    "crescentRechargeTimer": 21.7851563,
-                    "lastEvaluationTime": "2023-03-25T15:36:45.9015338",
+                    "lastEvaluationTime": "2023-03-25T15:43:55.842792",
                     "itemsGenerated": 5703
                   },
                   "autoSource": { "currentItemCharges": -1 },
@@ -2179,8 +2216,8 @@
                   "id": 121007,
                   "manualSource": {
                     "currentItemCharges": 10,
-                    "crescentRechargeTimer": 21.7851563,
-                    "lastEvaluationTime": "2023-03-25T15:36:45.9016639",
+                    "crescentRechargeTimer": 451.726379,
+                    "lastEvaluationTime": "2023-03-25T15:43:55.8428939",
                     "itemsGenerated": 579
                   },
                   "autoSource": { "currentItemCharges": -1 },
@@ -2195,8 +2232,7 @@
                   "id": 121006,
                   "manualSource": {
                     "currentItemCharges": 10,
-                    "crescentRechargeTimer": 980.679,
-                    "lastEvaluationTime": "2023-03-25T15:36:45.9018106",
+                    "lastEvaluationTime": "2023-03-25T15:43:55.8430095",
                     "itemsGenerated": 229
                   },
                   "autoSource": { "currentItemCharges": -1 },
@@ -2211,8 +2247,8 @@
                   "id": 121005,
                   "manualSource": {
                     "currentItemCharges": 10,
-                    "crescentRechargeTimer": 1640.679,
-                    "lastEvaluationTime": "2023-03-25T15:36:45.9019539"
+                    "crescentRechargeTimer": 2070.62,
+                    "lastEvaluationTime": "2023-03-25T15:43:55.84314"
                   },
                   "autoSource": { "currentItemCharges": -1 },
                   "lockedItemData": { "hiddenItemId": -1 },
@@ -2231,28 +2267,8 @@
                   "chestForcedDrops": {}
                 }
               },
-              {
-                "position": { "x": 7.0, "y": 5.0 },
-                "item": {
-                  "id": 145001,
-                  "manualSource": { "currentItemCharges": -1 },
-                  "autoSource": { "currentItemCharges": -1 },
-                  "lockedItemData": { "hiddenItemId": -1 },
-                  "currentChestState": -1,
-                  "chestForcedDrops": {}
-                }
-              },
-              {
-                "position": { "x": 7.0, "y": 6.0 },
-                "item": {
-                  "id": 138000,
-                  "manualSource": { "currentItemCharges": -1 },
-                  "autoSource": { "currentItemCharges": -1 },
-                  "lockedItemData": { "hiddenItemId": -1 },
-                  "currentChestState": -1,
-                  "chestForcedDrops": {}
-                }
-              }
+              { "position": { "x": 7.0, "y": 5.0 } },
+              { "position": { "x": 7.0, "y": 6.0 } }
             ],
             [
               {
@@ -2260,9 +2276,9 @@
                 "item": {
                   "id": 110008,
                   "manualSource": {
-                    "currentItemCharges": 28,
-                    "lastEvaluationTime": "2023-03-25T15:36:45.90241",
-                    "itemsGenerated": 16995
+                    "crescentRechargeTimer": 229.96283,
+                    "lastEvaluationTime": "2023-03-25T15:44:04.9882831",
+                    "itemsGenerated": 17023
                   },
                   "autoSource": { "currentItemCharges": -1 },
                   "lockedItemData": { "hiddenItemId": -1 },
@@ -2276,8 +2292,7 @@
                   "id": 110006,
                   "manualSource": {
                     "currentItemCharges": 24,
-                    "crescentRechargeTimer": 1581.596,
-                    "lastEvaluationTime": "2023-03-25T15:36:45.9025361",
+                    "lastEvaluationTime": "2023-03-25T15:43:55.8434145",
                     "itemsGenerated": 703
                   },
                   "autoSource": { "currentItemCharges": -1 },
@@ -2292,8 +2307,8 @@
                   "id": 110005,
                   "manualSource": {
                     "currentItemCharges": 24,
-                    "crescentRechargeTimer": 1221.75574,
-                    "lastEvaluationTime": "2023-03-25T15:36:45.9026504",
+                    "crescentRechargeTimer": 1651.69666,
+                    "lastEvaluationTime": "2023-03-25T15:43:55.8435104",
                     "itemsGenerated": 290
                   },
                   "autoSource": { "currentItemCharges": -1 },
@@ -2308,8 +2323,8 @@
                   "id": 110004,
                   "manualSource": {
                     "currentItemCharges": 20,
-                    "crescentRechargeTimer": 4461.77,
-                    "lastEvaluationTime": "2023-03-25T15:36:45.9027652",
+                    "crescentRechargeTimer": 4891.71045,
+                    "lastEvaluationTime": "2023-03-25T15:43:55.843605",
                     "itemsGenerated": 70
                   },
                   "autoSource": { "currentItemCharges": -1 },
@@ -2324,8 +2339,8 @@
                   "id": 110003,
                   "manualSource": {
                     "currentItemCharges": 16,
-                    "crescentRechargeTimer": 4461.78027,
-                    "lastEvaluationTime": "2023-03-25T15:36:45.9028942",
+                    "crescentRechargeTimer": 4891.721,
+                    "lastEvaluationTime": "2023-03-25T15:43:55.8436947",
                     "itemsGenerated": 53
                   },
                   "autoSource": { "currentItemCharges": -1 },
@@ -2345,7 +2360,17 @@
                   "chestForcedDrops": {}
                 }
               },
-              { "position": { "x": 8.0, "y": 6.0 } }
+              {
+                "position": { "x": 8.0, "y": 6.0 },
+                "item": {
+                  "id": 111005,
+                  "manualSource": { "currentItemCharges": -1 },
+                  "autoSource": { "currentItemCharges": -1 },
+                  "lockedItemData": { "hiddenItemId": -1 },
+                  "currentChestState": -1,
+                  "chestForcedDrops": {}
+                }
+              }
             ]
           ]
         },
@@ -2364,13 +2389,13 @@
                     "id": 145007,
                     "manualSource": {
                       "currentItemCharges": 1,
-                      "lastEvaluationTime": "2023-03-15T06:21:35.1740456"
+                      "lastEvaluationTime": "2023-03-22T23:26:58.1534519"
                     },
                     "autoSource": { "currentItemCharges": -1 },
                     "lockedItemData": { "hiddenItemId": -1 },
                     "currentChestState": -1,
                     "chestForcedDrops": {},
-                    "startFreezeTime": "2023-03-15T06:32:17.512671Z"
+                    "startFreezeTime": "2023-03-22T23:37:41.01853Z"
                   },
                   {
                     "id": 145007,
@@ -2388,13 +2413,97 @@
                     "id": 145007,
                     "manualSource": {
                       "currentItemCharges": 1,
-                      "lastEvaluationTime": "2023-03-22T23:26:58.1534519"
+                      "lastEvaluationTime": "2023-03-15T06:21:35.1740456"
                     },
                     "autoSource": { "currentItemCharges": -1 },
                     "lockedItemData": { "hiddenItemId": -1 },
                     "currentChestState": -1,
                     "chestForcedDrops": {},
-                    "startFreezeTime": "2023-03-22T23:37:41.01853Z"
+                    "startFreezeTime": "2023-03-15T06:32:17.512671Z"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 962005,
+              "manualSource": { "currentItemCharges": -1 },
+              "autoSource": { "currentItemCharges": -1 },
+              "lockedItemData": { "hiddenItemId": -1 },
+              "currentChestState": -1,
+              "chestForcedDrops": {},
+              "backpackItemData": {
+                "items": [
+                  {
+                    "id": 145005,
+                    "manualSource": {
+                      "currentItemCharges": 1,
+                      "lastEvaluationTime": "2023-03-25T02:55:32.6250622"
+                    },
+                    "autoSource": { "currentItemCharges": -1 },
+                    "lockedItemData": { "hiddenItemId": -1 },
+                    "currentChestState": -1,
+                    "chestForcedDrops": {},
+                    "startFreezeTime": "2023-03-25T02:55:38.683599Z"
+                  },
+                  {
+                    "id": 145005,
+                    "manualSource": {
+                      "currentItemCharges": 1,
+                      "lastEvaluationTime": "2023-03-24T08:58:35.6058621"
+                    },
+                    "autoSource": { "currentItemCharges": -1 },
+                    "lockedItemData": { "hiddenItemId": -1 },
+                    "currentChestState": -1,
+                    "chestForcedDrops": {},
+                    "startFreezeTime": "2023-03-24T08:58:50.916213Z"
+                  },
+                  {
+                    "id": 145005,
+                    "manualSource": {
+                      "currentItemCharges": 1,
+                      "lastEvaluationTime": "2023-03-24T08:23:05.4921265"
+                    },
+                    "autoSource": { "currentItemCharges": -1 },
+                    "lockedItemData": { "hiddenItemId": -1 },
+                    "currentChestState": -1,
+                    "chestForcedDrops": {},
+                    "startFreezeTime": "2023-03-24T08:58:49.682427Z"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 962005,
+              "manualSource": { "currentItemCharges": -1 },
+              "autoSource": { "currentItemCharges": -1 },
+              "lockedItemData": { "hiddenItemId": -1 },
+              "currentChestState": -1,
+              "chestForcedDrops": {},
+              "backpackItemData": {
+                "items": [
+                  {
+                    "id": 113003,
+                    "manualSource": { "currentItemCharges": -1 },
+                    "autoSource": { "currentItemCharges": -1 },
+                    "lockedItemData": { "hiddenItemId": -1 },
+                    "currentChestState": -1,
+                    "chestForcedDrops": {}
+                  },
+                  {
+                    "id": 113003,
+                    "manualSource": { "currentItemCharges": -1 },
+                    "autoSource": { "currentItemCharges": -1 },
+                    "lockedItemData": { "hiddenItemId": -1 },
+                    "currentChestState": -1,
+                    "chestForcedDrops": {}
+                  },
+                  {
+                    "id": 113003,
+                    "manualSource": { "currentItemCharges": -1 },
+                    "autoSource": { "currentItemCharges": -1 },
+                    "lockedItemData": { "hiddenItemId": -1 },
+                    "currentChestState": -1,
+                    "chestForcedDrops": {}
                   }
                 ]
               }
@@ -2448,18 +2557,18 @@
                     "id": 103005,
                     "manualSource": {
                       "currentItemCharges": 9,
-                      "lastEvaluationTime": "2023-03-25T07:10:24.1153062",
-                      "itemsGenerated": 2744
+                      "lastEvaluationTime": "2023-03-25T07:10:24.1154191",
+                      "itemsGenerated": 258
                     },
                     "autoSource": {
-                      "crescentRechargeTimer": 18093.5488,
-                      "lastEvaluationTime": "2023-03-25T07:14:10.6211799",
-                      "itemsGenerated": 243
+                      "crescentRechargeTimer": 18093.7285,
+                      "lastEvaluationTime": "2023-03-25T07:14:10.6211868",
+                      "itemsGenerated": 11
                     },
                     "lockedItemData": { "hiddenItemId": -1 },
                     "currentChestState": -1,
                     "chestForcedDrops": {},
-                    "startFreezeTime": "2023-03-25T06:40:49.50109Z"
+                    "startFreezeTime": "2023-03-25T06:40:51.966179Z"
                   },
                   {
                     "id": 103005,
@@ -2482,66 +2591,18 @@
                     "id": 103005,
                     "manualSource": {
                       "currentItemCharges": 9,
-                      "lastEvaluationTime": "2023-03-25T07:10:24.1154191",
-                      "itemsGenerated": 258
+                      "lastEvaluationTime": "2023-03-25T07:10:24.1153062",
+                      "itemsGenerated": 2744
                     },
                     "autoSource": {
-                      "crescentRechargeTimer": 18093.7285,
-                      "lastEvaluationTime": "2023-03-25T07:14:10.6211868",
-                      "itemsGenerated": 11
+                      "crescentRechargeTimer": 18093.5488,
+                      "lastEvaluationTime": "2023-03-25T07:14:10.6211799",
+                      "itemsGenerated": 243
                     },
                     "lockedItemData": { "hiddenItemId": -1 },
                     "currentChestState": -1,
                     "chestForcedDrops": {},
-                    "startFreezeTime": "2023-03-25T06:40:51.966179Z"
-                  }
-                ]
-              }
-            },
-            {
-              "id": 962005,
-              "manualSource": { "currentItemCharges": -1 },
-              "autoSource": { "currentItemCharges": -1 },
-              "lockedItemData": { "hiddenItemId": -1 },
-              "currentChestState": -1,
-              "chestForcedDrops": {},
-              "backpackItemData": {
-                "items": [
-                  {
-                    "id": 145005,
-                    "manualSource": {
-                      "currentItemCharges": 1,
-                      "lastEvaluationTime": "2023-03-24T08:23:05.4921265"
-                    },
-                    "autoSource": { "currentItemCharges": -1 },
-                    "lockedItemData": { "hiddenItemId": -1 },
-                    "currentChestState": -1,
-                    "chestForcedDrops": {},
-                    "startFreezeTime": "2023-03-24T08:58:49.682427Z"
-                  },
-                  {
-                    "id": 145005,
-                    "manualSource": {
-                      "currentItemCharges": 1,
-                      "lastEvaluationTime": "2023-03-24T08:58:35.6058621"
-                    },
-                    "autoSource": { "currentItemCharges": -1 },
-                    "lockedItemData": { "hiddenItemId": -1 },
-                    "currentChestState": -1,
-                    "chestForcedDrops": {},
-                    "startFreezeTime": "2023-03-24T08:58:50.916213Z"
-                  },
-                  {
-                    "id": 145005,
-                    "manualSource": {
-                      "currentItemCharges": 1,
-                      "lastEvaluationTime": "2023-03-25T02:55:32.6250622"
-                    },
-                    "autoSource": { "currentItemCharges": -1 },
-                    "lockedItemData": { "hiddenItemId": -1 },
-                    "currentChestState": -1,
-                    "chestForcedDrops": {},
-                    "startFreezeTime": "2023-03-25T02:55:38.683599Z"
+                    "startFreezeTime": "2023-03-25T06:40:49.50109Z"
                   }
                 ]
               }
@@ -2628,22 +2689,6 @@
             },
             {
               "id": 125003,
-              "manualSource": { "currentItemCharges": -1 },
-              "autoSource": { "currentItemCharges": -1 },
-              "lockedItemData": { "hiddenItemId": -1 },
-              "currentChestState": -1,
-              "chestForcedDrops": {}
-            },
-            {
-              "id": 132006,
-              "manualSource": { "currentItemCharges": -1 },
-              "autoSource": { "currentItemCharges": -1 },
-              "lockedItemData": { "hiddenItemId": -1 },
-              "currentChestState": -1,
-              "chestForcedDrops": {}
-            },
-            {
-              "id": 132007,
               "manualSource": { "currentItemCharges": -1 },
               "autoSource": { "currentItemCharges": -1 },
               "lockedItemData": { "hiddenItemId": -1 },
@@ -2754,78 +2799,6 @@
               "currentChestState": -1,
               "chestForcedDrops": {},
               "startFreezeTime": "2023-03-07T01:30:39.8838857-06:00"
-            },
-            {
-              "id": 962005,
-              "manualSource": { "currentItemCharges": -1 },
-              "autoSource": { "currentItemCharges": -1 },
-              "lockedItemData": { "hiddenItemId": -1 },
-              "currentChestState": -1,
-              "chestForcedDrops": {},
-              "backpackItemData": {
-                "items": [
-                  {
-                    "id": 113003,
-                    "manualSource": { "currentItemCharges": -1 },
-                    "autoSource": { "currentItemCharges": -1 },
-                    "lockedItemData": { "hiddenItemId": -1 },
-                    "currentChestState": -1,
-                    "chestForcedDrops": {}
-                  },
-                  {
-                    "id": 113003,
-                    "manualSource": { "currentItemCharges": -1 },
-                    "autoSource": { "currentItemCharges": -1 },
-                    "lockedItemData": { "hiddenItemId": -1 },
-                    "currentChestState": -1,
-                    "chestForcedDrops": {}
-                  },
-                  {
-                    "id": 113003,
-                    "manualSource": { "currentItemCharges": -1 },
-                    "autoSource": { "currentItemCharges": -1 },
-                    "lockedItemData": { "hiddenItemId": -1 },
-                    "currentChestState": -1,
-                    "chestForcedDrops": {}
-                  }
-                ]
-              }
-            },
-            {
-              "id": 962005,
-              "manualSource": { "currentItemCharges": -1 },
-              "autoSource": { "currentItemCharges": -1 },
-              "lockedItemData": { "hiddenItemId": -1 },
-              "currentChestState": -1,
-              "chestForcedDrops": {},
-              "backpackItemData": {
-                "items": [
-                  {
-                    "id": 112004,
-                    "manualSource": { "currentItemCharges": -1 },
-                    "autoSource": { "currentItemCharges": -1 },
-                    "lockedItemData": { "hiddenItemId": -1 },
-                    "currentChestState": -1,
-                    "chestForcedDrops": {}
-                  },
-                  {
-                    "id": 112004,
-                    "manualSource": { "currentItemCharges": -1 },
-                    "autoSource": { "currentItemCharges": -1 },
-                    "lockedItemData": { "hiddenItemId": -1 },
-                    "currentChestState": -1,
-                    "chestForcedDrops": {}
-                  },
-                  {
-                    "id": 112004,
-                    "manualSource": { "currentItemCharges": -1 },
-                    "autoSource": { "currentItemCharges": -1 },
-                    "lockedItemData": { "hiddenItemId": -1 },
-                    "currentChestState": -1,
-                    "chestForcedDrops": {}
-                  }
-                ]
-              }
             }
           ],
           "entries": [
@@ -2880,7 +2853,7 @@
             { "onSale": true },
             { "onSale": true }
           ],
-          "sortingData": { "lastSortingId": 2 }
+          "sortingData": { "isSorted": true, "lastSortingId": 2 }
         },
         "rewardInventoryData": { "items": [] },
         "pendingRewardsData": { "itemIds": [] },
@@ -2900,7 +2873,7 @@
             "107": 3838,
             "108": 6576,
             "995": 1956,
-            "110": 29413,
+            "110": 29441,
             "991": 920,
             "121": 11451,
             "105": 7661,
@@ -2929,14 +2902,14 @@
             "973": 23,
             "135": 904,
             "968": 59,
-            "978": 76,
+            "978": 77,
             "956": 9,
             "957": 9,
             "976": 58,
             "958": 9,
             "959": 9,
-            "123": 926,
-            "124": 402,
+            "123": 928,
+            "124": 405,
             "126": 539,
             "125": 516,
             "151": 32,
@@ -2947,7 +2920,10 @@
             "148": 91
           }
         },
-        "bubbleData": { "nextStacksRefresh": "2023-03-25T07:44:01.0856109" },
+        "bubbleData": {
+          "stacks": 2,
+          "nextStacksRefresh": "2023-03-25T07:44:01.0856109"
+        },
         "itemDiscoveryData": {
           "seenItemIds": [
             101003, 998000, 996001, 102000, 100000, 100001, 100002, 100003,
@@ -3046,6 +3022,7 @@
           ]
         },
         "randomTreasureData": {
+          "stacks": 1,
           "nextStacksRefresh": "2023-03-25T08:14:27.637231"
         }
       },
@@ -3386,11 +3363,11 @@
       "1.33.0",
       "1.34.0"
     ],
-    "version": "1.33.0"
+    "version": "1.34.0"
   },
   "metadata": {
     "name": "CloudSave_ROvsISiUBfgIsMTsYSHxp0R9nvf1.json.gzip",
-    "creationTimeMillis": 5249839572586747904,
-    "updatedtimeMillis": 5249839572586747904
+    "creationTimeMillis": 5249839576875367904,
+    "updatedtimeMillis": 5249839576875367904
   }
 }
