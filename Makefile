@@ -6,22 +6,22 @@ connect-e:
 launch-e: connect-e
 	adb -e shell monkey -p com.pixodust.games.free.rpg.medieval.merge.puzzle.empire 1
 
-pull-e-config:
+pull-e-config: connect-e
 	adb -e shell 'su -c "stat -c %y /data/data/*medieval.merge*/files/frc*"'
 	adb -e shell 'su -c "cp /data/data/*medieval.merge*/files/frc* /mnt/windows/BstSharedFolder"'
 	cp /c/ProgramData/BlueStacks_nxt/Engine/UserData/SharedFolder/frc* raw_data_new_bs.json
 	py format-response.py raw_data_new_bs.json
 
-check-e-cloud:
+check-e-cloud: connect-e
 	adb -e shell 'stat -c %y sdcard/Android/data/*medieval.merge*/files/GameSaves/Cloud/CloudSave.json'
 
-watch-e-cloud:
+watch-e-cloud: connect-e
 	while true; do adb -e shell 'stat -c %y sdcard/Android/data/*medieval.merge*/files/GameSaves/Cloud/CloudSave.json'; sleep 4; done
 
 pull-e-cloud: check-e-cloud
 	adb -e pull sdcard/Android/data/com.pixodust.games.free.rpg.medieval.merge.puzzle.empire/files/GameSaves/Cloud/CloudSave.json
 
-clear-e-data:
+clear-e-data: connect-e
 	adb -e shell pm clear com.pixodust.games.free.rpg.medieval.merge.puzzle.empire
 
 pull-d-config:
