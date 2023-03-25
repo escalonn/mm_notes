@@ -47,12 +47,16 @@ def main():
                 rewards = main_board['rewardInventoryData']['items']
                 print([item_namer(r) for r in rewards])
             case 'bubbles':
-                for key, name in [('bubbleData', 'bubble'), ('randomTreasureData', 'random treasure')]:
+                for key, name in [
+                    ('bubbleData', 'bubble'),
+                    ('randomTreasureData', 'random treasure')
+                ]:
                     bubbles = main_board[key]
-                    refreshTime = arrow.get(
-                        bubbles['nextStacksRefresh']).replace(tzinfo='local')
-                    print(f'{bubbles["stacks"]} {name} stacks, '
-                          f'refresh {refreshTime.humanize()}')
+                    refresh_time = arrow.get(bubbles['nextStacksRefresh'])
+                    time_display = refresh_time.humanize(
+                        granularity=["hour", "minute"])
+                    print(f'{bubbles.get("stacks", "_")} {name} stacks, '
+                          f'refresh {time_display}')
 
 
 if __name__ == '__main__':

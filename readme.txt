@@ -186,3 +186,9 @@ todo event spreadsheet
     a table for energy & charge time requirement of each item of each level.
         forge drop rows and maybe others have to be hardcoded?
         potions and staves from
+bubbles research
+    "random treasure" means bubble with duplicate item?
+    "bubble" means bubble with hourglass?
+    treasure stacks seems to go up by 1 randomly, and set refresh time to 1 hour in the future.
+        when you get a treasure bubble? also when you don't?
+    when refresh time, stacks resets to 0, but refresh time doesn't update
