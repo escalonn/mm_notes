@@ -108,6 +108,14 @@ if 'boardItemSettings1001' in configs:
         for uid in sorted(quest_graph):
             writer.writerow([uid, int(uid not in main_path)])
 
+    with open('quest_objectives.csv', 'w', newline='') as f:
+        writer = csv.writer(f)
+        writer.writerow(['uid', 'item', 'amount'])
+        for quest in event_quests:
+            uid = quest["uid"]
+            for x in quest['objectives']:
+                writer.writerow([uid, extract_id(x["itemId"]), x["amount"]])
+
     event_item_graph = nx.DiGraph()
     for item in configs['boardItemSettings1001']['items']:
         item_id = int(item['id'][-7:-1]

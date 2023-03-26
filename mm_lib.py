@@ -35,5 +35,6 @@ def load_fallback_item_info():
         ] for i in range(m)
     }
 
+
 def load_item_info():
     return load_fallback_item_info() | load_wiki_item_info()
