@@ -182,7 +182,8 @@ next event
         so we can get a version of the query at the end of event-plan.txt
             but for only main quests or for only sidequests, to see what's more easily delayed.
     todo calculate energy value of all (lvl1) items incl generator pieces to aid decision making.
-    todo calculate buying energy only when empty vs buying energy 5x every 24 hr (losing passive).
+    todo calculate buying energy only when empty vs buying energy 5x every 24 hr (losing passive until spent down).
+    todo decide the gem value of energy (e.g. for popping bubbles)
 todo event spreadsheet
     a table for energy & charge time requirement of each item of each level.
         forge drop rows and maybe others have to be hardcoded?
