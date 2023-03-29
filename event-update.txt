@@ -1,0 +1,22 @@
+barrel lvl7-10 farming tools drops get a lot better
+toolbox lvl8-10 tools drops get a lot better
+sapphire box FOUR times as fast
+quest objective changes
+    1 farming tools lvl14 -> 9
+    1 farming tools lvl14 -> 9
+    1 farming tools lvl12 -> 7
+    1 farming tools lvl12 -> 7
+    1 farming tools lvl11 -> 8
+    1 tools lvl13 -> 11
+    1 tools lvl11 -> 9
+    1 tools lvl10 -> 9
+    1 tools lvl12 -> 10
+overall farming tools reduced by 2.53125 x lvl14 (65% less)
+overall tools reduced by 2.53125 x lvl14 (46% less)
+
+barrel lvl10 no longer worth it, recommend barrel lvl9.
+    you'll still make twice as much wood as you need on the way.
+toolbox lvl9 no longer worth it, recommend toolbox lvl8.
+    no extra copper armour taps needed besides for armour objectives.
+    rivets now needed twice as much as tools (and their energy cost is the same for all toolbox levels)
+    each rivet ad is worth 16.7 energy.

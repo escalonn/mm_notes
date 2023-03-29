@@ -213,9 +213,9 @@ digraph {
 	2286 -> 2289
 	2287 [penwidth=4.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl9</TD></TR><TR><TD>1 × Gloves lvl3</TD></TR></TABLE>>, xlabel=<<FONT POINT-SIZE="7"><B>\N</B></FONT>>, style=filled]
 	2287 -> 2290
-	2288 [penwidth=4.0, label=<<TABLE BORDER="0"><TR><TD>2 × Rope lvl4</TD></TR><TR><TD>1 × Farming Tools lvl14</TD></TR></TABLE>>, xlabel=<<FONT POINT-SIZE="7"><B>\N</B></FONT>>, style=filled]
+	2288 [penwidth=4.0, label=<<TABLE BORDER="0"><TR><TD>2 × Rope lvl4</TD></TR><TR><TD>1 × Farming Tools lvl9</TD></TR></TABLE>>, xlabel=<<FONT POINT-SIZE="7"><B>\N</B></FONT>>, style=filled]
 	2289 [penwidth=4.0, label=<<TABLE BORDER="0"><TR><TD>3 × Rivets lvl5</TD></TR><TR><TD>1 × Tools lvl8</TD></TR></TABLE>>, xlabel=<<FONT POINT-SIZE="7"><B>\N</B></FONT>>, style=filled]
-	2290 [penwidth=4.0, label=<<TABLE BORDER="0"><TR><TD>2 × Holy Staff lvl5</TD></TR><TR><TD>1 × Farming Tools lvl12</TD></TR></TABLE>>, xlabel=<<FONT POINT-SIZE="7"><B>\N</B></FONT>>, style=filled]
+	2290 [penwidth=4.0, label=<<TABLE BORDER="0"><TR><TD>2 × Holy Staff lvl5</TD></TR><TR><TD>1 × Farming Tools lvl7</TD></TR></TABLE>>, xlabel=<<FONT POINT-SIZE="7"><B>\N</B></FONT>>, style=filled]
 	2291 [penwidth=4.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl6</TD></TR></TABLE>>, xlabel=<<FONT POINT-SIZE="7"><B>\N</B></FONT>>, style=""]
 	2291 -> 2292
 	2291 -> 2293
@@ -237,7 +237,7 @@ digraph {
 	2300 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Sword lvl7</TD></TR></TABLE>>, xlabel=<<FONT POINT-SIZE="7"><B>\N</B></FONT>>, style=""]
 	2300 -> 2301
 	2300 -> 2302
-	2301 [penwidth=4.0, label=<<TABLE BORDER="0"><TR><TD>1 × Holy Staff lvl5</TD></TR><TR><TD>1 × Tools lvl13</TD></TR></TABLE>>, xlabel=<<FONT POINT-SIZE="7"><B>\N</B></FONT>>, style=filled]
+	2301 [penwidth=4.0, label=<<TABLE BORDER="0"><TR><TD>1 × Holy Staff lvl5</TD></TR><TR><TD>1 × Tools lvl11</TD></TR></TABLE>>, xlabel=<<FONT POINT-SIZE="7"><B>\N</B></FONT>>, style=filled]
 	2302 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Fire Potion lvl4</TD></TR></TABLE>>, xlabel=<<FONT POINT-SIZE="7"><B>\N</B></FONT>>, style=""]
 	2302 -> 2303
 	2302 -> 2304
@@ -256,7 +256,7 @@ digraph {
 	2309 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Holy Staff lvl5</TD></TR></TABLE>>, xlabel=<<FONT POINT-SIZE="7"><B>\N</B></FONT>>, style=""]
 	2309 -> 2310
 	2309 -> 2311
-	2310 [penwidth=4.0, label=<<TABLE BORDER="0"><TR><TD>1 × Gloves lvl3</TD></TR><TR><TD>1 × Tools lvl11</TD></TR></TABLE>>, xlabel=<<FONT POINT-SIZE="7"><B>\N</B></FONT>>, style=filled]
+	2310 [penwidth=4.0, label=<<TABLE BORDER="0"><TR><TD>1 × Gloves lvl3</TD></TR><TR><TD>1 × Tools lvl9</TD></TR></TABLE>>, xlabel=<<FONT POINT-SIZE="7"><B>\N</B></FONT>>, style=filled]
 	2310 -> 2313
 	2311 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Battle Axe lvl4</TD></TR></TABLE>>, xlabel=<<FONT POINT-SIZE="7"><B>\N</B></FONT>>, style=""]
 	2311 -> 2312
@@ -345,7 +345,7 @@ digraph {
 	2352 -> 2353
 	2353 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl8</TD></TR></TABLE>>, xlabel=<<FONT POINT-SIZE="7"><B>\N</B></FONT>>, style=""]
 	2353 -> 2354
-	2354 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl10</TD></TR><TR><TD>1 × Holy Staff lvl5</TD></TR></TABLE>>, xlabel=<<FONT POINT-SIZE="7"><B>\N</B></FONT>>, style=""]
+	2354 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl9</TD></TR><TR><TD>1 × Holy Staff lvl5</TD></TR></TABLE>>, xlabel=<<FONT POINT-SIZE="7"><B>\N</B></FONT>>, style=""]
 	2354 -> 2355
 	2355 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Fire Rod lvl5</TD></TR><TR><TD>3 × Poison Bottle lvl4</TD></TR></TABLE>>, xlabel=<<FONT POINT-SIZE="7"><B>\N</B></FONT>>, style=""]
 	2355 -> 2356
@@ -385,7 +385,7 @@ digraph {
 	2372 -> 2373
 	2373 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>3 × Fire Potion lvl4</TD></TR></TABLE>>, xlabel=<<FONT POINT-SIZE="7"><B>\N</B></FONT>>, style=""]
 	2373 -> 2374
-	2374 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Gloves lvl3</TD></TR><TR><TD>1 × Farming Tools lvl12</TD></TR></TABLE>>, xlabel=<<FONT POINT-SIZE="7"><B>\N</B></FONT>>, style=""]
+	2374 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>1 × Gloves lvl3</TD></TR><TR><TD>1 × Farming Tools lvl7</TD></TR></TABLE>>, xlabel=<<FONT POINT-SIZE="7"><B>\N</B></FONT>>, style=""]
 	2374 -> 2375
 	2374 -> 2376
 	2375 [penwidth=1.0, label=<<TABLE BORDER="0"><TR><TD>3 × Fire Rod lvl5</TD></TR><TR><TD>4 × Wood lvl5</TD></TR></TABLE>>, xlabel=<<FONT POINT-SIZE="7"><B>\N</B></FONT>>, style=""]
@@ -401,13 +401,13 @@ digraph {
 	2380 -> 2381
 	2381 [penwidth=3.0, label=<<TABLE BORDER="0"><TR><TD>4 × Fire Potion lvl4</TD></TR><TR><TD>4 × Poison Bottle lvl4</TD></TR></TABLE>>, xlabel=<<FONT POINT-SIZE="7"><B>\N</B></FONT>>, style=""]
 	2381 -> 2382
-	2382 [penwidth=4.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl12</TD></TR><TR><TD>4 × Wood lvl5</TD></TR></TABLE>>, xlabel=<<FONT POINT-SIZE="7"><B>\N</B></FONT>>, style=""]
+	2382 [penwidth=4.0, label=<<TABLE BORDER="0"><TR><TD>1 × Tools lvl10</TD></TR><TR><TD>4 × Wood lvl5</TD></TR></TABLE>>, xlabel=<<FONT POINT-SIZE="7"><B>\N</B></FONT>>, style=""]
 	2382 -> 2383
-	2383 [penwidth=4.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl11</TD></TR><TR><TD>1 × Gloves lvl3</TD></TR></TABLE>>, xlabel=<<FONT POINT-SIZE="7"><B>\N</B></FONT>>, style=""]
+	2383 [penwidth=4.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl8</TD></TR><TR><TD>1 × Gloves lvl3</TD></TR></TABLE>>, xlabel=<<FONT POINT-SIZE="7"><B>\N</B></FONT>>, style=""]
 	2383 -> 2384
 	2384 [penwidth=3.0, label=<<TABLE BORDER="0"><TR><TD>1 × Battle Axe lvl7</TD></TR><TR><TD>2 × Rope lvl4</TD></TR></TABLE>>, xlabel=<<FONT POINT-SIZE="7"><B>\N</B></FONT>>, style=""]
 	2384 -> 2385
-	2385 [penwidth=5.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl14</TD></TR><TR><TD>1 × Gloves lvl3</TD></TR></TABLE>>, xlabel=<<FONT POINT-SIZE="7"><B>\N</B></FONT>>, style=""]
+	2385 [penwidth=5.0, label=<<TABLE BORDER="0"><TR><TD>1 × Farming Tools lvl9</TD></TR><TR><TD>1 × Gloves lvl3</TD></TR></TABLE>>, xlabel=<<FONT POINT-SIZE="7"><B>\N</B></FONT>>, style=""]
 	2385 -> 2386
 	2386 [penwidth=4.0, label=<<TABLE BORDER="0"><TR><TD>1 × Sword lvl9</TD></TR><TR><TD>1 × Copper Armour lvl8</TD></TR></TABLE>>, xlabel=<<FONT POINT-SIZE="7"><B>\N</B></FONT>>, style=""]
 }

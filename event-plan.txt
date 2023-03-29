@@ -44,23 +44,23 @@ tree
 barrel, farming tools, gloves
     vanilla (max barrel not quite as strong or fast as vanilla)
     get first lvl5 free from board, get more barrel from using tree
-    need 3.888 farming tools lvl14!!
+    need 1.357 farming tools lvl14!
         | gen | charge_d | energy | energy_usage |
         |-----|----------|--------|--------------|
-        | 4   | 349.3    | 33531  | 0.06         |
-        | 5   | 252.8    | 30337  | 0.07         |
-        | 6   | 129.8    | 25483  | 0.12         |
-        | 7   | 111.9    | 21968  | 0.12         |
-        | 8   | 64.8     | 16335  | 0.15         |
-        | 9   | 26.9     | 13555  | 0.3          |
-        | 10  | 11.1     | 11177  | 0.59         |
+        | 4   | 121.9    | 11703  | 0.06         |
+        | 5   | 88.2     | 10589  | 0.07         |
+        | 6   | 45.3     | 8894   | 0.12         |
+        | 7   | 31.5     | 6177   | 0.12         |
+        | 8   | 12.8     | 3223   | 0.15         |
+        | 9   | 4.1      | 2078   | 0.3          |
+        | 10  | 1.5      | 1523   | 0.59         |
     need 16 gloves lvl3 (1280e)
     delay using barrel as late as possible to benefit from higher lvl energy cost reduction
     lvl5 -> lvl6 takes 128e
     lvl6 -> lvl7 takes 256e
     lvl7 -> lvl8 takes 512e
-    lvl8 -> lvl9 takes 1024e [worth, too slow]
-    lvl9 -> lvl10 takes 2048e [worth, by just 329e]
+    lvl8 -> lvl9 takes 1024e [worth, barely]
+    lvl9 -> lvl10 takes 2048e [not worth]
     can buy barrel lvl1 for 180 gold or 10 gems. each one is worth 8 energy.
         gems not worth it. gold probably not worth it.
     can buy barrel lvl2 for 300 gold or 18 gems. each one is worth 16 energy.
@@ -68,7 +68,7 @@ barrel, farming tools, gloves
 wood, bow
     vanilla
     basically wood is cheap, 13 energy for a max wood, so don't need to save it
-    1.875
+    1.875 bow
 forge
     get exactly 1, from early quest (after first rope quest) and board to lvl5
     levels itself up "quickly" but you can't merge the drops together...
@@ -161,32 +161,32 @@ toolbox, tools, rope, rivets
     can buy toolbox lvl2 for 280 gold or 16 gems.
         lvl1 is worth like 3.85 energy, so... no, probably not
     drop rates are mostly buffed from vanilla but rope & rivets stay constant with lvl
-    need 2.934 tools lvl13
+    need 6.236 tools lvl11
     | gen | charge_d | energy | energy_usage |
     |-----|----------|--------|--------------|
-    | 4   | 104.3    | 13353  | 0.08         |
-    | 5   | 75.1     | 12018  | 0.09         |
-    | 6   | 56.9     | 10925  | 0.11         |
-    | 7   | 29.8     | 8584   | 0.17         |
-    | 8   | 14.9     | 7511   | 0.3          | [too slow]
-    | 9   | 9.1      | 5225   | 0.34         |
-    | 10  | 3.3      | 4292   | 0.76         | [not worth]
+    | 4   | 55.4     | 7096   | 0.08         |
+    | 5   | 39.9     | 6386   | 0.09         |
+    | 6   | 30.2     | 5805   | 0.11         |
+    | 7   | 15.8     | 4561   | 0.17         | [too slow]
+    | 8   | 5.5      | 2777   | 0.3          |
+    | 9   | 2.5      | 1419   | 0.34         | [not worth]
+    | 10  | 0.7      | 912    | 0.76         |
     17 rivets lvl5.
     | gen | charge_d | energy | energy_usage |
     |-----|----------|--------|--------------|
     | 4   | 35.4     | 4533   | 0.08         |
     | 5   | 28.3     | 4533   | 0.09         |
     | 6   | 23.6     | 4533   | 0.11         |
-    | 7   | 15.7     | 4533   | 0.17         |
+    | 7   | 15.7     | 4533   | 0.17         | [too slow]
     | 8   | 9.0      | 4533   | 0.3          |
-    | 9   | 7.9      | 4533   | 0.34         |
+    | 9   | 7.9      | 4533   | 0.34         | [not worth]
     | 10  | 3.5      | 4533   | 0.76         |
     19 rope lvl4 (3800e)
     5 -> 6: 42.67 lvl1 ingots + 16 energy
     6 -> 7: 85.33 lvl1 ingots + 32 energy
     7 -> 8: 170.67 lvl1 ingots + 64 energy
-    8 -> 9: 341.33 lvl1 ingots + 128 energy
-    9 -> 10: 682.67 lvl1 ingots + 256 energy [not worth]
+    8 -> 9: 341.33 lvl1 ingots + 128 energy [not worth]
+    9 -> 10: 682.67 lvl1 ingots + 256 energy
     delay using toolbox for the BIG quests as late as possible to benefit from higher lvl energy cost reduction
     todo decide whether to rush toolbox early.
     [done] calculate how much copper armour needed for making toolbox
@@ -290,7 +290,7 @@ gift box ad rewards
     Gloves        [1x Gloves lvl1]          0   energy
     Stone         [4x Stone lvl1]           2.7 energy
     Tools         [4x Tools lvl1]           1.7 energy
-    Rivets        [1x Rivets lvl1]          0 energy   or 16.7 energy if tools limit
+    Rivets        [1x Rivets lvl1]          16.7 energy or 0 energy if tools limit
     Rope          [1x Rope lvl1]            0   energy
     Sword         [3x Sword lvl1]          ~1   energy
     Battle Axe    [1x Battle Axe lvl1]     ~1   energy
@@ -300,11 +300,31 @@ gift box ad rewards
     Fire Rod      [1x Fire Rod lvl1]        0   energy or 3.7 energy if staves limit, or 24m gtree7 charge time
     Wind Scepter  [1x Wind Scepter lvl1]    0   energy or 3.7 energy if staves limit, or 24m gtree7 charge time
     Holy Staff    [1x Holy Staff lvl1]      0   energy
-    after watching 16 rivets ads, rivets & tools on par. less if used toolbox at lower levels.
-        ^ only true if we go to toolbox 10
+    after watching ~105 rivets ads, rivets & tools on par (at toolbox lvl8).
     after watching ~22 potion ads, potions and staves on par.
     after watching ~208 (lol) fire/wind ads, holy staves on par.
-combined by hand
+objectives (new)
+    ┌───────────────┬─────┬───────────┬───────────┬────────────────┐
+    │     title     │ lvl │    all    │   side    │      main      │
+    ├───────────────┼─────┼───────────┼───────────┼────────────────┤
+    │ Wood          │   5 │ 58.5      │ 12        │ 46.5           │
+    │ Bow           │   5 │  1.875    │  0        │  1.875         │
+    │ Farming Tools │  14 │  1.357178 │  1.178223 │  0.178955      │
+    │ Gloves        │   3 │ 16        │ 12        │  4             │
+    │ Sword         │     │           │[3656]     │[55468675876879]│
+    │ Battle Axe    │     │           │[5576]     │[4675344577]    │
+    │ Copper Armour │     │           │[5]        │[3453776888]    │
+    │ Stone         │   6 │ 33.25     │  3.25     │  30            │
+    │ Tools         │  11 │  6.236328 │  2.087891 │  4.148438      │
+    │ Rivets        │   5 │ 17        │ 12        │  5             │
+    │ Rope          │   4 │ 19        │ 13        │  6             │
+    │ Fire Potion   │   4 │ 26        │  4        │ 22             │
+    │ Poison Bottle │   4 │ 25        │  3        │ 22             │
+    │ Fire Rod      │   5 │ 21        │  3        │ 18             │
+    │ Wind Scepter  │   5 │ 20        │  9        │ 11             │
+    │ Holy Staff    │   5 │ 14        │ 11        │  3             │
+    └───────────────┴─────┴───────────┴───────────┴────────────────┘
+objectives (old)
     ┌───────────────┬─────┬───────────┬───────────┬────────────────┐
     │     title     │ lvl │    all    │   side    │      main      │
     ├───────────────┼─────┼───────────┼───────────┼────────────────┤
@@ -325,45 +345,3 @@ combined by hand
     │ Wind Scepter  │   5 │ 20        │  9        │ 11             │
     │ Holy Staff    │   5 │ 14        │ 11        │  3             │
     └───────────────┴─────┴───────────┴───────────┴────────────────┘
-side objectives
-    ┌───────────────┬─────┬──────────┐
-    │     title     │ lvl │    n     │
-    ├───────────────┼─────┼──────────┤
-    │ Farming Tools │ 14  │ 3.888428 │
-    │ Gloves        │ 3   │ 16.0     │
-    │ Wood          │ 5   │ 58.5     │
-    │ Sword         │ 9   │ 4.171875 │
-    │ Tools         │ 13  │ 2.934082 │
-    │ Rivets        │ 5   │ 17.0     │
-    │ Rope          │ 4   │ 19.0     │
-    │ Stone         │ 6   │ 33.25    │
-    │ Bow           │ 5   │ 1.875    │
-    │ Battle Axe    │ 7   │ 6.4375   │
-    │ Fire Rod      │ 5   │ 21.0     │
-    │ Wind Scepter  │ 5   │ 20.0     │
-    │ Holy Staff    │ 5   │ 14.0     │
-    │ Copper Armour │ 8   │ 4.625    │
-    │ Fire Potion   │ 4   │ 26.0     │
-    │ Poison Bottle │ 4   │ 25.0     │
-    └───────────────┴─────┴──────────┘
-main objectives
-    ┌───────────────┬─────┬───────┐
-    │     title     │ lvl │   n   │
-    ├───────────────┼─────┼───────┤
-    │ Farming Tools │ 14  │ 1.499 │
-    │ Gloves        │ 3   │ 4.0   │
-    │ Wood          │ 5   │ 46.5  │
-    │ Sword         │ 9   │ 3.844 │
-    │ Tools         │ 12  │ 2.949 │
-    │ Rivets        │ 5   │ 5.0   │
-    │ Rope          │ 4   │ 6.0   │
-    │ Stone         │ 6   │ 30.0  │
-    │ Bow           │ 5   │ 1.875 │
-    │ Battle Axe    │ 7   │ 4.438 │
-    │ Fire Rod      │ 5   │ 18.0  │
-    │ Wind Scepter  │ 5   │ 11.0  │
-    │ Holy Staff    │ 5   │ 3.0   │
-    │ Copper Armour │ 8   │ 4.5   │
-    │ Fire Potion   │ 4   │ 22.0  │
-    │ Poison Bottle │ 4   │ 22.0  │
-    └───────────────┴─────┴───────┘

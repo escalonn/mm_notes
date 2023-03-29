@@ -154,7 +154,7 @@ SELECT
   key,
   value ->> '$'
 FROM
-  json_each(readfile ('raw_data.json') -> '$.configs_key');
+  json_each(readfile ('raw_data_bs.json') -> '$.configs_key');
 
 CREATE TABLE
   items_json (
