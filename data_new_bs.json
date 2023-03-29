@@ -6339,9 +6339,9 @@
           "name": "Main/item_123004",
           "level": 5,
           "manualSource": {
-            "destroyAfterTaps": 3,
+            "destroyAfterTaps": 8,
             "hideOnInfoPopup": true,
-            "dropsPerRecharge": 3,
+            "dropsPerRecharge": 8,
             "rechargeTimer": 0,
             "rechargesStack": 1,
             "droppableItems": [
@@ -6356,7 +6356,7 @@
             "forcedDrops": [
               {
                 "itemId": "Energy lvl4 [955003]",
-                "amount": 3
+                "amount": 8
               }
             ]
           }
@@ -6532,9 +6532,9 @@
           "name": "Main/item_126004",
           "level": 5,
           "manualSource": {
-            "destroyAfterTaps": 7,
+            "destroyAfterTaps": 9,
             "hideOnInfoPopup": true,
-            "dropsPerRecharge": 7,
+            "dropsPerRecharge": 9,
             "rechargeTimer": 0,
             "rechargesStack": 1,
             "droppableItems": [
@@ -6557,6 +6557,10 @@
               },
               {
                 "itemId": "Coins lvl3 [996002]",
+                "amount": 2
+              },
+              {
+                "itemId": "Coins lvl6 [996005]",
                 "amount": 2
               }
             ]
@@ -6592,8 +6596,8 @@
           "level": 4,
           "manualSource": {
             "spendsEnergy": true,
-            "destroyAfterTaps": 10,
-            "dropsPerRecharge": 10,
+            "destroyAfterTaps": 20,
+            "dropsPerRecharge": 20,
             "rechargeTimer": 0,
             "rechargesStack": 1,
             "droppableItems": [
@@ -6624,23 +6628,23 @@
             "forcedDrops": [
               {
                 "itemId": "Barrel lvl1 [100000]",
-                "amount": 2
+                "amount": 4
               },
               {
                 "itemId": "Forge lvl1 [105000]",
-                "amount": 2
+                "amount": 4
               },
               {
                 "itemId": "Tree lvl1 [103000]",
-                "amount": 2
+                "amount": 4
               },
               {
                 "itemId": "Mine lvl1 [121000]",
-                "amount": 2
+                "amount": 4
               },
               {
                 "itemId": "Guardian Tree lvl1 [107000]",
-                "amount": 2
+                "amount": 4
               }
             ]
           }
@@ -7336,8 +7340,8 @@
           "level": 4,
           "manualSource": {
             "spendsEnergy": true,
-            "destroyAfterTaps": 5,
-            "dropsPerRecharge": 5,
+            "destroyAfterTaps": 10,
+            "dropsPerRecharge": 10,
             "rechargeTimer": 0,
             "rechargesStack": 1,
             "droppableItems": [
@@ -7368,23 +7372,23 @@
             "forcedDrops": [
               {
                 "itemId": "Barrel lvl1 [100000]",
-                "amount": 1
+                "amount": 2
               },
               {
                 "itemId": "Forge lvl1 [105000]",
-                "amount": 1
+                "amount": 2
               },
               {
                 "itemId": "Tree lvl1 [103000]",
-                "amount": 1
+                "amount": 2
               },
               {
                 "itemId": "Mine lvl1 [121000]",
-                "amount": 1
+                "amount": 2
               },
               {
                 "itemId": "Guardian Tree lvl1 [107000]",
-                "amount": 1
+                "amount": 2
               }
             ]
           }
@@ -7419,8 +7423,8 @@
           "level": 4,
           "manualSource": {
             "spendsEnergy": true,
-            "destroyAfterTaps": 15,
-            "dropsPerRecharge": 15,
+            "destroyAfterTaps": 30,
+            "dropsPerRecharge": 30,
             "rechargeTimer": 0,
             "rechargesStack": 1,
             "droppableItems": [
@@ -7451,23 +7455,23 @@
             "forcedDrops": [
               {
                 "itemId": "Barrel lvl1 [100000]",
-                "amount": 3
+                "amount": 6
               },
               {
                 "itemId": "Forge lvl1 [105000]",
-                "amount": 3
+                "amount": 6
               },
               {
                 "itemId": "Tree lvl1 [103000]",
-                "amount": 3
+                "amount": 6
               },
               {
                 "itemId": "Mine lvl1 [121000]",
-                "amount": 3
+                "amount": 6
               },
               {
                 "itemId": "Guardian Tree lvl1 [107000]",
-                "amount": 3
+                "amount": 6
               }
             ]
           }
@@ -7518,7 +7522,7 @@
             "droppableItems": [
               {
                 "dropId": "Copper Ingot lvl1 [155000]",
-                "dropRate": 0.3
+                "dropRate": 0.29
               },
               {
                 "dropId": "Iron Ingot lvl1 [146000]",
@@ -7550,10 +7554,6 @@
               },
               {
                 "dropId": "Special Chest lvl1 [995000]",
-                "dropRate": 0.01
-              },
-              {
-                "dropId": "Dark Jewel lvl5 [143004]",
                 "dropRate": 0.01
               }
             ]
@@ -7573,7 +7573,7 @@
             "droppableItems": [
               {
                 "dropId": "Copper Ingot lvl1 [155000]",
-                "dropRate": 0.3
+                "dropRate": 0.29
               },
               {
                 "dropId": "Iron Ingot lvl1 [146000]",
@@ -7605,10 +7605,6 @@
               },
               {
                 "dropId": "Special Chest lvl1 [995000]",
-                "dropRate": 0.01
-              },
-              {
-                "dropId": "Dark Jewel lvl5 [143004]",
                 "dropRate": 0.01
               }
             ]
@@ -7628,7 +7624,7 @@
             "droppableItems": [
               {
                 "dropId": "Copper Ingot lvl1 [155000]",
-                "dropRate": 0.3
+                "dropRate": 0.29
               },
               {
                 "dropId": "Iron Ingot lvl1 [146000]",
@@ -7660,10 +7656,6 @@
               },
               {
                 "dropId": "Special Chest lvl1 [995000]",
-                "dropRate": 0.01
-              },
-              {
-                "dropId": "Dark Jewel lvl5 [143004]",
                 "dropRate": 0.01
               }
             ]
@@ -7683,7 +7675,7 @@
             "droppableItems": [
               {
                 "dropId": "Copper Ingot lvl1 [155000]",
-                "dropRate": 0.3
+                "dropRate": 0.29
               },
               {
                 "dropId": "Iron Ingot lvl1 [146000]",
@@ -7715,10 +7707,6 @@
               },
               {
                 "dropId": "Special Chest lvl1 [995000]",
-                "dropRate": 0.01
-              },
-              {
-                "dropId": "Dark Jewel lvl5 [143004]",
                 "dropRate": 0.01
               }
             ]
@@ -7738,7 +7726,7 @@
             "droppableItems": [
               {
                 "dropId": "Copper Ingot lvl1 [155000]",
-                "dropRate": 0.3
+                "dropRate": 0.29
               },
               {
                 "dropId": "Iron Ingot lvl1 [146000]",
@@ -7770,10 +7758,6 @@
               },
               {
                 "dropId": "Special Chest lvl1 [995000]",
-                "dropRate": 0.01
-              },
-              {
-                "dropId": "Dark Jewel lvl5 [143004]",
                 "dropRate": 0.01
               }
             ]
@@ -7786,12 +7770,12 @@
           "manualSource": {
             "spendsEnergy": true,
             "dropsPerRecharge": 10,
-            "rechargeTimer": 1800,
+            "rechargeTimer": 900,
             "rechargesStack": 1,
             "droppableItems": [
               {
                 "dropId": "Copper Ingot lvl1 [155000]",
-                "dropRate": 0.3
+                "dropRate": 0.29
               },
               {
                 "dropId": "Iron Ingot lvl1 [146000]",
@@ -7823,10 +7807,6 @@
               },
               {
                 "dropId": "Special Chest lvl1 [995000]",
-                "dropRate": 0.01
-              },
-              {
-                "dropId": "Dark Jewel lvl5 [143004]",
                 "dropRate": 0.01
               }
             ]
@@ -8682,95 +8662,84 @@
           "id": "Regular Chest lvl1 [994000]",
           "name": "Main/item_994000",
           "level": 1,
-          "mergeable": {
-            "nextItemId": "Regular Chest lvl2 [994001]"
+          "manualSource": {
+            "spendsEnergy": true,
+            "destroyAfterTaps": 10,
+            "dropsPerRecharge": 10,
+            "rechargeTimer": 0,
+            "rechargesStack": 1,
+            "droppableItems": [
+              {
+                "dropId": "Barrel lvl1 [100000]",
+                "dropRate": 0.2
+              },
+              {
+                "dropId": "Forge lvl1 [105000]",
+                "dropRate": 0.2
+              },
+              {
+                "dropId": "Tree lvl1 [103000]",
+                "dropRate": 0.2
+              },
+              {
+                "dropId": "Mine lvl1 [121000]",
+                "dropRate": 0.2
+              },
+              {
+                "dropId": "Guardian Tree lvl1 [107000]",
+                "dropRate": 0.2
+              }
+            ]
+          },
+          "chest": {
+            "unlockingTimer": 0,
+            "forcedDrops": [
+              {
+                "itemId": "Barrel lvl1 [100000]",
+                "amount": 2
+              },
+              {
+                "itemId": "Forge lvl1 [105000]",
+                "amount": 2
+              },
+              {
+                "itemId": "Tree lvl1 [103000]",
+                "amount": 2
+              },
+              {
+                "itemId": "Mine lvl1 [121000]",
+                "amount": 2
+              },
+              {
+                "itemId": "Guardian Tree lvl1 [107000]",
+                "amount": 2
+              }
+            ]
           }
         },
         {
           "id": "Regular Chest lvl2 [994001]",
           "name": "Main/item_994001",
-          "level": 2,
-          "manualSource": {
-            "spendsEnergy": true,
-            "destroyAfterTaps": 5,
-            "dropsPerRecharge": 5,
-            "rechargeTimer": 0,
-            "rechargesStack": 1,
-            "droppableItems": [
-              {
-                "dropId": "Barrel lvl1 [100000]",
-                "dropRate": 0.2
-              },
-              {
-                "dropId": "Forge lvl1 [105000]",
-                "dropRate": 0.2
-              },
-              {
-                "dropId": "Tree lvl1 [103000]",
-                "dropRate": 0.2
-              },
-              {
-                "dropId": "Mine lvl1 [121000]",
-                "dropRate": 0.2
-              },
-              {
-                "dropId": "Guardian Tree lvl1 [107000]",
-                "dropRate": 0.2
-              }
-            ]
-          },
-          "chest": {
-            "unlockingTimer": 0,
-            "forcedDrops": [
-              {
-                "itemId": "Barrel lvl1 [100000]",
-                "amount": 1
-              },
-              {
-                "itemId": "Forge lvl1 [105000]",
-                "amount": 1
-              },
-              {
-                "itemId": "Tree lvl1 [103000]",
-                "amount": 1
-              },
-              {
-                "itemId": "Mine lvl1 [121000]",
-                "amount": 1
-              },
-              {
-                "itemId": "Guardian Tree lvl1 [107000]",
-                "amount": 1
-              }
-            ]
-          }
+          "level": 2
         },
         {
           "id": "Special Chest lvl1 [995000]",
           "name": "Main/item_995000",
           "level": 1,
-          "mergeable": {
-            "nextItemId": "Special Chest lvl2 [995001]"
-          }
-        },
-        {
-          "id": "Special Chest lvl2 [995001]",
-          "name": "Main/item_995001",
-          "level": 2,
           "manualSource": {
             "spendsEnergy": true,
-            "destroyAfterTaps": 9,
-            "dropsPerRecharge": 9,
+            "destroyAfterTaps": 24,
+            "dropsPerRecharge": 24,
             "rechargeTimer": 0,
             "rechargesStack": 1,
             "droppableItems": [
               {
                 "dropId": "Barrel lvl1 [100000]",
-                "dropRate": 0.1
+                "dropRate": 0.2
               },
               {
                 "dropId": "Forge lvl1 [105000]",
-                "dropRate": 0.1
+                "dropRate": 0.2
               },
               {
                 "dropId": "Tree lvl1 [103000]",
@@ -8782,23 +8751,7 @@
               },
               {
                 "dropId": "Guardian Tree lvl1 [107000]",
-                "dropRate": 0.1
-              },
-              {
-                "dropId": "Ruby lvl1 [123000]",
-                "dropRate": 0.1
-              },
-              {
-                "dropId": "Sapphire lvl1 [125000]",
-                "dropRate": 0.1
-              },
-              {
-                "dropId": "Emerald lvl1 [124000]",
-                "dropRate": 0.1
-              },
-              {
-                "dropId": "Topaz lvl1 [126000]",
-                "dropRate": 0.1
+                "dropRate": 0.2
               }
             ]
           },
@@ -8807,23 +8760,23 @@
             "forcedDrops": [
               {
                 "itemId": "Barrel lvl1 [100000]",
-                "amount": 1
+                "amount": 4
               },
               {
                 "itemId": "Forge lvl1 [105000]",
-                "amount": 1
+                "amount": 4
               },
               {
                 "itemId": "Tree lvl1 [103000]",
-                "amount": 1
+                "amount": 4
               },
               {
                 "itemId": "Mine lvl1 [121000]",
-                "amount": 1
+                "amount": 4
               },
               {
                 "itemId": "Guardian Tree lvl1 [107000]",
-                "amount": 1
+                "amount": 4
               },
               {
                 "itemId": "Ruby lvl1 [123000]",
@@ -8843,6 +8796,11 @@
               }
             ]
           }
+        },
+        {
+          "id": "Special Chest lvl2 [995001]",
+          "name": "Main/item_995001",
+          "level": 2
         },
         {
           "id": "Coins lvl1 [996000]",
@@ -10052,62 +10010,869 @@
       "productIdSettings": [
         {
           "uid": 0,
-          "bundleName": "specialoffer_generic",
+          "bundleName": "specialoffer_quarry_bundle",
           "oneTime": false,
-          "timeLimit": 43200,
-          "triggerRequirements": {
-            "minimumCompletedQuests": 22,
-            "priority": 0,
-            "triggerCondition": {
-              "type": 1,
-              "amount": 1
-            },
-            "tutorialRequirements": [
-              100,
-              101,
-              108
-            ]
-          },
-          "products": [
-            {
-              "tier": 1,
-              "productId": "com.pixodust.medievalmerge.specialoffer.bundle1"
-            },
-            {
-              "tier": 2,
-              "productId": "com.pixodust.medievalmerge.specialoffer.bundle1.pricedrop1"
-            },
-            {
-              "tier": 3,
-              "productId": "com.pixodust.medievalmerge.specialoffer.bundle1.pricedrop2"
-            }
-          ]
-        },
-        {
-          "uid": 1,
-          "bundleName": "specialoffer_florist_bundle",
-          "oneTime": false,
-          "timeLimit": 43200,
+          "timeLimit": 14400,
           "triggerRequirements": {
             "minimumCompletedQuests": 0,
             "priority": 0,
             "triggerCondition": {
               "type": 3,
-              "amount": 204
+              "amount": 2423
             }
           },
           "products": [
             {
               "tier": 1,
-              "productId": "com.pixodust.medievalmerge.specialoffer.bundle2"
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle5"
             },
             {
               "tier": 2,
-              "productId": "com.pixodust.medievalmerge.specialoffer.bundle2.pricedrop1"
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle5.pricedrop1"
             },
             {
               "tier": 3,
-              "productId": "com.pixodust.medievalmerge.specialoffer.bundle2.pricedrop2"
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle5.pricedrop2"
+            }
+          ]
+        },
+        {
+          "uid": 1,
+          "bundleName": "specialoffer_lantern_bundle",
+          "oneTime": false,
+          "timeLimit": 14400,
+          "triggerRequirements": {
+            "minimumCompletedQuests": 0,
+            "priority": 0,
+            "triggerCondition": {
+              "type": 3,
+              "amount": 2439
+            }
+          },
+          "products": [
+            {
+              "tier": 1,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle20"
+            },
+            {
+              "tier": 2,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle20.pricedrop1"
+            },
+            {
+              "tier": 3,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle20.pricedrop2"
+            }
+          ]
+        },
+        {
+          "uid": 2,
+          "bundleName": "specialoffer_lantern_bundle",
+          "oneTime": false,
+          "timeLimit": 14400,
+          "triggerRequirements": {
+            "minimumCompletedQuests": 0,
+            "priority": 0,
+            "triggerCondition": {
+              "type": 3,
+              "amount": 2444
+            }
+          },
+          "products": [
+            {
+              "tier": 1,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle20"
+            },
+            {
+              "tier": 2,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle20.pricedrop1"
+            },
+            {
+              "tier": 3,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle20.pricedrop2"
+            }
+          ]
+        },
+        {
+          "uid": 3,
+          "bundleName": "specialoffer_magictree_bundle",
+          "oneTime": false,
+          "timeLimit": 14400,
+          "triggerRequirements": {
+            "minimumCompletedQuests": 0,
+            "priority": 0,
+            "triggerCondition": {
+              "type": 3,
+              "amount": 2447
+            }
+          },
+          "products": [
+            {
+              "tier": 1,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle8"
+            },
+            {
+              "tier": 2,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle8.pricedrop1"
+            },
+            {
+              "tier": 3,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle8.pricedrop2"
+            }
+          ]
+        },
+        {
+          "uid": 4,
+          "bundleName": "specialoffer_archer_bundle",
+          "oneTime": false,
+          "timeLimit": 14400,
+          "triggerRequirements": {
+            "minimumCompletedQuests": 0,
+            "priority": 0,
+            "triggerCondition": {
+              "type": 3,
+              "amount": 2452
+            }
+          },
+          "products": [
+            {
+              "tier": 1,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle13"
+            },
+            {
+              "tier": 2,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle13.pricedrop1"
+            },
+            {
+              "tier": 3,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle13.pricedrop2"
+            }
+          ]
+        },
+        {
+          "uid": 5,
+          "bundleName": "specialoffer_archer_bundle",
+          "oneTime": false,
+          "timeLimit": 14400,
+          "triggerRequirements": {
+            "minimumCompletedQuests": 0,
+            "priority": 0,
+            "triggerCondition": {
+              "type": 3,
+              "amount": 2453
+            }
+          },
+          "products": [
+            {
+              "tier": 1,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle13"
+            },
+            {
+              "tier": 2,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle13.pricedrop1"
+            },
+            {
+              "tier": 3,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle13.pricedrop2"
+            }
+          ]
+        },
+        {
+          "uid": 6,
+          "bundleName": "specialoffer_lantern_bundle",
+          "oneTime": false,
+          "timeLimit": 14400,
+          "triggerRequirements": {
+            "minimumCompletedQuests": 0,
+            "priority": 0,
+            "triggerCondition": {
+              "type": 3,
+              "amount": 2461
+            }
+          },
+          "products": [
+            {
+              "tier": 1,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle20"
+            },
+            {
+              "tier": 2,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle20.pricedrop1"
+            },
+            {
+              "tier": 3,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle20.pricedrop2"
+            }
+          ]
+        },
+        {
+          "uid": 7,
+          "bundleName": "specialoffer_quarry_bundle",
+          "oneTime": false,
+          "timeLimit": 14400,
+          "triggerRequirements": {
+            "minimumCompletedQuests": 0,
+            "priority": 0,
+            "triggerCondition": {
+              "type": 3,
+              "amount": 2467
+            }
+          },
+          "products": [
+            {
+              "tier": 1,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle5"
+            },
+            {
+              "tier": 2,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle5.pricedrop1"
+            },
+            {
+              "tier": 3,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle5.pricedrop2"
+            }
+          ]
+        },
+        {
+          "uid": 8,
+          "bundleName": "specialoffer_carpenter_bundle",
+          "oneTime": false,
+          "timeLimit": 14400,
+          "triggerRequirements": {
+            "minimumCompletedQuests": 0,
+            "priority": 0,
+            "triggerCondition": {
+              "type": 3,
+              "amount": 2480
+            }
+          },
+          "products": [
+            {
+              "tier": 1,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle9"
+            },
+            {
+              "tier": 2,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle9.pricedrop1"
+            },
+            {
+              "tier": 3,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle9.pricedrop2"
+            }
+          ]
+        },
+        {
+          "uid": 9,
+          "bundleName": "specialoffer_handyman_bundle",
+          "oneTime": false,
+          "timeLimit": 14400,
+          "triggerRequirements": {
+            "minimumCompletedQuests": 0,
+            "priority": 0,
+            "triggerCondition": {
+              "type": 3,
+              "amount": 2486
+            }
+          },
+          "products": [
+            {
+              "tier": 1,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle11"
+            },
+            {
+              "tier": 2,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle11.pricedrop1"
+            },
+            {
+              "tier": 3,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle11.pricedrop2"
+            }
+          ]
+        },
+        {
+          "uid": 10,
+          "bundleName": "specialoffer_lantern_bundle",
+          "oneTime": false,
+          "timeLimit": 14400,
+          "triggerRequirements": {
+            "minimumCompletedQuests": 0,
+            "priority": 0,
+            "triggerCondition": {
+              "type": 3,
+              "amount": 2487
+            }
+          },
+          "products": [
+            {
+              "tier": 1,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle20"
+            },
+            {
+              "tier": 2,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle20.pricedrop1"
+            },
+            {
+              "tier": 3,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle20.pricedrop2"
+            }
+          ]
+        },
+        {
+          "uid": 11,
+          "bundleName": "specialoffer_quarry_bundle",
+          "oneTime": false,
+          "timeLimit": 14400,
+          "triggerRequirements": {
+            "minimumCompletedQuests": 0,
+            "priority": 0,
+            "triggerCondition": {
+              "type": 3,
+              "amount": 2490
+            }
+          },
+          "products": [
+            {
+              "tier": 1,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle5"
+            },
+            {
+              "tier": 2,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle5.pricedrop1"
+            },
+            {
+              "tier": 3,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle5.pricedrop2"
+            }
+          ]
+        },
+        {
+          "uid": 12,
+          "bundleName": "specialoffer_handyman_bundle",
+          "oneTime": false,
+          "timeLimit": 14400,
+          "triggerRequirements": {
+            "minimumCompletedQuests": 0,
+            "priority": 0,
+            "triggerCondition": {
+              "type": 3,
+              "amount": 2491
+            }
+          },
+          "products": [
+            {
+              "tier": 1,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle11"
+            },
+            {
+              "tier": 2,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle11.pricedrop1"
+            },
+            {
+              "tier": 3,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle11.pricedrop2"
+            }
+          ]
+        },
+        {
+          "uid": 13,
+          "bundleName": "specialoffer_backpacker_bundle",
+          "oneTime": false,
+          "timeLimit": 7200,
+          "triggerRequirements": {
+            "minimumCompletedQuests": 5,
+            "priority": 0,
+            "triggerCondition": {
+              "type": 1,
+              "amount": 1
+            }
+          },
+          "products": [
+            {
+              "tier": 1,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18"
+            },
+            {
+              "tier": 2,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18.pricedrop1"
+            },
+            {
+              "tier": 3,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18.pricedrop2"
+            }
+          ]
+        },
+        {
+          "uid": 14,
+          "bundleName": "specialoffer_backpacker_bundle",
+          "oneTime": false,
+          "timeLimit": 7200,
+          "triggerRequirements": {
+            "minimumCompletedQuests": 10,
+            "priority": 0,
+            "triggerCondition": {
+              "type": 1,
+              "amount": 1
+            }
+          },
+          "products": [
+            {
+              "tier": 1,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18"
+            },
+            {
+              "tier": 2,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18.pricedrop1"
+            },
+            {
+              "tier": 3,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18.pricedrop2"
+            }
+          ]
+        },
+        {
+          "uid": 15,
+          "bundleName": "specialoffer_backpacker_bundle",
+          "oneTime": false,
+          "timeLimit": 7200,
+          "triggerRequirements": {
+            "minimumCompletedQuests": 15,
+            "priority": 0,
+            "triggerCondition": {
+              "type": 1,
+              "amount": 1
+            }
+          },
+          "products": [
+            {
+              "tier": 1,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18"
+            },
+            {
+              "tier": 2,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18.pricedrop1"
+            },
+            {
+              "tier": 3,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18.pricedrop2"
+            }
+          ]
+        },
+        {
+          "uid": 16,
+          "bundleName": "specialoffer_backpacker_bundle",
+          "oneTime": false,
+          "timeLimit": 7200,
+          "triggerRequirements": {
+            "minimumCompletedQuests": 20,
+            "priority": 0,
+            "triggerCondition": {
+              "type": 1,
+              "amount": 1
+            }
+          },
+          "products": [
+            {
+              "tier": 1,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18"
+            },
+            {
+              "tier": 2,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18.pricedrop1"
+            },
+            {
+              "tier": 3,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18.pricedrop2"
+            }
+          ]
+        },
+        {
+          "uid": 17,
+          "bundleName": "specialoffer_backpacker_bundle",
+          "oneTime": false,
+          "timeLimit": 7200,
+          "triggerRequirements": {
+            "minimumCompletedQuests": 25,
+            "priority": 0,
+            "triggerCondition": {
+              "type": 1,
+              "amount": 1
+            }
+          },
+          "products": [
+            {
+              "tier": 1,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18"
+            },
+            {
+              "tier": 2,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18.pricedrop1"
+            },
+            {
+              "tier": 3,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18.pricedrop2"
+            }
+          ]
+        },
+        {
+          "uid": 18,
+          "bundleName": "specialoffer_backpacker_bundle",
+          "oneTime": false,
+          "timeLimit": 7200,
+          "triggerRequirements": {
+            "minimumCompletedQuests": 30,
+            "priority": 0,
+            "triggerCondition": {
+              "type": 1,
+              "amount": 1
+            }
+          },
+          "products": [
+            {
+              "tier": 1,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18"
+            },
+            {
+              "tier": 2,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18.pricedrop1"
+            },
+            {
+              "tier": 3,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18.pricedrop2"
+            }
+          ]
+        },
+        {
+          "uid": 19,
+          "bundleName": "specialoffer_backpacker_bundle",
+          "oneTime": false,
+          "timeLimit": 7200,
+          "triggerRequirements": {
+            "minimumCompletedQuests": 35,
+            "priority": 0,
+            "triggerCondition": {
+              "type": 1,
+              "amount": 1
+            }
+          },
+          "products": [
+            {
+              "tier": 1,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18"
+            },
+            {
+              "tier": 2,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18.pricedrop1"
+            },
+            {
+              "tier": 3,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18.pricedrop2"
+            }
+          ]
+        },
+        {
+          "uid": 20,
+          "bundleName": "specialoffer_backpacker_bundle",
+          "oneTime": false,
+          "timeLimit": 7200,
+          "triggerRequirements": {
+            "minimumCompletedQuests": 40,
+            "priority": 0,
+            "triggerCondition": {
+              "type": 1,
+              "amount": 1
+            }
+          },
+          "products": [
+            {
+              "tier": 1,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18"
+            },
+            {
+              "tier": 2,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18.pricedrop1"
+            },
+            {
+              "tier": 3,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18.pricedrop2"
+            }
+          ]
+        },
+        {
+          "uid": 21,
+          "bundleName": "specialoffer_backpacker_bundle",
+          "oneTime": false,
+          "timeLimit": 7200,
+          "triggerRequirements": {
+            "minimumCompletedQuests": 45,
+            "priority": 0,
+            "triggerCondition": {
+              "type": 1,
+              "amount": 1
+            }
+          },
+          "products": [
+            {
+              "tier": 1,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18"
+            },
+            {
+              "tier": 2,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18.pricedrop1"
+            },
+            {
+              "tier": 3,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18.pricedrop2"
+            }
+          ]
+        },
+        {
+          "uid": 22,
+          "bundleName": "specialoffer_backpacker_bundle",
+          "oneTime": false,
+          "timeLimit": 7200,
+          "triggerRequirements": {
+            "minimumCompletedQuests": 50,
+            "priority": 0,
+            "triggerCondition": {
+              "type": 1,
+              "amount": 1
+            }
+          },
+          "products": [
+            {
+              "tier": 1,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18"
+            },
+            {
+              "tier": 2,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18.pricedrop1"
+            },
+            {
+              "tier": 3,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18.pricedrop2"
+            }
+          ]
+        },
+        {
+          "uid": 23,
+          "bundleName": "specialoffer_backpacker_bundle",
+          "oneTime": false,
+          "timeLimit": 7200,
+          "triggerRequirements": {
+            "minimumCompletedQuests": 55,
+            "priority": 0,
+            "triggerCondition": {
+              "type": 1,
+              "amount": 1
+            }
+          },
+          "products": [
+            {
+              "tier": 1,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18"
+            },
+            {
+              "tier": 2,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18.pricedrop1"
+            },
+            {
+              "tier": 3,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18.pricedrop2"
+            }
+          ]
+        },
+        {
+          "uid": 24,
+          "bundleName": "specialoffer_backpacker_bundle",
+          "oneTime": false,
+          "timeLimit": 7200,
+          "triggerRequirements": {
+            "minimumCompletedQuests": 60,
+            "priority": 0,
+            "triggerCondition": {
+              "type": 1,
+              "amount": 1
+            }
+          },
+          "products": [
+            {
+              "tier": 1,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18"
+            },
+            {
+              "tier": 2,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18.pricedrop1"
+            },
+            {
+              "tier": 3,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18.pricedrop2"
+            }
+          ]
+        },
+        {
+          "uid": 25,
+          "bundleName": "specialoffer_backpacker_bundle",
+          "oneTime": false,
+          "timeLimit": 7200,
+          "triggerRequirements": {
+            "minimumCompletedQuests": 65,
+            "priority": 0,
+            "triggerCondition": {
+              "type": 1,
+              "amount": 1
+            }
+          },
+          "products": [
+            {
+              "tier": 1,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18"
+            },
+            {
+              "tier": 2,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18.pricedrop1"
+            },
+            {
+              "tier": 3,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18.pricedrop2"
+            }
+          ]
+        },
+        {
+          "uid": 26,
+          "bundleName": "specialoffer_backpacker_bundle",
+          "oneTime": false,
+          "timeLimit": 7200,
+          "triggerRequirements": {
+            "minimumCompletedQuests": 70,
+            "priority": 0,
+            "triggerCondition": {
+              "type": 1,
+              "amount": 1
+            }
+          },
+          "products": [
+            {
+              "tier": 1,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18"
+            },
+            {
+              "tier": 2,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18.pricedrop1"
+            },
+            {
+              "tier": 3,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18.pricedrop2"
+            }
+          ]
+        },
+        {
+          "uid": 27,
+          "bundleName": "specialoffer_backpacker_bundle",
+          "oneTime": false,
+          "timeLimit": 7200,
+          "triggerRequirements": {
+            "minimumCompletedQuests": 75,
+            "priority": 0,
+            "triggerCondition": {
+              "type": 1,
+              "amount": 1
+            }
+          },
+          "products": [
+            {
+              "tier": 1,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18"
+            },
+            {
+              "tier": 2,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18.pricedrop1"
+            },
+            {
+              "tier": 3,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18.pricedrop2"
+            }
+          ]
+        },
+        {
+          "uid": 28,
+          "bundleName": "specialoffer_backpacker_bundle",
+          "oneTime": false,
+          "timeLimit": 7200,
+          "triggerRequirements": {
+            "minimumCompletedQuests": 80,
+            "priority": 0,
+            "triggerCondition": {
+              "type": 1,
+              "amount": 1
+            }
+          },
+          "products": [
+            {
+              "tier": 1,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18"
+            },
+            {
+              "tier": 2,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18.pricedrop1"
+            },
+            {
+              "tier": 3,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18.pricedrop2"
+            }
+          ]
+        },
+        {
+          "uid": 29,
+          "bundleName": "specialoffer_backpacker_bundle",
+          "oneTime": false,
+          "timeLimit": 7200,
+          "triggerRequirements": {
+            "minimumCompletedQuests": 85,
+            "priority": 0,
+            "triggerCondition": {
+              "type": 1,
+              "amount": 1
+            }
+          },
+          "products": [
+            {
+              "tier": 1,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18"
+            },
+            {
+              "tier": 2,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18.pricedrop1"
+            },
+            {
+              "tier": 3,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18.pricedrop2"
+            }
+          ]
+        },
+        {
+          "uid": 30,
+          "bundleName": "specialoffer_backpacker_bundle",
+          "oneTime": false,
+          "timeLimit": 7200,
+          "triggerRequirements": {
+            "minimumCompletedQuests": 90,
+            "priority": 0,
+            "triggerCondition": {
+              "type": 1,
+              "amount": 1
+            }
+          },
+          "products": [
+            {
+              "tier": 1,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18"
+            },
+            {
+              "tier": 2,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18.pricedrop1"
+            },
+            {
+              "tier": 3,
+              "productId": "com.pixodust.medievalmerge.specialoffer.bundle18.pricedrop2"
             }
           ]
         }
@@ -11082,7 +11847,7 @@
         },
         {
           "entryPos": 32,
-          "id": "Sapphire lvl3 [125002]",
+          "id": "Sapphire lvl4 [125003]",
           "isLocked": true,
           "isHidden": true,
           "hiddenItemId": "Crate lvl1 [999001]",
@@ -11130,7 +11895,7 @@
         },
         {
           "entryPos": 38,
-          "id": "Ruby lvl3 [123002]",
+          "id": "Ruby lvl4 [123003]",
           "isLocked": true,
           "isHidden": true,
           "hiddenItemId": "Crate lvl1 [999001]",
@@ -11146,7 +11911,7 @@
         },
         {
           "entryPos": 40,
-          "id": "Topaz lvl3 [126002]",
+          "id": "Topaz lvl4 [126003]",
           "isLocked": true,
           "isHidden": true,
           "hiddenItemId": "Crate lvl1 [999000]",
@@ -11660,6 +12425,366 @@
           },
           "chest": {
             "unlockingTimer": 5400
+          }
+        },
+        {
+          "id": "Forge lvl10 [105009]",
+          "name": "Main/item_105009",
+          "level": 10,
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 7,
+            "rechargeTimer": 675,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": "Sword lvl1 [106000]",
+                "dropRate": 0.46
+              },
+              {
+                "dropId": "Battle Axe lvl1 [128000]",
+                "dropRate": 0.05
+              },
+              {
+                "dropId": "Sword lvl2 [106001]",
+                "dropRate": 0.2
+              },
+              {
+                "dropId": "Sword lvl3 [106002]",
+                "dropRate": 0.14
+              },
+              {
+                "dropId": "Sword lvl4 [106003]",
+                "dropRate": 0.08
+              },
+              {
+                "dropId": "Battle Axe lvl2 [128001]",
+                "dropRate": 0.04
+              },
+              {
+                "dropId": "Battle Axe lvl3 [128002]",
+                "dropRate": 0.03
+              }
+            ]
+          },
+          "autoSource": {
+            "startEmpty": true,
+            "dropsPerRecharge": 1,
+            "rechargeTimer": 900,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": "Armour lvl1 [145000]",
+                "dropRate": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "Guardian Flower lvl6 [109005]",
+          "name": "Main/item_109005",
+          "level": 6,
+          "autoSource": {
+            "startEmpty": true,
+            "dropsPerRecharge": 1,
+            "rechargeTimer": 900,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": "Fairy Fountain lvl1 [135000]",
+                "dropRate": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "itemOverrideSettings0": {
+      "items": [
+        {
+          "id": "Cauldron lvl1 [991000]",
+          "name": "Main/item_991000",
+          "level": 1,
+          "manualSource": {
+            "spendsEnergy": false,
+            "destroyAfterTaps": 5,
+            "dropsPerRecharge": 5,
+            "rechargeTimer": 0,
+            "rechargesStack": 1,
+            "droppableItems": [
+              {
+                "dropId": "Energy lvl1 [997000]",
+                "dropRate": 0.65
+              },
+              {
+                "dropId": "Energy lvl2 [997001]",
+                "dropRate": 0.25
+              },
+              {
+                "dropId": "Energy lvl3 [997002]",
+                "dropRate": 0.1
+              }
+            ]
+          }
+        },
+        {
+          "id": "Regular Chest lvl1 [994000]",
+          "name": "Main/item_994000",
+          "level": 1,
+          "mergeable": {
+            "nextItemId": "Regular Chest lvl2 [994001]"
+          },
+          "manualSource": {
+            "spendsEnergy": false,
+            "destroyAfterTaps": 10,
+            "dropsPerRecharge": 10,
+            "rechargeTimer": 0,
+            "rechargesStack": 1,
+            "droppableItems": [
+              {
+                "dropId": "Barrel lvl1 [100000]",
+                "dropRate": 0.1
+              },
+              {
+                "dropId": "Barn lvl1 [129000]",
+                "dropRate": 0.1
+              },
+              {
+                "dropId": "Nether Portal lvl1 [133000]",
+                "dropRate": 0.1
+              },
+              {
+                "dropId": "Energy lvl1 [997000]",
+                "dropRate": 0.04
+              },
+              {
+                "dropId": "Energy lvl2 [997001]",
+                "dropRate": 0.03
+              },
+              {
+                "dropId": "Coins lvl1 [996000]",
+                "dropRate": 0.63
+              }
+            ]
+          },
+          "chest": {
+            "unlockingTimer": 480
+          }
+        },
+        {
+          "id": "Regular Chest lvl2 [994001]",
+          "name": "Main/item_994001",
+          "level": 2,
+          "manualSource": {
+            "spendsEnergy": false,
+            "destroyAfterTaps": 22,
+            "dropsPerRecharge": 22,
+            "rechargeTimer": 0,
+            "rechargesStack": 1,
+            "droppableItems": [
+              {
+                "dropId": "Barrel lvl1 [100000]",
+                "dropRate": 0.1
+              },
+              {
+                "dropId": "Barn lvl1 [129000]",
+                "dropRate": 0.1
+              },
+              {
+                "dropId": "Nether Portal lvl1 [133000]",
+                "dropRate": 0.15
+              },
+              {
+                "dropId": "Coins lvl1 [996000]",
+                "dropRate": 0.26
+              },
+              {
+                "dropId": "Energy lvl2 [997001]",
+                "dropRate": 0.06
+              },
+              {
+                "dropId": "Pocket Watch lvl1 [963000]",
+                "dropRate": 0.12
+              },
+              {
+                "dropId": "Pocket Watch lvl2 [963001]",
+                "dropRate": 0.08
+              },
+              {
+                "dropId": "Gemstone lvl1 [990000]",
+                "dropRate": 0.13
+              }
+            ]
+          },
+          "chest": {
+            "unlockingTimer": 1500
+          }
+        },
+        {
+          "id": "Special Chest lvl1 [995000]",
+          "name": "Main/item_995000",
+          "level": 1,
+          "mergeable": {
+            "nextItemId": "Special Chest lvl2 [995001]"
+          },
+          "manualSource": {
+            "spendsEnergy": false,
+            "destroyAfterTaps": 12,
+            "dropsPerRecharge": 12,
+            "rechargeTimer": 0,
+            "rechargesStack": 1,
+            "droppableItems": [
+              {
+                "dropId": "Toolbox lvl1 [110000]",
+                "dropRate": 0.12
+              },
+              {
+                "dropId": "Mine lvl1 [121000]",
+                "dropRate": 0.12
+              },
+              {
+                "dropId": "Forge lvl1 [105000]",
+                "dropRate": 0.12
+              },
+              {
+                "dropId": "Energy lvl1 [997000]",
+                "dropRate": 0.08
+              },
+              {
+                "dropId": "Energy lvl2 [997001]",
+                "dropRate": 0.04
+              },
+              {
+                "dropId": "Coins lvl1 [996000]",
+                "dropRate": 0.24
+              },
+              {
+                "dropId": "Coins lvl2 [996001]",
+                "dropRate": 0.28
+              }
+            ]
+          },
+          "chest": {
+            "unlockingTimer": 1800
+          }
+        },
+        {
+          "id": "Special Chest lvl2 [995001]",
+          "name": "Main/item_995001",
+          "level": 2,
+          "manualSource": {
+            "spendsEnergy": false,
+            "destroyAfterTaps": 28,
+            "dropsPerRecharge": 28,
+            "rechargeTimer": 0,
+            "rechargesStack": 1,
+            "droppableItems": [
+              {
+                "dropId": "Toolbox lvl1 [110000]",
+                "dropRate": 0.12
+              },
+              {
+                "dropId": "Mine lvl1 [121000]",
+                "dropRate": 0.12
+              },
+              {
+                "dropId": "Forge lvl1 [105000]",
+                "dropRate": 0.12
+              },
+              {
+                "dropId": "Hourglass lvl1 [117000]",
+                "dropRate": 0.14
+              },
+              {
+                "dropId": "Hourglass lvl2 [117001]",
+                "dropRate": 0.08
+              },
+              {
+                "dropId": "Energy lvl2 [997001]",
+                "dropRate": 0.06
+              },
+              {
+                "dropId": "Coins lvl3 [996002]",
+                "dropRate": 0.24
+              },
+              {
+                "dropId": "Gemstone lvl1 [990000]",
+                "dropRate": 0.12
+              }
+            ]
+          },
+          "chest": {
+            "unlockingTimer": 5400
+          }
+        },
+        {
+          "id": "Forge lvl10 [105009]",
+          "name": "Main/item_105009",
+          "level": 10,
+          "manualSource": {
+            "spendsEnergy": true,
+            "dropsPerRecharge": 7,
+            "rechargeTimer": 675,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": "Sword lvl1 [106000]",
+                "dropRate": 0.46
+              },
+              {
+                "dropId": "Battle Axe lvl1 [128000]",
+                "dropRate": 0.05
+              },
+              {
+                "dropId": "Sword lvl2 [106001]",
+                "dropRate": 0.2
+              },
+              {
+                "dropId": "Sword lvl3 [106002]",
+                "dropRate": 0.14
+              },
+              {
+                "dropId": "Sword lvl4 [106003]",
+                "dropRate": 0.08
+              },
+              {
+                "dropId": "Battle Axe lvl2 [128001]",
+                "dropRate": 0.04
+              },
+              {
+                "dropId": "Battle Axe lvl3 [128002]",
+                "dropRate": 0.03
+              }
+            ]
+          },
+          "autoSource": {
+            "startEmpty": true,
+            "dropsPerRecharge": 1,
+            "rechargeTimer": 900,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": "Armour lvl1 [145000]",
+                "dropRate": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "Guardian Flower lvl6 [109005]",
+          "name": "Main/item_109005",
+          "level": 6,
+          "autoSource": {
+            "startEmpty": true,
+            "dropsPerRecharge": 1,
+            "rechargeTimer": 900,
+            "rechargesStack": 4,
+            "droppableItems": [
+              {
+                "dropId": "Fairy Fountain lvl1 [135000]",
+                "dropRate": 1
+              }
+            ]
           }
         }
       ]
@@ -30909,7 +32034,7 @@
           "objectives": [
             {
               "itemId": "Torch lvl8 [142007]",
-              "amount": 1
+              "amount": 2
             }
           ],
           "rewards": [
@@ -32913,13 +34038,19 @@
           "enabled": true,
           "costType": 0,
           "costPerDrop": 1.69
+        },
+        {
+          "categoryID": 157,
+          "enabled": true,
+          "costType": 0,
+          "costPerDrop": 1.9
         }
       ]
     },
     "taskEventSettings": {
       "specialTasksSettings": {
         "generalSettings": {
-          "UID": 42,
+          "UID": 43,
           "minimumQuestsRequirement": 70,
           "autoActivate": true,
           "autoPopup": false,
@@ -33501,16 +34632,456 @@
             "pointsNeeded": 15500,
             "reward": {
               "itemReward": {
-                "itemId": "Backpack lvl5 [962004]",
+                "itemId": "Guardian Tree lvl6 [107005]",
                 "amount": 1
               }
             }
           }
         ]
       }
+    },
+    "unlockSellSettings1002": {
+      "questUnlock": [
+        {
+          "itemID": "Barrel lvl1 [100000]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Barrel lvl2 [100001]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Barrel lvl3 [100002]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Barrel lvl4 [100003]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Barrel lvl5 [100004]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Barrel lvl6 [100005]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Farming Tools lvl1 [101000]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Farming Tools lvl2 [101001]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Farming Tools lvl3 [101002]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Farming Tools lvl4 [101003]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Farming Tools lvl5 [101004]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Farming Tools lvl6 [101005]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Farming Tools lvl7 [101006]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Farming Tools lvl8 [101007]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Tools lvl1 [111000]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Tools lvl2 [111001]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Tools lvl3 [111002]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Tools lvl4 [111003]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Tools lvl5 [111004]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Tools lvl6 [111005]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Tools lvl7 [111006]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Tools lvl8 [111007]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Forge lvl1 [105000]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Forge lvl2 [105001]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Forge lvl3 [105002]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Forge lvl4 [105003]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Forge lvl5 [105004]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Forge lvl6 [105005]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Sword lvl1 [106000]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Sword lvl2 [106001]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Sword lvl3 [106002]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Sword lvl4 [106003]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Sword lvl5 [106004]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Sword lvl6 [106005]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Sword lvl7 [106006]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Sword lvl8 [106007]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Armour lvl1 [145000]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Armour lvl2 [145001]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Armour lvl3 [145002]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Armour lvl4 [145003]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Armour lvl5 [145004]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Armour lvl6 [145005]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Armour lvl7 [145006]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Armour lvl8 [145007]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Tree lvl1 [103000]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Tree lvl2 [103001]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Tree lvl3 [103002]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Tree lvl4 [103003]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Tree lvl5 [103004]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Wood lvl1 [104000]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Wood lvl2 [104001]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Wood lvl3 [104002]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Wood lvl4 [104003]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Wood lvl5 [104004]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Bow lvl1 [127000]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Bow lvl2 [127001]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Mine lvl1 [121000]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Mine lvl2 [121001]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Mine lvl3 [121002]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Mine lvl4 [121003]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Mine lvl5 [121004]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Mine lvl6 [121005]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Tinderbox lvl1 [141000]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Tinderbox lvl2 [141001]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Tinderbox lvl3 [141002]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Tinderbox lvl4 [141003]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Tinderbox lvl5 [141004]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Tinderbox lvl6 [141005]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Torch lvl1 [142000]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Torch lvl2 [142001]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Torch lvl3 [142002]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Torch lvl4 [142003]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Torch lvl5 [142004]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Torch lvl6 [142005]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Torch lvl7 [142006]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Stone lvl1 [122000]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Stone lvl2 [122001]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Stone lvl3 [122002]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Stone lvl4 [122003]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Stone lvl5 [122004]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Stone lvl6 [122005]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Guardian Tree lvl1 [107000]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Guardian Tree lvl2 [107001]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Guardian Tree lvl3 [107002]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Guardian Tree lvl4 [107003]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Guardian Tree lvl5 [107004]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Guardian Tree lvl6 [107005]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Fairy Fountain lvl1 [135000]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Fairy Fountain lvl2 [135001]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Fairy Fountain lvl3 [135002]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Fairy Fountain lvl4 [135003]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Fairy Fountain lvl5 [135004]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Fairy Fountain lvl6 [135005]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Fire Rod lvl1 [136000]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Fire Rod lvl2 [136001]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Fire Rod lvl3 [136002]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Fire Rod lvl4 [136003]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Fire Rod lvl5 [136004]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Guardian Seed Bag lvl1 [108000]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Guardian Seed Bag lvl2 [108001]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Guardian Seed Bag lvl3 [108002]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Guardian Seed Bag lvl4 [108003]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Guardian Flower lvl1 [109000]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Guardian Flower lvl2 [109001]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Guardian Flower lvl3 [109002]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Guardian Flower lvl4 [109003]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Guardian Flower lvl5 [109004]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Guardian Flower lvl6 [109005]",
+          "questUID": 2412
+        },
+        {
+          "itemID": "Ancient Mine lvl5 [157004]",
+          "questUID": 2412
+        }
+      ]
     }
   },
-  "fetch_time_key": 1680020154742,
+  "fetch_time_key": 1680105812730,
   "abt_experiments_key": [
     {
       "experimentId": "_exp_165",
